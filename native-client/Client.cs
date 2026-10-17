@@ -14,6 +14,7 @@ class Choice {
 }
 public partial class ClientWindow:Form {
     readonly string folder;
+    readonly VoiceAudio voiceAudio;
     readonly bool smoke;
     readonly bool gameplaySmoke;
     readonly Dictionary<string,object> resources;
@@ -36,13 +37,13 @@ public partial class ClientWindow:Form {
     Task readTask=Task.FromResult(true);
     static readonly Color Ink=Color.FromArgb(20,26,35),PanelColor=Color.FromArgb(28,36,48),Gold=Color.FromArgb(221,191,126),Light=Color.FromArgb(225,230,238);
     public ClientWindow(string directory,bool testing,bool playtest=false) {
-        folder=directory;smoke=testing||playtest;gameplaySmoke=playtest;resources=Data.Read(Path.Combine(folder,"catalog.json"));
+        folder=directory;voiceAudio=new VoiceAudio(folder);smoke=testing||playtest;gameplaySmoke=playtest;resources=Data.Read(Path.Combine(folder,"catalog.json"));
         Text="Core Licht";ClientSize=new Size(1404,648);MinimumSize=new Size(960,480);
         StartPosition=FormStartPosition.CenterScreen;BackColor=Ink;ForeColor=Light;Font=new Font("Microsoft JhengHei UI",10);
         if(smoke){ShowInTaskbar=false;StartPosition=FormStartPosition.Manual;Location=new Point(-20000,-20000);}
         Build();
         heartbeat.Interval=10000;heartbeat.Tick+=async (s,e)=>{if(connection==null)return;try{await connection.Send("1_0",Data.Obj("index",++beat,"client_time",Now(),"server_time",0));}catch(Exception ex){Status("連線已中斷："+ex.Message);heartbeat.Stop();}};
-        FormClosed+=(s,e)=>{heartbeat.Stop();if(connection!=null)connection.Dispose();};
+        FormClosed+=(s,e)=>{heartbeat.Stop();voiceAudio.Dispose();if(connection!=null)connection.Dispose();};
         Shown+=async (s,e)=>{if(gameplaySmoke)await RunGameplaySmoke();else if(smoke)await RunSmoke();else await Connect();};
     }
     static long Now(){return (long)(DateTime.UtcNow-new DateTime(1970,1,1)).TotalSeconds;}
@@ -73,6 +74,7 @@ public partial class ClientWindow:Form {
         }roster.EndUpdate();if(roster.Items.Count>0)SelectCard((Dictionary<string,object>)roster.Items[0].Tag);
     }
     void SelectCard(Dictionary<string,object> card) {
+        voiceAudio.Stop();
         rendering=true;selected=card;var info=Catalog(Data.Text(card["sys_id"]));title.Text=Data.Text(info["name"]);
         var attrs=Data.Items(card["attr"]).Select(Data.Map).ToDictionary(a=>Data.Text(a["k"]),a=>Data.Text(a["v"]));
         stats.Text=String.Format("Lv.{0}   星數 {1}   好感 {2}\r\n生命 {3}    攻擊 {4}    防禦 {5}",card["lvl"],card["star"],card["favor_lvl"],Get(attrs,"11"),Get(attrs,"12"),Get(attrs,"14"));
@@ -99,11 +101,28 @@ public partial class ClientWindow:Form {
         if(Data.Number(entry["v"])==0)try{await connection.Request("11_37",Data.Obj("type",1,"sys_id",choice.Id));entry["v"]=1;}catch(Exception ex){Status("已讀狀態尚未保存："+ex.Message);}
     }
     void ReadVoice() {
+        voiceAudio.Stop();
         if(rendering||selected==null||voices.SelectedItem==null||unlocks==null)return;
         var choice=(Choice)voices.SelectedItem;bool allowed=Data.Items(unlocks["voice_list"]).Select(Data.Map).Any(v=>Data.Text(v["k"])==choice.Id);
         if(!allowed){voiceText.Text="這段語音尚未解鎖。";return;}
         var record=Data.Items(Catalog(Data.Text(selected["sys_id"]))["voices"]).Select(Data.Map).First(d=>Data.Text(d["id"])==choice.Id);
-        voiceText.Text=Data.Text(record["content"])+"\r\n\r\n音訊播放尚未接入此 Windows 預覽版。";
+        voiceText.Text=Data.Text(record["content"])+(voiceAudio.Exists(choice.Id)?"":"\r\n\r\n尚未匯出這段語音的音檔。");
+    }
+    bool VoiceAllowed() {
+        var choice=voices.SelectedItem as Choice;
+        return choice!=null&&unlocks!=null&&Data.Items(unlocks["voice_list"]).Select(Data.Map).Any(v=>Data.Text(v["k"])==choice.Id);
+    }
+    bool VoiceReady() {
+        var choice=voices.SelectedItem as Choice;
+        return VoiceAllowed()&&choice!=null&&voiceAudio.Exists(choice.Id);
+    }
+    void ToggleVoice() {
+        var choice=voices.SelectedItem as Choice;
+        if(choice==null||!VoiceReady())return;
+        try {
+            if(voiceAudio.PlayingId==choice.Id)voiceAudio.Stop();else voiceAudio.Play(choice.Id);
+        }catch(Exception ex){voiceAudio.Stop();Status("語音播放失敗："+ex.Message);}
+        if(gameView!=null)gameView.Invalidate();
     }
     async Task ChangeSkin() {
         if(!saveSkin.Enabled||selected==null||skins.SelectedItem==null||connection==null)return;saveSkin.Enabled=false;
@@ -140,9 +159,10 @@ public partial class ClientWindow:Form {
             await Connect();await readTask;
             if(Data.Text(cards[0]["use_skin"])!=wantedSkin)throw new InvalidDataException("Skin lost after reconnect");
             VerifyGameNavigation();
+            bool voiceAudioVerified=VerifyVoiceAudio();
             foreach(string screen in new[]{"Home","Roster","Detail","Files","Skins","Team"}){Navigate(screen);using(var image=new Bitmap(gameView.Width,gameView.Height)){gameView.DrawToBitmap(image,new Rectangle(0,0,image.Width,image.Height));image.Save(Path.Combine(folder,"preview-"+screen.ToLowerInvariant()+".png"),ImageFormat.Png);}}
             Navigate("Home");using(var image=new Bitmap(gameView.Width,gameView.Height)){gameView.DrawToBitmap(image,new Rectangle(0,0,image.Width,image.Height));image.Save(Path.Combine(folder,"preview.png"),ImageFormat.Png);}
-            File.WriteAllText(result,Data.Json.Serialize(Data.Obj("success",true,"characters",cards.Count,"files",Data.Items(unlocks["char_list"]).Count,"voices",Data.Items(unlocks["voice_list"]).Count,"team_loaded",team!=null,"skin_saved",true,"team_saved",true,"reconnect_verified",true,"native_windows",true,"mobile_navigation_verified",true,"battle_supported",true,"original_combat",false)),System.Text.Encoding.UTF8);
+            File.WriteAllText(result,Data.Json.Serialize(Data.Obj("success",true,"characters",cards.Count,"files",Data.Items(unlocks["char_list"]).Count,"voices",Data.Items(unlocks["voice_list"]).Count,"voice_audio_verified",voiceAudioVerified,"team_loaded",team!=null,"skin_saved",true,"team_saved",true,"reconnect_verified",true,"native_windows",true,"mobile_navigation_verified",true,"battle_supported",true,"original_combat",false)),System.Text.Encoding.UTF8);
         }catch(Exception ex){File.WriteAllText(result,Data.Json.Serialize(Data.Obj("success",false,"error",ex.ToString())));}
         finally{Close();}
     }

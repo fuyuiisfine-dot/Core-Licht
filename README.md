@@ -113,8 +113,12 @@ python tools/extract_xor_table.py
 
 ## Windows 原生客戶端預覽
 
-已新增不使用模擬器的 C# Windows Forms 客戶端，可實際登入、瀏覽角色與檔案、換裝、保存編隊。原生端已完成 1048 種基本訊息交叉測試與實際連線驗證。原版戰鬥、動畫與語音播放尚未接入。建立與限制見 [native-client/README.md](native-client/README.md)。原始資源、EXE 與私人存檔不提交 Git。
+已新增不使用模擬器的 C# Windows Forms 客戶端，可實際登入、瀏覽角色與檔案、換裝、保存編隊。原生端已完成 1048 種基本訊息交叉測試與實際連線驗證，並可播放由個人備份匯出的角色語音。原版戰鬥與動畫尚未接入。建立與限制見 [native-client/README.md](native-client/README.md)；語音匯出與開服步驟見 [VOICE_AND_SERVER.md](VOICE_AND_SERVER.md)。原始資源、EXE 與私人存檔不提交 Git。
 
 介面已改為參照手機版的橫向配置，使用原始大廳背景、圖示與角色卡片素材，支援六個主要頁面、等比縮放與 F11 全螢幕。這是手機介面的首版還原，所有頁面與動畫仍需逐步補齊。
 
 現已加入 server 計算的獨立作戰演習：三個關卡、格子部署、自動移動與攻擊、勝敗、精神力、結算、點數與解鎖保存。它重用原角色數值與關卡資料，戰鬥規則仍為原型，不代表原版玩法已還原；詳見 [GAMEPLAY.md](GAMEPLAY.md)。39 項 Python 測試、實際 Windows 演習與重連保存驗證已通過。
+
+## APK 與 Server 下載
+
+[區網測試包 Release](https://github.com/fuyuiisfine-dot/Core-Licht/releases/tag/v0.1.38-lan.20261018) 提供重新簽署的 Android APK、單檔 Server EXE、含區網設定的 Server ZIP，以及使用說明與校驗值。安裝前請先閱讀說明：APK 不能直接覆蓋原簽章版本，仍需要自己的原版 OBB；發布包不包含私人存檔或登入憑證。封裝方式見 [APK_RELEASE.md](APK_RELEASE.md) 與 [SERVER_EXE.md](SERVER_EXE.md)。

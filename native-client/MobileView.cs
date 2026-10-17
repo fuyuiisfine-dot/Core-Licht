@@ -56,7 +56,7 @@ public partial class ClientWindow {
             if(e.KeyCode==Keys.F11){bool full=FormBorderStyle!=FormBorderStyle.None;FormBorderStyle=full?FormBorderStyle.None:FormBorderStyle.Sizable;WindowState=full?FormWindowState.Maximized:FormWindowState.Normal;}};
         FormClosed+=(s,e)=>{foreach(var image in artCache.Values)image.Dispose();};
     }
-    void Navigate(string page){screen=page;notice="";textOffset=0;gameView.Invalidate();}
+    void Navigate(string page){if(page!="Files")voiceAudio.Stop();screen=page;notice="";textOffset=0;gameView.Invalidate();}
     Image Art(string path){Image value;if(artCache.TryGetValue(path,out value))return value;string full=Path.Combine(folder,path);
         if(!File.Exists(full))return null;using(var source=Image.FromFile(full))value=new Bitmap(source);
         while(artOrder.Count>=64){string oldest=artOrder.Dequeue();artCache[oldest].Dispose();artCache.Remove(oldest);}
@@ -203,6 +203,7 @@ public partial class ClientWindow {
     int MaxTextOffset(){using(var b=new Bitmap(1,1))using(var g=Graphics.FromImage(b))using(var font=new Font("Microsoft JhengHei UI",29,FontStyle.Regular,GraphicsUnit.Pixel))
         return Math.Max(0,(int)g.MeasureString(ActiveText,font,850).Height-640);}
     void DrawFiles(Graphics g){
+        if(!showVoice&&voiceAudio.PlayingId!=null)voiceAudio.Stop();
         Rect(g,Color.FromArgb(222,230,230,222),225,175,1420,695);
         Button(g,"資料檔案",245,112,260,62,()=>{showVoice=false;textOffset=0;},!showVoice);
         Button(g,"語音台詞",520,112,260,62,()=>{showVoice=true;textOffset=0;},showVoice);
@@ -218,6 +219,10 @@ public partial class ClientWindow {
             g.DrawString(ActiveText,font,brush,new RectangleF(725,205-textOffset,850,Math.Max(640,MaxTextOffset()+660)));
         g.Restore(state);TextAt(g,"滾輪捲動內文",21,Color.FromArgb(120,Color.Black),1270,868,340,40);
         DrawBottom(g,new[]{"檔案","語音","屬性","時裝","",""},showVoice?1:0,i=>{if(i<2){showVoice=i==1;textOffset=0;}else if(i==2)Navigate("Detail");else if(i==3)Navigate("Skins");});
+        if(showVoice){
+            if(VoiceReady())Button(g,voiceAudio.PlayingId==((Choice)voices.SelectedItem).Id?"停止語音":"播放語音",730,865,250,55,ToggleVoice);
+            else TextAt(g,VoiceAllowed()?"這段語音尚無音檔":"這段語音尚未解鎖",24,Cream,730,865,540,55);
+        }
     }
     void DrawSkins(Graphics g){
         TextAt(g,CharacterName(selected),58,Cream,250,180,600,100);
@@ -238,6 +243,20 @@ public partial class ClientWindow {
             Button(g,"移除",x,800,210,55,()=>slots[index].SelectedIndex=0);
         }
         Button(g,"保存編隊",1810,940,310,90,async()=>{await SaveTeam();notice=status.Text;},true);
+    }
+    bool VerifyVoiceAudio(){
+        showVoice=true;Navigate("Files");
+        for(int i=0;i<voices.Items.Count;i++){
+            voices.SelectedIndex=i;
+            if(!VoiceReady())continue;
+            RenderForInput();ClickGame(new PointF(850,890));
+            string id=((Choice)voices.SelectedItem).Id;
+            if(voiceAudio.PlayingId!=id)throw new InvalidDataException("Voice did not start");
+            RenderForInput();ClickGame(new PointF(850,890));
+            if(voiceAudio.PlayingId!=null)throw new InvalidDataException("Voice did not stop");
+            Navigate("Home");return true;
+        }
+        Navigate("Home");return false;
     }
     void VerifyGameNavigation(){
         int savedSlot=slots[0].SelectedIndex;

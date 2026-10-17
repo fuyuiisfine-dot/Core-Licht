@@ -49,6 +49,7 @@ public partial class ClientWindow {
         for(int i=0;i<8;i++)slots.Add(new ComboBox{DropDownStyle=ComboBoxStyle.DropDownList});
         gameView=new GameSurface{Dock=DockStyle.Fill};Controls.Add(gameView);
         gameView.Render=DrawGame;gameView.Press=ClickGame;
+        SetupGameplay();
         gameView.Scroll=delta=>{if(screen=="Roster")rosterOffset=Math.Max(0,Math.Min(Math.Max(0,(cards.Count+6)/7-2),rosterOffset+(delta<0?1:-1)));
             else if(screen=="Files")textOffset=Math.Max(0,Math.Min(MaxTextOffset(),textOffset+(delta<0?100:-100)));gameView.Invalidate();};
         KeyPreview=true;KeyDown+=(s,e)=>{if(e.KeyCode==Keys.Escape){notice="";Navigate(screen=="Home"?"Home":"Roster");}
@@ -83,7 +84,7 @@ public partial class ClientWindow {
     void FitArt(Graphics g,Image image,RectangleF box){if(image==null)return;float s=Math.Min(box.Width/image.Width,box.Height/image.Height);g.DrawImage(image,box.X+(box.Width-image.Width*s)/2,box.Y+(box.Height-image.Height*s)/2,image.Width*s,image.Height*s);}
     void DrawGame(Graphics g){
         hitAreas.Clear();if(screen=="Home")DrawHome(g);else{
-            DrawInterior(g);if(screen=="Roster")DrawRoster(g);else if(screen=="Team")DrawTeam(g);else if(selected!=null){
+            DrawInterior(g);if(screen=="Stages")DrawStages(g);else if(screen=="Battle")DrawBattle(g);else if(screen=="Result")DrawBattleResult(g);else if(screen=="Roster")DrawRoster(g);else if(screen=="Team")DrawTeam(g);else if(selected!=null){
                 Image portrait=Portrait(selected);
                 if(screen=="Skins"&&skins.SelectedItem!=null){var meta=Data.Map(Data.Map(Catalog(Data.Text(selected["sys_id"]))["skins"])[((Choice)skins.SelectedItem).Id]);portrait=Art(Data.Text(meta["image"]));}
                 FitArt(g,portrait,new RectangleF(720,70,1510,1300));
@@ -117,7 +118,7 @@ public partial class ClientWindow {
         Sprite(g,"common_c_icon_vitality_big",1745,860,65,65);
         TextAt(g,energy,58,Color.White,1820,848,130,85);TextAt(g,"精神力\n/"+energyMax,23,Color.White,1945,855,150,75);
         DrawBottom(g,new[]{"空島","商店","共鳴","適格體","超體","作戰"},3,idx=>{
-            if(idx==3){editingSlot=-1;Navigate("Roster");}else notice=idx==5?"作戰流程仍在重建，尚不能進入戰鬥。":"此頁面尚未接入 Windows 版。";
+            if(idx==3){editingSlot=-1;Navigate("Roster");}else if(idx==5)Navigate("Stages");else notice="此頁面尚未接入 Windows 版。";
         },true);
     }
     void DrawInterior(Graphics g){
@@ -131,7 +132,7 @@ public partial class ClientWindow {
     }
     void DrawHeader(Graphics g){
         Rect(g,Color.FromArgb(170,0,0,0),0,0,2340,88);Line(g,Color.FromArgb(100,Cream),0,88,2340,88,2);
-        TextAt(g,"◀ 返回",35,Cream,145,5,200,70);Hit(130,0,220,88,()=>{editingSlot=-1;Navigate(screen=="Roster"||screen=="Team"?"Home":screen=="Files"||screen=="Skins"?"Detail":"Roster");});
+        TextAt(g,"◀ 返回",35,Cream,145,5,200,70);Hit(130,0,220,88,()=>{editingSlot=-1;Navigate(screen=="Battle"||screen=="Result"?"Stages":screen=="Stages"||screen=="Roster"||screen=="Team"?"Home":screen=="Files"||screen=="Skins"?"Detail":"Roster");});
         TextAt(g,"○ 主頁",35,Cream,390,5,220,70);Hit(370,0,240,88,()=>{editingSlot=-1;Navigate("Home");});
         if(screen=="Roster"){
             TextAt(g,cards.Count.ToString(),29,Cream,1190,0,90,80,true);
@@ -139,7 +140,7 @@ public partial class ClientWindow {
             Button(g,"星數",1548,18,180,57,()=>{cards=cards.OrderByDescending(c=>Data.Number(c["star"])).ToList();});
             Button(g,"獲得順序",1728,18,240,57,()=>{cards=cards.OrderBy(c=>Data.Number(c["id"])).ToList();});
             Button(g,"篩選",2010,18,200,57,()=>{notice="目前顯示全部 "+cards.Count+" 名適格體。";});
-        }else TextAt(g,screen=="Team"?"編隊":selected==null?"":CharacterName(selected),27,Cream,1730,0,480,80);
+        }else TextAt(g,screen=="Stages"||screen=="Battle"||screen=="Result"?"作戰演習 · 原型規則":screen=="Team"?"編隊":selected==null?"":CharacterName(selected),27,Cream,1730,0,480,80);
     }
     void DrawBottom(Graphics g,string[] names,int active,Action<int> click,bool home=false){
         Rect(g,Color.FromArgb(200,13,14,13),0,930,2340,150);Line(g,Cream,0,930,2340,930,2);
@@ -250,9 +251,8 @@ public partial class ClientWindow {
         RenderForInput();ClickGame(new PointF(350,430));RequireScreen("Roster");
         RenderForInput();ClickGame(new PointF(390,260));RequireScreen("Team");
         slots[0].SelectedIndex=savedSlot;
-        Navigate("Home");RenderForInput();ClickGame(new PointF(1980,1000));
-        if(notice.Length==0)throw new InvalidDataException("Unavailable battle must show its status");
-        ClickGame(new PointF(1350,1000));RequireScreen("Home");
+        Navigate("Home");RenderForInput();ClickGame(new PointF(1980,1000));RequireScreen("Stages");
+        Navigate("Home");notice="導覽提示測試";RenderForInput();ClickGame(new PointF(1350,1000));RequireScreen("Home");
         ClickGame(new PointF(1170,620));if(notice.Length!=0)throw new InvalidDataException("Dialog did not dismiss");
     }
     void RenderForInput(){using(var b=new Bitmap(gameView.Width,gameView.Height))gameView.DrawToBitmap(b,new Rectangle(0,0,b.Width,b.Height));}

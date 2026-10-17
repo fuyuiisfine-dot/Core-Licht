@@ -81,6 +81,9 @@ def make_handler(protocol,database,http_port,game_port,fixtures=None,request_log
                         if not isinstance(uid,str):raise ValueError('uid string required')
                         response={'code':0,'data':dict(core.issue_local_credentials(uid),
                             time_zone=8,serv_time=now,is_white_ip=1,ios_auth=0)}
+                    elif path.startswith('/local/game/') and allow_local_client_login:
+                        from .native_game import handle
+                        response={'code':0,'data':handle(core,path.removeprefix('/local/game/'),values)}
                     elif path in ('/client/role_region_list','/client/select_region'):
                         if not core.valid(str(values.get('uid','')),str(values.get('token','')),str(values.get('p_key',''))):
                             self.send_json(403,{'error':'local credentials required'});return
@@ -104,7 +107,8 @@ def make_handler(protocol,database,http_port,game_port,fixtures=None,request_log
                         self.send_json(404,{'error':'route not reconstructed'});return
                     self.send_json(200,response)
                 finally:core.close()
-            except (ValueError,TypeError):self.send_json(400,{'error':'invalid request'})
+            except PermissionError:self.send_json(403,{'error':'local credentials or owned role required'})
+            except (ValueError,TypeError,StopIteration) as error:self.send_json(400,{'error':str(error) or 'invalid request'})
     return Handler
 
 

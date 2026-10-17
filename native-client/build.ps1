@@ -8,6 +8,6 @@ New-Item -ItemType Directory -Path $OutputDirectory -Force | Out-Null
 $taskOutput = Join-Path $OutputDirectory 'CoreLicht.exe'
 & $taskCompiler /nologo /target:winexe /platform:x64 /optimize+ "/out:$taskOutput" `
   /reference:System.Windows.Forms.dll /reference:System.Drawing.dll /reference:System.Web.Extensions.dll `
-  /reference:System.Net.Http.dll (Join-Path $PSScriptRoot 'Protocol.cs') (Join-Path $PSScriptRoot 'Client.cs') (Join-Path $PSScriptRoot 'MobileView.cs')
+  /reference:System.Net.Http.dll (Join-Path $PSScriptRoot 'Protocol.cs') (Join-Path $PSScriptRoot 'Client.cs') (Join-Path $PSScriptRoot 'MobileView.cs') (Join-Path $PSScriptRoot 'Gameplay.cs')
 if ($LASTEXITCODE -ne 0) { throw 'Native client build failed.' }
 Write-Output "Built $taskOutput"

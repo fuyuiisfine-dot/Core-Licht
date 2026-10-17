@@ -138,6 +138,7 @@ public class GameConnection:IDisposable {
     readonly Dictionary<string,Dictionary<string,object>> notifications=new Dictionary<string,Dictionary<string,object>>();
     public Dictionary<string,object> Notification(string id){lock(notifications){Dictionary<string,object> value;return notifications.TryGetValue(id,out value)?value:null;}}
     ushort unique=100;
+    Dictionary<string,object> localCredentials;
     public Action<string> Closed;
     public GameConnection(string folder){Protocol=new Proto(folder);xor=File.ReadAllBytes(Path.Combine(folder,"packet_xor_table.bin"));if(xor.Length!=256)throw new InvalidDataException("Invalid protocol table");}
     public async Task<Dictionary<string,object>> Login(string uid) {
@@ -147,6 +148,7 @@ public class GameConnection:IDisposable {
             var reply=await http.PostAsync("http://127.0.0.1:18080/local/login",new StringContent(Data.Json.Serialize(Data.Obj("uid",uid)),Encoding.UTF8,"application/json"));
             reply.EnsureSuccessStatusCode();creds=Data.Map(Data.Map(Data.Json.DeserializeObject(await reply.Content.ReadAsStringAsync()))["data"]);
         }
+        localCredentials=creds;
         socket=new TcpClient();await socket.ConnectAsync("127.0.0.1",19090);stream=socket.GetStream();
         await stream.WriteAsync(new byte[]{1,2},0,2);
         Task receiver=Receive();
@@ -162,6 +164,18 @@ public class GameConnection:IDisposable {
             for(int i=0;i<payload.Length;i++)packet[i+6]=(byte)(payload[i]^xor[(seq+i)&255]);
             await stream.WriteAsync(packet,0,packet.Length);
         }finally{writer.Release();}
+    }
+    public async Task<Dictionary<string,object>> Gameplay(string command,int role,Dictionary<string,object> arguments){
+        if(localCredentials==null)throw new InvalidOperationException("請先登入。");
+        var body=new Dictionary<string,object>(arguments);body["role_id"]=role;
+        foreach(string k in new[]{"uid","token","p_key"})body[k]=localCredentials[k];
+        using(var handler=new HttpClientHandler{AllowAutoRedirect=false,UseProxy=false})using(var http=new HttpClient(handler)){
+            http.Timeout=TimeSpan.FromSeconds(10);
+            var reply=await http.PostAsync("http://127.0.0.1:18080/local/game/"+command,new StringContent(Data.Json.Serialize(body),Encoding.UTF8,"application/json"));
+            var value=Data.Map(Data.Json.DeserializeObject(await reply.Content.ReadAsStringAsync()));
+            if(!reply.IsSuccessStatusCode)throw new InvalidOperationException(value.ContainsKey("error")?Data.Text(value["error"]):"遊戲服務沒有回應。");
+            return Data.Map(value["data"]);
+        }
     }
     public async Task<Dictionary<string,object>> Request(string id,Dictionary<string,object> values) {
         var waiter=new TaskCompletionSource<Dictionary<string,object>>();

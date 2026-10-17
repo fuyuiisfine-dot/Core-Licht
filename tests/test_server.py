@@ -248,6 +248,28 @@ class CoreTests(unittest.TestCase):
         with self.assertRaises(ValueError):self.call('15_2',values)
         self.assertEqual(self.call('15_4',{'event_id':'123'}).children_team[0].children_list[0].v,102)
 
+    def test_windows_preview_clone_preserves_phone_role_and_credentials(self):
+        from tools.prepare_windows_account import prepare
+        self.call('1_1');role=self.call('1_2',{'name':'Phone source','sex':1}).role_info
+        profile={'cards':[{'id':'101','use_skin':'original-skin'}],'heroes':[]}
+        self.core.snapshot(role.id,'sandbox_gm',profile)
+        with tempfile.TemporaryDirectory()as tmp:
+            path=Path(tmp)/'native.sqlite3'
+            with closing(sqlite3.connect(path))as target:self.core.db.backup(target)
+            result=prepare(path,role.id)
+            self.assertTrue(result['created']);self.assertTrue(Path(result['backup']).is_file())
+            self.assertEqual(prepare(path,role.id)['role_id'],result['role_id'])
+            with closing(sqlite3.connect(path))as db:
+                copied=json.loads(db.execute('SELECT value FROM role_snapshots WHERE role_id=? AND domain=?',
+                    (result['role_id'],'sandbox_gm')).fetchone()[0])
+                copied['cards'][0]['use_skin']='changed-on-windows'
+                with db:db.execute('UPDATE role_snapshots SET value=? WHERE role_id=? AND domain=?',
+                    (json.dumps(copied),result['role_id'],'sandbox_gm'))
+                original=json.loads(db.execute('SELECT value FROM role_snapshots WHERE role_id=? AND domain=?',
+                    (role.id,'sandbox_gm')).fetchone()[0])
+                self.assertEqual(original['cards'][0]['use_skin'],'original-skin')
+                self.assertEqual(db.execute('SELECT token FROM accounts WHERE uid=?',('local-test',)).fetchone()[0],self.credentials['token'])
+
     def test_explicit_gm_profile_is_backed_up_persistent_and_role_scoped(self):
         from tools.enable_sandbox_profile import enable
         self.call('1_1')

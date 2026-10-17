@@ -110,3 +110,7 @@ python tools/extract_xor_table.py
 ## 滿好感與角色檔案
 
 75 名角色好感度 5、150 篇文字檔案及 3960 筆語音資料已補齊解鎖與已讀保存。備份工具與完整性檢查見 [DOCUMENTS.md](DOCUMENTS.md)。27 項測試通過；一般關卡玩法仍在還原。
+
+## Windows 原生客戶端預覽
+
+已新增不使用模擬器的 C# Windows Forms 客戶端，可實際登入、瀏覽角色與檔案、換裝、保存編隊。原生端已完成 1048 種基本訊息交叉測試與實際連線驗證，Python 測試共 29 項。戰鬥、動畫與語音播放尚未接入。建立與限制見 [native-client/README.md](native-client/README.md)。原始資源、EXE 與私人存檔不提交 Git。

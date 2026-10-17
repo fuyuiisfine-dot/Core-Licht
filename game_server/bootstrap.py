@@ -10,6 +10,7 @@ import threading
 import time
 from urllib.parse import urlsplit, parse_qs
 from .core import GameCore
+from .network import NetworkPolicy
 
 
 def make_handler(protocol,database,http_port,game_port,fixtures=None,request_log=None,allow_local_client_login=False):
@@ -54,7 +55,7 @@ def make_handler(protocol,database,http_port,game_port,fixtures=None,request_log
                 self.send_json(200,{'data':[]})
             elif path.endswith('/serv_list.txt'):
                 self.send_json(200,{'list':[{'id':1,'name':'Local test',
-                    'ip':f'127.0.0.1:{http_port}','cp':[],'type':0}],'tips':''})
+                    'ip':f'{self.connection.getsockname()[0]}:{http_port}','cp':[],'type':0}],'tips':''})
             else:self.send_json(404,{'error':'route not reconstructed'})
 
         def do_POST(self):
@@ -101,7 +102,7 @@ def make_handler(protocol,database,http_port,game_port,fixtures=None,request_log
                             # MainFrameView.RefreshTestInfos also concatenates
                             # selectedGameServer.name; omission aborts view opening.
                             data.update(server_key=['serv_ip','serv_port','convert_ip_port','server_id','id','name'],
-                                serv_list=[['127.0.0.1',game_port,[],1,1,'Local test']],login_sid=1)
+                                serv_list=[[self.connection.getsockname()[0],game_port,[],1,1,'Local test']],login_sid=1)
                         response={'code':0,'data':data}
                     else:
                         self.send_json(404,{'error':'route not reconstructed'});return
@@ -112,6 +113,10 @@ def make_handler(protocol,database,http_port,game_port,fixtures=None,request_log
     return Handler
 
 
-def make_server(protocol,database,http_port,game_port,fixtures=None,request_log=None,allow_local_client_login=False):
-    return ThreadingHTTPServer(('127.0.0.1',http_port),
+def make_server(protocol,database,http_port,game_port,fixtures=None,request_log=None,allow_local_client_login=False,listen_host='127.0.0.1',allowed_networks=()):
+    policy=NetworkPolicy(allowed_networks)
+    class Server(ThreadingHTTPServer):
+        def verify_request(self,request,client_address):
+            return policy.allows(client_address[0])
+    return Server((listen_host,http_port),
         make_handler(protocol,database,http_port,game_port,fixtures,request_log,allow_local_client_login))

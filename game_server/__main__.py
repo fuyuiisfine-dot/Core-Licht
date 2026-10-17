@@ -14,9 +14,13 @@ from .protocol import Protocol
 from .wire import FrameProfile
 from .snpacket import SNPacket
 from .bootstrap import make_server
+from .network import NetworkPolicy
 
 
 def serve(args):
+    listen_host=getattr(args,'listen_host','127.0.0.1')
+    networks=getattr(args,'allowed_networks',[])
+    policy=NetworkPolicy(networks)
     config = json.loads(Path(args.profile).read_text()) if args.profile else {'status':'APK static reconstruction; awaiting client validation'}
     profile = FrameProfile(**config['frame']) if args.profile else SNPacket(Path(args.analysis)/'packet_xor_table.bin')
     protocol = Protocol(args.analysis)
@@ -96,9 +100,11 @@ def serve(args):
     class Server(socketserver.ThreadingTCPServer):
         daemon_threads = True
         allow_reuse_address = True
+        def verify_request(self,request,client_address):
+            return policy.allows(client_address[0])
 
-    with Server(('127.0.0.1',args.port),Handler) as server:
-        http_server = make_server(protocol,args.database,args.http_port,server.server_address[1],args.cdn_fixtures,args.request_log,args.allow_local_client_login) if args.http_port else None
+    with Server((listen_host,args.port),Handler) as server:
+        http_server = make_server(protocol,args.database,args.http_port,server.server_address[1],args.cdn_fixtures,args.request_log,args.allow_local_client_login,listen_host,networks) if args.http_port else None
         if http_server:
             threading.Thread(target=http_server.serve_forever,daemon=True).start()
         print(json.dumps({'listening':str(server.server_address),
@@ -116,6 +122,8 @@ def main():
     parser.add_argument('--analysis',default='analysis')
     parser.add_argument('--database',default='server.sqlite3')
     parser.add_argument('--port',type=int,default=19090)
+    parser.add_argument('--listen-host',default='127.0.0.1')
+    parser.add_argument('--allow-network',dest='allowed_networks',action='append',default=[],help='Allowed LAN IPv4 CIDR; loopback is always allowed')
     parser.add_argument('--http-port',type=int,help='Optional prototype HTTP login listener')
     parser.add_argument('--cdn-fixtures',help='Explicit local config/driver fixtures for device validation')
     parser.add_argument('--request-log',help='GET route log without credentials or query strings')

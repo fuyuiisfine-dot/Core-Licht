@@ -135,6 +135,8 @@ public class GameConnection:IDisposable {
     TcpClient socket;NetworkStream stream;
     readonly SemaphoreSlim writer=new SemaphoreSlim(1);
     readonly Dictionary<string,TaskCompletionSource<Dictionary<string,object>>> pending=new Dictionary<string,TaskCompletionSource<Dictionary<string,object>>>();
+    readonly Dictionary<string,Dictionary<string,object>> notifications=new Dictionary<string,Dictionary<string,object>>();
+    public Dictionary<string,object> Notification(string id){lock(notifications){Dictionary<string,object> value;return notifications.TryGetValue(id,out value)?value:null;}}
     ushort unique=100;
     public Action<string> Closed;
     public GameConnection(string folder){Protocol=new Proto(folder);xor=File.ReadAllBytes(Path.Combine(folder,"packet_xor_table.bin"));if(xor.Length!=256)throw new InvalidDataException("Invalid protocol table");}
@@ -176,6 +178,7 @@ public class GameConnection:IDisposable {
             string id=b[0]+"_"+b[1];byte[] payload=new byte[length-3];int start=(b[0]<<4)+b[1];
             for(int i=0;i<payload.Length;i++)payload[i]=(byte)(b[i+3]^xor[(start+i)&255]);
             var message=Protocol.Decode("s2c",id,payload);TaskCompletionSource<Dictionary<string,object>> waiter;
+            if(id=="2_2")lock(notifications)notifications[id]=message;
             lock(pending){if(pending.TryGetValue(id,out waiter))waiter.TrySetResult(message);}
         }}catch(Exception ex){lock(pending){foreach(var w in pending.Values)w.TrySetException(ex);}if(Closed!=null)Closed(ex.Message);}
     }

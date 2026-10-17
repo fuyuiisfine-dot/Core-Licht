@@ -114,3 +114,5 @@ python tools/extract_xor_table.py
 ## Windows 原生客戶端預覽
 
 已新增不使用模擬器的 C# Windows Forms 客戶端，可實際登入、瀏覽角色與檔案、換裝、保存編隊。原生端已完成 1048 種基本訊息交叉測試與實際連線驗證，Python 測試共 29 項。戰鬥、動畫與語音播放尚未接入。建立與限制見 [native-client/README.md](native-client/README.md)。原始資源、EXE 與私人存檔不提交 Git。
+
+介面已改為參照手機版的橫向配置，使用原始大廳背景、圖示與角色卡片素材，支援六個主要頁面、等比縮放與 F11 全螢幕。這是手機介面的首版還原，所有頁面與動畫仍需逐步補齊。

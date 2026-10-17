@@ -71,7 +71,8 @@ def main():
     print('Keep this window open. Press Ctrl+C to stop.',flush=True)
     serve(SimpleNamespace(profile=None,analysis=str(resources/'analysis'),database=str(database),port=args.port,
                           http_port=args.http_port,cdn_fixtures=str(resources/'cdn-fixtures'),
-                          request_log=None,protocol_log=None,capture_first_packet=None,reload_core=False,issue_uid=None,
+                          request_log=str(database.parent/'http_requests.jsonl'),protocol_log=str(database.parent/'protocol_events.jsonl'),
+                          capture_first_packet=None,reload_core=False,defer_unimplemented=True,issue_uid=None,
                           allow_local_client_login=True))
 
 

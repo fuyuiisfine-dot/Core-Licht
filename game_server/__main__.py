@@ -48,7 +48,7 @@ def serve(args):
             def dispatch(frame):
                 try:response=connection_core.handle(session,*frame)
                 except NotImplementedError:
-                    if not args.reload_core:raise
+                    if not (args.reload_core or getattr(args,'defer_unimplemented',False)):raise
                     if len(pending)>=128:raise ValueError('too many pending local test requests')
                     pending.append(frame)
                     record({'pending_handler':frame[0]})
@@ -123,6 +123,7 @@ def main():
     parser.add_argument('--protocol-log',help='Message IDs and byte counts only; never payloads or credentials')
     parser.add_argument('--capture-first-packet',help='Optional private local-test wire fixture; may contain local-test credentials')
     parser.add_argument('--reload-core',action='store_true',help='Local development: reload core edits and retry up to 128 unimplemented requests')
+    parser.add_argument('--defer-unimplemented',action='store_true',help='Local compatibility: retain up to 128 unsupported requests without closing the connection; no success reply is fabricated')
     parser.add_argument('--issue-uid')
     serve(parser.parse_args())
 

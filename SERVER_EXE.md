@@ -44,3 +44,17 @@ python tools/test_server_exe.py --exe client-work/server/CoreLichtServer.exe --a
 ```
 
 本機也已用現有 Windows 客戶端連線 EXE，通過角色、檔案、語音資源檢查、換裝、編隊與重連測試。這項封裝不會增加尚未實作的原版玩法。
+
+## 手機登入與轉接恢復
+
+手機仍需要 ADB 的兩條 reverse 規則；無線偵錯中斷後可能消失。先啟動伺服器、確認手機已配對並連線，再執行：
+
+```powershell
+tools/connect_phone.ps1 -AdbPath '<platform-tools 資料夾>\adb.exe' -RestartGame
+```
+
+此工具只恢復 18080／19090 轉接並選擇性重啟遊戲，不清除遊戲資料。多台裝置時使用 `-Serial` 指定。開發機已在 EXE 旁另提供 `ReconnectPhone.cmd`，可雙擊恢復目前這台手機。
+
+封裝版已修正手機初始化相容性：對已知 schema、尚未實作的請求沿用既有開發版的有界暫存行為，最多 128 筆，不回傳假的成功結果，也不因此中斷其他已實作的登入／心跳／角色請求。這不代表那些系統已完成；更換 EXE 後需要重新連線。來源版可用 `--defer-unimplemented` 獨立啟用，不需要熱重載。
+
+封裝版會在存檔旁記錄 `http_requests.jsonl` 與 `protocol_events.jsonl`，只含路徑、欄位名稱、訊息 ID／長度，不記錄 payload 或登入憑證。手機登入失敗時先檢查這些新位置，舊開發服務的記錄不會繼續更新。

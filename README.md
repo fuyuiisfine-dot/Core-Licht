@@ -24,7 +24,7 @@ extract_player_attributes.py 與手機啟動輔助工具目前仍含原開發環
 
 目標：讓備份中的 Android 遊戲在電腦模擬器執行，連到自建 server，完成登入、角色建立、進入遊戲及核心遊玩流程。
 
-目前為**已通過手機登入、創角與選角驗證的 server 原型，尚未完成主場景與玩法驗收**。不支援原生 Windows 客戶端。原始資產、APK、OBB 與 `sources/` 保持原樣；分析使用工作區副本。
+目前提供手機相容 Server 與獨立 Windows 原生預覽版；角色檔案、語音、造型、編隊與演習原型可測試，原版完整戰鬥仍在還原。原始資產、APK、OBB 與 `sources/` 保持原樣；分析使用工作區副本。
 
 ## 已完成
 
@@ -119,6 +119,8 @@ python tools/extract_xor_table.py
 
 現已加入 server 計算的獨立作戰演習：三個關卡、格子部署、自動移動與攻擊、勝敗、精神力、結算、點數與解鎖保存。它重用原角色數值與關卡資料，戰鬥規則仍為原型，不代表原版玩法已還原；詳見 [GAMEPLAY.md](GAMEPLAY.md)。39 項 Python 測試、實際 Windows 演習與重連保存驗證已通過。
 
-## APK 與 Server 下載
+## Windows 安裝包、APK 與 Server 下載
 
 [區網測試包 Release](https://github.com/fuyuiisfine-dot/Core-Licht/releases/tag/v0.1.38-lan.20261018) 提供重新簽署的 Android APK、單檔 Server EXE、含區網設定的 Server ZIP，以及使用說明與校驗值。安裝前請先閱讀說明：APK 不能直接覆蓋原簽章版本，仍需要自己的原版 OBB；發布包不包含私人存檔或登入憑證。封裝方式見 [APK_RELEASE.md](APK_RELEASE.md) 與 [SERVER_EXE.md](SERVER_EXE.md)。
+
+Windows 原生版請下載同一 Release 的 **CoreLicht-Windows-Setup.exe**，包含圖片、介面、3,905 段語音與本機 Server，不需要模擬器或 Python。從開始功能表啟動 Core Licht，使用 `windows-preview`。存檔保存在 `%LOCALAPPDATA%\CoreLicht\server-data`；解除安裝會保留存檔。安裝及建置說明見 [WINDOWS_INSTALLER.md](WINDOWS_INSTALLER.md)。

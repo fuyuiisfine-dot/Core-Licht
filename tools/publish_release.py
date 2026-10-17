@@ -12,6 +12,13 @@ import urllib.parse
 import urllib.request
 
 
+def file_digest(path):
+    digest=hashlib.sha256()
+    with path.open('rb') as stream:
+        for block in iter(lambda:stream.read(1024*1024),b''):digest.update(block)
+    return digest.hexdigest()
+
+
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--repository',required=True)
@@ -21,6 +28,7 @@ def main():
     p.add_argument('--notes-file',type=Path,required=True)
     p.add_argument('--asset',type=Path,action='append',required=True)
     p.add_argument('--report',type=Path,required=True)
+    p.add_argument('--update-notes',action='store_true',help='Replace the existing release title and notes with the supplied files')
     a=p.parse_args()
     for asset in a.asset:
         if not asset.is_file():raise ValueError('Asset does not exist: '+str(asset))
@@ -29,10 +37,11 @@ def main():
     values=dict(line.split('=',1) for line in credentials.stdout.splitlines() if '=' in line)
     token=values['password']
     headers={'Authorization':'Bearer '+token,'User-Agent':'Core-Licht-release','Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'}
-    def request(url,data=None,content_type='application/json'):
+    def request(url,data=None,content_type='application/json',method=None,length=None):
         request_headers=dict(headers)
         if data is not None:request_headers['Content-Type']=content_type
-        with urllib.request.urlopen(urllib.request.Request(url,data=data,headers=request_headers),timeout=180) as response:
+        if length is not None:request_headers['Content-Length']=str(length)
+        with urllib.request.urlopen(urllib.request.Request(url,data=data,headers=request_headers,method=method),timeout=1800) as response:
             return json.load(response)
     base='https://api.github.com/repos/'+a.repository
     commit=subprocess.check_output(['git','-C',str(a.checkout),'rev-parse','HEAD'],text=True).strip()
@@ -42,8 +51,11 @@ def main():
         release=request(base+'/releases',json.dumps(dict(tag_name=a.tag,target_commitish=commit,name=a.title,
             body=a.notes_file.read_text(encoding='utf-8'),draft=False,prerelease=True)).encode())
     uploaded=[]
+    if a.update_notes:
+        release=request(base+'/releases/'+str(release['id']),json.dumps(dict(name=a.title,
+            body=a.notes_file.read_text(encoding='utf-8'))).encode(),method='PATCH')
     for asset in a.asset:
-        digest=hashlib.sha256(asset.read_bytes()).hexdigest()
+        digest=file_digest(asset)
         existing=next((item for item in release['assets'] if item['name']==asset.name),None)
         if existing:
             if existing.get('digest')!='sha256:'+digest:raise ValueError('Remote asset already exists with another digest: '+asset.name)
@@ -51,7 +63,8 @@ def main():
         else:
             url=release['upload_url'].split('{')[0]+'?'+urllib.parse.urlencode({'name':asset.name})
             print('Uploading '+asset.name+' ('+str(asset.stat().st_size)+' bytes)',flush=True)
-            result=request(url,asset.read_bytes(),'application/octet-stream')
+            with asset.open('rb') as stream:
+                result=request(url,stream,'application/octet-stream',length=asset.stat().st_size)
         if result['size']!=asset.stat().st_size:raise ValueError('Remote size mismatch: '+asset.name)
         if result.get('digest') and result['digest']!='sha256:'+digest:raise ValueError('Remote hash mismatch: '+asset.name)
         uploaded.append(dict(name=result['name'],url=result['browser_download_url'],size=result['size'],sha256=digest))

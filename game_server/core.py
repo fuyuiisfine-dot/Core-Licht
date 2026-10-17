@@ -193,7 +193,11 @@ class GameCore:
                 '45_3':('recharge_history',{'times_list':[]}),
                 '48_1':('pvp_equipment',{'equips':[],'slots':[]}),
             }
-            if gm and message_id=='11_16'and 'documents'in gm:
+            if gm and message_id in ('15_1','15_2','15_3','15_5'):
+                from .teams import change
+                response=change(self,session.role_id,gm,message_id,request)
+                if response is None:return None
+            elif gm and message_id=='11_16'and 'documents'in gm:
                 response=gm['documents']
             elif gm and message_id=='11_37'and 'documents'in gm:
                 names={1:'char_list',2:'voice_list',3:'remember_list'}
@@ -249,16 +253,8 @@ class GameCore:
                 elif message_id=='11_23':response={'mode':1,'index':1,'list':[
                     {'index':1,'id':gm['cards'][0]['id'],'type':1,'skin_sys_id':gm['cards'][0]['use_skin']}]}
                 else:
-                    # One persisted team per event, referencing owned instances.
-                    assist={f.name:(''if f.type==f.TYPE_STRING else 0)for f in
-                        self.protocol.pool.FindMessageTypeByName('ZeroProto.p_friend_assist').fields}
-                    team={'team_index':1,'team_id':str(request.event_id),'event_id':str(request.event_id),
-                        'team_name':'Sandbox','children_list':[{'k':str(i),'v':c['id']}
-                            for i,c in enumerate(gm['cards'][:8],1)],'spell_list':[],
-                        'friend_assist':assist,'up_flag':0,'hero_list':[
-                            {'index':1,'hero_id':gm['heroes'][0]['id'],'hero_form':1}], 'fetter_child_list':[]}
-                    response=self.snapshot(session.role_id,'sandbox_team:'+str(request.event_id),
-                                           {'default_index':1,'children_team':[team]})
+                    from .teams import get
+                    response=get(self,session.role_id,gm,request.event_id)
             elif message_id in initial_queries or message_id in ('13_1','18_5','17_31','17_19'):
                 if not session.role_id:raise PermissionError('select a role first')
                 if message_id in initial_queries:

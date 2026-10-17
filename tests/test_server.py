@@ -225,6 +225,29 @@ class CoreTests(unittest.TestCase):
         self.assertEqual(updated['documents']['char_list'][0]['v'],'1')
         self.assertEqual(updated['custom_state'],'preserve')
 
+    def test_team_edits_validate_ownership_slots_and_preserve_event_isolation(self):
+        self.call('1_1');role=self.call('1_2',{'name':'Teams','sex':1}).role_info
+        self.call('1_3',{'id':str(role.id)})
+        self.core.snapshot(role.id,'sandbox_gm',{'cards':[{'id':'101'},{'id':'102'}],
+            'heroes':[{'id':'1001','form_list':[{'form':1},{'form':2}]}]})
+        team=self.call('15_4',{'event_id':'123'}).children_team[0]
+        values={'team_index':1,'team_id':str(team.team_id),'event_id':'123',
+                'children_list':[{'k':'2','v':'102'}],'fetter_child_list':[]}
+        changed=self.call('15_2',values).children_team
+        self.assertEqual([(v.k,v.v)for v in changed.children_list],[(2,102)])
+        self.call('15_3',{'team_index':'1','event_id':'123','team_name':'Test team'})
+        payload=self.protocol.encode('c2s','15_1',{'team_id':str(team.team_id),
+            'hero_list':[{'index':1,'hero_id':'1001','hero_form':2}]})
+        self.assertIsNone(self.core.handle(self.session,'15_1',payload))
+        self.assertEqual(self.call('15_4',{'event_id':'123'}).children_team[0].hero_list[0].hero_form,2)
+        self.assertEqual(self.call('15_4',{'event_id':'123'}).children_team[0].team_name,'Test team')
+        self.assertEqual(len(self.call('15_4',{'event_id':'456'}).children_team[0].children_list),2)
+        values['children_list']=[{'k':'1','v':'999'}]
+        with self.assertRaises(PermissionError):self.call('15_2',values)
+        values['children_list']=[{'k':'1','v':'101'},{'k':'1','v':'102'}]
+        with self.assertRaises(ValueError):self.call('15_2',values)
+        self.assertEqual(self.call('15_4',{'event_id':'123'}).children_team[0].children_list[0].v,102)
+
     def test_explicit_gm_profile_is_backed_up_persistent_and_role_scoped(self):
         from tools.enable_sandbox_profile import enable
         self.call('1_1')

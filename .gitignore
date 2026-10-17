@@ -1,0 +1,14 @@
+analysis/
+client-work/
+sources/
+.dependencies/
+__pycache__/
+*.pyc
+*.sqlite3*
+*.db
+*.log
+*.jsonl
+*.apk
+*.obb
+.env
+.env.*

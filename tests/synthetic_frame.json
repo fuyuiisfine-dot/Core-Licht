@@ -1,0 +1,9 @@
+{
+  "status": "synthetic-test-only; not a client-compatible profile",
+  "frame": {
+    "length_bytes": 4,
+    "id_bytes": 2,
+    "byteorder": "big",
+    "length_includes_prefix": false
+  }
+}

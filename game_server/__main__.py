@@ -27,7 +27,7 @@ def serve(args):
     core.close()
     event_lock=threading.Lock()
     code_lock=threading.Lock()
-    module_stamp=Path(core_module.__file__).stat().st_mtime_ns
+    module_stamp=Path(core_module.__file__).stat().st_mtime_ns if args.reload_core else 0
     def record(event):
         event={'time':int(time.time()),**event}
         if args.protocol_log:

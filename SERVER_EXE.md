@@ -1,0 +1,46 @@
+# 單檔 Windows 伺服器
+
+`CoreLichtServer.exe` 已包含 Python 執行環境、伺服器程式、協定描述、必要設定表、全角色測試初始資料與已準備的 CDN 啟動檔。不需要另外安裝 Python、protobuf，或攜帶 analysis/。客戶端的圖片與語音仍由客戶端保管，不會重複塞進 server。
+
+## 使用
+
+1. 雙擊 `CoreLichtServer.exe`，保留視窗開啟。
+2. 開啟原生客戶端 `CoreLicht.exe`，照常登入與遊玩。
+3. 伺服器視窗按 Ctrl+C 可停止。
+
+預設只監聽本機：HTTP 18080、遊戲 TCP 19090。若已有舊服務佔用連接埠，新程式會顯示錯誤，且不停止不明程序。建置工具不會自動替換已執行的服務。
+
+存檔固定在 **EXE 旁的 `server-data/server.sqlite3`**，不依啟動時所在資料夾，也不放進單檔解壓暫存位置。更新 EXE 保留此資料夾即可；移機延續進度也要一起搬走此資料夾。只有 EXE 的全新安裝會建立獨立 `windows-preview` 全角色測試角色，沒有內嵌私人帳號、登入憑證、手機存檔或既有戰鬥進度。
+
+本次開發機輸出至 `client-work/server/`，已另以 SQLite backup 建立現有進度的外部副本；原始 `client-work/device.sqlite3` 保留。切換到 EXE 之後的新進度寫入該外部副本，原先的 Python 服務不會自動使用它。
+
+可選參數：
+
+```powershell
+.\CoreLichtServer.exe --check
+.\CoreLichtServer.exe --database 'D:\LichtSave\server.sqlite3'
+.\CoreLichtServer.exe --port 29090 --http-port 28080
+```
+
+改連接埠時客戶端也需對應調整；現有原生客戶端預設使用 18080／19090。`--check` 驗證資料並初始化空白安裝後結束，不啟動監聽。封裝版不提供來源熱重載，更新須重啟 EXE。
+
+## 從自己的資源建置
+
+在 Windows x64、Python 3.10 與已完成 analysis/、CDN fixtures 的環境執行。封裝選項參考 [PyInstaller 官方文件](https://pyinstaller.org/en/stable/usage.html)。
+
+```powershell
+python -m pip install -r requirements.txt -r requirements-packaging.txt
+python tools/build_server_exe.py --analysis analysis --fixtures client-work/cdn-fixtures --output client-work/server --work client-work/server-build-001 --copy-database client-work/device.sqlite3
+```
+
+每次用新的空白 `--work` 目錄，避免夾帶過期資源。工具只納入明列的協定／設定與 CDN manifest 指向的檔案，初始全角色資料由設定重新建立，不從玩家存檔產生。`--copy-database` 是可選的外部存檔副本，已存在的輸出存檔不會被覆蓋。要做全新安裝則省略此參數。EXE、衍生設定、CDN 素材、建置輸出與私人存檔都不提交 Git。
+
+## 已驗證
+
+`tools/test_server_exe.py` 將單一 EXE 複製到新資料夾，移除 Python 的環境變數和 PATH 項目，以隱藏程序測試：全新角色、HTTP 登入、原 SNPacket 選角／75 角色、CDN fixture、實際演習勝利、重複結算及程序重啟保存。測試會使用新建存檔，不操作現有手機或 Windows 角色。
+
+```powershell
+python tools/test_server_exe.py --exe client-work/server/CoreLichtServer.exe --analysis analysis --output client-work/portable-test-001
+```
+
+本機也已用現有 Windows 客戶端連線 EXE，通過角色、檔案、語音資源檢查、換裝、編隊與重連測試。這項封裝不會增加尚未實作的原版玩法。

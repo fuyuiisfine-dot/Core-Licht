@@ -12,7 +12,7 @@ python tools/inspect_protocol.py --assets '<exported-assets-directory>' --output
 python tools/inspect_backup.py --backup '<apk-obb-backup-directory>' --output analysis
 python tools/extract_xor_table.py
 python tools/extract_player_attributes.py
-python tools/extract_config_tables.py lvl config open_func children children_awake children_sync children_lvl_attr children_skill_lvl children_skin children_favor_lvl hero hero_lvl hero_awake --source '<exported-assets-directory>/text_assets/Zero/Lua/lua.ab'
+python tools/extract_config_tables.py lvl config open_func children children_awake children_sync children_lvl_attr children_skill_lvl children_skin children_favor_lvl children_doc children_doc_char children_doc_remember children_doc_voice hero hero_lvl hero_awake --source '<exported-assets-directory>/text_assets/Zero/Lua/lua.ab'
 python -m unittest discover -s tests -v
 ```
 
@@ -106,3 +106,7 @@ python tools/extract_xor_table.py
 ## 滿等全角色測試模式
 
 已依使用者要求對本機 dd 套用等級 100、75 名正式適格體各自滿等、8 種超體形態、233 套適格體造型與全部功能開放旗標。角色清單、詳情與換裝已在手機實測；系統玩法仍未全部實作。26 項測試通過。備份與限制見 `SANDBOX_GM.md`。
+
+## 滿好感與角色檔案
+
+75 名角色好感度 5、150 篇文字檔案及 3960 筆語音資料已補齊解鎖與已讀保存。備份工具與完整性檢查見 [DOCUMENTS.md](DOCUMENTS.md)。27 項測試通過；一般關卡玩法仍在還原。

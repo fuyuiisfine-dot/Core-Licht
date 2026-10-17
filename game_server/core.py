@@ -193,7 +193,18 @@ class GameCore:
                 '45_3':('recharge_history',{'times_list':[]}),
                 '48_1':('pvp_equipment',{'equips':[],'slots':[]}),
             }
-            if gm and message_id in ('11_20','11_31'):
+            if gm and message_id=='11_16'and 'documents'in gm:
+                response=gm['documents']
+            elif gm and message_id=='11_37'and 'documents'in gm:
+                names={1:'char_list',2:'voice_list',3:'remember_list'}
+                if request.type not in names:raise ValueError('unknown document type')
+                entry=next((v for v in gm['documents'][names[request.type]]if int(v['k'])==request.sys_id),None)
+                if not entry:raise PermissionError('document is not owned')
+                entry['v']='1'
+                with self.db:self.db.execute('UPDATE role_snapshots SET value=? WHERE role_id=? AND domain=?',
+                    (json.dumps(gm),session.role_id,'sandbox_gm'))
+                response={'type':request.type,'sys_id':request.sys_id}
+            elif gm and message_id in ('11_20','11_31'):
                 card=next((c for c in gm['cards']if int(c['id'])==request.id),None)
                 if not card:raise PermissionError('character is not owned')
                 if message_id=='11_20':

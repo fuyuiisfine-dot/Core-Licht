@@ -202,6 +202,29 @@ class CoreTests(unittest.TestCase):
             try: self.assertEqual(core.db.execute('SELECT name FROM roles').fetchone()[0],'Saved')
             finally: core.close()
 
+    def test_max_affection_unlocks_files_and_preserves_skins_and_read_state(self):
+        from game_server.affection import maximize
+        self.call('1_1')
+        role=self.call('1_2',{'name':'Files','sex':1}).role_info
+        self.call('1_3',{'id':str(role.id)})
+        profile={'cards':[{'sys_id':3008,'favor':0,'favor_lvl':0,'use_skin':'keep-skin'}],
+                 'heroes':[],'custom_state':'preserve'}
+        maximize(profile,ROOT/'analysis')
+        self.assertEqual((profile['cards'][0]['favor_lvl'],profile['cards'][0]['favor']),(5,1252000))
+        self.assertEqual(profile['cards'][0]['use_skin'],'keep-skin')
+        self.core.snapshot(role.id,'sandbox_gm',profile)
+        unlocked=self.call('11_16',{})
+        self.assertEqual(len(unlocked.char_list),2)
+        entry=unlocked.char_list[0]
+        self.assertEqual(entry.v,0)
+        self.call('11_37',{'type':1,'sys_id':entry.k})
+        self.assertEqual(self.call('11_16',{}).char_list[0].v,1)
+        with self.assertRaises(PermissionError):self.call('11_37',{'type':1,'sys_id':999})
+        updated=self.core.sandbox(role.id)
+        maximize(updated,ROOT/'analysis')
+        self.assertEqual(updated['documents']['char_list'][0]['v'],'1')
+        self.assertEqual(updated['custom_state'],'preserve')
+
     def test_explicit_gm_profile_is_backed_up_persistent_and_role_scoped(self):
         from tools.enable_sandbox_profile import enable
         self.call('1_1')

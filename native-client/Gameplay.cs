@@ -123,23 +123,44 @@ public partial class ClientWindow {
         Button(g,BattleStatus=="claimed"?"返回關卡":"確認結算",900,925,540,95,async()=>{if(BattleStatus=="claimed")Navigate("Stages");else await SettleBattle();},true);
     }
     void CaptureGame(string name){using(var image=new Bitmap(gameView.Width,gameView.Height)){gameView.DrawToBitmap(image,new Rectangle(0,0,image.Width,image.Height));image.Save(Path.Combine(folder,name),ImageFormat.Png);}}
+    async Task WaitForGameplaySmoke(Func<bool> condition,string step){
+        var deadline=DateTime.UtcNow.AddSeconds(8);
+        while(!condition()&&DateTime.UtcNow<deadline)await Task.Delay(25);
+        if(!condition())throw new InvalidDataException("UI action did not finish: "+step+(notice.Length==0?"":" ("+notice+")"));
+    }
+    void ClickGameplaySmoke(float x,float y){RenderForInput();ClickGame(new PointF(x,y));}
     async Task RunGameplaySmoke(){
         string output=Path.Combine(folder,"gameplay-smoke-result.json");
         try{
             await Connect();if(gameState==null)throw new InvalidDataException("Missing game state");
             if(HasPendingBattle)await GameCommand("abandon",Data.Obj("battle_id",battle["id"]));
             long before=Data.Number(Progress["points"]);chosenStage=10001;
-            Navigate("Stages");CaptureGame("preview-stages.png");await BeginBattle();await QuickDeploy();
+            Navigate("Home");CaptureGame("preview-home.png");
+            ClickGameplaySmoke(2000,710);RequireScreen("Story");
+            var story=CurrentStoryScene();if(story==null||Data.Items(story["lines"]).Count<2)throw new InvalidDataException("First story scene has no readable dialogue");
+            CaptureGame("preview-story.png");ClickGameplaySmoke(2000,910);
+            if(storyLineIndex!=1)throw new InvalidDataException("Story next-line control did not advance");
+            ClickGameplaySmoke(1000,350);
+            if(storyChapterIndex!=3||Data.Items(CurrentStoryScene()["lines"]).Count==0)throw new InvalidDataException("Other story scripts were not available");
+            CaptureGame("preview-story-other.png");
+            ClickGameplaySmoke(200,40);RequireScreen("Home");
+            ClickGameplaySmoke(1980,1000);RequireScreen("Stages");CaptureGame("preview-stages.png");
+            ClickGameplaySmoke(1980,980);await WaitForGameplaySmoke(()=>screen=="Battle"&&battle!=null,"start 0-1");
+            ClickGameplaySmoke(350,980);if(deployChoice.Length==0)throw new InvalidDataException("Roster card was not selected");
+            ClickGameplaySmoke(800,210);await WaitForGameplaySmoke(()=>battle!=null&&Data.Items(battle["roster"]).Count(c=>Convert.ToBoolean(Data.Map(c)["deployed"]))>=1,"deploy selected card");
+            ClickGameplaySmoke(1900,685);await WaitForGameplaySmoke(()=>battle!=null&&Data.Items(battle["roster"]).Count(c=>Convert.ToBoolean(Data.Map(c)["deployed"]))>=4,"quick deploy remaining cards");
             string identity=Data.Text(battle["id"]);await Task.Delay(2000);await GameCommand("state",Data.Obj());CaptureGame("preview-battle.png");
             var deadline=DateTime.UtcNow.AddSeconds(40);
             while(BattleStatus=="active"&&DateTime.UtcNow<deadline){await Task.Delay(400);await GameCommand("state",Data.Obj());}
             if(BattleStatus!="victory")throw new InvalidDataException("Expected authoritative victory, got "+BattleStatus);
             Navigate("Result");CaptureGame("preview-result.png");long reward=Data.Number(battle["reward"]);
-            await GameCommand("claim",Data.Obj("battle_id",identity));await GameCommand("claim",Data.Obj("battle_id",identity));
+            ClickGameplaySmoke(1100,970);await WaitForGameplaySmoke(()=>screen=="Stages"&&BattleStatus=="claimed","claim victory");
+            await GameCommand("claim",Data.Obj("battle_id",identity));
             if(Data.Number(Progress["points"])!=before+reward)throw new InvalidDataException("Reward was duplicated or missing");
             await Connect();if(Data.Number(Progress["points"])!=before+reward||Data.Text(battle["id"])!=identity||BattleStatus!="claimed")throw new InvalidDataException("Settlement lost after reconnect");
+            if(!Data.Map(Progress["clears"]).ContainsKey("10001"))throw new InvalidDataException("First stage clear was not saved");
             Navigate("Stages");CaptureGame("preview-stages-cleared.png");
-            File.WriteAllText(output,Data.Json.Serialize(Data.Obj("success",true,"battle_id",identity,"victory",true,"reward_once",true,"reconnect_verified",true,"points",Progress["points"],"original_combat",false)));
+            File.WriteAllText(output,Data.Json.Serialize(Data.Obj("success",true,"battle_id",identity,"victory",true,"first_stage_cleared",true,"ui_path_verified",true,"story_replay_verified",true,"reward_once",true,"reconnect_verified",true,"points",Progress["points"],"original_combat",false)));
         }catch(Exception ex){File.WriteAllText(output,Data.Json.Serialize(Data.Obj("success",false,"error",ex.ToString())));}
         finally{Close();}
     }

@@ -17,6 +17,7 @@ public partial class ClientWindow:Form {
     readonly VoiceAudio voiceAudio;
     readonly bool smoke;
     readonly bool gameplaySmoke;
+    readonly int httpPort,tcpPort;
     readonly Dictionary<string,object> resources;
     GameConnection connection;
     List<Dictionary<string,object>> cards=new List<Dictionary<string,object>>();
@@ -36,8 +37,8 @@ public partial class ClientWindow:Form {
     int beat;bool rendering;
     Task readTask=Task.FromResult(true);
     static readonly Color Ink=Color.FromArgb(20,26,35),PanelColor=Color.FromArgb(28,36,48),Gold=Color.FromArgb(221,191,126),Light=Color.FromArgb(225,230,238);
-    public ClientWindow(string directory,bool testing,bool playtest=false) {
-        folder=directory;voiceAudio=new VoiceAudio(folder);smoke=testing||playtest;gameplaySmoke=playtest;resources=Data.Read(Path.Combine(folder,"catalog.json"));
+    public ClientWindow(string directory,bool testing,bool playtest=false,int httpPort=18080,int tcpPort=19090) {
+        folder=directory;this.httpPort=httpPort;this.tcpPort=tcpPort;voiceAudio=new VoiceAudio(folder);smoke=testing||playtest;gameplaySmoke=playtest;resources=Data.Read(Path.Combine(folder,"catalog.json"));
         Text="Core Licht";ClientSize=new Size(1404,648);MinimumSize=new Size(960,480);
         StartPosition=FormStartPosition.CenterScreen;BackColor=Ink;ForeColor=Light;Font=new Font("Microsoft JhengHei UI",10);
         if(smoke){ShowInTaskbar=false;StartPosition=FormStartPosition.Manual;Location=new Point(-20000,-20000);}
@@ -52,7 +53,7 @@ public partial class ClientWindow:Form {
         if(!connect.Enabled||String.IsNullOrWhiteSpace(account.Text))return;connect.Enabled=false;Status("正在連線…");
         try {
             heartbeat.Stop();if(connection!=null){connection.Closed=null;connection.Dispose();}
-            connection=new GameConnection(Path.Combine(folder,"protocol"));connection.Closed+=message=>Status("連線已中斷；請重新連線。");
+            connection=new GameConnection(Path.Combine(folder,"protocol"),httpPort,tcpPort);connection.Closed+=message=>Status("連線已中斷；請重新連線。");
             var auth=await connection.Login(account.Text.Trim());var roles=Data.Items(auth["role_list"]);
             if(roles.Count==0)throw new InvalidOperationException("這個本機帳號尚未建立角色。請使用已準備的 windows-preview。");
             var role=Data.Map(roles[0]);selectedRoleId=(int)Data.Number(role["id"]);await connection.Request("1_3",Data.Obj("id",role["id"]));
@@ -60,6 +61,7 @@ public partial class ClientWindow:Form {
             unlocks=await connection.Request("11_16",Data.Obj());
             var vitality=await connection.Request("13_1",Data.Obj());
             team=Data.Map(Data.Items((await connection.Request("15_4",Data.Obj("event_id","10001")))["children_team"])[0]);
+            SetStoryHistory(await connection.Request("26_4",Data.Obj()));
             playerName=Data.Text(role["name"]);playerLevel=Data.Text(role["level"]);energy=Data.Text(vitality["vitality"]);energyMax=Data.Text(vitality["vit_max"]);
             var attributes=connection.Notification("2_2");currency.Clear();if(attributes!=null)foreach(var entry in Data.Items(attributes["kv_list"]).Select(Data.Map))currency[Data.Text(entry["k"])]=Data.Text(entry["v"]);
             Filter();LoadTeam();await GameCommand("state",Data.Obj());heartbeat.Start();Status(String.Format("已連線 · {0} Lv.{1} · {2} 名角色 · 精神力 {3}/{4}",role["name"],role["level"],cards.Count,vitality["vitality"],vitality["vit_max"]));
@@ -168,9 +170,10 @@ public partial class ClientWindow:Form {
     }
     [STAThread]public static void Main(string[] args) {
         Application.EnableVisualStyles();Application.SetCompatibleTextRenderingDefault(false);
-        try{Application.Run(new ClientWindow(Path.Combine(AppDomain.CurrentDomain.BaseDirectory,"data"),args.Contains("--smoke-test"),args.Contains("--game-smoke-test")));}
+        try{int httpPort=PortArgument(args,"--http-port=",18080),tcpPort=PortArgument(args,"--tcp-port=",19090);Application.Run(new ClientWindow(Path.Combine(AppDomain.CurrentDomain.BaseDirectory,"data"),args.Contains("--smoke-test"),args.Contains("--game-smoke-test"),httpPort,tcpPort));}
         catch(Exception ex){if(args.Contains("--smoke-test")||args.Contains("--game-smoke-test")){File.WriteAllText(Path.Combine(AppDomain.CurrentDomain.BaseDirectory,"startup-error.txt"),ex.ToString());Environment.ExitCode=1;}
             else MessageBox.Show("無法啟動 Windows 預覽版："+ex.Message,"Core Licht",MessageBoxButtons.OK,MessageBoxIcon.Error);}
     }
+    static int PortArgument(string[] args,string prefix,int fallback){string value=args.FirstOrDefault(arg=>arg.StartsWith(prefix,StringComparison.Ordinal));if(value==null)return fallback;int port;if(!int.TryParse(value.Substring(prefix.Length),out port)||port<1||port>65535)throw new ArgumentException("Invalid port: "+value);return port;}
 }
 }

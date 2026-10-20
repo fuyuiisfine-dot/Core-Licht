@@ -10,6 +10,7 @@ from google.protobuf import descriptor_pb2
 class Lua54:
     def __init__(self, data):
         self.data, self.pos, self.constants, self.functions = data, 0, [], []
+        self.children = []
 
     def take(self, n):
         if n < 0 or self.pos + n > len(self.data):
@@ -49,14 +50,17 @@ class Lua54:
             elif tag in (4, 20): value = self.string()
             else: raise ValueError(f'unknown constant tag {tag}')
             constants.append(value)
+        index = len(self.functions)
         self.constants.append(constants)
         self.functions.append((code, constants))
+        self.children.append([])
         self.take(self.size()*3)
-        for _ in range(self.size()): self.function()
+        for _ in range(self.size()): self.children[index].append(self.function())
         self.take(self.size())
         for _ in range(self.size()): self.size(); self.size()
         for _ in range(self.size()): self.string(); self.size(); self.size()
         for _ in range(self.size()): self.string()
+        return index
 
     def parse(self):
         if self.take(12) != b'\x1bLua\x54\x00\x19\x93\r\n\x1a\n':

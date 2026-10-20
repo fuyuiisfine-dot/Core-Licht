@@ -132,6 +132,7 @@ public class Proto {
 public class GameConnection:IDisposable {
     public readonly Proto Protocol;
     readonly byte[] xor;
+    readonly int httpPort,tcpPort;
     TcpClient socket;NetworkStream stream;
     readonly SemaphoreSlim writer=new SemaphoreSlim(1);
     readonly Dictionary<string,TaskCompletionSource<Dictionary<string,object>>> pending=new Dictionary<string,TaskCompletionSource<Dictionary<string,object>>>();
@@ -140,16 +141,16 @@ public class GameConnection:IDisposable {
     ushort unique=100;
     Dictionary<string,object> localCredentials;
     public Action<string> Closed;
-    public GameConnection(string folder){Protocol=new Proto(folder);xor=File.ReadAllBytes(Path.Combine(folder,"packet_xor_table.bin"));if(xor.Length!=256)throw new InvalidDataException("Invalid protocol table");}
+    public GameConnection(string folder,int httpPort=18080,int tcpPort=19090){this.httpPort=httpPort;this.tcpPort=tcpPort;Protocol=new Proto(folder);xor=File.ReadAllBytes(Path.Combine(folder,"packet_xor_table.bin"));if(xor.Length!=256)throw new InvalidDataException("Invalid protocol table");}
     public async Task<Dictionary<string,object>> Login(string uid) {
         Dictionary<string,object> creds;
         using(var handler=new HttpClientHandler{AllowAutoRedirect=false})using(var http=new HttpClient(handler)) {
             http.Timeout=TimeSpan.FromSeconds(10);
-            var reply=await http.PostAsync("http://127.0.0.1:18080/local/login",new StringContent(Data.Json.Serialize(Data.Obj("uid",uid)),Encoding.UTF8,"application/json"));
+            var reply=await http.PostAsync("http://127.0.0.1:"+httpPort+"/local/login",new StringContent(Data.Json.Serialize(Data.Obj("uid",uid)),Encoding.UTF8,"application/json"));
             reply.EnsureSuccessStatusCode();creds=Data.Map(Data.Map(Data.Json.DeserializeObject(await reply.Content.ReadAsStringAsync()))["data"]);
         }
         localCredentials=creds;
-        socket=new TcpClient();await socket.ConnectAsync("127.0.0.1",19090);stream=socket.GetStream();
+        socket=new TcpClient();await socket.ConnectAsync("127.0.0.1",tcpPort);stream=socket.GetStream();
         await stream.WriteAsync(new byte[]{1,2},0,2);
         Task receiver=Receive();
         var auth=Protocol.New("c2s","1_1");foreach(string k in new[]{"uid","uname","p_key","token","time"})auth[k]=creds[k];
@@ -171,7 +172,7 @@ public class GameConnection:IDisposable {
         foreach(string k in new[]{"uid","token","p_key"})body[k]=localCredentials[k];
         using(var handler=new HttpClientHandler{AllowAutoRedirect=false,UseProxy=false})using(var http=new HttpClient(handler)){
             http.Timeout=TimeSpan.FromSeconds(10);
-            var reply=await http.PostAsync("http://127.0.0.1:18080/local/game/"+command,new StringContent(Data.Json.Serialize(body),Encoding.UTF8,"application/json"));
+            var reply=await http.PostAsync("http://127.0.0.1:"+httpPort+"/local/game/"+command,new StringContent(Data.Json.Serialize(body),Encoding.UTF8,"application/json"));
             var value=Data.Map(Data.Json.DeserializeObject(await reply.Content.ReadAsStringAsync()));
             if(!reply.IsSuccessStatusCode)throw new InvalidOperationException(value.ContainsKey("error")?Data.Text(value["error"]):"遊戲服務沒有回應。");
             return Data.Map(value["data"]);

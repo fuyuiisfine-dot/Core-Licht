@@ -50,6 +50,8 @@ class GameCore:
                 role_id INTEGER NOT NULL, grant_key TEXT NOT NULL,
                 PRIMARY KEY(role_id,grant_key));
         ''')
+        from .dungeons import create_schema
+        create_schema(self.db)
         level_data=json.loads((protocol.directory/'config/lvl.json').read_text(encoding='utf-8'))['data']
         self.levels={row['lvl']:row for row in (level_data if isinstance(level_data,list) else level_data.values())}
         self.attributes=json.loads((protocol.directory/'player_attributes.json').read_text(encoding='utf-8'))['attributes']
@@ -165,7 +167,6 @@ class GameCore:
                 '11_46':('skins',{'skin_list':[]}),
                 '18_1':('tasks',{'task_done':[],'task_doing':[]}),
                 '18_17':('island_task_stage',{'stage':0}),
-                '17_1':('dungeons',{'info':[]}),
                 '17_27':('daily_drop_selection',{'info':[]}),
                 '5_1':('equipment',{'info':[]}),
                 '11_9':('team_favor',{'team_favor_list':[]}),
@@ -272,6 +273,10 @@ class GameCore:
                     initial={'vitality':config['gain_vit'],'vit_max':config['vit_max'],
                         'exchange_num':0,'daily_reward':0,'new_role_reward':0,'next_time':0}
                 response=self.snapshot(session.role_id,domain,initial)
+            elif message_id=='17_1':
+                if not session.role_id:raise PermissionError('select a role first')
+                from .dungeons import progress
+                response=progress(self.db,session.role_id)
             elif message_id=='24_1':
                 if not session.role_id:raise PermissionError('select a role first')
                 level=self.db.execute('SELECT level FROM roles WHERE id=?',(session.role_id,)).fetchone()['level']

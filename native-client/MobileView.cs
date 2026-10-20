@@ -4,6 +4,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
 using System.Windows.Forms;
 
 namespace CoreLicht {
@@ -50,9 +51,11 @@ public partial class ClientWindow {
         gameView=new GameSurface{Dock=DockStyle.Fill};Controls.Add(gameView);
         gameView.Render=DrawGame;gameView.Press=ClickGame;
         SetupGameplay();
+        SetupStoryReplay();
         gameView.Scroll=delta=>{if(screen=="Roster")rosterOffset=Math.Max(0,Math.Min(Math.Max(0,(cards.Count+6)/7-2),rosterOffset+(delta<0?1:-1)));
-            else if(screen=="Files")textOffset=Math.Max(0,Math.Min(MaxTextOffset(),textOffset+(delta<0?100:-100)));gameView.Invalidate();};
-        KeyPreview=true;KeyDown+=(s,e)=>{if(e.KeyCode==Keys.Escape){notice="";Navigate(screen=="Home"?"Home":"Roster");}
+            else if(screen=="Files")textOffset=Math.Max(0,Math.Min(MaxTextOffset(),textOffset+(delta<0?100:-100)));
+            else if(screen=="Story")ScrollStory(delta<0?1:-1);gameView.Invalidate();};
+        KeyPreview=true;KeyDown+=(s,e)=>{if(e.KeyCode==Keys.Escape){notice="";Navigate(screen=="Home"||screen=="Story"||screen=="Stages"||screen=="Team"||screen=="Roster"?"Home":screen=="Battle"||screen=="Result"?"Stages":"Roster");}
             if(e.KeyCode==Keys.F11){bool full=FormBorderStyle!=FormBorderStyle.None;FormBorderStyle=full?FormBorderStyle.None:FormBorderStyle.Sizable;WindowState=full?FormWindowState.Maximized:FormWindowState.Normal;}};
         FormClosed+=(s,e)=>{foreach(var image in artCache.Values)image.Dispose();};
     }
@@ -84,7 +87,7 @@ public partial class ClientWindow {
     void FitArt(Graphics g,Image image,RectangleF box){if(image==null)return;float s=Math.Min(box.Width/image.Width,box.Height/image.Height);g.DrawImage(image,box.X+(box.Width-image.Width*s)/2,box.Y+(box.Height-image.Height*s)/2,image.Width*s,image.Height*s);}
     void DrawGame(Graphics g){
         hitAreas.Clear();if(screen=="Home")DrawHome(g);else{
-            DrawInterior(g);if(screen=="Stages")DrawStages(g);else if(screen=="Battle")DrawBattle(g);else if(screen=="Result")DrawBattleResult(g);else if(screen=="Roster")DrawRoster(g);else if(screen=="Team")DrawTeam(g);else if(selected!=null){
+            DrawInterior(g);if(screen=="Stages")DrawStages(g);else if(screen=="Battle")DrawBattle(g);else if(screen=="Result")DrawBattleResult(g);else if(screen=="Story")DrawStoryReplay(g);else if(screen=="Roster")DrawRoster(g);else if(screen=="Team")DrawTeam(g);else if(selected!=null){
                 Image portrait=Portrait(selected);
                 if(screen=="Skins"&&skins.SelectedItem!=null){var meta=Data.Map(Data.Map(Catalog(Data.Text(selected["sys_id"]))["skins"])[((Choice)skins.SelectedItem).Id]);portrait=Art(Data.Text(meta["image"]));}
                 FitArt(g,portrait,new RectangleF(720,70,1510,1300));
@@ -112,14 +115,20 @@ public partial class ClientWindow {
         Sprite(g,"main_c_icon_drawer1",240,115,95,95);
         Sprite(g,"main_c_icon_replacement",248,543,70,70);Hit(235,530,90,90,()=>{Navigate("Roster");});
         Sprite(g,"main_c_icon_hide",345,543,70,70);Hit(330,530,100,90,()=>hideHomeCharacter=!hideHomeCharacter);
-        Button(g,"任務",1905,365,190,70,()=>notice="任務頁尚未接入 Windows 版。");
-        Button(g,"編隊",1905,468,190,70,()=>Navigate("Team"));
-        Button(g,"物資",1905,571,190,70,()=>notice="物資頁尚未接入 Windows 版。");
+        HomeMenuButton(g,"任務",1905,365,190,70,()=>notice="任務頁尚未接入 Windows 版。");
+        HomeMenuButton(g,"編隊",1905,468,190,70,()=>Navigate("Team"));
+        HomeMenuButton(g,"物資",1905,571,190,70,()=>notice="物資頁尚未接入 Windows 版。");
+        HomeMenuButton(g,"劇情回顧",1905,674,190,70,()=>Navigate("Story"));
         Sprite(g,"common_c_icon_vitality_big",1745,860,65,65);
         TextAt(g,energy,58,Color.White,1820,848,130,85);TextAt(g,"精神力\n/"+energyMax,23,Color.White,1945,855,150,75);
         DrawBottom(g,new[]{"空島","商店","共鳴","適格體","超體","作戰"},3,idx=>{
             if(idx==3){editingSlot=-1;Navigate("Roster");}else if(idx==5)Navigate("Stages");else notice="此頁面尚未接入 Windows 版。";
         },true);
+    }
+    void HomeMenuButton(Graphics g,string label,float x,float y,float w,float h,Action click){
+        Rect(g,Color.FromArgb(180,8,10,10),x,y,w,h);
+        TextAt(g,label,34,Color.White,x,y,w,h,true);
+        Hit(x,y,w,h,click);
     }
     void DrawInterior(Graphics g){
         using(var brush=new LinearGradientBrush(new Rectangle(0,0,2340,1080),Color.FromArgb(171,177,177),Color.FromArgb(9,11,11),-20f))g.FillRectangle(brush,0,0,2340,1080);
@@ -132,7 +141,7 @@ public partial class ClientWindow {
     }
     void DrawHeader(Graphics g){
         Rect(g,Color.FromArgb(170,0,0,0),0,0,2340,88);Line(g,Color.FromArgb(100,Cream),0,88,2340,88,2);
-        TextAt(g,"◀ 返回",35,Cream,145,5,200,70);Hit(130,0,220,88,()=>{editingSlot=-1;Navigate(screen=="Battle"||screen=="Result"?"Stages":screen=="Stages"||screen=="Roster"||screen=="Team"?"Home":screen=="Files"||screen=="Skins"?"Detail":"Roster");});
+        TextAt(g,"◀ 返回",35,Cream,145,5,200,70);Hit(130,0,220,88,()=>{editingSlot=-1;Navigate(screen=="Battle"||screen=="Result"?"Stages":screen=="Stages"||screen=="Roster"||screen=="Team"||screen=="Story"?"Home":screen=="Files"||screen=="Skins"?"Detail":"Roster");});
         TextAt(g,"○ 主頁",35,Cream,390,5,220,70);Hit(370,0,240,88,()=>{editingSlot=-1;Navigate("Home");});
         if(screen=="Roster"){
             TextAt(g,cards.Count.ToString(),29,Cream,1190,0,90,80,true);
@@ -140,16 +149,26 @@ public partial class ClientWindow {
             Button(g,"星數",1548,18,180,57,()=>{cards=cards.OrderByDescending(c=>Data.Number(c["star"])).ToList();});
             Button(g,"獲得順序",1728,18,240,57,()=>{cards=cards.OrderBy(c=>Data.Number(c["id"])).ToList();});
             Button(g,"篩選",2010,18,200,57,()=>{notice="目前顯示全部 "+cards.Count+" 名適格體。";});
-        }else TextAt(g,screen=="Stages"||screen=="Battle"||screen=="Result"?"作戰演習 · 原型規則":screen=="Team"?"編隊":selected==null?"":CharacterName(selected),27,Cream,1730,0,480,80);
+        }else TextAt(g,screen=="Stages"||screen=="Battle"||screen=="Result"?"作戰演習 · 原型規則":screen=="Story"?"劇情回顧":screen=="Team"?"編隊":selected==null?"":CharacterName(selected),27,Cream,1730,0,480,80);
     }
     void DrawBottom(Graphics g,string[] names,int active,Action<int> click,bool home=false){
         Rect(g,Color.FromArgb(200,13,14,13),0,930,2340,150);Line(g,Cream,0,930,2340,930,2);
         float start=250,width=315;
+        string[] homeLabels={"main_c_img_kd","main_c_img_shop","main_c_img_gongming","main_c_img_role","main_c_img_chaoti","main_c_img_fight"};
         for(int i=0;i<names.Length;i++){int index=i;float x=start+i*width;bool chosen=i==active;
             if(home&&i==5)Sprite(g,"BattleBth_30",x-10,931,width+90,149);
             else{if(chosen){Rect(g,Color.FromArgb(48,Cream),x,932,width,148);Sprite(g,"main_c_bg_frame",x+30,938,width-60,142);}
                 Line(g,Color.FromArgb(90,Cream),x+width,955,x+width,1060,1);}
-            TextAt(g,names[i],38,chosen||home&&i==5?Color.White:Cream,x,955,width,90,true);
+            if(home){
+                var label=Art("ui/"+homeLabels[i]+".png");
+                if(label!=null){float h=i==3?65:59,w=h*label.Width/label.Height;
+                    using(var attributes=new ImageAttributes()){
+                        var tint=new ColorMatrix();tint.Matrix33=chosen||i==5?1f:.48f;attributes.SetColorMatrix(tint);
+                        g.DrawImage(label,Rectangle.Round(new RectangleF(x+(width-w)/2,966,w,h)),0,0,label.Width,label.Height,GraphicsUnit.Pixel,attributes);
+                    }
+                }
+                else TextAt(g,names[i],38,chosen||i==5?Color.White:Cream,x,955,width,90,true);
+            }else TextAt(g,names[i],38,chosen?Color.White:Cream,x,955,width,90,true);
             Hit(x,932,width,148,()=>click(index));
         }
     }

@@ -1,8 +1,11 @@
 param([switch]$Restart, [switch]$RestartGame)
 $ErrorActionPreference = 'Stop'
 $taskRoot = Split-Path -Parent $PSScriptRoot
+$taskWorkspace = Split-Path -Parent $taskRoot
+$taskPrivate = Join-Path $taskWorkspace 'client-work'
+$taskAnalysis = Join-Path $taskWorkspace 'analysis'
 $taskAdb = 'D:\tool\platform-tools-latest-windows\platform-tools\adb.exe'
-$taskPidFile = Join-Path $taskRoot 'analysis\device\server.pid'
+$taskPidFile = Join-Path $taskAnalysis 'device\server.pid'
 if (Test-Path -LiteralPath $taskPidFile) {
     $taskOldId = [int](Get-Content -LiteralPath $taskPidFile)
     $taskOld = Get-CimInstance Win32_Process -Filter "ProcessId=$taskOldId"
@@ -17,12 +20,14 @@ if (Test-Path -LiteralPath $taskPidFile) {
 $taskPython = (Get-Command python).Source
 $taskServer = Start-Process -FilePath $taskPython -ArgumentList @(
     '-u','-m','game_server','--port','19090','--http-port','18080',
-    '--database','client-work/device.sqlite3','--cdn-fixtures','client-work/cdn-fixtures',
-    '--request-log','analysis/device/http_requests.jsonl',
-    '--protocol-log','analysis/device/protocol_events.jsonl','--allow-local-client-login','--reload-core'
+    '--listen-host','0.0.0.0','--allow-network','192.168.0.0/24',
+    '--database',(Join-Path $taskPrivate 'device.sqlite3'),'--cdn-fixtures',(Join-Path $taskPrivate 'cdn-fixtures'),
+    '--analysis',$taskAnalysis,
+    '--request-log',(Join-Path $taskAnalysis 'device\http_requests.jsonl'),
+    '--protocol-log',(Join-Path $taskAnalysis 'device\protocol_events.jsonl'),'--allow-local-client-login','--reload-core'
 ) -WorkingDirectory $taskRoot -WindowStyle Hidden `
-    -RedirectStandardOutput (Join-Path $taskRoot 'analysis\device\server.stdout.log') `
-    -RedirectStandardError (Join-Path $taskRoot 'analysis\device\server.stderr.log') -PassThru
+    -RedirectStandardOutput (Join-Path $taskAnalysis 'device\server.stdout.log') `
+    -RedirectStandardError (Join-Path $taskAnalysis 'device\server.stderr.log') -PassThru
 $taskServer.Id | Set-Content -LiteralPath $taskPidFile
 & $taskAdb reverse tcp:18080 tcp:18080
 if ($LASTEXITCODE -ne 0) { throw 'Phone HTTP reverse failed.' }

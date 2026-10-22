@@ -1,0 +1,459 @@
+
+private bool MoveNext() { }
+180424c: sub      sp, sp, #0x40 
+1804250: stp      x22, x21, [sp, #0x10] 
+1804254: stp      x20, x19, [sp, #0x20] 
+1804258: stp      x29, x30, [sp, #0x30] 
+180425c: add      x29, sp, #0x30 
+1804260: adrp     x20, #0x2e84000 
+1804264: ldrb     w8, [x20, #0xcf9] 
+1804268: mov      x19, x0 
+180426c: tbnz     w8, #0, #0x1804288 
+1804270: adrp     x8, #0x2ca5000 
+1804274: ldr      x8, [x8, #0x868] 
+1804278: ldr      w0, [x8] 
+180427c: bl       #0xd328f8 
+1804280: mov      w8, #1 
+1804284: strb     w8, [x20, #0xcf9] 
+1804288: ldr      w8, [x19, #0x10] 
+180428c: cmp      w8, #2 
+1804290: b.eq     #0x18044c0 
+1804294: cmp      w8, #1 
+1804298: b.eq     #0x18044b4 
+180429c: cbnz     w8, #0x18044cc 
+18042a0: mov      w8, #-1 
+18042a4: str      w8, [x19, #0x10] 
+18042a8: adrp     x8, #0x2cab000 
+18042ac: ldr      x8, [x8, #0x3e0] Driver.<>c__DisplayClass29_0_TypeInfo
+18042b0: ldr      x0, [x8] Driver.<>c__DisplayClass29_0_TypeInfo
+18042b4: bl       #0xd329c0 
+18042b8: mov      x1, xzr 
+18042bc: mov      x20, x0 
+18042c0: bl       #0x1a74f90 public void .ctor() { }
+18042c4: str      x20, [x19, #0x20] 
+18042c8: adrp     x8, #0x2c75000 
+18042cc: ldr      x8, [x8, #0x968] Method$System.Array.Empty<object>()
+18042d0: ldr      x21, [x8] Method$System.Array.Empty<object>()
+18042d4: ldr      x8, [x21, #0x30] 
+18042d8: ldr      x20, [x8] 
+18042dc: ldrh     w8, [x20, #0x12e] 
+18042e0: tbnz     w8, #0, #0x18042f0 
+18042e4: mov      x0, x20 
+18042e8: bl       #0xcd0740 
+18042ec: ldrh     w8, [x20, #0x12e] 
+18042f0: tbz      w8, #9, #0x1804334 
+18042f4: ldr      x8, [x21, #0x30] 
+18042f8: ldr      x20, [x8] 
+18042fc: ldrb     w8, [x20, #0x12e] 
+1804300: tbnz     w8, #0, #0x180430c 
+1804304: mov      x0, x20 
+1804308: bl       #0xcd0740 
+180430c: ldr      w8, [x20, #0xe0] 
+1804310: cbnz     w8, #0x1804334 
+1804314: ldr      x8, [x21, #0x30] 
+1804318: ldr      x20, [x8] 
+180431c: ldrb     w8, [x20, #0x12e] 
+1804320: tbnz     w8, #0, #0x180432c 
+1804324: mov      x0, x20 
+1804328: bl       #0xcd0740 
+180432c: mov      x0, x20 
+1804330: bl       #0xd329a4 
+1804334: ldr      x8, [x21, #0x30] 
+1804338: ldr      x20, [x8] 
+180433c: ldrb     w8, [x20, #0x12e] 
+1804340: tbnz     w8, #0, #0x180434c 
+1804344: mov      x0, x20 
+1804348: bl       #0xcd0740 
+180434c: adrp     x8, #0x2cdb000 
+1804350: ldr      x8, [x8, #0x8c8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+1804354: ldr      x0, [x8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+1804358: ldr      x8, [x20, #0xb8] 
+180435c: ldrb     w9, [x0, #0x12f] 
+1804360: ldr      x20, [x8] 
+1804364: tbz      w9, #1, #0x1804374 
+1804368: ldr      w8, [x0, #0xe0] 
+180436c: cbnz     w8, #0x1804374 
+1804370: bl       #0xd329a4 
+1804374: adrp     x8, #0x2c77000 
+1804378: ldr      x8, [x8, #0xce8] 检查游戏发布标识，若持久化路径中有版本标识、且与发布包中的版本标识不同，则整理持久化路径
+180437c: mov      x1, x20 
+1804380: mov      x2, xzr 
+1804384: ldr      x0, [x8] 检查游戏发布标识，若持久化路径中有版本标识、且与发布包中的版本标识不同，则整理持久化路径
+1804388: bl       #0x11af70c public static void Info(object message, object[] argv) { }
+180438c: adrp     x8, #0x2cbf000 
+1804390: ldr      x8, [x8, #0x5b8] Onecore.Plugins.Utils.PathUtils_TypeInfo
+1804394: ldr      x0, [x8] Onecore.Plugins.Utils.PathUtils_TypeInfo
+1804398: adrp     x8, #0x2cab000 
+180439c: ldr      x8, [x8, #0x3f8] UrlList_Android.txt
+18043a0: ldrb     w9, [x0, #0x12f] 
+18043a4: ldr      x20, [x8] UrlList_Android.txt
+18043a8: tbz      w9, #1, #0x18043b8 
+18043ac: ldr      w8, [x0, #0xe0] 
+18043b0: cbnz     w8, #0x18043b8 
+18043b4: bl       #0xd329a4 
+18043b8: mov      x0, x20 
+18043bc: mov      x1, xzr 
+18043c0: bl       #0x1af6934 public static string GetPDResRealFilePath(string filePath) { }
+18043c4: ldr      x8, [x19, #0x20] 
+18043c8: str      x0, [x19, #0x28] 
+18043cc: cbz      x8, #0x1804954 
+18043d0: adrp     x9, #0x2cd1000 
+18043d4: ldr      x9, [x9, #0xf78] 0
+18043d8: ldr      x9, [x9] 0
+18043dc: str      x9, [x8, #0x10] 
+18043e0: ldr      x8, [x19, #0x20] 
+18043e4: cbz      x8, #0x1804954 
+18043e8: strb     wzr, [x8, #0x19] 
+18043ec: ldr      x8, [x19, #0x20] 
+18043f0: cbz      x8, #0x1804954 
+18043f4: strb     wzr, [x8, #0x18] 
+18043f8: adrp     x21, #0x2cbf000 
+18043fc: ldr      x21, [x21, #0xfa0] Onecore.Plugins.Common.DriverConfig_TypeInfo
+1804400: ldr      x0, [x21] Onecore.Plugins.Common.DriverConfig_TypeInfo
+1804404: ldrb     w8, [x0, #0x12f] 
+1804408: tbz      w8, #1, #0x180441c 
+180440c: ldr      w8, [x0, #0xe0] 
+1804410: cbnz     w8, #0x180441c 
+1804414: bl       #0xd329a4 
+1804418: ldr      x0, [x21] Onecore.Plugins.Common.DriverConfig_TypeInfo
+180441c: ldr      x8, [x0, #0xb8] 
+1804420: ldr      x8, [x8, #8] 
+1804424: cbz      x8, #0x18044d4 
+1804428: adrp     x8, #0x2d0e000 
+180442c: ldr      x8, [x8, #0x7b8] Onecore.Plugins.Utils.FileUtils_TypeInfo
+1804430: ldr      x21, [x19, #0x28] 
+1804434: ldr      x0, [x8] Onecore.Plugins.Utils.FileUtils_TypeInfo
+1804438: ldrb     w8, [x0, #0x12f] 
+180443c: tbz      w8, #1, #0x180444c 
+1804440: ldr      w8, [x0, #0xe0] 
+1804444: cbnz     w8, #0x180444c 
+1804448: bl       #0xd329a4 
+180444c: mov      x0, x21 
+1804450: mov      x1, xzr 
+1804454: bl       #0x1aec390 public static bool IsFileExists(string filePath) { }
+1804458: ldr      x21, [x19, #0x20] 
+180445c: tbz      w0, #0, #0x18044f4 
+1804460: adrp     x8, #0x2cfd000 
+1804464: ldr      x8, [x8, #0x600] Onecore.Plugins.Utils.SimpleLoader.OnLoadFinished_TypeInfo
+1804468: ldr      x0, [x8] Onecore.Plugins.Utils.SimpleLoader.OnLoadFinished_TypeInfo
+180446c: bl       #0xd329c0 
+1804470: adrp     x8, #0x2ca9000 
+1804474: ldr      x8, [x8, #0xf08] Method$Driver.<>c__DisplayClass29_0.<CheckAndHandleClearPDRes>b__0()
+1804478: mov      x1, x21 
+180447c: mov      x3, xzr 
+1804480: mov      x22, x0 
+1804484: ldr      x2, [x8] Method$Driver.<>c__DisplayClass29_0.<CheckAndHandleClearPDRes>b__0()
+1804488: bl       #0x1afd220 public void .ctor(object object, IntPtr method) { }
+180448c: mov      w3, #1 
+1804490: mov      x0, x20 
+1804494: mov      x1, x22 
+1804498: mov      x2, xzr 
+180449c: mov      x4, xzr 
+18044a0: mov      w21, #1 
+18044a4: bl       #0x1afa7e4 public static IEnumerator Load(string filePath, SimpleLoader.OnLoadFinished onLoadFinished, SimpleLoader.OnProgress onProgress, bool isFindInPersistentDataPath = True) { }
+18044a8: str      x0, [x19, #0x18] 
+18044ac: str      w21, [x19, #0x10] 
+18044b0: b        #0x180493c 
+18044b4: mov      w8, #-1 
+18044b8: str      w8, [x19, #0x10] 
+18044bc: b        #0x1804500 
+18044c0: mov      w21, wzr 
+18044c4: mov      w8, #-1 
+18044c8: b        #0x1804938 
+18044cc: mov      w21, wzr 
+18044d0: b        #0x180493c 
+18044d4: ldr      x8, [x19, #0x20] 
+18044d8: cbz      x8, #0x1804954 
+18044dc: mov      w9, #1 
+18044e0: strb     w9, [x8, #0x19] 
+18044e4: ldr      x8, [x19, #0x20] 
+18044e8: cbz      x8, #0x1804954 
+18044ec: strb     wzr, [x8, #0x18] 
+18044f0: b        #0x1804500 
+18044f4: cbz      x21, #0x1804954 
+18044f8: mov      w8, #1 
+18044fc: strb     w8, [x21, #0x18] 
+1804500: adrp     x8, #0x2cbf000 
+1804504: ldr      x8, [x8, #0x5b8] Onecore.Plugins.Utils.PathUtils_TypeInfo
+1804508: ldr      x0, [x8] Onecore.Plugins.Utils.PathUtils_TypeInfo
+180450c: adrp     x8, #0x2ce0000 
+1804510: ldr      x8, [x8, #0xe8] appGRV_local.txt
+1804514: ldrb     w9, [x0, #0x12f] 
+1804518: ldr      x20, [x8] appGRV_local.txt
+180451c: tbz      w9, #1, #0x180452c 
+1804520: ldr      w8, [x0, #0xe0] 
+1804524: cbnz     w8, #0x180452c 
+1804528: bl       #0xd329a4 
+180452c: mov      x0, x20 
+1804530: mov      x1, xzr 
+1804534: bl       #0x1af6934 public static string GetPDResRealFilePath(string filePath) { }
+1804538: ldr      x8, [x19, #0x20] 
+180453c: cbz      x8, #0x1804954 
+1804540: ldrb     w9, [x8, #0x19] 
+1804544: cbz      w9, #0x18046c8 
+1804548: mov      x20, x0 
+180454c: mov      x0, xzr 
+1804550: bl       #0x1a65384 public static bool ClearCache() { }
+1804554: adrp     x8, #0x2cfc000 
+1804558: ldr      x8, [x8, #0x678] object[]_TypeInfo
+180455c: and      w22, w0, #1 
+1804560: mov      w1, #1 
+1804564: ldr      x8, [x8] object[]_TypeInfo
+1804568: mov      x0, x8 
+180456c: bl       #0xd32908 
+1804570: adrp     x8, #0x2ca2000 
+1804574: ldr      x8, [x8, #0xaf8] bool_TypeInfo
+1804578: mov      x21, x0 
+180457c: add      x1, sp, #0xc 
+1804580: strb     w22, [sp, #0xc] 
+1804584: ldr      x0, [x8] bool_TypeInfo
+1804588: bl       #0xd329b4 
+180458c: cbz      x21, #0x1804954 
+1804590: mov      x22, x0 
+1804594: cbz      x0, #0x18045ac 
+1804598: ldr      x8, [x21] 
+180459c: mov      x0, x22 
+18045a0: ldr      x1, [x8, #0x40] 
+18045a4: bl       #0xd329b0 
+18045a8: cbz      x0, #0x1804964 
+18045ac: ldr      w8, [x21, #0x18] 
+18045b0: cbz      w8, #0x1804958 
+18045b4: str      x22, [x21, #0x20] 
+18045b8: adrp     x8, #0x2cdb000 
+18045bc: ldr      x8, [x8, #0x8c8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+18045c0: ldr      x0, [x8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+18045c4: ldrb     w8, [x0, #0x12f] 
+18045c8: tbz      w8, #1, #0x18045d8 
+18045cc: ldr      w8, [x0, #0xe0] 
+18045d0: cbnz     w8, #0x18045d8 
+18045d4: bl       #0xd329a4 
+18045d8: adrp     x8, #0x2cf2000 
+18045dc: ldr      x8, [x8, #0x6e8] Caching Clean State: {0}
+18045e0: mov      x1, x21 
+18045e4: mov      x2, xzr 
+18045e8: ldr      x0, [x8] Caching Clean State: {0}
+18045ec: bl       #0x11aef04 public static void Warning(object message, object[] argv) { }
+18045f0: ldr      x8, [x19, #0x20] 
+18045f4: cbz      x8, #0x1804954 
+18045f8: adrp     x9, #0x2d0e000 
+18045fc: ldr      x9, [x9, #0x7b8] Onecore.Plugins.Utils.FileUtils_TypeInfo
+1804600: ldr      x21, [x8, #0x10] 
+1804604: ldr      x0, [x9] Onecore.Plugins.Utils.FileUtils_TypeInfo
+1804608: ldrb     w9, [x0, #0x12f] 
+180460c: tbz      w9, #1, #0x180461c 
+1804610: ldr      w8, [x0, #0xe0] 
+1804614: cbnz     w8, #0x180461c 
+1804618: bl       #0xd329a4 
+180461c: mov      x0, x20 
+1804620: mov      x1, x21 
+1804624: mov      x2, xzr 
+1804628: bl       #0x1aed0cc public static bool CreateTxtFile(string filePath, string content) { }
+180462c: adrp     x8, #0x2c75000 
+1804630: ldr      x8, [x8, #0x968] Method$System.Array.Empty<object>()
+1804634: ldr      x21, [x8] Method$System.Array.Empty<object>()
+1804638: ldr      x8, [x21, #0x30] 
+180463c: ldr      x20, [x8] 
+1804640: ldrh     w8, [x20, #0x12e] 
+1804644: tbnz     w8, #0, #0x1804654 
+1804648: mov      x0, x20 
+180464c: bl       #0xcd0740 
+1804650: ldrh     w8, [x20, #0x12e] 
+1804654: tbz      w8, #9, #0x1804698 
+1804658: ldr      x8, [x21, #0x30] 
+180465c: ldr      x20, [x8] 
+1804660: ldrb     w8, [x20, #0x12e] 
+1804664: tbnz     w8, #0, #0x1804670 
+1804668: mov      x0, x20 
+180466c: bl       #0xcd0740 
+1804670: ldr      w8, [x20, #0xe0] 
+1804674: cbnz     w8, #0x1804698 
+1804678: ldr      x8, [x21, #0x30] 
+180467c: ldr      x20, [x8] 
+1804680: ldrb     w8, [x20, #0x12e] 
+1804684: tbnz     w8, #0, #0x1804690 
+1804688: mov      x0, x20 
+180468c: bl       #0xcd0740 
+1804690: mov      x0, x20 
+1804694: bl       #0xd329a4 
+1804698: ldr      x8, [x21, #0x30] 
+180469c: ldr      x20, [x8] 
+18046a0: ldrb     w8, [x20, #0x12e] 
+18046a4: tbnz     w8, #0, #0x18046b0 
+18046a8: mov      x0, x20 
+18046ac: bl       #0xcd0740 
+18046b0: adrp     x9, #0x2cdc000 
+18046b4: ldr      x8, [x20, #0xb8] 
+18046b8: ldr      x9, [x9, #0x3d8] 游戏发布版本更新，写文件表明需要整理持久化目录版本资源
+18046bc: ldr      x1, [x8] 
+18046c0: ldr      x0, [x9] 游戏发布版本更新，写文件表明需要整理持久化目录版本资源
+18046c4: b        #0x18047a8 
+18046c8: adrp     x9, #0x2c75000 
+18046cc: ldr      x9, [x9, #0x968] Method$System.Array.Empty<object>()
+18046d0: ldrb     w21, [x8, #0x18] 
+18046d4: ldr      x22, [x9] Method$System.Array.Empty<object>()
+18046d8: ldr      x9, [x22, #0x30] 
+18046dc: ldr      x20, [x9] 
+18046e0: ldrh     w9, [x20, #0x12e] 
+18046e4: tbnz     w9, #0, #0x18046f4 
+18046e8: mov      x0, x20 
+18046ec: bl       #0xcd0740 
+18046f0: ldrh     w9, [x20, #0x12e] 
+18046f4: tbz      w9, #9, #0x1804738 
+18046f8: ldr      x8, [x22, #0x30] 
+18046fc: ldr      x20, [x8] 
+1804700: ldrb     w8, [x20, #0x12e] 
+1804704: tbnz     w8, #0, #0x1804710 
+1804708: mov      x0, x20 
+180470c: bl       #0xcd0740 
+1804710: ldr      w8, [x20, #0xe0] 
+1804714: cbnz     w8, #0x1804738 
+1804718: ldr      x8, [x22, #0x30] 
+180471c: ldr      x20, [x8] 
+1804720: ldrb     w8, [x20, #0x12e] 
+1804724: tbnz     w8, #0, #0x1804730 
+1804728: mov      x0, x20 
+180472c: bl       #0xcd0740 
+1804730: mov      x0, x20 
+1804734: bl       #0xd329a4 
+1804738: ldr      x8, [x22, #0x30] 
+180473c: ldr      x20, [x8] 
+1804740: ldrb     w8, [x20, #0x12e] 
+1804744: tbnz     w8, #0, #0x1804750 
+1804748: mov      x0, x20 
+180474c: bl       #0xcd0740 
+1804750: adrp     x9, #0x2cdb000 
+1804754: ldr      x8, [x20, #0xb8] 
+1804758: ldr      x9, [x9, #0x8c8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+180475c: ldr      x20, [x8] 
+1804760: ldr      x0, [x9] Onecore.Plugins.Base.BaseLogger_TypeInfo
+1804764: ldrh     w8, [x0, #0x12e] 
+1804768: cbz      w21, #0x1804788 
+180476c: tbz      w8, #9, #0x180477c 
+1804770: ldr      w8, [x0, #0xe0] 
+1804774: cbnz     w8, #0x180477c 
+1804778: bl       #0xd329a4 
+180477c: adrp     x8, #0x2cc9000 
+1804780: ldr      x8, [x8, #0xa68] 持久化目录中无UrlList文件，不进行游戏发布版本对比，不处理持久化目录中的资源
+1804784: b        #0x18047a0 
+1804788: tbz      w8, #9, #0x1804798 
+180478c: ldr      w8, [x0, #0xe0] 
+1804790: cbnz     w8, #0x1804798 
+1804794: bl       #0xd329a4 
+1804798: adrp     x8, #0x2ca0000 
+180479c: ldr      x8, [x8, #0x370] 游戏发布版本不变，不处理持久化目录中的资源
+18047a0: ldr      x0, [x8] 游戏发布版本不变，不处理持久化目录中的资源
+18047a4: mov      x1, x20 
+18047a8: mov      x2, xzr 
+18047ac: bl       #0x11af70c public static void Info(object message, object[] argv) { }
+18047b0: ldr      x8, [x19, #0x20] 
+18047b4: cbz      x8, #0x1804954 
+18047b8: ldrb     w8, [x8, #0x18] 
+18047bc: cbz      w8, #0x18048e8 
+18047c0: adrp     x21, #0x2cbf000 
+18047c4: ldr      x21, [x21, #0xfa0] Onecore.Plugins.Common.DriverConfig_TypeInfo
+18047c8: ldr      x20, [x19, #0x28] 
+18047cc: ldr      x0, [x21] Onecore.Plugins.Common.DriverConfig_TypeInfo
+18047d0: ldrb     w8, [x0, #0x12f] 
+18047d4: tbz      w8, #1, #0x18047e8 
+18047d8: ldr      w8, [x0, #0xe0] 
+18047dc: cbnz     w8, #0x18047e8 
+18047e0: bl       #0xd329a4 
+18047e4: ldr      x0, [x21] Onecore.Plugins.Common.DriverConfig_TypeInfo
+18047e8: adrp     x8, #0x2d0e000 
+18047ec: ldr      x8, [x8, #0x7b8] Onecore.Plugins.Utils.FileUtils_TypeInfo
+18047f0: ldr      x9, [x0, #0xb8] 
+18047f4: ldr      x8, [x8] Onecore.Plugins.Utils.FileUtils_TypeInfo
+18047f8: ldr      x21, [x9, #8] 
+18047fc: ldrb     w10, [x8, #0x12f] 
+1804800: tbz      w10, #1, #0x1804814 
+1804804: ldr      w9, [x8, #0xe0] 
+1804808: cbnz     w9, #0x1804814 
+180480c: mov      x0, x8 
+1804810: bl       #0xd329a4 
+1804814: mov      x0, x20 
+1804818: mov      x1, x21 
+180481c: mov      x2, xzr 
+1804820: bl       #0x1aed8a4 public static bool CreateBinFile(string filePath, byte[] content) { }
+1804824: adrp     x8, #0x2c75000 
+1804828: ldr      x8, [x8, #0x968] Method$System.Array.Empty<object>()
+180482c: ldr      x21, [x8] Method$System.Array.Empty<object>()
+1804830: ldr      x8, [x21, #0x30] 
+1804834: ldr      x20, [x8] 
+1804838: ldrh     w8, [x20, #0x12e] 
+180483c: tbnz     w8, #0, #0x180484c 
+1804840: mov      x0, x20 
+1804844: bl       #0xcd0740 
+1804848: ldrh     w8, [x20, #0x12e] 
+180484c: tbz      w8, #9, #0x1804890 
+1804850: ldr      x8, [x21, #0x30] 
+1804854: ldr      x20, [x8] 
+1804858: ldrb     w8, [x20, #0x12e] 
+180485c: tbnz     w8, #0, #0x1804868 
+1804860: mov      x0, x20 
+1804864: bl       #0xcd0740 
+1804868: ldr      w8, [x20, #0xe0] 
+180486c: cbnz     w8, #0x1804890 
+1804870: ldr      x8, [x21, #0x30] 
+1804874: ldr      x20, [x8] 
+1804878: ldrb     w8, [x20, #0x12e] 
+180487c: tbnz     w8, #0, #0x1804888 
+1804880: mov      x0, x20 
+1804884: bl       #0xcd0740 
+1804888: mov      x0, x20 
+180488c: bl       #0xd329a4 
+1804890: ldr      x8, [x21, #0x30] 
+1804894: ldr      x20, [x8] 
+1804898: ldrb     w8, [x20, #0x12e] 
+180489c: tbnz     w8, #0, #0x18048a8 
+18048a0: mov      x0, x20 
+18048a4: bl       #0xcd0740 
+18048a8: adrp     x8, #0x2cdb000 
+18048ac: ldr      x8, [x8, #0x8c8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+18048b0: ldr      x0, [x8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+18048b4: ldr      x8, [x20, #0xb8] 
+18048b8: ldrb     w9, [x0, #0x12f] 
+18048bc: ldr      x20, [x8] 
+18048c0: tbz      w9, #1, #0x18048d0 
+18048c4: ldr      w8, [x0, #0xe0] 
+18048c8: cbnz     w8, #0x18048d0 
+18048cc: bl       #0xd329a4 
+18048d0: adrp     x8, #0x2c83000 
+18048d4: ldr      x8, [x8, #0x688] 将包中的UrlList提取到持久化路径
+18048d8: mov      x1, x20 
+18048dc: mov      x2, xzr 
+18048e0: ldr      x0, [x8] 将包中的UrlList提取到持久化路径
+18048e4: bl       #0x11af70c public static void Info(object message, object[] argv) { }
+18048e8: adrp     x20, #0x2cbf000 
+18048ec: ldr      x20, [x20, #0xfa0] Onecore.Plugins.Common.DriverConfig_TypeInfo
+18048f0: ldr      x0, [x20] Onecore.Plugins.Common.DriverConfig_TypeInfo
+18048f4: ldrb     w8, [x0, #0x12f] 
+18048f8: tbz      w8, #1, #0x180490c 
+18048fc: ldr      w8, [x0, #0xe0] 
+1804900: cbnz     w8, #0x180490c 
+1804904: bl       #0xd329a4 
+1804908: ldr      x0, [x20] Onecore.Plugins.Common.DriverConfig_TypeInfo
+180490c: ldr      x8, [x0, #0xb8] 
+1804910: mov      w21, #1 
+1804914: add      x1, sp, #8 
+1804918: str      xzr, [x8, #8] 
+180491c: adrp     x8, #0x2ca2000 
+1804920: ldr      x8, [x8, #0xaf8] bool_TypeInfo
+1804924: strb     w21, [sp, #8] 
+1804928: ldr      x0, [x8] bool_TypeInfo
+180492c: bl       #0xd329b4 
+1804930: str      x0, [x19, #0x18] 
+1804934: mov      w8, #2 
+1804938: str      w8, [x19, #0x10] 
+180493c: mov      w0, w21 
+1804940: ldp      x29, x30, [sp, #0x30] 
+1804944: ldp      x20, x19, [sp, #0x20] 
+1804948: ldp      x22, x21, [sp, #0x10] 
+180494c: add      sp, sp, #0x40 
+1804950: ret       
+1804954: bl       #0xd329c8 
+1804958: bl       #0xd329f4 
+180495c: mov      x1, xzr 
+1804960: bl       #0xd32994 
+1804964: bl       #0xd329e8 
+1804968: mov      x1, xzr 
+180496c: bl       #0xd32994 

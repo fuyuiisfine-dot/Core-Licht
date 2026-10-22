@@ -1,0 +1,57 @@
+
+public override void Send(byte[] body, byte sId, byte mId) { }
+f44054: stp      x24, x23, [sp, #-0x40]! 
+f44058: stp      x22, x21, [sp, #0x10] 
+f4405c: stp      x20, x19, [sp, #0x20] 
+f44060: stp      x29, x30, [sp, #0x30] 
+f44064: add      x29, sp, #0x30 
+f44068: adrp     x23, #0x2e7e000 
+f4406c: ldrb     w8, [x23, #0xd2b] 
+f44070: mov      w19, w3 
+f44074: mov      w21, w2 
+f44078: mov      x22, x1 
+f4407c: mov      x20, x0 
+f44080: tbnz     w8, #0, #0xf4409c 
+f44084: adrp     x8, #0x2cd5000 
+f44088: ldr      x8, [x8, #0xb50] 
+f4408c: ldr      w0, [x8] 
+f44090: bl       #0xd328f8 
+f44094: mov      w8, #1 
+f44098: strb     w8, [x23, #0xd2b] 
+f4409c: adrp     x24, #0x2c9b000 
+f440a0: ldr      x24, [x24, #0xc80] Onecore.OnecoreEngine.Game.SNTCPClient_TypeInfo
+f440a4: ldr      w23, [x20, #0x28] 
+f440a8: ldr      x0, [x24] Onecore.OnecoreEngine.Game.SNTCPClient_TypeInfo
+f440ac: ldrb     w8, [x0, #0x12f] 
+f440b0: tbz      w8, #1, #0xf440c4 
+f440b4: ldr      w8, [x0, #0xe0] 
+f440b8: cbnz     w8, #0xf440c4 
+f440bc: bl       #0xd329a4 
+f440c0: ldr      x0, [x24] Onecore.OnecoreEngine.Game.SNTCPClient_TypeInfo
+f440c4: ldr      x8, [x0, #0xb8] 
+f440c8: ldr      w8, [x8, #0xc] 
+f440cc: cmp      w23, w8 
+f440d0: b.ne     #0xf44118 
+f440d4: ldr      x0, [x20, #0x30] 
+f440d8: cbz      x0, #0xf4412c 
+f440dc: mov      x1, x22 
+f440e0: mov      w2, w21 
+f440e4: mov      w3, w19 
+f440e8: mov      x4, xzr 
+f440ec: bl       #0x1585d1c public SNBuffer GenC2SPacket(byte[] bodyData, byte sectionId, byte methodId) { }
+f440f0: ldr      x8, [x20, #0x10] 
+f440f4: cbz      x8, #0xf4412c 
+f440f8: ldp      x29, x30, [sp, #0x30] 
+f440fc: ldp      x20, x19, [sp, #0x20] 
+f44100: ldp      x22, x21, [sp, #0x10] 
+f44104: mov      x1, x0 
+f44108: mov      x0, x8 
+f4410c: mov      x2, xzr 
+f44110: ldp      x24, x23, [sp], #0x40 
+f44114: b        #0x1589210 
+f44118: ldp      x29, x30, [sp, #0x30] 
+f4411c: ldp      x20, x19, [sp, #0x20] 
+f44120: ldp      x22, x21, [sp, #0x10] 
+f44124: ldp      x24, x23, [sp], #0x40 
+f44128: ret       
+f4412c: bl       #0xd329c8 

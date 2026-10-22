@@ -1,0 +1,1071 @@
+{
+  "source": "x.Config.Excel.tw.DataTable_open_func_TextAsset_-2066120029860635719.bin",
+  "sha256": "bcbfeee27ad31259c7aefbcbfa7331b4160d55caa705859533eb5e0829b43700",
+  "getter": "GetSysopen_func",
+  "data": {
+    "1": {
+      "showIcon": "",
+      "desc": "設定",
+      "showFlag": 0,
+      "open_limit": [],
+      "id": 1,
+      "noOpenTips": ""
+    },
+    "3": {
+      "showIcon": "",
+      "desc": "郵件",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10001
+        ]
+      ],
+      "id": 3,
+      "noOpenTips": "通關穹境遠途0-1開啟"
+    },
+    "4": {
+      "showIcon": "",
+      "desc": "新手簽到",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          1,
+          1
+        ]
+      ],
+      "id": 4,
+      "noOpenTips": "通關穹境遠途序章開啟"
+    },
+    "5": {
+      "showIcon": "",
+      "desc": "活動簽到",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          1,
+          1
+        ]
+      ],
+      "id": 5,
+      "noOpenTips": "指揮官等級達到100級開啟"
+    },
+    "6": {
+      "showIcon": "",
+      "desc": "日常簽到",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          20005
+        ]
+      ],
+      "id": 6,
+      "noOpenTips": "通關穹境遠途序章開啟"
+    },
+    "7": {
+      "showIcon": "",
+      "desc": "公告",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          1,
+          1
+        ]
+      ],
+      "id": 7,
+      "noOpenTips": "施工中，請繞行  =。="
+    },
+    "15": {
+      "showIcon": "",
+      "desc": "作戰",
+      "showFlag": 0,
+      "open_limit": [],
+      "id": 15,
+      "noOpenTips": "初始預設開啟"
+    },
+    "16": {
+      "showIcon": "",
+      "desc": "招募",
+      "showFlag": 0,
+      "open_limit": [],
+      "id": 16,
+      "noOpenTips": "初始預設開啟"
+    },
+    "17": {
+      "showIcon": "",
+      "desc": "任務",
+      "showFlag": 0,
+      "open_limit": [],
+      "id": 17,
+      "noOpenTips": "初始預設開啟"
+    },
+    "18": {
+      "showIcon": "",
+      "desc": "採購",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10001
+        ]
+      ],
+      "id": 18,
+      "noOpenTips": "通關穹境遠途0-1後開啟商店"
+    },
+    "19": {
+      "showIcon": "",
+      "desc": "稟賦",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          1,
+          100
+        ]
+      ],
+      "id": 19,
+      "noOpenTips": "施工中，請繞行  =。="
+    },
+    "20": {
+      "showIcon": "",
+      "desc": "適格者",
+      "showFlag": 0,
+      "open_limit": [],
+      "id": 20,
+      "noOpenTips": "初始預設開啟"
+    },
+    "21": {
+      "showIcon": "",
+      "desc": "編隊",
+      "showFlag": 0,
+      "open_limit": [],
+      "id": 21,
+      "noOpenTips": "初始預設開啟"
+    },
+    "22": {
+      "showIcon": "",
+      "desc": "倉庫",
+      "showFlag": 0,
+      "open_limit": [],
+      "id": 22,
+      "noOpenTips": "初始預設開啟"
+    },
+    "24": {
+      "showIcon": "common_c_icon_play_04",
+      "desc": "閃存集測",
+      "showFlag": 1,
+      "open_limit": [
+        [
+          3,
+          10301
+        ]
+      ],
+      "id": 24,
+      "noOpenTips": "通關穹境遠途3-1開啟"
+    },
+    "28": {
+      "showIcon": "",
+      "desc": "支線劇情",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          1,
+          100
+        ]
+      ],
+      "id": 28,
+      "noOpenTips": "施工中，請繞行  =。="
+    },
+    "29": {
+      "showIcon": "common_c_icon_play_02",
+      "desc": "據地巡維",
+      "showFlag": 1,
+      "open_limit": [
+        [
+          3,
+          10404
+        ]
+      ],
+      "id": 29,
+      "noOpenTips": "通關穹境遠途4-4開啟"
+    },
+    "30": {
+      "showIcon": "",
+      "desc": "日常副本",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          6,
+          10104
+        ]
+      ],
+      "id": 30,
+      "noOpenTips": "通關穹境遠途1-4開啟"
+    },
+    "31": {
+      "showIcon": "",
+      "desc": "稟賦_研發任務",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          1,
+          100
+        ]
+      ],
+      "id": 31,
+      "noOpenTips": "施工中，請繞行  =。="
+    },
+    "32": {
+      "showIcon": "",
+      "desc": "稟賦開啟",
+      "showFlag": 0,
+      "open_limit": [],
+      "id": 32,
+      "noOpenTips": "初始預設開啟"
+    },
+    "33": {
+      "showIcon": "",
+      "desc": "稟賦升級",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          1,
+          100
+        ]
+      ],
+      "id": 33,
+      "noOpenTips": "施工中，請繞行  =。="
+    },
+    "34": {
+      "showIcon": "",
+      "desc": "稟賦升星",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          1,
+          100
+        ]
+      ],
+      "id": 34,
+      "noOpenTips": "施工中，請繞行  =。="
+    },
+    "35": {
+      "showIcon": "",
+      "desc": "稟賦天賦",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          1,
+          100
+        ]
+      ],
+      "id": 35,
+      "noOpenTips": "施工中，請繞行  =。="
+    },
+    "36": {
+      "showIcon": "",
+      "desc": "稟賦_特殊研發",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          1,
+          100
+        ]
+      ],
+      "id": 36,
+      "noOpenTips": "施工中，請繞行  =。="
+    },
+    "37": {
+      "showIcon": "",
+      "desc": "稟賦_秘密研發",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          1,
+          100
+        ]
+      ],
+      "id": 37,
+      "noOpenTips": "施工中，請繞行  =。="
+    },
+    "40": {
+      "showIcon": "common_c_icon_play_03",
+      "desc": "空島",
+      "showFlag": 1,
+      "open_limit": [
+        [
+          3,
+          10210
+        ]
+      ],
+      "id": 40,
+      "noOpenTips": "通關穹境遠途2-10開啟"
+    },
+    "41": {
+      "showIcon": "",
+      "desc": "戰令",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          120101
+        ]
+      ],
+      "id": 41,
+      "noOpenTips": "通關穹境遠途PL-1-1開啟"
+    },
+    "42": {
+      "showIcon": "common_c_icon_play_05",
+      "desc": "危地探索",
+      "showFlag": 1,
+      "open_limit": [
+        [
+          1,
+          999
+        ]
+      ],
+      "id": 42,
+      "noOpenTips": "本次測試暫不開啟"
+    },
+    "43": {
+      "showIcon": "",
+      "desc": "新手目標",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          1,
+          1
+        ]
+      ],
+      "id": 43,
+      "noOpenTips": "通關穹境遠途0-7開啟"
+    },
+    "44": {
+      "showIcon": "",
+      "desc": "信用系統",
+      "showFlag": 0,
+      "open_limit": [],
+      "id": 44,
+      "noOpenTips": "施工中，請繞行  =。="
+    },
+    "45": {
+      "showIcon": "",
+      "desc": "自動作戰",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10102
+        ]
+      ],
+      "id": 45,
+      "noOpenTips": "通關穹境遠途1-2開啟"
+    },
+    "46": {
+      "showIcon": "",
+      "desc": "閃存體",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10201
+        ]
+      ],
+      "id": 46,
+      "noOpenTips": "通關穹境遠途2-1開啟"
+    },
+    "47": {
+      "showIcon": "",
+      "desc": "閃存倉庫",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10201
+        ]
+      ],
+      "id": 47,
+      "noOpenTips": "通關穹境遠途2-1開啟"
+    },
+    "48": {
+      "showIcon": "",
+      "desc": "問卷",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10110
+        ]
+      ],
+      "id": 48,
+      "noOpenTips": "通關穹境遠途1-10開啟"
+    },
+    "49": {
+      "showIcon": "",
+      "desc": "任務派遣",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          1,
+          100
+        ]
+      ],
+      "id": 49,
+      "noOpenTips": "施工中，請繞行  =。="
+    },
+    "50": {
+      "showIcon": "",
+      "desc": "超體任務",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10005
+        ]
+      ],
+      "id": 50,
+      "noOpenTips": "通關穹境遠途0-5開啟"
+    },
+    "51": {
+      "showIcon": "common_c_icon_play_03",
+      "desc": "空島合成站",
+      "showFlag": 1,
+      "open_limit": [
+        [
+          3,
+          10308
+        ]
+      ],
+      "id": 51,
+      "noOpenTips": "通關穹境遠途3-8開啟"
+    },
+    "52": {
+      "showIcon": "",
+      "desc": "圖鑑",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10204
+        ]
+      ],
+      "id": 52,
+      "noOpenTips": "通關穹境遠途2-4開啟"
+    },
+    "53": {
+      "showIcon": "",
+      "desc": "任務派遣",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          1,
+          100
+        ]
+      ],
+      "id": 53,
+      "noOpenTips": "施工中，請繞行  =。="
+    },
+    "54": {
+      "showIcon": "",
+      "desc": "超體",
+      "showFlag": 0,
+      "open_limit": [],
+      "id": 54,
+      "noOpenTips": "初始預設開啟"
+    },
+    "55": {
+      "showIcon": "common_c_icon_play_07",
+      "desc": "虛像競技",
+      "showFlag": 1,
+      "open_limit": [
+        [
+          3,
+          10406
+        ]
+      ],
+      "id": 55,
+      "noOpenTips": "通關穹境遠途4-6開啟"
+    },
+    "56": {
+      "showIcon": "",
+      "desc": "挑戰副本",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10408
+        ]
+      ],
+      "id": 56,
+      "noOpenTips": "通關穹境遠途4-8開啟"
+    },
+    "57": {
+      "showIcon": "",
+      "desc": "撤退按鈕",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10104
+        ]
+      ],
+      "id": 57,
+      "noOpenTips": "通關穹境遠途0-7開啟"
+    },
+    "58": {
+      "showIcon": "",
+      "desc": "兌換碼",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10007
+        ]
+      ],
+      "id": 58,
+      "noOpenTips": "通關穹境遠途0-7開啟"
+    },
+    "59": {
+      "showIcon": "",
+      "desc": "模擬攻防戰",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          1,
+          100
+        ]
+      ],
+      "id": 59,
+      "noOpenTips": "施工中，請繞行  =。="
+    },
+    "60": {
+      "showIcon": "",
+      "desc": "掃蕩",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          1,
+          100
+        ]
+      ],
+      "id": 60,
+      "noOpenTips": "指揮官等級100級開啟"
+    },
+    "61": {
+      "showIcon": "",
+      "desc": "多倍挑戰",
+      "showFlag": 0,
+      "open_limit": [],
+      "id": 61,
+      "noOpenTips": "施工中，請繞行  =。="
+    },
+    "62": {
+      "showIcon": "",
+      "desc": "模擬儲值",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          1,
+          100
+        ]
+      ],
+      "id": 62,
+      "noOpenTips": "施工中，請繞行  =。="
+    },
+    "63": {
+      "showIcon": "",
+      "desc": "精神溫養",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          20005
+        ]
+      ],
+      "id": 63,
+      "noOpenTips": "通關序章解鎖"
+    },
+    "64": {
+      "showIcon": "",
+      "desc": "每日抽獎",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          1,
+          101
+        ]
+      ],
+      "id": 64,
+      "noOpenTips": "施工中，請繞行  =。="
+    },
+    "65": {
+      "showIcon": "",
+      "desc": "好友/空島通訊系統",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10204
+        ]
+      ],
+      "id": 65,
+      "noOpenTips": "通關穹境遠途2-4開啟"
+    },
+    "66": {
+      "showIcon": "",
+      "desc": "好友助戰一",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10303
+        ]
+      ],
+      "id": 66,
+      "noOpenTips": "通關穹境遠途3-3開啟"
+    },
+    "67": {
+      "showIcon": "",
+      "desc": "好友助戰二",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          5,
+          [
+            10004,
+            2
+          ]
+        ]
+      ],
+      "id": 67,
+      "noOpenTips": "空島通訊系統2級開啟"
+    },
+    "68": {
+      "showIcon": "",
+      "desc": "好友助戰三",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          5,
+          [
+            10004,
+            3
+          ]
+        ]
+      ],
+      "id": 68,
+      "noOpenTips": "空島通訊系統3級開啟"
+    },
+    "69": {
+      "showIcon": "",
+      "desc": "好友助戰四",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          5,
+          [
+            10004,
+            4
+          ]
+        ]
+      ],
+      "id": 69,
+      "noOpenTips": "空島通訊系統4級開啟"
+    },
+    "70": {
+      "showIcon": "",
+      "desc": "日常任務",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          120101
+        ]
+      ],
+      "id": 70,
+      "noOpenTips": "通關穹境遠途PL-1-1開啟"
+    },
+    "71": {
+      "showIcon": "",
+      "desc": "周常任務",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          120101
+        ]
+      ],
+      "id": 71,
+      "noOpenTips": "通關穹境遠途PL-1-1開啟"
+    },
+    "72": {
+      "showIcon": "",
+      "desc": "頭像",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          20005
+        ]
+      ],
+      "id": 72,
+      "noOpenTips": "通關穹境遠途序章開啟"
+    },
+    "73": {
+      "showIcon": "",
+      "desc": "加速按鈕",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10002
+        ]
+      ],
+      "id": 73,
+      "noOpenTips": "通關穹境遠途0-2開啟"
+    },
+    "74": {
+      "showIcon": "",
+      "desc": "切換視角按鈕",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10006
+        ]
+      ],
+      "id": 74,
+      "noOpenTips": "通關穹境遠途0-6開啟"
+    },
+    "75": {
+      "showIcon": "",
+      "desc": "貿易系統家具訂單",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10208
+        ]
+      ],
+      "id": 75,
+      "noOpenTips": "通關穹境遠途2-8開啟"
+    },
+    "76": {
+      "showIcon": "",
+      "desc": "超體槽位一",
+      "showFlag": 0,
+      "open_limit": [],
+      "id": 76,
+      "noOpenTips": ""
+    },
+    "77": {
+      "showIcon": "",
+      "desc": "超體槽位二",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10006
+        ]
+      ],
+      "id": 77,
+      "noOpenTips": "通關0-6後解鎖"
+    },
+    "78": {
+      "showIcon": "",
+      "desc": "超體槽位三",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10202
+        ]
+      ],
+      "id": 78,
+      "noOpenTips": "通關2-2後解鎖"
+    },
+    "79": {
+      "showIcon": "",
+      "desc": "貿易系統",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          5,
+          [
+            10001,
+            1
+          ]
+        ]
+      ],
+      "id": 79,
+      "noOpenTips": "空島開啟"
+    },
+    "80": {
+      "showIcon": "",
+      "desc": "關閉放置角色提示",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10001
+        ]
+      ],
+      "id": 80,
+      "noOpenTips": "通關穹境遠途3-8關閉"
+    },
+    "81": {
+      "showIcon": "",
+      "desc": "策略探索副本",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10205
+        ]
+      ],
+      "id": 81,
+      "noOpenTips": "通關穹境遠途2-5開啟"
+    },
+    "82": {
+      "showIcon": "",
+      "desc": "福利",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          20005
+        ]
+      ],
+      "id": 82,
+      "noOpenTips": "通關穹境遠途序章開啟"
+    },
+    "83": {
+      "showIcon": "",
+      "desc": "通關3-8送千儀",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          20005
+        ]
+      ],
+      "id": 83,
+      "noOpenTips": "通關穹境遠途序章開啟"
+    },
+    "84": {
+      "showIcon": "",
+      "desc": "貿易系統機器訂單",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          5,
+          [
+            10002,
+            1
+          ]
+        ]
+      ],
+      "id": 84,
+      "noOpenTips": "貿易系統開啟"
+    },
+    "85": {
+      "showIcon": "",
+      "desc": "空島榮譽室",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10204
+        ]
+      ],
+      "id": 85,
+      "noOpenTips": "通關穹境遠途2-4開啟"
+    },
+    "86": {
+      "showIcon": "",
+      "desc": "驚喜事件",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10408
+        ]
+      ],
+      "id": 86,
+      "noOpenTips": "驚喜事件開啟"
+    },
+    "87": {
+      "showIcon": "",
+      "desc": "多人BOSS",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10408
+        ]
+      ],
+      "id": 87,
+      "noOpenTips": "通關穹境遠途4-8開啟"
+    },
+    "88": {
+      "showIcon": "",
+      "desc": "特別篇章",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10610
+        ]
+      ],
+      "id": 88,
+      "noOpenTips": "通關穹境遠途6-10開啟"
+    },
+    "89": {
+      "showIcon": "",
+      "desc": "洄游迷途",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10110
+        ]
+      ],
+      "id": 89,
+      "noOpenTips": "通關穹境遠途1-10開啟"
+    },
+    "90": {
+      "showIcon": "",
+      "desc": "開服活動特別篇章",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          1,
+          9999
+        ]
+      ],
+      "id": 90,
+      "noOpenTips": "施工中，敬請期待"
+    },
+    "91": {
+      "showIcon": "",
+      "desc": "據地巡維巡邏派遣",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          [
+            50103,
+            50203,
+            50303
+          ]
+        ]
+      ],
+      "id": 91,
+      "noOpenTips": "通關任一城市的第三個關卡開啟"
+    },
+    "92": {
+      "showIcon": "",
+      "desc": "怪物出生進度條",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10006
+        ]
+      ],
+      "id": 92,
+      "noOpenTips": "通關穹境遠途0-6開啟"
+    },
+    "93": {
+      "showIcon": "",
+      "desc": "開服活動-履職賀禮",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10002
+        ]
+      ],
+      "id": 93,
+      "noOpenTips": "通關穹境遠途0-2開啟"
+    },
+    "94": {
+      "showIcon": "",
+      "desc": "14日簽到",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10002
+        ]
+      ],
+      "id": 94,
+      "noOpenTips": "通關穹境遠途0-2開啟"
+    },
+    "95": {
+      "showIcon": "",
+      "desc": "映像拾遺",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10110
+        ]
+      ],
+      "id": 95,
+      "noOpenTips": "通關穹境遠途1-10開啟"
+    },
+    "96": {
+      "showIcon": "",
+      "desc": "戰鬥詳情的閃存體顯示",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10210
+        ]
+      ],
+      "id": 96,
+      "noOpenTips": "通關穹境遠途2-10開啟"
+    },
+    "97": {
+      "showIcon": "",
+      "desc": "T系统限時一次性觸發彈窗",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          3,
+          10002
+        ]
+      ],
+      "id": 97,
+      "noOpenTips": "通關穹境遠途0-2開啟"
+    },
+    "98": {
+      "showIcon": "",
+      "desc": "組隊4v4玩法",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          1,
+          100
+        ]
+      ],
+      "id": 98,
+      "noOpenTips": "指揮官等級達到100級開啟"
+    },
+    "99": {
+      "showIcon": "",
+      "desc": "拍照功能",
+      "showFlag": 0,
+      "open_limit": [
+        [
+          1,
+          9999
+        ]
+      ],
+      "id": 99,
+      "noOpenTips": "指揮官等級達到1級開啟"
+    }
+  }
+}

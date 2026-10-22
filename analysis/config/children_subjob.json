@@ -1,0 +1,197 @@
+{
+  "source": "x.Config.Excel.tw.DataTable_children_subjob_TextAsset_-1384223409891399302.bin",
+  "sha256": "8ab40604304072ab2f6319760894ef478a4a5ee47801fec4479b2ba99d5e7d9d",
+  "numbered_parts": {},
+  "getter": "GetSyschildren_subjob",
+  "data": {
+    "201|=|2": {
+      "name": "掃蕩",
+      "icon": "saodang",
+      "fight_job": 2,
+      "illustration": "擅長對敵方群體造成傷害",
+      "id": 201
+    },
+    "504|=|5": {
+      "name": "滲透",
+      "icon": "shentou",
+      "fight_job": 5,
+      "illustration": "擅長綜合戰鬥",
+      "id": 504
+    },
+    "704|=|7": {
+      "name": "破襲",
+      "icon": "poxi",
+      "fight_job": 7,
+      "illustration": "自身有較高的移動速度，同時攻擊目標僅為敵方建築",
+      "id": 704
+    },
+    "402|=|4": {
+      "name": "廣域投射",
+      "icon": "guangyu",
+      "fight_job": 4,
+      "illustration": "普通攻擊造成遠端群體異能傷害",
+      "id": 402
+    },
+    "102|=|1": {
+      "name": "攻堅者",
+      "icon": "gongjian",
+      "fight_job": 1,
+      "illustration": "攻擊目標僅為敵方建築，對建築類單位造成的傷害提高70%，在虛像競技中生命值額外提高410%",
+      "id": 102
+    },
+    "501|=|5": {
+      "name": "引爆",
+      "icon": "yinbao",
+      "fight_job": 5,
+      "illustration": "擅長造成群體傷害，技能結束後撤退",
+      "id": 501
+    },
+    "701|=|7": {
+      "name": "齊射",
+      "icon": "qishe",
+      "fight_job": 7,
+      "illustration": "部署後形成遠端小隊作戰，無法被調遣，造成傷害時無視目標100%防禦，在虛像競技中傷害額外提高20%",
+      "id": 701
+    },
+    "903|=|9": {
+      "name": "戰鬥幕僚",
+      "icon": "muliao",
+      "fight_job": 9,
+      "illustration": "隨時間獲得部署費用",
+      "id": 903
+    },
+    "902|=|9": {
+      "name": "偵察兵",
+      "icon": "zhencha",
+      "fight_job": 9,
+      "illustration": "釋放技能後獲得部署費用",
+      "id": 902
+    },
+    "801|=|8": {
+      "name": "陣地",
+      "icon": "zhendi",
+      "fight_job": 8,
+      "illustration": "擅長阻擊敵方單位",
+      "id": 801
+    },
+    "901|=|9": {
+      "name": "獵兵",
+      "icon": "liebing",
+      "fight_job": 9,
+      "illustration": "擊敗敵人後獲得部署費用",
+      "id": 901
+    },
+    "502|=|5": {
+      "name": "抹殺",
+      "icon": "mosha",
+      "fight_job": 5,
+      "illustration": "擅長造成單體傷害，技能結束後撤退",
+      "id": 502
+    },
+    "301|=|3": {
+      "name": "淨空射手",
+      "icon": "jingkong",
+      "fight_job": 3,
+      "illustration": "普通攻擊造成遠端單體物理傷害，優先對空並且對其造成30%額外傷害",
+      "id": 301
+    },
+    "303|=|3": {
+      "name": "重擊射手",
+      "icon": "zhongji",
+      "fight_job": 3,
+      "illustration": "普通攻擊造成遠端單體物理傷害，擅長對生存能力高的怪物造成傷害",
+      "id": 303
+    },
+    "203|=|2": {
+      "name": "決鬥",
+      "icon": "juedou",
+      "fight_job": 2,
+      "illustration": "擅長對敵方單體造成傷害，在虛像競技中普攻造成傷害額外提高75%，最大生命值減少20%",
+      "id": 203
+    },
+    "302|=|3": {
+      "name": "壓制射手",
+      "icon": "yazhi",
+      "fight_job": 3,
+      "illustration": "普通攻擊造成遠端群體物理傷害",
+      "id": 302
+    },
+    "803|=|8": {
+      "name": "軍旗",
+      "icon": "junqi",
+      "fight_job": 8,
+      "illustration": "部署後對全場友方單位施加增益",
+      "id": 803
+    },
+    "602|=|6": {
+      "name": "群療醫師",
+      "icon": "qunliao",
+      "fight_job": 6,
+      "illustration": "擅長群體治療，在虛像競技中費用-4，普攻治療效果下降70%，受到傷害提高100%",
+      "id": 602
+    },
+    "703|=|7": {
+      "name": "鼓動",
+      "icon": "gudong",
+      "fight_job": 7,
+      "illustration": "部署後為隊友提供增益/減益效果支持",
+      "id": 703
+    },
+    "702|=|7": {
+      "name": "圍攻",
+      "icon": "weigong",
+      "fight_job": 7,
+      "illustration": "部署後形成小隊作戰，無法被調遣，造成傷害時無視目標100%防禦，在虛像競技中傷害額外提高20%",
+      "id": 702
+    },
+    "401|=|4": {
+      "name": "聚焦投射",
+      "icon": "jujiao",
+      "fight_job": 4,
+      "illustration": "普通攻擊造成遠端單體異能傷害",
+      "id": 401
+    },
+    "202|=|2": {
+      "name": "終結",
+      "icon": "zhongjie",
+      "fight_job": 2,
+      "illustration": "擅長對敵方單體造成傷害，並擁有較強的生存能力，在虛像競技中造成傷害額外提高65%",
+      "id": 202
+    },
+    "503|=|5": {
+      "name": "督戰",
+      "icon": "duzhan",
+      "fight_job": 5,
+      "illustration": "擅長綜合輔助，技能結束後撤退",
+      "id": 503
+    },
+    "802|=|8": {
+      "name": "工坊",
+      "icon": "gongfang",
+      "fight_job": 8,
+      "illustration": "召喚單位造成傷害且無視目標100%防禦力，自身不會主動攻擊，死亡時立即發動1次技能",
+      "id": 802
+    },
+    "403|=|4": {
+      "name": "守恆協調",
+      "icon": "shouheng",
+      "fight_job": 4,
+      "illustration": "普通攻擊造成遠端單體異能傷害，同時能夠提供治療效果",
+      "id": 403
+    },
+    "101|=|1": {
+      "name": "守禦者",
+      "icon": "shouyu",
+      "fight_job": 1,
+      "illustration": "擅長團隊生存，對建築類單位造成的傷害提高30%",
+      "id": 101
+    },
+    "601|=|6": {
+      "name": "急救醫師",
+      "icon": "jijiu",
+      "fight_job": 6,
+      "illustration": "擅長單體治療，在虛像競技中費用-4，普攻治療效果下降70%，受到傷害提高100%",
+      "id": 601
+    }
+  }
+}

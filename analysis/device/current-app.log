@@ -1,0 +1,836 @@
+--------- beginning of main
+10-17 17:29:21.284 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:21.292 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.0
+10-17 17:29:21.300 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.5
+10-17 17:29:21.301 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:21.308 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:21.320 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:21.323 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:21.332 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:21.332 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:21.333 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:21.342 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:21.354 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:21.356 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:21.357 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:21.364 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:21.375 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:21.387 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:21.398 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.5
+10-17 17:29:21.408 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:21.420 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.0
+10-17 17:29:21.427 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:21.429 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:21.436 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:21.448 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:21.449 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.5
+10-17 17:29:21.455 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:21.456 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:21.463 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:21.475 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:21.476 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:21.483 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:21.484 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:21.491 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:21.498 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:21.508 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:21.520 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:21.521 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:21.531 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:21.542 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:21.549 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:21.551 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:21.558 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:21.565 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:21.574 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:21.587 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:21.588 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:21.597 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:21.609 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.5
+10-17 17:29:21.616 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:21.616 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:21.624 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:21.636 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:21.638 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:21.648 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.0
+10-17 17:29:21.649 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:21.653 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:21.663 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:21.670 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:21.680 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:21.693 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:21.693 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:21.703 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:21.715 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.0
+10-17 17:29:21.725 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:21.736 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.0
+10-17 17:29:21.748 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.0
+10-17 17:29:21.754 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:21.755 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:21.763 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:21.770 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:21.781 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:21.792 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:21.794 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:21.803 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:21.814 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.5
+10-17 17:29:21.826 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:21.837 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.5
+10-17 17:29:21.848 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.0
+10-17 17:29:21.855 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.5
+10-17 17:29:21.856 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:18.0
+10-17 17:29:21.863 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:21.875 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:21.886 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:21.887 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:21.897 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:21.905 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.5
+10-17 17:29:21.906 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:21.913 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:21.924 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:21.938 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:21.939 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:21.948 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:21.949 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:21.959 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:21.962 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:21.966 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:21.967 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:21.974 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:21.986 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:21.987 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.0
+10-17 17:29:21.998 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.0
+10-17 17:29:22.009 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.0
+10-17 17:29:22.020 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:22.021 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:22.031 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:22.042 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:22.043 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.5
+10-17 17:29:22.053 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:22.064 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.5
+10-17 17:29:22.075 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.5
+10-17 17:29:22.083 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:22.084 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:22.091 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:22.103 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:22.105 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.0
+10-17 17:29:22.114 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.5
+10-17 17:29:22.125 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:22.137 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.5
+10-17 17:29:22.140 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:17.0
+10-17 17:29:22.140 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.5
+10-17 17:29:22.147 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.5
+10-17 17:29:22.155 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:22.156 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:22.163 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:22.170 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:22.180 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:22.192 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:22.193 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:22.203 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:22.214 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.5
+10-17 17:29:22.220 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:22.221 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:22.230 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:22.241 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:22.242 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:22.249 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:22.250 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:22.257 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:18.0
+10-17 17:29:22.270 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:16.0
+10-17 17:29:22.271 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:22.281 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.5
+10-17 17:29:22.283 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:18.0
+10-17 17:29:22.292 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:18.0
+10-17 17:29:22.293 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.0
+10-17 17:29:22.299 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:22.300 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:22.308 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:22.320 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:22.321 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.0
+10-17 17:29:22.331 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.0
+10-17 17:29:22.342 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:22.354 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:22.360 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:22.361 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:22.368 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:22.381 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:22.383 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:22.392 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:22.403 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.0
+10-17 17:29:22.415 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:11.5
+10-17 17:29:22.416 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:9.333333
+10-17 17:29:22.426 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:10.333333
+10-17 17:29:22.427 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.0
+10-17 17:29:22.428 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:22.435 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:22.446 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:22.457 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:22.470 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:22.471 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:22.476 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:22.477 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:22.485 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:22.497 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:22.499 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.0
+10-17 17:29:22.508 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.5
+10-17 17:29:22.520 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:22.531 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:22.532 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:22.541 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:22.553 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:22.554 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:22.564 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:22.571 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:22.572 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:18.0
+10-17 17:29:22.580 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:22.591 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:22.603 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:22.604 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:22.615 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:22.625 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:22.636 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.5
+10-17 17:29:22.648 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.5
+10-17 17:29:22.658 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.5
+10-17 17:29:22.670 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:22.677 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:22.678 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:22.686 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:22.692 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:22.702 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:22.713 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:22.725 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:22.726 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:22.737 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.0
+10-17 17:29:22.738 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:22.743 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:22.752 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:22.763 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:22.776 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:22.778 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:22.786 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:22.797 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:22.809 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:22.820 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:22.831 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:22.832 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:22.837 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:22.847 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:22.861 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:22.863 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:22.870 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:22.878 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.0
+10-17 17:29:22.879 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:22.886 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:22.898 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:22.900 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.5
+10-17 17:29:22.910 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.5
+10-17 17:29:22.922 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.5
+10-17 17:29:22.922 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:29:22.932 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:22.950 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:22.955 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:22.998 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:23.008 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:23.015 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:23.037 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:10.0
+10-17 17:29:23.044 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:23.064 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:23.075 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:23.086 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:23.093 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:23.126 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:23.132 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:23.170 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:23.181 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:23.192 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:23.203 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:23.214 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:23.225 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:23.236 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:23.243 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:23.309 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:23.316 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:23.337 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:23.344 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:23.377 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:23.386 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:23.398 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:5.0
+10-17 17:29:23.405 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:23.428 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:23.435 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:23.455 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:23.466 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:23.472 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:23.494 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:23.505 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:23.507 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:23.512 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:23.583 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:23.593 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:23.600 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:23.636 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:23.642 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:9.0
+10-17 17:29:23.649 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:23.671 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:23.678 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:23.700 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:9.0
+10-17 17:29:23.709 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:23.734 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:23.743 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:9.0
+10-17 17:29:23.754 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:23.765 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:9.0
+10-17 17:29:23.771 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:23.822 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:23.831 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:23.842 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:23.850 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:23.872 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:23.881 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:9.0
+10-17 17:29:23.893 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:23.905 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:23.916 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:23.918 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:4.0
+10-17 17:29:23.927 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:23.933 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:23.956 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:9.0
+10-17 17:29:23.965 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:23.972 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:23.994 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:24.004 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:24.015 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:24.026 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:24.038 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:24.110 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:24.120 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:24.131 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:24.142 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:24.154 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:24.162 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:24.194 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:9.0
+10-17 17:29:24.204 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:9.0
+10-17 17:29:24.215 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:24.226 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:24.238 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:24.249 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:24.259 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:24.267 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:24.354 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:24.365 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:24.378 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:24.390 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:24.398 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:24.409 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:24.421 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:24.432 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:24.440 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:24.460 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:24.471 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:9.0
+10-17 17:29:24.479 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:24.499 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:24.509 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:24.521 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:5.0
+10-17 17:29:24.532 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:5.0
+10-17 17:29:24.543 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:24.555 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:24.565 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:24.576 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:24.587 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:24.599 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:24.622 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:24.631 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:24.639 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:24.690 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:10.0
+10-17 17:29:24.699 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:10.0
+10-17 17:29:24.709 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:24.721 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:24.732 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:24.743 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:24.754 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:24.765 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:24.776 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:24.789 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:24.798 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:24.806 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:24.840 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:10.0
+10-17 17:29:24.849 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:24.852 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:24.859 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:24.867 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:24.888 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:9.0
+10-17 17:29:24.899 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:24.903 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:24.909 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:24.949 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:24.959 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:24.971 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:24.982 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:24.993 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:25.033 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:9.0
+10-17 17:29:25.044 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:25.048 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:25.054 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:9.0
+10-17 17:29:25.064 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:25.076 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:25.087 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:25.098 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:25.109 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:25.121 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:25.131 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:25.172 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:25.182 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:25.193 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:25.204 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:25.210 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:25.251 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:25.259 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:25.270 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:25.282 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:25.293 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:25.304 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:25.312 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:25.379 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:25.383 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:25.405 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:25.415 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:25.426 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:25.438 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:25.448 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:25.457 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:25.477 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:25.488 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:25.510 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:25.517 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:25.539 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:25.545 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:25.566 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:25.576 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:25.584 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:25.623 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:25.628 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:25.649 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:25.661 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:25.663 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:25.671 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:25.681 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:25.694 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:25.704 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:25.715 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:25.723 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:25.755 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:25.765 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:25.788 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:25.798 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:25.806 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:25.829 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:25.839 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:25.841 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:25.849 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:25.855 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:25.876 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:25.883 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:25.949 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:25.959 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:25.972 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:25.982 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:25.990 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:26.011 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:26.021 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:26.028 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:26.122 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:26.132 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:26.143 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:26.150 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:26.172 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:26.179 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:26.199 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:26.211 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:26.221 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:26.231 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:26.243 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:26.250 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:26.283 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:26.293 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:26.304 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:6.0
+10-17 17:29:26.315 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:26.323 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:26.344 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:26.350 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:26.373 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:26.382 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:26.394 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:7.0
+10-17 17:29:26.405 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:8.0
+10-17 17:29:26.416 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:26.419 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:11.0
+10-17 17:29:26.426 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.0
+10-17 17:29:26.437 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:18.0
+10-17 17:29:26.443 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:26.453 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:26.464 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:18.0
+10-17 17:29:26.475 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:26.488 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:26.489 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.5
+10-17 17:29:26.498 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:26.507 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.0
+10-17 17:29:26.508 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:26.514 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:26.521 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:26.530 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:26.539 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:26.547 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:26.559 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:26.570 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:23.0
+10-17 17:29:26.576 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:26.586 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:26.593 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:26.604 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:26.615 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:26.616 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:26.622 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:26.624 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:26.631 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:26.638 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:26.647 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:26.659 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:23.0
+10-17 17:29:26.665 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:23.0
+10-17 17:29:26.676 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:26.689 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:26.690 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:26.698 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:26.710 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:26.717 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.0
+10-17 17:29:26.718 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:26.726 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:26.737 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:23.0
+10-17 17:29:26.747 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:24.0
+10-17 17:29:26.755 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:24.0
+10-17 17:29:26.764 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:26.772 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:26.781 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:23.0
+10-17 17:29:26.788 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:23.0
+10-17 17:29:26.797 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:23.0
+10-17 17:29:26.805 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:24.0
+10-17 17:29:26.814 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:23.0
+10-17 17:29:26.821 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:26.830 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:23.0
+10-17 17:29:26.839 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:24.0
+10-17 17:29:26.848 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:24.0
+10-17 17:29:26.859 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:26.865 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:26.879 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:23.0
+10-17 17:29:26.890 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:26.893 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:26.904 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:17.0
+10-17 17:29:26.906 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:26.915 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.5
+10-17 17:29:26.916 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:26.926 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:26.937 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:26.949 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:26.950 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:26.961 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:26.962 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:26.971 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:26.977 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:26.987 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:23.0
+10-17 17:29:26.997 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:27.005 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:27.014 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:23.0
+10-17 17:29:27.026 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:27.036 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:23.0
+10-17 17:29:27.047 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:16.0
+10-17 17:29:27.058 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:27.065 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:27.075 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:27.086 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:23.0
+10-17 17:29:27.097 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:27.104 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:23.0
+10-17 17:29:27.114 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:17.0
+10-17 17:29:27.125 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:27.136 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:18.0
+10-17 17:29:27.147 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:27.167 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:27.178 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:27.182 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:18.0
+10-17 17:29:27.185 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.5
+10-17 17:29:27.192 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:27.200 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.0
+10-17 17:29:27.201 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:27.208 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:27.215 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:27.226 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:27.238 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:27.239 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:27.248 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:27.255 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.0
+10-17 17:29:27.256 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:27.264 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:27.277 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:27.277 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:27.284 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:27.287 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:27.292 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:27.304 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:27.305 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:27.311 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.0
+10-17 17:29:27.312 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:22.0
+10-17 17:29:27.319 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:19.0
+10-17 17:29:27.327 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:20.0
+10-17 17:29:27.336 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:27.348 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:27.360 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:27.360 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:27.371 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.0
+10-17 17:29:27.382 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:27.393 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.0
+10-17 17:29:27.404 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:27.415 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:27.426 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:27.433 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:27.435 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:27.442 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:27.454 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:21.0
+10-17 17:29:27.454 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:27.465 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.0
+10-17 17:29:27.476 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:27.487 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:27.498 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:27.509 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:27.521 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:27.531 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.5
+10-17 17:29:27.542 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:27.554 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:27.565 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:27.576 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:27.588 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:27.598 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:27.609 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.5
+10-17 17:29:27.616 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.0
+10-17 17:29:27.626 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:11.5
+10-17 17:29:27.631 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:11.0
+10-17 17:29:27.632 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:16.0
+10-17 17:29:27.636 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:16.0
+10-17 17:29:27.641 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:16.0
+10-17 17:29:27.647 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:15.0
+10-17 17:29:27.656 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:14.0
+10-17 17:29:27.663 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:13.0
+10-17 17:29:27.670 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.0
+10-17 17:29:27.674 19282 19282 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:12.0
+10-17 17:29:27.680 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:30.682 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@bb4dab1
+10-17 17:29:44.969 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:29:44.969 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@bb4dab1
+10-17 17:29:45.032 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:47.040 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:29:47.127 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:47.243 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:29:47.246 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:48.117 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:29:48.216 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:48.843 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:29:48.905 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:50.216 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:29:50.245 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:50.814 19282 19359 W Unity   : No mesh data available for mesh FXB_plan04_fbx on particle system huan. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer 
+10-17 17:29:50.814 19282 19359 W Unity   : (Filename:  Line: 243)
+10-17 17:29:50.814 19282 19359 W Unity   : 
+10-17 17:29:53.246 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@bb4dab1
+10-17 17:29:57.035 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:29:57.035 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@bb4dab1
+10-17 17:29:57.089 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:57.504 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:29:57.572 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:57.678 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:29:57.751 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:57.835 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:29:57.884 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:57.979 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:29:58.028 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:58.173 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:29:58.195 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:58.905 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:29:58.961 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:59.449 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:29:59.506 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:29:59.962 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:30:00.013 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:30:00.571 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:30:00.618 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:30:01.360 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:30:02.001 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:30:02.169 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:30:02.334 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:30:05.337 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@bb4dab1
+10-17 17:30:17.023 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:30:17.024 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@bb4dab1
+10-17 17:30:17.485 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:30:20.488 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@bb4dab1
+10-17 17:30:25.917 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:30:25.918 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@bb4dab1
+10-17 17:30:26.509 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:30:26.694 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:30:26.831 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:30:29.834 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@bb4dab1
+10-17 17:30:54.066 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:30:54.066 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@bb4dab1
+10-17 17:30:54.150 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:30:54.835 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:30:54.928 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:30:54.948 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:30:54.956 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:30:57.029 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:30:57.068 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:00.000 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:00.068 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@bb4dab1
+10-17 17:31:00.073 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@bb4dab1
+10-17 17:31:00.079 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:00.988 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:01.072 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:02.558 19282 19359 W Unity   : No mesh data available for mesh FXB_plan04_fbx on particle system huan. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer 
+10-17 17:31:02.558 19282 19359 W Unity   : (Filename:  Line: 243)
+10-17 17:31:02.558 19282 19359 W Unity   : 
+10-17 17:31:04.074 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@bb4dab1
+10-17 17:31:09.464 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:09.465 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@bb4dab1
+10-17 17:31:09.507 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:09.642 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:09.685 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:10.002 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:10.085 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:10.209 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:10.218 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:10.275 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:10.286 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:10.463 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:10.547 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:10.641 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:10.714 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:11.574 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:11.641 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:12.175 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:12.205 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:12.831 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:12.891 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:13.492 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:14.019 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:14.141 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:14.291 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:14.683 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:14.986 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:15.780 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:15.819 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:16.847 19282 19599 D BufferPoolAccessor2.0: bufferpool2 0xb4000077b289ec28 : 0(0 size) total buffers - 0(0 size) used buffers - 1/6 (recycle/alloc) - 5/364 (fetch/transfer)
+10-17 17:31:16.847 19282 19599 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb4000077b289ec28 cached: 0/0M, 0/0% in use; allocs: 6, 17% recycled; transfers: 364, 99% unfetched
+10-17 17:31:16.848 19282 19599 D BufferPoolAccessor2.0: bufferpool2 0xb400007640609828 : 0(0 size) total buffers - 0(0 size) used buffers - 1/6 (recycle/alloc) - 1/2 (fetch/transfer)
+10-17 17:31:16.849 19282 19599 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb400007640609828 cached: 0/0M, 0/0% in use; allocs: 6, 17% recycled; transfers: 2, 50% unfetched
+10-17 17:31:18.822 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@bb4dab1
+10-17 17:31:21.851 19282 19598 D BufferPoolAccessor2.0: evictor expired: 2, evicted: 0
+10-17 17:31:22.264 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:22.265 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@bb4dab1
+10-17 17:31:22.771 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:25.772 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@bb4dab1
+10-17 17:31:49.567 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:49.567 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@bb4dab1
+10-17 17:31:49.651 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:49.757 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:49.763 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:49.774 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:50.468 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:50.856 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:50.945 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:51.102 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:51.719 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:52.401 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:52.485 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:52.501 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:52.507 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:52.534 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:52.545 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:52.557 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:53.106 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:53.368 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:31:54.073 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:31:57.078 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@bb4dab1
+10-17 17:32:00.350 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:32:00.350 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@bb4dab1
+10-17 17:32:00.975 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:32:03.978 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@bb4dab1
+10-17 17:32:13.246 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:32:13.246 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@bb4dab1
+10-17 17:32:13.469 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:32:16.472 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@bb4dab1
+10-17 17:32:17.766 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:32:17.766 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@bb4dab1
+10-17 17:32:17.886 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:32:19.279 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:32:19.382 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:32:20.184 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:32:20.281 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:32:21.759 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme key 0
+10-17 17:32:21.788 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme key 1
+10-17 17:32:23.283 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@bb4dab1
+10-17 17:32:32.819 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:32:32.821 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@bb4dab1
+10-17 17:32:32.910 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:32:33.631 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:32:33.688 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:32:34.790 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:32:34.894 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:32:36.176 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:32:36.200 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:32:38.680 19282 19557 E Unity   : Closing file archive:/CAB-f3e1550deae22afab9d3bc7383a77148/CAB-f3e1550deae22afab9d3bc7383a77148.resS 
+10-17 17:32:38.680 19282 19557 E Unity   : (Filename:  Line: 485)
+10-17 17:32:38.680 19282 19557 E Unity   : 
+10-17 17:32:38.681 19282 19557 E Unity   : Could not open file archive:/CAB-f3e1550deae22afab9d3bc7383a77148/CAB-f3e1550deae22afab9d3bc7383a77148.resS for read 
+10-17 17:32:38.681 19282 19557 E Unity   : (Filename:  Line: 61)
+10-17 17:32:38.681 19282 19557 E Unity   : 
+10-17 17:32:38.681 19282 19557 E Unity   : async texture load: failed to load kk_1914001_dg1 from archive:/CAB-f3e1550deae22afab9d3bc7383a77148/CAB-f3e1550deae22afab9d3bc7383a77148.resS
+10-17 17:32:38.681 19282 19557 E Unity   :  
+10-17 17:32:38.681 19282 19557 E Unity   : (Filename:  Line: 523)
+10-17 17:32:38.681 19282 19557 E Unity   : 
+10-17 17:32:38.779 19282 19557 E Unity   : Closing file archive:/CAB-f3e1550deae22afab9d3bc7383a77148/CAB-f3e1550deae22afab9d3bc7383a77148.resS 
+10-17 17:32:38.779 19282 19557 E Unity   : (Filename:  Line: 485)
+10-17 17:32:38.779 19282 19557 E Unity   : 
+10-17 17:32:38.779 19282 19557 E Unity   : Could not open file archive:/CAB-f3e1550deae22afab9d3bc7383a77148/CAB-f3e1550deae22afab9d3bc7383a77148.resS for read 
+10-17 17:32:38.779 19282 19557 E Unity   : (Filename:  Line: 61)
+10-17 17:32:38.779 19282 19557 E Unity   : 
+10-17 17:32:38.779 19282 19557 E Unity   : async texture load: failed to load kk_1914001_dg2 from archive:/CAB-f3e1550deae22afab9d3bc7383a77148/CAB-f3e1550deae22afab9d3bc7383a77148.resS
+10-17 17:32:38.779 19282 19557 E Unity   :  
+10-17 17:32:38.779 19282 19557 E Unity   : (Filename:  Line: 523)
+10-17 17:32:38.779 19282 19557 E Unity   : 
+10-17 17:32:39.202 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@bb4dab1
+10-17 17:32:40.036 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:32:40.036 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@bb4dab1
+10-17 17:32:40.144 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:32:41.059 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:32:41.151 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:32:41.869 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:32:41.972 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:32:42.928 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:32:42.995 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:32:43.980 19282 19359 E Unity   : [`Logger`]2026-10-17 17:32:43,975 [ERROR]: EVA/Effect/UI/1901024.hd: Onecore.OnecoreEngine.Base.ResManager+LoadFinished() run error(?:-1: attempt to concatenate a nil value (field 'name')
+10-17 17:32:43.980 19282 19359 E Unity   : stack traceback:
+10-17 17:32:43.980 19282 19359 E Unity   : 	?: in method 'RefreshTestInfos'
+10-17 17:32:43.980 19282 19359 E Unity   : 	?: in method 'HandleAfterOpenView'
+10-17 17:32:43.980 19282 19359 E Unity   : 	?: in method '_HandleAfterOpenView'
+10-17 17:32:43.980 19282 19359 E Unity   : 	?: in method 'TriggerOpenFuncAfterCameraChange'
+10-17 17:32:43.980 19282 19359 E Unity   : 	?: in method '_OpenViewInit'
+10-17 17:32:43.980 19282 19359 E Unity   : 	?: in method '_OnResourceLoadComplete'
+10-17 17:32:43.980 19282 19359 E Unity   : 	?: in upvalue '?'
+10-17 17:32:43.980 19282 19359 E Unity   : 	?: in function <?:9>
+10-17 17:32:43.980 19282 19359 E Unity   :   at XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) [0x00000] in <00000000000000000000000000000000>:0 
+10-17 17:32:43.980 19282 19359 E Unity   :   at XLua.DelegateBridge.__Gen_Delegate_Imp9 (UnityEngine.Object p0) [0x00000] in <00000000000000000000000000000000>:0 
+10-17 17:32:43.980 19282 19359 E Unity   :   at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
+10-17 17:32:43.980 19282 19359 E Unity   :   at Onecore.OnecoreEngine.Utils.LoadObjItem.OnLoaded (Onecore.OnecoreEngine.Base.LoadResult lr) [0x00000] in <00000000000000000000000000000000>:0 
+10-17 17:32:43.980 19282 19359 E Unity   :   at Onecore.OnecoreEngine.Base.ResManager+LoadFinished.Invoke (Onecore.OnecoreE
+10-17 17:32:43.997 19282 19539 E Unity   : Curl error 6: Could not resolve host: apiapm.rhinosgamestw.com
+10-17 17:32:43.997 19282 19539 E Unity   :  
+10-17 17:32:43.997 19282 19539 E Unity   : (Filename:  Line: 867)
+10-17 17:32:43.997 19282 19539 E Unity   : 
+10-17 17:32:45.501 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:32:45.634 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:32:46.677 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:32:46.756 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:32:47.184 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 0
+10-17 17:32:47.262 19282 19282 I VRI[MainActivity]@bb4dab1: ViewPostIme pointer 1
+10-17 17:32:50.266 19282 19282 I VRI[MainActivity]@bb4dab1: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@bb4dab1

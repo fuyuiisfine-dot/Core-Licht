@@ -1,0 +1,98 @@
+{
+  "source": "x.Config.Excel.tw.DataTable_children_fightjob_TextAsset_2457553531284032464.bin",
+  "sha256": "e23437b0a8fb2fbd6d6afd213e628f5e27f4465de28f86d08e637ace18553dff",
+  "numbered_parts": {},
+  "getter": "GetSyschildren_fightjob",
+  "data": [
+    {
+      "id": 1,
+      "icon": "zhongzhuang",
+      "desc2": "防護",
+      "desc": "擅長戰場生存防護",
+      "name": "重裝",
+      "label": "防護",
+      "sort": 4,
+      "fight_sort": 4
+    },
+    {
+      "id": 2,
+      "icon": "qiangxi",
+      "desc2": "群傷",
+      "desc": "擅長近距離輸出",
+      "name": "強襲",
+      "label": "群傷",
+      "sort": 5,
+      "fight_sort": 3
+    },
+    {
+      "id": 3,
+      "icon": "juji",
+      "desc2": "輸出",
+      "desc": "擅長遠距離物理輸出",
+      "name": "火力",
+      "label": "輸出",
+      "sort": 2,
+      "fight_sort": 2
+    },
+    {
+      "id": 4,
+      "icon": "yineng",
+      "desc2": "輸出",
+      "desc": "擅長遠距離異能輸出",
+      "name": "異能",
+      "label": "輸出",
+      "sort": 3,
+      "fight_sort": 5
+    },
+    {
+      "id": 5,
+      "icon": "teqian",
+      "desc2": "爆發",
+      "desc": "可以部署在地圖任意位置，就位後立刻釋放技能，對炮臺和據點造成的傷害降低70%",
+      "name": "特遣",
+      "label": "爆發",
+      "sort": 7,
+      "fight_sort": 9
+    },
+    {
+      "id": 6,
+      "icon": "yiliao",
+      "desc2": "治療",
+      "desc": "擅長提供戰場緊急治療",
+      "name": "醫療",
+      "label": "治療",
+      "sort": 6,
+      "fight_sort": 6
+    },
+    {
+      "id": 7,
+      "icon": "gongcheng",
+      "desc2": "戰術",
+      "desc": "擅長提供特種戰術支持",
+      "name": "戰術",
+      "label": "戰術",
+      "sort": 9,
+      "fight_sort": 7
+    },
+    {
+      "id": 8,
+      "icon": "fuzhu",
+      "desc2": "防禦",
+      "desc": "無法移動的建築類適格體，每秒扣除自身血量且不能被治療",
+      "name": "支援",
+      "label": "防禦",
+      "sort": 8,
+      "fight_sort": 8
+    },
+    {
+      "id": 9,
+      "icon": "qingxing",
+      "desc2": "回費",
+      "desc": "擅長回復費用，加快隊伍部署",
+      "name": "輕行",
+      "label": "回費",
+      "sort": 1,
+      "fight_sort": 1
+    }
+  ]
+}

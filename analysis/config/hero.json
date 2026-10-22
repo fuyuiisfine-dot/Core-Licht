@@ -1,0 +1,690 @@
+{
+  "source": "x.Config.Excel.tw.DataTable_hero_TextAsset_2477780806015901695.bin",
+  "sha256": "8c64c1c931c81b6af559939bf97f48be3294f8b47fcd0a2d42b203ae5e25e006",
+  "getter": "GetSyshero",
+  "data": {
+    "1001|=|5": {
+      "form": 5,
+      "first_deploy_time": 20000,
+      "mp_max": [
+        [
+          0,
+          100
+        ],
+        [
+          1,
+          200
+        ],
+        [
+          2,
+          400
+        ],
+        [
+          3,
+          800
+        ]
+      ],
+      "deploy_time": 43000,
+      "unlock_cost": [
+        [
+          1104030003,
+          1
+        ]
+      ],
+      "init_mp": 0,
+      "model_id": 100105,
+      "icon": "zhongzhuang",
+      "name": "瞳-重裝形態",
+      "unlock_times_limit": 0,
+      "mp_type": [
+        1,
+        500
+      ],
+      "dup_id": 110002,
+      "children_id": 100001,
+      "order": 3,
+      "skill_show": [
+        200351,
+        1
+      ],
+      "weapon_sound": "ui/hero_weapon_zhongzhuang",
+      "id": 1001
+    },
+    "91001|=|6": {
+      "form": 6,
+      "first_deploy_time": 5000,
+      "mp_max": [
+        [
+          0,
+          100
+        ],
+        [
+          1,
+          200
+        ],
+        [
+          2,
+          400
+        ],
+        [
+          3,
+          800
+        ]
+      ],
+      "deploy_time": 5000,
+      "unlock_cost": [
+        [
+          1104030001,
+          1
+        ]
+      ],
+      "init_mp": 80,
+      "model_id": 0,
+      "icon": "teqian",
+      "name": "瞳",
+      "unlock_times_limit": 5,
+      "mp_type": [
+        1,
+        500
+      ],
+      "dup_id": 0,
+      "children_id": 9100005,
+      "order": 0,
+      "skill_show": [
+        20035502,
+        1
+      ],
+      "weapon_sound": "",
+      "id": 91001
+    },
+    "1001|=|6": {
+      "form": 6,
+      "first_deploy_time": 20000,
+      "mp_max": [
+        [
+          0,
+          100
+        ],
+        [
+          1,
+          200
+        ],
+        [
+          2,
+          400
+        ],
+        [
+          3,
+          800
+        ]
+      ],
+      "deploy_time": 43000,
+      "unlock_cost": [
+        [
+          1104030006,
+          1
+        ]
+      ],
+      "init_mp": 0,
+      "model_id": 100106,
+      "icon": "yiliao",
+      "name": "瞳-醫療形態",
+      "unlock_times_limit": 1,
+      "mp_type": [
+        1,
+        500
+      ],
+      "dup_id": 110004,
+      "children_id": 100006,
+      "order": 5,
+      "skill_show": [
+        20035401,
+        1
+      ],
+      "weapon_sound": "ui/hero_weapon_yiliao",
+      "id": 1001
+    },
+    "1001|=|4": {
+      "form": 4,
+      "first_deploy_time": 20000,
+      "mp_max": [
+        [
+          0,
+          100
+        ],
+        [
+          1,
+          200
+        ],
+        [
+          2,
+          400
+        ],
+        [
+          3,
+          800
+        ]
+      ],
+      "deploy_time": 45000,
+      "unlock_cost": [
+        [
+          1104030004,
+          1
+        ]
+      ],
+      "init_mp": 0,
+      "model_id": 100104,
+      "icon": "yineng",
+      "name": "瞳-異能形態",
+      "unlock_times_limit": 1,
+      "mp_type": [
+        1,
+        500
+      ],
+      "dup_id": 110003,
+      "children_id": 100004,
+      "order": 4,
+      "skill_show": [
+        20035711,
+        1
+      ],
+      "weapon_sound": "ui/hero_weapon_yineng",
+      "id": 1001
+    },
+    "91001|=|7": {
+      "form": 7,
+      "first_deploy_time": 5000,
+      "mp_max": [
+        [
+          0,
+          100
+        ],
+        [
+          1,
+          200
+        ],
+        [
+          2,
+          400
+        ],
+        [
+          3,
+          800
+        ]
+      ],
+      "deploy_time": 5000,
+      "unlock_cost": [
+        [
+          1104030001,
+          1
+        ]
+      ],
+      "init_mp": 100,
+      "model_id": 0,
+      "icon": "yineng",
+      "name": "瞳",
+      "unlock_times_limit": 6,
+      "mp_type": [
+        1,
+        500
+      ],
+      "dup_id": 0,
+      "children_id": 9100004,
+      "order": 0,
+      "skill_show": [
+        20035711,
+        1
+      ],
+      "weapon_sound": "",
+      "id": 91001
+    },
+    "91001|=|5": {
+      "form": 5,
+      "first_deploy_time": 5000,
+      "mp_max": [
+        [
+          0,
+          100
+        ],
+        [
+          1,
+          200
+        ],
+        [
+          2,
+          400
+        ],
+        [
+          3,
+          800
+        ]
+      ],
+      "deploy_time": 5000,
+      "unlock_cost": [
+        [
+          1104030001,
+          1
+        ]
+      ],
+      "init_mp": 100,
+      "model_id": 0,
+      "icon": "gongcheng",
+      "name": "瞳",
+      "unlock_times_limit": 4,
+      "mp_type": [
+        1,
+        500
+      ],
+      "dup_id": 0,
+      "children_id": 9100003,
+      "order": 0,
+      "skill_show": [
+        20035612,
+        1
+      ],
+      "weapon_sound": "",
+      "id": 91001
+    },
+    "91001|=|4": {
+      "form": 4,
+      "first_deploy_time": 5000,
+      "mp_max": [
+        [
+          0,
+          100
+        ],
+        [
+          1,
+          200
+        ],
+        [
+          2,
+          400
+        ],
+        [
+          3,
+          800
+        ]
+      ],
+      "deploy_time": 5000,
+      "unlock_cost": [
+        [
+          1104030001,
+          1
+        ]
+      ],
+      "init_mp": 100,
+      "model_id": 0,
+      "icon": "yiliao",
+      "name": "瞳",
+      "unlock_times_limit": 3,
+      "mp_type": [
+        1,
+        500
+      ],
+      "dup_id": 0,
+      "children_id": 9100006,
+      "order": 0,
+      "skill_show": [
+        20035401,
+        1
+      ],
+      "weapon_sound": "",
+      "id": 91001
+    },
+    "1001|=|8": {
+      "form": 8,
+      "first_deploy_time": 20000,
+      "mp_max": [
+        [
+          0,
+          100
+        ],
+        [
+          1,
+          200
+        ],
+        [
+          2,
+          400
+        ],
+        [
+          3,
+          800
+        ]
+      ],
+      "deploy_time": 35000,
+      "unlock_cost": [
+        [
+          1104030008,
+          1
+        ]
+      ],
+      "init_mp": 0,
+      "model_id": 100108,
+      "icon": "qingxing",
+      "name": "瞳-輕行形態",
+      "unlock_times_limit": 2,
+      "mp_type": [
+        1,
+        500
+      ],
+      "dup_id": 110007,
+      "children_id": 100007,
+      "order": 6,
+      "skill_show": [
+        20035821,
+        1
+      ],
+      "weapon_sound": "ui/hero_weapon_qingxing",
+      "id": 1001
+    },
+    "91001|=|1": {
+      "form": 1,
+      "first_deploy_time": 5000,
+      "mp_max": [
+        [
+          0,
+          100
+        ],
+        [
+          1,
+          200
+        ],
+        [
+          2,
+          400
+        ],
+        [
+          3,
+          800
+        ]
+      ],
+      "deploy_time": 5000,
+      "unlock_cost": [
+        [
+          1104030001,
+          1
+        ]
+      ],
+      "init_mp": 100,
+      "model_id": 0,
+      "icon": "qiangxi",
+      "name": "瞳",
+      "unlock_times_limit": 0,
+      "mp_type": [
+        1,
+        500
+      ],
+      "dup_id": 0,
+      "children_id": 9100007,
+      "order": 0,
+      "skill_show": [
+        20035201,
+        1
+      ],
+      "weapon_sound": "",
+      "id": 91001
+    },
+    "1001|=|7": {
+      "form": 7,
+      "first_deploy_time": 20000,
+      "mp_max": [
+        [
+          0,
+          100
+        ],
+        [
+          1,
+          200
+        ],
+        [
+          2,
+          400
+        ],
+        [
+          3,
+          800
+        ]
+      ],
+      "deploy_time": 31000,
+      "unlock_cost": [
+        [
+          1104030005,
+          1
+        ]
+      ],
+      "init_mp": 0,
+      "model_id": 100107,
+      "icon": "teqian",
+      "name": "瞳-特遣形態",
+      "unlock_times_limit": 3,
+      "mp_type": [
+        1,
+        500
+      ],
+      "dup_id": 110006,
+      "children_id": 100005,
+      "order": 7,
+      "skill_show": [
+        20035502,
+        1
+      ],
+      "weapon_sound": "ui/hero_weapon_teqian",
+      "id": 1001
+    },
+    "1001|=|1": {
+      "form": 1,
+      "first_deploy_time": 20000,
+      "mp_max": [],
+      "deploy_time": 41000,
+      "unlock_cost": [],
+      "init_mp": 0,
+      "model_id": 100101,
+      "icon": "qiangxi",
+      "name": "瞳-強襲形態",
+      "unlock_times_limit": 0,
+      "mp_type": [
+        1,
+        500
+      ],
+      "dup_id": 0,
+      "children_id": 100000,
+      "order": 1,
+      "skill_show": [
+        20035201,
+        1
+      ],
+      "weapon_sound": "ui/hero_weapon_qiangxi",
+      "id": 1001
+    },
+    "91001|=|2": {
+      "form": 2,
+      "first_deploy_time": 5000,
+      "mp_max": [
+        [
+          0,
+          100
+        ],
+        [
+          1,
+          200
+        ],
+        [
+          2,
+          400
+        ],
+        [
+          3,
+          800
+        ]
+      ],
+      "deploy_time": 5000,
+      "unlock_cost": [
+        [
+          1104030001,
+          1
+        ]
+      ],
+      "init_mp": 100,
+      "model_id": 0,
+      "icon": "zhongzhuang",
+      "name": "瞳",
+      "unlock_times_limit": 2,
+      "mp_type": [
+        1,
+        500
+      ],
+      "dup_id": 0,
+      "children_id": 9100001,
+      "order": 0,
+      "skill_show": [
+        200351,
+        1
+      ],
+      "weapon_sound": "",
+      "id": 91001
+    },
+    "91001|=|3": {
+      "form": 3,
+      "first_deploy_time": 5000,
+      "mp_max": [
+        [
+          0,
+          100
+        ],
+        [
+          1,
+          200
+        ],
+        [
+          2,
+          400
+        ],
+        [
+          3,
+          800
+        ]
+      ],
+      "deploy_time": 5000,
+      "unlock_cost": [
+        [
+          1104030001,
+          1
+        ]
+      ],
+      "init_mp": 100,
+      "model_id": 0,
+      "icon": "juji",
+      "name": "瞳",
+      "unlock_times_limit": 1,
+      "mp_type": [
+        1,
+        500
+      ],
+      "dup_id": 0,
+      "children_id": 9100002,
+      "order": 0,
+      "skill_show": [
+        20035311,
+        1
+      ],
+      "weapon_sound": "",
+      "id": 91001
+    },
+    "1001|=|2": {
+      "form": 2,
+      "first_deploy_time": 20000,
+      "mp_max": [
+        [
+          0,
+          100
+        ],
+        [
+          1,
+          200
+        ],
+        [
+          2,
+          400
+        ],
+        [
+          3,
+          800
+        ]
+      ],
+      "deploy_time": 35000,
+      "unlock_cost": [
+        [
+          1104030002,
+          1
+        ]
+      ],
+      "init_mp": 0,
+      "model_id": 100102,
+      "icon": "juji",
+      "name": "瞳-火力形態",
+      "unlock_times_limit": 0,
+      "mp_type": [
+        1,
+        500
+      ],
+      "dup_id": 110001,
+      "children_id": 100002,
+      "order": 2,
+      "skill_show": [
+        20035311,
+        1
+      ],
+      "weapon_sound": "ui/hero_weapon_huoli",
+      "id": 1001
+    },
+    "1001|=|3": {
+      "form": 3,
+      "first_deploy_time": 20000,
+      "mp_max": [
+        [
+          0,
+          100
+        ],
+        [
+          1,
+          200
+        ],
+        [
+          2,
+          400
+        ],
+        [
+          3,
+          800
+        ]
+      ],
+      "deploy_time": 41000,
+      "unlock_cost": [
+        [
+          1104030007,
+          1
+        ]
+      ],
+      "init_mp": 0,
+      "model_id": 100103,
+      "icon": "gongcheng",
+      "name": "瞳-支援形態",
+      "unlock_times_limit": 3,
+      "mp_type": [
+        1,
+        500
+      ],
+      "dup_id": 110005,
+      "children_id": 100003,
+      "order": 8,
+      "skill_show": [
+        20035612,
+        1
+      ],
+      "weapon_sound": "ui/hero_weapon_zhanshu",
+      "id": 1001
+    }
+  }
+}

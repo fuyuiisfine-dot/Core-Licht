@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "characters": 75,
+  "files": 150,
+  "voices": 3960,
+  "team_loaded": true,
+  "skin_saved": true,
+  "team_saved": true,
+  "reconnect_verified": true,
+  "native_windows": true,
+  "battle_supported": false,
+  "protobuf_cross_language_cases": 1048,
+  "server_unit_tests": 29,
+  "phone_account_unchanged": true,
+  "exe_sha256": "9c1ce2e183f51ff536ef80b54ac649eb81a8553514ab43dbf48256e1f67cbc8e",
+  "source_commit": "3b0decaf29374c5eacc8f61d12d303324d320fc3"
+}

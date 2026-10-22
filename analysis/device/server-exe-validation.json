@@ -1,0 +1,35 @@
+{
+  "file": "CoreLichtServer.exe",
+  "size": 13277194,
+  "sha256": "8e55c1e88118bd084078c6835c970d49e7f4f8000c9ef816c7a0823154324c34",
+  "single_file": true,
+  "private_accounts_embedded": false,
+  "portability_test": {
+    "success": true,
+    "exe_only_copy": true,
+    "python_paths_removed": true,
+    "roles": 1,
+    "characters": 75,
+    "battle_victory": true,
+    "reward_once": true,
+    "process_restart_preserved": true,
+    "cdn_fixture": true
+  },
+  "existing_client_test": {
+    "success": true,
+    "characters": 75,
+    "files": 150,
+    "voices": 3960,
+    "voice_audio_verified": true,
+    "team_loaded": true,
+    "skin_saved": true,
+    "team_saved": true,
+    "reconnect_verified": true,
+    "native_windows": true,
+    "mobile_navigation_verified": true,
+    "battle_supported": true,
+    "original_combat": false
+  },
+  "python_tests": 40,
+  "active_database": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6aabe5e07e3c819189c5b9e5eeece36b\\client-work\\server\\server-data\\server.sqlite3"
+}

@@ -1,0 +1,313 @@
+
+private bool MoveNext() { }
+1807388: sub      sp, sp, #0x80 
+180738c: str      x23, [sp, #0x40] 
+1807390: stp      x22, x21, [sp, #0x50] 
+1807394: stp      x20, x19, [sp, #0x60] 
+1807398: stp      x29, x30, [sp, #0x70] 
+180739c: add      x29, sp, #0x70 
+18073a0: adrp     x20, #0x2e84000 
+18073a4: ldrb     w8, [x20, #0xd0b] 
+18073a8: mov      x19, x0 
+18073ac: tbnz     w8, #0, #0x18073c8 
+18073b0: adrp     x8, #0x2c86000 
+18073b4: ldr      x8, [x8, #0xdc8] 
+18073b8: ldr      w0, [x8] 
+18073bc: bl       #0xd328f8 
+18073c0: mov      w8, #1 
+18073c4: strb     w8, [x20, #0xd0b] 
+18073c8: ldr      w8, [x19, #0x10] 
+18073cc: cmp      w8, #3 
+18073d0: b.hi     #0x18077b0 
+18073d4: adrp     x9, #0x22fc000 
+18073d8: add      x9, x9, #0x86c 
+18073dc: ldrsw    x8, [x9, x8, lsl #2] 
+18073e0: add      x8, x8, x9 
+18073e4: br       x8 
+18073e8: mov      w8, #-1 
+18073ec: str      w8, [x19, #0x10] 
+18073f0: adrp     x8, #0x2c75000 
+18073f4: ldr      x8, [x8, #0x968] Method$System.Array.Empty<object>()
+18073f8: adrp     x9, #0x2cab000 
+18073fc: ldr      x22, [x8] Method$System.Array.Empty<object>()
+1807400: ldr      x8, [x22, #0x30] 
+1807404: ldr      x21, [x8] 
+1807408: ldr      x9, [x9, #0x3f8] UrlList_Android.txt
+180740c: ldrh     w8, [x21, #0x12e] 
+1807410: ldr      x20, [x9] UrlList_Android.txt
+1807414: tbnz     w8, #0, #0x1807424 
+1807418: mov      x0, x21 
+180741c: bl       #0xcd0740 
+1807420: ldrh     w8, [x21, #0x12e] 
+1807424: tbz      w8, #9, #0x1807468 
+1807428: ldr      x8, [x22, #0x30] 
+180742c: ldr      x21, [x8] 
+1807430: ldrb     w8, [x21, #0x12e] 
+1807434: tbnz     w8, #0, #0x1807440 
+1807438: mov      x0, x21 
+180743c: bl       #0xcd0740 
+1807440: ldr      w8, [x21, #0xe0] 
+1807444: cbnz     w8, #0x1807468 
+1807448: ldr      x8, [x22, #0x30] 
+180744c: ldr      x21, [x8] 
+1807450: ldrb     w8, [x21, #0x12e] 
+1807454: tbnz     w8, #0, #0x1807460 
+1807458: mov      x0, x21 
+180745c: bl       #0xcd0740 
+1807460: mov      x0, x21 
+1807464: bl       #0xd329a4 
+1807468: ldr      x8, [x22, #0x30] 
+180746c: ldr      x21, [x8] 
+1807470: ldrb     w8, [x21, #0x12e] 
+1807474: tbnz     w8, #0, #0x1807480 
+1807478: mov      x0, x21 
+180747c: bl       #0xcd0740 
+1807480: adrp     x8, #0x2cdb000 
+1807484: ldr      x8, [x8, #0x8c8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+1807488: ldr      x0, [x8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+180748c: ldr      x8, [x21, #0xb8] 
+1807490: ldrb     w9, [x0, #0x12f] 
+1807494: ldr      x21, [x8] 
+1807498: tbz      w9, #1, #0x18074a8 
+180749c: ldr      w8, [x0, #0xe0] 
+18074a0: cbnz     w8, #0x18074a8 
+18074a4: bl       #0xd329a4 
+18074a8: adrp     x8, #0x2c9c000 
+18074ac: ldr      x8, [x8, #0xc10] 从Resource or StreamingAssets目录中读取UrlList文件
+18074b0: mov      x1, x21 
+18074b4: mov      x2, xzr 
+18074b8: ldr      x0, [x8] 从Resource or StreamingAssets目录中读取UrlList文件
+18074bc: bl       #0x11af70c public static void Info(object message, object[] argv) { }
+18074c0: adrp     x23, #0x2c8a000 
+18074c4: ldr      x23, [x23, #0x550] Driver.<>c_TypeInfo
+18074c8: ldr      x0, [x23] Driver.<>c_TypeInfo
+18074cc: ldrb     w8, [x0, #0x12f] 
+18074d0: tbz      w8, #1, #0x18074e4 
+18074d4: ldr      w8, [x0, #0xe0] 
+18074d8: cbnz     w8, #0x18074e4 
+18074dc: bl       #0xd329a4 
+18074e0: ldr      x0, [x23] Driver.<>c_TypeInfo
+18074e4: ldr      x8, [x0, #0xb8] 
+18074e8: ldr      x22, [x8, #8] 
+18074ec: cbnz     x22, #0x1807548 
+18074f0: ldrb     w9, [x0, #0x12f] 
+18074f4: tbz      w9, #1, #0x180750c 
+18074f8: ldr      w9, [x0, #0xe0] 
+18074fc: cbnz     w9, #0x180750c 
+1807500: bl       #0xd329a4 
+1807504: ldr      x8, [x23] Driver.<>c_TypeInfo
+1807508: ldr      x8, [x8, #0xb8] 
+180750c: ldr      x21, [x8] 
+1807510: adrp     x8, #0x2cfd000 
+1807514: ldr      x8, [x8, #0x600] Onecore.Plugins.Utils.SimpleLoader.OnLoadFinished_TypeInfo
+1807518: ldr      x0, [x8] Onecore.Plugins.Utils.SimpleLoader.OnLoadFinished_TypeInfo
+180751c: bl       #0xd329c0 
+1807520: adrp     x8, #0x2c8e000 
+1807524: ldr      x8, [x8, #0xc20] Method$Driver.<>c.<LoadUrlList>b__28_0()
+1807528: mov      x1, x21 
+180752c: mov      x3, xzr 
+1807530: mov      x22, x0 
+1807534: ldr      x2, [x8] Method$Driver.<>c.<LoadUrlList>b__28_0()
+1807538: bl       #0x1afd220 public void .ctor(object object, IntPtr method) { }
+180753c: ldr      x8, [x23] Driver.<>c_TypeInfo
+1807540: ldr      x8, [x8, #0xb8] 
+1807544: str      x22, [x8, #8] 
+1807548: mov      w3, #1 
+180754c: mov      x0, x20 
+1807550: mov      x1, x22 
+1807554: mov      x2, xzr 
+1807558: mov      x4, xzr 
+180755c: mov      w21, #1 
+1807560: bl       #0x1afa7e4 public static IEnumerator Load(string filePath, SimpleLoader.OnLoadFinished onLoadFinished, SimpleLoader.OnProgress onProgress, bool isFindInPersistentDataPath = True) { }
+1807564: str      x0, [x19, #0x18] 
+1807568: str      w21, [x19, #0x10] 
+180756c: b        #0x1807838 
+1807570: mov      w8, #-1 
+1807574: add      x22, x19, #0x28 
+1807578: str      w8, [x19, #0x10] 
+180757c: b        #0x1807754 
+1807580: mov      w21, wzr 
+1807584: mov      w8, #-1 
+1807588: b        #0x1807834 
+180758c: ldr      x21, [x19, #0x20] 
+1807590: mov      w8, #-1 
+1807594: str      w8, [x19, #0x10] 
+1807598: cbz      x21, #0x1807854 
+180759c: ldrb     w8, [x21, #0x39] 
+18075a0: cbz      w8, #0x18077cc 
+18075a4: adrp     x8, #0x2cd9000 
+18075a8: ldr      x8, [x8, #0x2d0] Driver.<>c__DisplayClass28_0_TypeInfo
+18075ac: ldr      x0, [x8] Driver.<>c__DisplayClass28_0_TypeInfo
+18075b0: bl       #0xd329c0 
+18075b4: mov      x1, xzr 
+18075b8: mov      x20, x0 
+18075bc: bl       #0x109bd18 public void .ctor() { }
+18075c0: mov      x22, x19 
+18075c4: str      x20, [x22, #0x28]! 
+18075c8: cbz      x20, #0x1807854 
+18075cc: str      x21, [x20, #0x28] 
+18075d0: adrp     x8, #0x2c75000 
+18075d4: ldr      x8, [x8, #0x968] Method$System.Array.Empty<object>()
+18075d8: ldr      x23, [x8] Method$System.Array.Empty<object>()
+18075dc: ldr      x8, [x23, #0x30] 
+18075e0: ldr      x20, [x8] 
+18075e4: ldrh     w8, [x20, #0x12e] 
+18075e8: tbnz     w8, #0, #0x18075f8 
+18075ec: mov      x0, x20 
+18075f0: bl       #0xcd0740 
+18075f4: ldrh     w8, [x20, #0x12e] 
+18075f8: tbz      w8, #9, #0x180763c 
+18075fc: ldr      x8, [x23, #0x30] 
+1807600: ldr      x20, [x8] 
+1807604: ldrb     w8, [x20, #0x12e] 
+1807608: tbnz     w8, #0, #0x1807614 
+180760c: mov      x0, x20 
+1807610: bl       #0xcd0740 
+1807614: ldr      w8, [x20, #0xe0] 
+1807618: cbnz     w8, #0x180763c 
+180761c: ldr      x8, [x23, #0x30] 
+1807620: ldr      x20, [x8] 
+1807624: ldrb     w8, [x20, #0x12e] 
+1807628: tbnz     w8, #0, #0x1807634 
+180762c: mov      x0, x20 
+1807630: bl       #0xcd0740 
+1807634: mov      x0, x20 
+1807638: bl       #0xd329a4 
+180763c: ldr      x8, [x23, #0x30] 
+1807640: ldr      x20, [x8] 
+1807644: ldrb     w8, [x20, #0x12e] 
+1807648: tbnz     w8, #0, #0x1807654 
+180764c: mov      x0, x20 
+1807650: bl       #0xcd0740 
+1807654: adrp     x8, #0x2cdb000 
+1807658: ldr      x8, [x8, #0x8c8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+180765c: ldr      x0, [x8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+1807660: ldr      x8, [x20, #0xb8] 
+1807664: ldrb     w9, [x0, #0x12f] 
+1807668: ldr      x20, [x8] 
+180766c: tbz      w9, #1, #0x180767c 
+1807670: ldr      w8, [x0, #0xe0] 
+1807674: cbnz     w8, #0x180767c 
+1807678: bl       #0xd329a4 
+180767c: adrp     x8, #0x2d07000 
+1807680: ldr      x8, [x8, #0xff8] 下载UrlList的config文件
+1807684: mov      x1, x20 
+1807688: mov      x2, xzr 
+180768c: ldr      x0, [x8] 下载UrlList的config文件
+1807690: bl       #0x11af70c public static void Info(object message, object[] argv) { }
+1807694: ldr      x8, [x22] 
+1807698: cbz      x8, #0x1807854 
+180769c: strb     wzr, [x8, #0x18] 
+18076a0: ldr      x8, [x22] 
+18076a4: cbz      x8, #0x1807854 
+18076a8: str      xzr, [x8, #0x10] 
+18076ac: ldr      x8, [x21, #0x60] 
+18076b0: cbz      x8, #0x1807854 
+18076b4: ldr      w9, [x8, #0x18] 
+18076b8: cbz      w9, #0x1807858 
+18076bc: ldp      q0, q1, [x8, #0x20] 
+18076c0: adrp     x8, #0x2c6e000 
+18076c4: ldr      x8, [x8, #0x9f8] Onecore.Plugins.Utils.DriverDownloadStatusUtil_TypeInfo
+18076c8: stp      q0, q1, [sp, #0x20] 
+18076cc: ldr      x0, [x8] Onecore.Plugins.Utils.DriverDownloadStatusUtil_TypeInfo
+18076d0: ldrb     w8, [x0, #0x12f] 
+18076d4: tbz      w8, #1, #0x18076e4 
+18076d8: ldr      w8, [x0, #0xe0] 
+18076dc: cbnz     w8, #0x18076e4 
+18076e0: bl       #0xd329a4 
+18076e4: ldp      q1, q0, [sp, #0x20] 
+18076e8: mov      x0, sp 
+18076ec: mov      x1, xzr 
+18076f0: stp      q1, q0, [sp] 
+18076f4: bl       #0x10fc8ac public static void SetDownloadConfigData(DriverDownloadStatusUtil.DownLoadTypeData data) { }
+18076f8: ldr      x8, [x22] 
+18076fc: cbz      x8, #0x1807854 
+1807700: str      xzr, [x8, #0x20] 
+1807704: adrp     x8, #0x2d0d000 
+1807708: ldr      x8, [x8, #0xe58] Onecore.Plugins.Utils.BaseNativeProxy.ShowConfirmCallback_TypeInfo
+180770c: ldr      x20, [x22] 
+1807710: ldr      x0, [x8] Onecore.Plugins.Utils.BaseNativeProxy.ShowConfirmCallback_TypeInfo
+1807714: bl       #0xd329c0 
+1807718: adrp     x8, #0x2cb3000 
+180771c: ldr      x8, [x8, #0x560] Method$Driver.<>c__DisplayClass28_0.<LoadUrlList>b__1()
+1807720: mov      x1, x20 
+1807724: mov      x3, xzr 
+1807728: mov      x21, x0 
+180772c: ldr      x2, [x8] Method$Driver.<>c__DisplayClass28_0.<LoadUrlList>b__1()
+1807730: bl       #0x10fadd8 public void .ctor(object object, IntPtr method) { }
+1807734: cbz      x20, #0x1807854 
+1807738: str      x21, [x20, #0x20] 
+180773c: ldr      x8, [x22] 
+1807740: cbz      x8, #0x1807854 
+1807744: ldr      x0, [x8, #0x20] 
+1807748: cbz      x0, #0x1807854 
+180774c: mov      x1, xzr 
+1807750: bl       #0x10ed028 public virtual void Invoke() { }
+1807754: ldr      x8, [x22] 
+1807758: cbz      x8, #0x1807854 
+180775c: ldrb     w9, [x8, #0x18] 
+1807760: cbz      w9, #0x18077b8 
+1807764: adrp     x20, #0x2cbf000 
+1807768: ldr      x20, [x20, #0xfa0] Onecore.Plugins.Common.DriverConfig_TypeInfo
+180776c: ldr      x0, [x20] Onecore.Plugins.Common.DriverConfig_TypeInfo
+1807770: ldrb     w9, [x0, #0x12f] 
+1807774: tbz      w9, #1, #0x1807790 
+1807778: ldr      w9, [x0, #0xe0] 
+180777c: cbnz     w9, #0x1807790 
+1807780: bl       #0xd329a4 
+1807784: ldr      x8, [x22] 
+1807788: cbz      x8, #0x1807854 
+180778c: ldr      x0, [x20] Onecore.Plugins.Common.DriverConfig_TypeInfo
+1807790: ldr      x9, [x0, #0xb8] 
+1807794: ldr      x0, [x9, #0x10] 
+1807798: cbz      x0, #0x1807854 
+180779c: ldr      x1, [x8, #0x10] 
+18077a0: mov      x2, xzr 
+18077a4: bl       #0x11b1fa8 public void LoadConfig(string configContent) { }
+18077a8: str      xzr, [x22] 
+18077ac: b        #0x1807810 
+18077b0: mov      w21, wzr 
+18077b4: b        #0x1807838 
+18077b8: mov      w8, #2 
+18077bc: str      xzr, [x19, #0x18] 
+18077c0: str      w8, [x19, #0x10] 
+18077c4: mov      w21, #1 
+18077c8: b        #0x1807838 
+18077cc: adrp     x20, #0x2cbf000 
+18077d0: ldr      x20, [x20, #0xfa0] Onecore.Plugins.Common.DriverConfig_TypeInfo
+18077d4: ldr      x0, [x20] Onecore.Plugins.Common.DriverConfig_TypeInfo
+18077d8: ldrb     w8, [x0, #0x12f] 
+18077dc: tbz      w8, #1, #0x18077f0 
+18077e0: ldr      w8, [x0, #0xe0] 
+18077e4: cbnz     w8, #0x18077f0 
+18077e8: bl       #0xd329a4 
+18077ec: ldr      x0, [x20] Onecore.Plugins.Common.DriverConfig_TypeInfo
+18077f0: ldr      x8, [x0, #0xb8] 
+18077f4: ldr      x0, [x8, #0x10] 
+18077f8: cbz      x0, #0x1807854 
+18077fc: adrp     x8, #0x2c9e000 
+1807800: ldr      x8, [x8, #0xb38] 
+1807804: mov      x2, xzr 
+1807808: ldr      x1, [x8] 
+180780c: bl       #0x11b1fa8 public void LoadConfig(string configContent) { }
+1807810: adrp     x8, #0x2ca2000 
+1807814: ldr      x8, [x8, #0xaf8] bool_TypeInfo
+1807818: mov      w21, #1 
+180781c: add      x1, sp, #0x20 
+1807820: strb     w21, [sp, #0x20] 
+1807824: ldr      x0, [x8] bool_TypeInfo
+1807828: bl       #0xd329b4 
+180782c: str      x0, [x19, #0x18] 
+1807830: mov      w8, #3 
+1807834: str      w8, [x19, #0x10] 
+1807838: mov      w0, w21 
+180783c: ldp      x29, x30, [sp, #0x70] 
+1807840: ldp      x20, x19, [sp, #0x60] 
+1807844: ldp      x22, x21, [sp, #0x50] 
+1807848: ldr      x23, [sp, #0x40] 
+180784c: add      sp, sp, #0x80 
+1807850: ret       
+1807854: bl       #0xd329c8 
+1807858: bl       #0xd329f4 
+180785c: mov      x1, xzr 
+1807860: bl       #0xd32994 

@@ -1,0 +1,17 @@
+{
+  "python_tests": 39,
+  "protocol_cases": 1048,
+  "native_game_smoke": {
+    "success": true,
+    "battle_id": "fcc960b03e9deb32c6ca899e0c24f058",
+    "victory": true,
+    "reward_once": true,
+    "reconnect_verified": true,
+    "points": 200,
+    "original_combat": false
+  },
+  "server_restart_persistence": true,
+  "phone_role_snapshots_unchanged": true,
+  "original_combat": false,
+  "exe_sha256": "ebde3cda86a2de16424a2b6f966872566964e3d6d6c19c5b4bc13a0044f4c7fd"
+}

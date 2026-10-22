@@ -1,0 +1,140 @@
+﻿2026-10-17 16:52:32,151 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [1]: download failed (https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255951531940935/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:32,664 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [2]: download failed (https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255951531940935/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:33,197 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [3]: download failed (https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255951531940935/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:33,207 [ERROR]: config.txt下载失败，真实请求url：https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255951531940935/android_tw/stable/release/config.txt，错误信息：Cannot resolve destination host
+OnDownLoadFailed at <unknown offset> in file:line:column <filename unknown>:0:0
+Invoke at <unknown offset> in file:line:column <filename unknown>:0:0
+MoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+InvokeMoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+
+2026-10-17 16:52:33,234 [WARNING]: NetUtils.GHARequestCallback(): [NetUtils] Async GetHostAddresses GHARequestCallback Logic Error. address:pfdh-cdnres.rhinosgamestw.com ex:Could not resolve host 'pfdh-cdnres.rhinosgamestw.com'
+2026-10-17 16:52:33,831 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [1]: download failed (https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255953225319787/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:34,395 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [2]: download failed (https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255953225319787/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:34,963 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [3]: download failed (https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255953225319787/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:34,966 [ERROR]: config.txt下载失败，真实请求url：https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255953225319787/android_tw/stable/release/config.txt，错误信息：Cannot resolve destination host
+OnDownLoadFailed at <unknown offset> in file:line:column <filename unknown>:0:0
+Invoke at <unknown offset> in file:line:column <filename unknown>:0:0
+MoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+InvokeMoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+
+2026-10-17 16:52:34,976 [WARNING]: NetUtils.GHARequestCallback(): [NetUtils] Async GetHostAddresses GHARequestCallback Logic Error. address:pfdh-cdnres-bak.rhinosgamestw.com ex:Could not resolve host 'pfdh-cdnres-bak.rhinosgamestw.com'
+2026-10-17 16:52:40,129 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [1]: download failed (https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255960096230013/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:40,664 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [2]: download failed (https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255960096230013/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:41,197 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [3]: download failed (https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255960096230013/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:41,198 [ERROR]: config.txt下载失败，真实请求url：https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255960096230013/android_tw/stable/release/config.txt，错误信息：Cannot resolve destination host
+OnDownLoadFailed at <unknown offset> in file:line:column <filename unknown>:0:0
+Invoke at <unknown offset> in file:line:column <filename unknown>:0:0
+MoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+InvokeMoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+
+2026-10-17 16:52:41,204 [WARNING]: NetUtils.GHARequestCallback(): [NetUtils] Async GetHostAddresses GHARequestCallback Logic Error. address:pfdh-cdnres.rhinosgamestw.com ex:Could not resolve host 'pfdh-cdnres.rhinosgamestw.com'
+2026-10-17 16:52:41,229 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [1]: download failed (https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255961201880229/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:41,765 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [2]: download failed (https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255961201880229/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:42,299 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [3]: download failed (https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255961201880229/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:42,301 [ERROR]: config.txt下载失败，真实请求url：https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255961201880229/android_tw/stable/release/config.txt，错误信息：Cannot resolve destination host
+OnDownLoadFailed at <unknown offset> in file:line:column <filename unknown>:0:0
+Invoke at <unknown offset> in file:line:column <filename unknown>:0:0
+MoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+InvokeMoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+
+2026-10-17 16:52:42,313 [WARNING]: NetUtils.GHARequestCallback(): [NetUtils] Async GetHostAddresses GHARequestCallback Logic Error. address:pfdh-cdnres-bak.rhinosgamestw.com ex:Could not resolve host 'pfdh-cdnres-bak.rhinosgamestw.com'
+2026-10-17 16:52:47,365 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [1]: download failed (https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255967332583474/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:47,899 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [2]: download failed (https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255967332583474/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:48,432 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [3]: download failed (https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255967332583474/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:48,435 [ERROR]: config.txt下载失败，真实请求url：https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255967332583474/android_tw/stable/release/config.txt，错误信息：Cannot resolve destination host
+OnDownLoadFailed at <unknown offset> in file:line:column <filename unknown>:0:0
+Invoke at <unknown offset> in file:line:column <filename unknown>:0:0
+MoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+InvokeMoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+
+2026-10-17 16:52:48,445 [WARNING]: NetUtils.GHARequestCallback(): [NetUtils] Async GetHostAddresses GHARequestCallback Logic Error. address:pfdh-cdnres.rhinosgamestw.com ex:Could not resolve host 'pfdh-cdnres.rhinosgamestw.com'
+2026-10-17 16:52:48,463 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [1]: download failed (https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255968439703505/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:48,998 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [2]: download failed (https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255968439703505/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:49,566 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [3]: download failed (https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255968439703505/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:49,569 [ERROR]: config.txt下载失败，真实请求url：https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255968439703505/android_tw/stable/release/config.txt，错误信息：Cannot resolve destination host
+OnDownLoadFailed at <unknown offset> in file:line:column <filename unknown>:0:0
+Invoke at <unknown offset> in file:line:column <filename unknown>:0:0
+MoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+InvokeMoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+
+2026-10-17 16:52:49,578 [WARNING]: NetUtils.GHARequestCallback(): [NetUtils] Async GetHostAddresses GHARequestCallback Logic Error. address:pfdh-cdnres-bak.rhinosgamestw.com ex:Could not resolve host 'pfdh-cdnres-bak.rhinosgamestw.com'
+2026-10-17 16:52:54,599 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [1]: download failed (https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255974565352531/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:55,132 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [2]: download failed (https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255974565352531/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:55,665 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [3]: download failed (https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255974565352531/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:55,668 [ERROR]: config.txt下载失败，真实请求url：https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255974565352531/android_tw/stable/release/config.txt，错误信息：Cannot resolve destination host
+OnDownLoadFailed at <unknown offset> in file:line:column <filename unknown>:0:0
+Invoke at <unknown offset> in file:line:column <filename unknown>:0:0
+MoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+InvokeMoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+
+2026-10-17 16:52:55,679 [WARNING]: NetUtils.GHARequestCallback(): [NetUtils] Async GetHostAddresses GHARequestCallback Logic Error. address:pfdh-cdnres.rhinosgamestw.com ex:Could not resolve host 'pfdh-cdnres.rhinosgamestw.com'
+2026-10-17 16:52:55,699 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [1]: download failed (https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255975672438107/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:56,231 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [2]: download failed (https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255975672438107/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:56,800 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [3]: download failed (https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255975672438107/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:52:56,803 [ERROR]: config.txt下载失败，真实请求url：https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255975672438107/android_tw/stable/release/config.txt，错误信息：Cannot resolve destination host
+OnDownLoadFailed at <unknown offset> in file:line:column <filename unknown>:0:0
+Invoke at <unknown offset> in file:line:column <filename unknown>:0:0
+MoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+InvokeMoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+
+2026-10-17 16:52:56,816 [WARNING]: NetUtils.GHARequestCallback(): [NetUtils] Async GetHostAddresses GHARequestCallback Logic Error. address:pfdh-cdnres-bak.rhinosgamestw.com ex:Could not resolve host 'pfdh-cdnres-bak.rhinosgamestw.com'
+2026-10-17 16:53:01,867 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [1]: download failed (https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255981833854355/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:53:02,399 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [2]: download failed (https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255981833854355/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:53:02,932 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [3]: download failed (https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255981833854355/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:53:02,936 [ERROR]: config.txt下载失败，真实请求url：https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255981833854355/android_tw/stable/release/config.txt，错误信息：Cannot resolve destination host
+OnDownLoadFailed at <unknown offset> in file:line:column <filename unknown>:0:0
+Invoke at <unknown offset> in file:line:column <filename unknown>:0:0
+MoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+InvokeMoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+
+2026-10-17 16:53:02,944 [WARNING]: NetUtils.GHARequestCallback(): [NetUtils] Async GetHostAddresses GHARequestCallback Logic Error. address:pfdh-cdnres.rhinosgamestw.com ex:Could not resolve host 'pfdh-cdnres.rhinosgamestw.com'
+2026-10-17 16:53:02,966 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [1]: download failed (https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255982939968766/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:53:03,534 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [2]: download failed (https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255982939968766/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:53:04,066 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [3]: download failed (https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255982939968766/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:53:04,069 [ERROR]: config.txt下载失败，真实请求url：https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255982939968766/android_tw/stable/release/config.txt，错误信息：Cannot resolve destination host
+OnDownLoadFailed at <unknown offset> in file:line:column <filename unknown>:0:0
+Invoke at <unknown offset> in file:line:column <filename unknown>:0:0
+MoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+InvokeMoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+
+2026-10-17 16:53:04,080 [WARNING]: NetUtils.GHARequestCallback(): [NetUtils] Async GetHostAddresses GHARequestCallback Logic Error. address:pfdh-cdnres-bak.rhinosgamestw.com ex:Could not resolve host 'pfdh-cdnres-bak.rhinosgamestw.com'
+2026-10-17 16:53:09,100 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [1]: download failed (https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255989067913491/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:53:09,634 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [2]: download failed (https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255989067913491/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:53:10,201 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [3]: download failed (https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255989067913491/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:53:10,204 [ERROR]: config.txt下载失败，真实请求url：https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255989067913491/android_tw/stable/release/config.txt，错误信息：Cannot resolve destination host
+OnDownLoadFailed at <unknown offset> in file:line:column <filename unknown>:0:0
+Invoke at <unknown offset> in file:line:column <filename unknown>:0:0
+MoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+InvokeMoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+
+2026-10-17 16:53:10,214 [WARNING]: NetUtils.GHARequestCallback(): [NetUtils] Async GetHostAddresses GHARequestCallback Logic Error. address:pfdh-cdnres.rhinosgamestw.com ex:Could not resolve host 'pfdh-cdnres.rhinosgamestw.com'
+2026-10-17 16:53:10,232 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [1]: download failed (https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255990208968231/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:53:10,766 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [2]: download failed (https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255990208968231/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:53:11,300 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [3]: download failed (https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255990208968231/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:53:11,303 [ERROR]: config.txt下载失败，真实请求url：https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255990208968231/android_tw/stable/release/config.txt，错误信息：Cannot resolve destination host
+OnDownLoadFailed at <unknown offset> in file:line:column <filename unknown>:0:0
+Invoke at <unknown offset> in file:line:column <filename unknown>:0:0
+MoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+InvokeMoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+
+2026-10-17 16:53:11,316 [WARNING]: NetUtils.GHARequestCallback(): [NetUtils] Async GetHostAddresses GHARequestCallback Logic Error. address:pfdh-cdnres-bak.rhinosgamestw.com ex:Could not resolve host 'pfdh-cdnres-bak.rhinosgamestw.com'
+2026-10-17 16:53:16,368 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [1]: download failed (https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255996334174479/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:53:16,902 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [2]: download failed (https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255996334174479/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:53:17,468 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [3]: download failed (https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255996334174479/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:53:17,471 [ERROR]: config.txt下载失败，真实请求url：https://pfdh-cdnres.rhinosgamestw.com/cdnconfig_1792255996334174479/android_tw/stable/release/config.txt，错误信息：Cannot resolve destination host
+OnDownLoadFailed at <unknown offset> in file:line:column <filename unknown>:0:0
+Invoke at <unknown offset> in file:line:column <filename unknown>:0:0
+MoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+InvokeMoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+
+2026-10-17 16:53:17,480 [WARNING]: NetUtils.GHARequestCallback(): [NetUtils] Async GetHostAddresses GHARequestCallback Logic Error. address:pfdh-cdnres.rhinosgamestw.com ex:Could not resolve host 'pfdh-cdnres.rhinosgamestw.com'
+2026-10-17 16:53:17,500 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [1]: download failed (https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255997474579041/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:53:18,068 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [2]: download failed (https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255997474579041/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:53:18,635 [WARNING]: <DownloadFile>d__3.MoveNext(): [SimpleDownloader] [3]: download failed (https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255997474579041/android_tw/stable/release/config.txt)-(Cannot resolve destination host)
+2026-10-17 16:53:18,638 [ERROR]: config.txt下载失败，真实请求url：https://pfdh-cdnres-bak.rhinosgamestw.com/cdnconfig_1792255997474579041/android_tw/stable/release/config.txt，错误信息：Cannot resolve destination host
+OnDownLoadFailed at <unknown offset> in file:line:column <filename unknown>:0:0
+Invoke at <unknown offset> in file:line:column <filename unknown>:0:0
+MoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+InvokeMoveNext at <unknown offset> in file:line:column <filename unknown>:0:0
+
+2026-10-17 16:53:18,649 [WARNING]: NetUtils.GHARequestCallback(): [NetUtils] Async GetHostAddresses GHARequestCallback Logic Error. address:pfdh-cdnres-bak.rhinosgamestw.com ex:Could not resolve host 'pfdh-cdnres-bak.rhinosgamestw.com'

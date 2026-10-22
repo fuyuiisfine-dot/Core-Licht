@@ -1,0 +1,26 @@
+----------------------------------------
+Exception occurred during processing of request from ('192.168.0.210', 57682)
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 747, in __init__
+    self.handle()
+  File "C:\Users\USER\.codex\.chatgpt-projects\g-p-6aabe5e07e3c819189c5b9e5eeece36b\repository\game_server\__main__.py", line 81, in handle
+    try:data = self.request.recv(65536)
+ConnectionResetError: [WinError 10054] 遠端主機已強制關閉一個現存的連線。
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('192.168.0.210', 46398)
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 747, in __init__
+    self.handle()
+  File "C:\Users\USER\.codex\.chatgpt-projects\g-p-6aabe5e07e3c819189c5b9e5eeece36b\repository\game_server\__main__.py", line 81, in handle
+    try:data = self.request.recv(65536)
+ConnectionResetError: [WinError 10054] 遠端主機已強制關閉一個現存的連線。
+----------------------------------------

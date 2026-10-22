@@ -1,0 +1,16 @@
+{
+  "stage": "real phone login, role creation, reconnect, tutorial reports and main interface displayed",
+  "wire_fixture_sha256": "fb0b91d636f03ef04274fa6e9aea1c044a97258e3e217b521a2a501f7bd5bfc5",
+  "wire_bytes": 332,
+  "request_id": "1_1",
+  "payload_bytes": 326,
+  "required_fields_valid": true,
+  "captured_stream_preface_observed": "0102",
+  "full_game_entry_verified": false,
+  "role_creation_verified": true,
+  "role_selection_verified": true,
+  "main_interface_displayed": true,
+  "normal_gameplay_verified": false,
+  "emulator_verified": false,
+  "unit_tests_passed": 25
+}

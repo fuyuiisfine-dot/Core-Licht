@@ -1,0 +1,406 @@
+
+public ushort GenUnique() { }
+1585cf4: ldr      w8, [x0, #0x10] 
+1585cf8: mov      w9, #0xffff 
+1585cfc: cmp      w8, w9 
+1585d00: b.lt     #0x1585d0c 
+1585d04: mov      w8, #0x63 
+1585d08: str      w8, [x0, #0x10] 
+1585d0c: add      w8, w8, #1 
+1585d10: str      w8, [x0, #0x10] 
+1585d14: mov      w0, w8 
+1585d18: ret       
+
+public SNBuffer GenC2SPacket(byte[] bodyData, byte sectionId, byte methodId) { }
+1585d1c: str      x27, [sp, #-0x60]! 
+1585d20: stp      x26, x25, [sp, #0x10] 
+1585d24: stp      x24, x23, [sp, #0x20] 
+1585d28: stp      x22, x21, [sp, #0x30] 
+1585d2c: stp      x20, x19, [sp, #0x40] 
+1585d30: stp      x29, x30, [sp, #0x50] 
+1585d34: add      x29, sp, #0x50 
+1585d38: adrp     x20, #0x2e82000 
+1585d3c: ldrb     w8, [x20, #0xcf9] 
+1585d40: mov      w22, w3 
+1585d44: mov      w23, w2 
+1585d48: mov      x19, x1 
+1585d4c: mov      x24, x0 
+1585d50: tbnz     w8, #0, #0x1585d6c 
+1585d54: adrp     x8, #0x2cc8000 
+1585d58: ldr      x8, [x8, #0x40] 
+1585d5c: ldr      w0, [x8] 
+1585d60: bl       #0xd328f8 
+1585d64: mov      w8, #1 
+1585d68: strb     w8, [x20, #0xcf9] 
+1585d6c: adrp     x8, #0x2ce0000 
+1585d70: ldr      x8, [x8, #0x398] 
+1585d74: ldr      x0, [x8] 
+1585d78: ldrb     w8, [x0, #0x12f] 
+1585d7c: tbz      w8, #1, #0x1585d8c 
+1585d80: ldr      w8, [x0, #0xe0] 
+1585d84: cbnz     w8, #0x1585d8c 
+1585d88: bl       #0xd329a4 
+1585d8c: bl       #0x15842a8 public static SNBuffer Create() { }
+1585d90: cbz      x0, #0x1585ee0 
+1585d94: mov      x20, x0 
+1585d98: bl       #0x15852a4 public BinaryWriter BeginPacket() { }
+1585d9c: ldr      w8, [x24, #0x10] 
+1585da0: mov      w9, #0xffff 
+1585da4: mov      x21, x0 
+1585da8: cmp      w8, w9 
+1585dac: b.lt     #0x1585db8 
+1585db0: mov      w8, #0x63 
+1585db4: str      w8, [x24, #0x10] 
+1585db8: add      w25, w8, #1 
+1585dbc: mov      x0, x20 
+1585dc0: mov      w1, w25 
+1585dc4: str      w25, [x24, #0x10] 
+1585dc8: bl       #0x1585410 public void WritePacketUInt16(ushort v) { }
+1585dcc: cbz      x21, #0x1585ee0 
+1585dd0: ldr      x8, [x21] 
+1585dd4: mov      x0, x21 
+1585dd8: mov      w1, w23 
+1585ddc: ldp      x9, x2, [x8, #0x1c0] 
+1585de0: blr      x9 
+1585de4: ldr      x8, [x21] 
+1585de8: mov      x0, x21 
+1585dec: mov      w1, w22 
+1585df0: ldp      x9, x2, [x8, #0x1c0] 
+1585df4: blr      x9 
+1585df8: cbz      x19, #0x1585ee0 
+1585dfc: ldr      x8, [x19, #0x18] 
+1585e00: cmp      w8, #1 
+1585e04: b.lt     #0x1585eb8 
+1585e08: and      x8, x8, #0xffffffff 
+1585e0c: cbz      x8, #0x1585eac 
+1585e10: adrp     x26, #0x2ccb000 
+1585e14: ldr      x26, [x26, #0x28] 
+1585e18: mov      x22, xzr 
+1585e1c: sxtw     x23, w8 
+1585e20: and      w25, w25, #0xff 
+1585e24: add      x24, x19, #0x20 
+1585e28: ldr      x0, [x26] 
+1585e2c: ldrb     w27, [x24, x22] 
+1585e30: ldrb     w8, [x0, #0x12f] 
+1585e34: tbz      w8, #1, #0x1585e48 
+1585e38: ldr      w8, [x0, #0xe0] 
+1585e3c: cbnz     w8, #0x1585e48 
+1585e40: bl       #0xd329a4 
+1585e44: ldr      x0, [x26] 
+1585e48: ldr      x8, [x0, #0xb8] 
+1585e4c: ldr      x8, [x8] 
+1585e50: cbz      x8, #0x1585ee0 
+1585e54: ldr      w9, [x8, #0x18] 
+1585e58: cmp      w25, w9 
+1585e5c: b.hs     #0x1585eac 
+1585e60: ldr      x9, [x21] 
+1585e64: add      x8, x8, w25, sxtw 
+1585e68: ldrb     w8, [x8, #0x20] 
+1585e6c: mov      x0, x21 
+1585e70: ldp      x10, x2, [x9, #0x1c0] 
+1585e74: eor      w1, w8, w27 
+1585e78: blr      x10 
+1585e7c: add      x22, x22, #1 
+1585e80: cmp      x22, x23 
+1585e84: b.ge     #0x1585eb8 
+1585e88: add      w8, w25, #1 
+1585e8c: ldr      w10, [x19, #0x18] 
+1585e90: add      w9, w25, #0x100 
+1585e94: cmp      w8, #0 
+1585e98: csinc    w9, w9, w25, lt 
+1585e9c: and      w9, w9, #0xffffff00 
+1585ea0: cmp      x22, x10 
+1585ea4: sub      w25, w8, w9 
+1585ea8: b.lo     #0x1585e28 
+1585eac: bl       #0xd329f4 
+1585eb0: mov      x1, xzr 
+1585eb4: bl       #0xd32994 
+1585eb8: mov      x0, x20 
+1585ebc: bl       #0x1585344 public int EndPacket() { }
+1585ec0: mov      x0, x20 
+1585ec4: ldp      x29, x30, [sp, #0x50] 
+1585ec8: ldp      x20, x19, [sp, #0x40] 
+1585ecc: ldp      x22, x21, [sp, #0x30] 
+1585ed0: ldp      x24, x23, [sp, #0x20] 
+1585ed4: ldp      x26, x25, [sp, #0x10] 
+1585ed8: ldr      x27, [sp], #0x60 
+1585edc: ret       
+1585ee0: bl       #0xd329c8 
+
+public byte[] ProcessS2CPacket(SNBuffer s2cPacket, out byte sectionId, out byte methodId) { }
+1585ee4: sub      sp, sp, #0x70 
+1585ee8: stp      x28, x27, [sp, #0x10] 
+1585eec: stp      x26, x25, [sp, #0x20] 
+1585ef0: stp      x24, x23, [sp, #0x30] 
+1585ef4: stp      x22, x21, [sp, #0x40] 
+1585ef8: stp      x20, x19, [sp, #0x50] 
+1585efc: stp      x29, x30, [sp, #0x60] 
+1585f00: add      x29, sp, #0x60 
+1585f04: adrp     x22, #0x2e82000 
+1585f08: ldrb     w8, [x22, #0xcfa] 
+1585f0c: mov      x19, x3 
+1585f10: mov      x20, x2 
+1585f14: mov      x21, x1 
+1585f18: tbnz     w8, #0, #0x1585f34 
+1585f1c: adrp     x8, #0x2c72000 
+1585f20: ldr      x8, [x8, #0xff0] 
+1585f24: ldr      w0, [x8] 
+1585f28: bl       #0xd328f8 
+1585f2c: mov      w8, #1 
+1585f30: strb     w8, [x22, #0xcfa] 
+1585f34: cbz      x21, #0x15862f0 
+1585f38: mov      x0, x21 
+1585f3c: bl       #0x15840e0 public int get_size() { }
+1585f40: cmp      w0, #3 
+1585f44: b.ge     #0x158602c 
+1585f48: adrp     x8, #0x2cfc000 
+1585f4c: ldr      x8, [x8, #0x678] 
+1585f50: mov      w1, #2 
+1585f54: ldr      x0, [x8] 
+1585f58: bl       #0xd32908 
+1585f5c: mov      x22, x0 
+1585f60: mov      x0, x21 
+1585f64: bl       #0x1585a30 public string DebugContent() { }
+1585f68: cbz      x22, #0x15862f0 
+1585f6c: mov      x23, x0 
+1585f70: cbz      x0, #0x1585f88 
+1585f74: ldr      x8, [x22] 
+1585f78: mov      x0, x23 
+1585f7c: ldr      x1, [x8, #0x40] 
+1585f80: bl       #0xd329b0 
+1585f84: cbz      x0, #0x15862f4 
+1585f88: ldr      w8, [x22, #0x18] 
+1585f8c: cbz      w8, #0x15862e4 
+1585f90: mov      x0, x21 
+1585f94: str      x23, [x22, #0x20] 
+1585f98: bl       #0x15840e0 public int get_size() { }
+1585f9c: adrp     x8, #0x2cb4000 
+1585fa0: ldr      x8, [x8, #0x150] 
+1585fa4: str      w0, [sp, #4] 
+1585fa8: add      x1, sp, #4 
+1585fac: ldr      x8, [x8] 
+1585fb0: mov      x0, x8 
+1585fb4: bl       #0xd329b4 
+1585fb8: mov      x21, x0 
+1585fbc: cbz      x0, #0x1585fd4 
+1585fc0: ldr      x8, [x22] 
+1585fc4: mov      x0, x21 
+1585fc8: ldr      x1, [x8, #0x40] 
+1585fcc: bl       #0xd329b0 
+1585fd0: cbz      x0, #0x15862f4 
+1585fd4: ldr      w8, [x22, #0x18] 
+1585fd8: cmp      w8, #1 
+1585fdc: b.ls     #0x15862e4 
+1585fe0: str      x21, [x22, #0x28] 
+1585fe4: adrp     x8, #0x2cc1000 
+1585fe8: ldr      x8, [x8, #0x4f0] 
+1585fec: ldr      x0, [x8] 
+1585ff0: ldrb     w8, [x0, #0x12f] 
+1585ff4: tbz      w8, #1, #0x1586004 
+1585ff8: ldr      w8, [x0, #0xe0] 
+1585ffc: cbnz     w8, #0x1586004 
+1586000: bl       #0xd329a4 
+1586004: adrp     x8, #0x2cd0000 
+1586008: ldr      x8, [x8, #0x68] 
+158600c: mov      x1, x22 
+1586010: mov      x2, xzr 
+1586014: ldr      x0, [x8] 
+1586018: bl       #0x11d90e4 public static void Error(object message, object[] argv) { }
+158601c: mov      x21, xzr 
+1586020: strb     wzr, [x20] 
+1586024: strb     wzr, [x19] 
+1586028: b        #0x1586168 
+158602c: mov      x0, x21 
+1586030: bl       #0x1585164 public BinaryReader BeginReading() { }
+1586034: cbz      x0, #0x15862f0 
+1586038: ldr      x8, [x0] 
+158603c: mov      x23, x0 
+1586040: ldp      x9, x1, [x8, #0x1d0] 
+1586044: blr      x9 
+1586048: strb     w0, [x20] 
+158604c: ldr      x8, [x23] 
+1586050: mov      x0, x23 
+1586054: ldp      x9, x1, [x8, #0x1d0] 
+1586058: blr      x9 
+158605c: strb     w0, [x19] 
+1586060: ldr      x8, [x23] 
+1586064: mov      x0, x23 
+1586068: ldp      x9, x1, [x8, #0x1d0] 
+158606c: blr      x9 
+1586070: mov      w22, w0 
+1586074: mov      x0, x21 
+1586078: bl       #0x15840e0 public int get_size() { }
+158607c: ldr      x8, [x23] 
+1586080: mov      w1, w0 
+1586084: mov      x0, x23 
+1586088: ldr      x9, [x8, #0x2c0] 
+158608c: ldr      x2, [x8, #0x2c8] 
+1586090: blr      x9 
+1586094: cbz      x0, #0x15862f0 
+1586098: ldr      x8, [x0, #0x18] 
+158609c: mov      x21, x0 
+15860a0: cmp      w8, #1 
+15860a4: b.lt     #0x1586150 
+15860a8: ldrb     w9, [x20] 
+15860ac: ldrb     w10, [x19] 
+15860b0: adrp     x26, #0x2ccb000 
+15860b4: ldr      x26, [x26, #0x28] 
+15860b8: and      x8, x8, #0xffffffff 
+15860bc: add      w9, w10, w9, lsl #4 
+15860c0: mov      x23, xzr 
+15860c4: add      x24, x21, #0x20 
+15860c8: sxtw     x25, w8 
+15860cc: and      w27, w9, #0xff 
+15860d0: cmp      x23, w8, uxtw 
+15860d4: b.hs     #0x15862e4 
+15860d8: ldr      x0, [x26] 
+15860dc: ldrb     w28, [x24, x23] 
+15860e0: ldrb     w8, [x0, #0x12f] 
+15860e4: tbz      w8, #1, #0x15860f8 
+15860e8: ldr      w8, [x0, #0xe0] 
+15860ec: cbnz     w8, #0x15860f8 
+15860f0: bl       #0xd329a4 
+15860f4: ldr      x0, [x26] 
+15860f8: ldr      x8, [x0, #0xb8] 
+15860fc: ldr      x9, [x8] 
+1586100: cbz      x9, #0x15862f0 
+1586104: ldr      w8, [x9, #0x18] 
+1586108: cmp      w27, w8 
+158610c: b.hs     #0x15862e4 
+1586110: ldr      w8, [x21, #0x18] 
+1586114: cmp      x23, x8 
+1586118: b.hs     #0x15862e4 
+158611c: add      x9, x9, w27, sxtw 
+1586120: ldrb     w9, [x9, #0x20] 
+1586124: add      w10, w27, #1 
+1586128: add      w11, w27, #0x100 
+158612c: cmp      w10, #0 
+1586130: csinc    w11, w11, w27, lt 
+1586134: eor      w9, w9, w28 
+1586138: strb     w9, [x24, x23] 
+158613c: add      x23, x23, #1 
+1586140: and      w9, w11, #0xffffff00 
+1586144: cmp      x23, x25 
+1586148: sub      w27, w10, w9 
+158614c: b.lt     #0x15860d0 
+1586150: tst      w22, #0xff 
+1586154: b.eq     #0x1586168 
+1586158: mov      x0, x21 
+158615c: mov      x1, xzr 
+1586160: bl       #0x1e06db8 public static byte[] UncompressBuffer(byte[] compressed) { }
+1586164: mov      x21, x0 
+1586168: mov      x0, x21 
+158616c: ldp      x29, x30, [sp, #0x60] 
+1586170: ldp      x20, x19, [sp, #0x50] 
+1586174: ldp      x22, x21, [sp, #0x40] 
+1586178: ldp      x24, x23, [sp, #0x30] 
+158617c: ldp      x26, x25, [sp, #0x20] 
+1586180: ldp      x28, x27, [sp, #0x10] 
+1586184: add      sp, sp, #0x70 
+1586188: ret       
+158618c: cmp      w1, #1 
+1586190: mov      x21, x0 
+1586194: b.ne     #0x1586328 
+1586198: mov      x0, x21 
+158619c: bl       #0x9d6bc0 
+15861a0: adrp     x8, #0x2cc8000 
+15861a4: ldr      x22, [x0] 
+15861a8: ldr      x8, [x8, #0xab8] 
+15861ac: mov      x21, x0 
+15861b0: ldr      x1, [x22] 
+15861b4: ldr      x0, [x8] 
+15861b8: bl       #0xd32b7c 
+15861bc: tbz      w0, #0, #0x1586300 
+15861c0: bl       #0x9d6090 
+15861c4: adrp     x8, #0x2cfc000 
+15861c8: ldr      x8, [x8, #0x678] 
+15861cc: mov      w1, #3 
+15861d0: ldr      x0, [x8] 
+15861d4: bl       #0xd32908 
+15861d8: adrp     x23, #0x2d18000 
+15861dc: ldrb     w8, [x20] 
+15861e0: ldr      x23, [x23, #0xa48] 
+15861e4: mov      x21, x0 
+15861e8: add      x1, sp, #0xc 
+15861ec: strb     w8, [sp, #0xc] 
+15861f0: ldr      x0, [x23] 
+15861f4: bl       #0xd329b4 
+15861f8: cbz      x21, #0x15862f0 
+15861fc: mov      x20, x0 
+1586200: cbz      x0, #0x1586218 
+1586204: ldr      x8, [x21] 
+1586208: mov      x0, x20 
+158620c: ldr      x1, [x8, #0x40] 
+1586210: bl       #0xd329b0 
+1586214: cbz      x0, #0x15862f4 
+1586218: ldr      w8, [x21, #0x18] 
+158621c: cbz      w8, #0x15862e4 
+1586220: str      x20, [x21, #0x20] 
+1586224: ldrb     w8, [x19] 
+1586228: ldr      x0, [x23] 
+158622c: add      x1, sp, #8 
+1586230: strb     w8, [sp, #8] 
+1586234: bl       #0xd329b4 
+1586238: mov      x19, x0 
+158623c: cbz      x0, #0x1586254 
+1586240: ldr      x8, [x21] 
+1586244: mov      x0, x19 
+1586248: ldr      x1, [x8, #0x40] 
+158624c: bl       #0xd329b0 
+1586250: cbz      x0, #0x15862f4 
+1586254: ldr      w8, [x21, #0x18] 
+1586258: cmp      w8, #1 
+158625c: b.ls     #0x15862e4 
+1586260: str      x19, [x21, #0x28] 
+1586264: cbz      x22, #0x15862f0 
+1586268: ldr      x8, [x22] 
+158626c: mov      x0, x22 
+1586270: ldp      x9, x1, [x8, #0x180] 
+1586274: blr      x9 
+1586278: mov      x19, x0 
+158627c: cbz      x0, #0x1586294 
+1586280: ldr      x8, [x21] 
+1586284: mov      x0, x19 
+1586288: ldr      x1, [x8, #0x40] 
+158628c: bl       #0xd329b0 
+1586290: cbz      x0, #0x15862f4 
+1586294: ldr      w8, [x21, #0x18] 
+1586298: cmp      w8, #2 
+158629c: b.ls     #0x15862e4 
+15862a0: str      x19, [x21, #0x30] 
+15862a4: adrp     x8, #0x2cc1000 
+15862a8: ldr      x8, [x8, #0x4f0] 
+15862ac: ldr      x0, [x8] 
+15862b0: ldrb     w8, [x0, #0x12f] 
+15862b4: tbz      w8, #1, #0x15862c4 
+15862b8: ldr      w8, [x0, #0xe0] 
+15862bc: cbnz     w8, #0x15862c4 
+15862c0: bl       #0xd329a4 
+15862c4: adrp     x8, #0x2c9f000 
+15862c8: ldr      x8, [x8, #0x890] 
+15862cc: mov      x1, x21 
+15862d0: mov      x2, xzr 
+15862d4: ldr      x0, [x8] 
+15862d8: bl       #0x11d90e4 public static void Error(object message, object[] argv) { }
+15862dc: mov      x21, xzr 
+15862e0: b        #0x1586168 
+15862e4: bl       #0xd329f4 
+15862e8: mov      x1, xzr 
+15862ec: bl       #0xd32994 
+15862f0: bl       #0xd329c8 
+15862f4: bl       #0xd329e8 
+15862f8: mov      x1, xzr 
+15862fc: bl       #0xd32994 
+1586300: mov      w0, #8 
+1586304: bl       #0x9d57e0 
+1586308: ldr      x8, [x21] 
+158630c: str      x8, [x0] 
+1586310: adrp     x1, #0x2c33000 
+1586314: add      x1, x1, #0x78 
+1586318: mov      x2, xzr 
+158631c: bl       #0x9d6940 
+1586320: mov      x21, x0 
+1586324: bl       #0x9d6090 
+1586328: mov      x0, x21 
+158632c: bl       #0x9d5f30 
+1586330: bl       #0xbec7ac 

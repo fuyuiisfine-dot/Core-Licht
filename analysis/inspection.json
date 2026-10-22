@@ -1,0 +1,10 @@
+{
+  "descriptor_files": 62,
+  "messages": 1319,
+  "lua_chunks_parsed": 29,
+  "mapped_messages": {
+    "c2s": 470,
+    "s2c": 578
+  },
+  "failures": []
+}

@@ -1,0 +1,5048 @@
+{
+  "source": "x.Config.Excel.tw.DataTable_children_npc_TextAsset_2945993740537337521.bin",
+  "sha256": "fac2f723a8ea86bab7a17158da90e90f2afe49e375260119f9c52f82a882653b",
+  "numbered_parts": {},
+  "getter": "GetSyschildren_npc",
+  "data": {
+    "1": {
+      "lvl": 1,
+      "id": 1,
+      "awake_times": 2,
+      "children_id": 2006
+    },
+    "2": {
+      "lvl": 1,
+      "id": 2,
+      "awake_times": 2,
+      "children_id": 2002
+    },
+    "3": {
+      "lvl": 1,
+      "id": 3,
+      "awake_times": 2,
+      "children_id": 4001
+    },
+    "4": {
+      "lvl": 1,
+      "id": 4,
+      "awake_times": 2,
+      "children_id": 5002
+    },
+    "5": {
+      "lvl": 1,
+      "id": 5,
+      "awake_times": 2,
+      "children_id": 5004
+    },
+    "6": {
+      "lvl": 1,
+      "id": 6,
+      "awake_times": 2,
+      "children_id": 1003
+    },
+    "934001": {
+      "lvl": 35,
+      "id": 934001,
+      "awake_times": 0,
+      "children_id": 4001
+    },
+    "934002": {
+      "lvl": 35,
+      "id": 934002,
+      "awake_times": 0,
+      "children_id": 4002
+    },
+    "934003": {
+      "lvl": 35,
+      "id": 934003,
+      "awake_times": 0,
+      "children_id": 4003
+    },
+    "934004": {
+      "lvl": 35,
+      "id": 934004,
+      "awake_times": 0,
+      "children_id": 4004
+    },
+    "934005": {
+      "lvl": 35,
+      "id": 934005,
+      "awake_times": 0,
+      "children_id": 4005
+    },
+    "934006": {
+      "lvl": 35,
+      "id": 934006,
+      "awake_times": 0,
+      "children_id": 4006
+    },
+    "934007": {
+      "lvl": 35,
+      "id": 934007,
+      "awake_times": 0,
+      "children_id": 4007
+    },
+    "978001": {
+      "lvl": 15,
+      "id": 978001,
+      "awake_times": 0,
+      "children_id": 8001
+    },
+    "978002": {
+      "lvl": 15,
+      "id": 978002,
+      "awake_times": 0,
+      "children_id": 8002
+    },
+    "978003": {
+      "lvl": 15,
+      "id": 978003,
+      "awake_times": 0,
+      "children_id": 8003
+    },
+    "978004": {
+      "lvl": 15,
+      "id": 978004,
+      "awake_times": 0,
+      "children_id": 8004
+    },
+    "978005": {
+      "lvl": 15,
+      "id": 978005,
+      "awake_times": 0,
+      "children_id": 8005
+    },
+    "978006": {
+      "lvl": 15,
+      "id": 978006,
+      "awake_times": 0,
+      "children_id": 8006
+    },
+    "978007": {
+      "lvl": 15,
+      "id": 978007,
+      "awake_times": 0,
+      "children_id": 8007
+    },
+    "6008101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 6008101,
+      "awake_times": [],
+      "children_id": 6008
+    },
+    "800011": {
+      "lvl": 15,
+      "id": 800011,
+      "awake_times": 0,
+      "children_id": 80001
+    },
+    "933002": {
+      "lvl": 35,
+      "id": 933002,
+      "awake_times": 0,
+      "children_id": 3002
+    },
+    "933003": {
+      "lvl": 35,
+      "id": 933003,
+      "awake_times": 0,
+      "children_id": 3003
+    },
+    "933004": {
+      "lvl": 35,
+      "id": 933004,
+      "awake_times": 0,
+      "children_id": 3004
+    },
+    "933005": {
+      "lvl": 35,
+      "id": 933005,
+      "awake_times": 0,
+      "children_id": 3005
+    },
+    "933006": {
+      "lvl": 35,
+      "id": 933006,
+      "awake_times": 0,
+      "children_id": 3006
+    },
+    "933007": {
+      "lvl": 35,
+      "id": 933007,
+      "awake_times": 0,
+      "children_id": 3007
+    },
+    "933008": {
+      "lvl": 35,
+      "id": 933008,
+      "awake_times": 0,
+      "children_id": 3008
+    },
+    "4006101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 4006101,
+      "awake_times": [],
+      "children_id": 4006
+    },
+    "933010": {
+      "lvl": 35,
+      "id": 933010,
+      "awake_times": 0,
+      "children_id": 3010
+    },
+    "933011": {
+      "lvl": 35,
+      "id": 933011,
+      "awake_times": 0,
+      "children_id": 3011
+    },
+    "977001": {
+      "lvl": 15,
+      "id": 977001,
+      "awake_times": 0,
+      "children_id": 7001
+    },
+    "977002": {
+      "lvl": 15,
+      "id": 977002,
+      "awake_times": 0,
+      "children_id": 7002
+    },
+    "2004101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 2004101,
+      "awake_times": [],
+      "children_id": 2004
+    },
+    "6007101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 6007101,
+      "awake_times": [],
+      "children_id": 6007
+    },
+    "932001": {
+      "lvl": 35,
+      "id": 932001,
+      "awake_times": 0,
+      "children_id": 2001
+    },
+    "932002": {
+      "lvl": 35,
+      "id": 932002,
+      "awake_times": 0,
+      "children_id": 2002
+    },
+    "932003": {
+      "lvl": 35,
+      "id": 932003,
+      "awake_times": 0,
+      "children_id": 2003
+    },
+    "932004": {
+      "lvl": 35,
+      "id": 932004,
+      "awake_times": 0,
+      "children_id": 2004
+    },
+    "932005": {
+      "lvl": 35,
+      "id": 932005,
+      "awake_times": 0,
+      "children_id": 2005
+    },
+    "932006": {
+      "lvl": 35,
+      "id": 932006,
+      "awake_times": 0,
+      "children_id": 2006
+    },
+    "932007": {
+      "lvl": 35,
+      "id": 932007,
+      "awake_times": 0,
+      "children_id": 2007
+    },
+    "932008": {
+      "lvl": 35,
+      "id": 932008,
+      "awake_times": 0,
+      "children_id": 2008
+    },
+    "932009": {
+      "lvl": 35,
+      "id": 932009,
+      "awake_times": 0,
+      "children_id": 2009
+    },
+    "932010": {
+      "lvl": 35,
+      "id": 932010,
+      "awake_times": 0,
+      "children_id": 2010
+    },
+    "932011": {
+      "lvl": 35,
+      "id": 932011,
+      "awake_times": 0,
+      "children_id": 2011
+    },
+    "932012": {
+      "lvl": 35,
+      "id": 932012,
+      "awake_times": 0,
+      "children_id": 2012
+    },
+    "932013": {
+      "lvl": 35,
+      "id": 932013,
+      "awake_times": 0,
+      "children_id": 2013
+    },
+    "976003": {
+      "lvl": 15,
+      "id": 976003,
+      "awake_times": 0,
+      "children_id": 6003
+    },
+    "976004": {
+      "lvl": 15,
+      "id": 976004,
+      "awake_times": 0,
+      "children_id": 6004
+    },
+    "500310": {
+      "lvl": 10,
+      "id": 500310,
+      "awake_times": 0,
+      "children_id": 5003
+    },
+    "976006": {
+      "lvl": 15,
+      "id": 976006,
+      "awake_times": 0,
+      "children_id": 6006
+    },
+    "976007": {
+      "lvl": 15,
+      "id": 976007,
+      "awake_times": 0,
+      "children_id": 6007
+    },
+    "976008": {
+      "lvl": 15,
+      "id": 976008,
+      "awake_times": 0,
+      "children_id": 6008
+    },
+    "931001": {
+      "lvl": 35,
+      "id": 931001,
+      "awake_times": 0,
+      "children_id": 1001
+    },
+    "931002": {
+      "lvl": 35,
+      "id": 931002,
+      "awake_times": 0,
+      "children_id": 1002
+    },
+    "931003": {
+      "lvl": 35,
+      "id": 931003,
+      "awake_times": 0,
+      "children_id": 1003
+    },
+    "931004": {
+      "lvl": 35,
+      "id": 931004,
+      "awake_times": 0,
+      "children_id": 1004
+    },
+    "931005": {
+      "lvl": 35,
+      "id": 931005,
+      "awake_times": 0,
+      "children_id": 1005
+    },
+    "931006": {
+      "lvl": 35,
+      "id": 931006,
+      "awake_times": 0,
+      "children_id": 1006
+    },
+    "4004101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 4004101,
+      "awake_times": [],
+      "children_id": 4004
+    },
+    "8007101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 8007101,
+      "awake_times": [],
+      "children_id": 8007
+    },
+    "975001": {
+      "lvl": 15,
+      "id": 975001,
+      "awake_times": 0,
+      "children_id": 5001
+    },
+    "975002": {
+      "lvl": 15,
+      "id": 975002,
+      "awake_times": 0,
+      "children_id": 5002
+    },
+    "975003": {
+      "lvl": 15,
+      "id": 975003,
+      "awake_times": 0,
+      "children_id": 5003
+    },
+    "975004": {
+      "lvl": 15,
+      "id": 975004,
+      "awake_times": 0,
+      "children_id": 5004
+    },
+    "975005": {
+      "lvl": 15,
+      "id": 975005,
+      "awake_times": 0,
+      "children_id": 5005
+    },
+    "975006": {
+      "lvl": 15,
+      "id": 975006,
+      "awake_times": 0,
+      "children_id": 5006
+    },
+    "975007": {
+      "lvl": 15,
+      "id": 975007,
+      "awake_times": 0,
+      "children_id": 5007
+    },
+    "6005101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 6005101,
+      "awake_times": [],
+      "children_id": 6005
+    },
+    "8006101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 8006101,
+      "awake_times": [],
+      "children_id": 8006
+    },
+    "40001": {
+      "lvl": 1,
+      "id": 40001,
+      "awake_times": 0,
+      "children_id": 4001
+    },
+    "974001": {
+      "lvl": 15,
+      "id": 974001,
+      "awake_times": 0,
+      "children_id": 4001
+    },
+    "974002": {
+      "lvl": 15,
+      "id": 974002,
+      "awake_times": 0,
+      "children_id": 4002
+    },
+    "974003": {
+      "lvl": 15,
+      "id": 974003,
+      "awake_times": 0,
+      "children_id": 4003
+    },
+    "974004": {
+      "lvl": 15,
+      "id": 974004,
+      "awake_times": 0,
+      "children_id": 4004
+    },
+    "974005": {
+      "lvl": 15,
+      "id": 974005,
+      "awake_times": 0,
+      "children_id": 4005
+    },
+    "974006": {
+      "lvl": 15,
+      "id": 974006,
+      "awake_times": 0,
+      "children_id": 4006
+    },
+    "974007": {
+      "lvl": 15,
+      "id": 974007,
+      "awake_times": 0,
+      "children_id": 4007
+    },
+    "9780001": {
+      "lvl": 15,
+      "id": 9780001,
+      "awake_times": 0,
+      "children_id": 80001
+    },
+    "9780002": {
+      "lvl": 15,
+      "id": 9780002,
+      "awake_times": 0,
+      "children_id": 80002
+    },
+    "9780003": {
+      "lvl": 15,
+      "id": 9780003,
+      "awake_times": 0,
+      "children_id": 80003
+    },
+    "40021": {
+      "lvl": 1,
+      "id": 40021,
+      "awake_times": 0,
+      "children_id": 4002
+    },
+    "8005101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 8005101,
+      "awake_times": [],
+      "children_id": 8005
+    },
+    "973001": {
+      "lvl": 15,
+      "id": 973001,
+      "awake_times": 0,
+      "children_id": 3001
+    },
+    "973002": {
+      "lvl": 15,
+      "id": 973002,
+      "awake_times": 0,
+      "children_id": 3002
+    },
+    "973003": {
+      "lvl": 15,
+      "id": 973003,
+      "awake_times": 0,
+      "children_id": 3003
+    },
+    "973004": {
+      "lvl": 15,
+      "id": 973004,
+      "awake_times": 0,
+      "children_id": 3004
+    },
+    "973005": {
+      "lvl": 15,
+      "id": 973005,
+      "awake_times": 0,
+      "children_id": 3005
+    },
+    "973006": {
+      "lvl": 15,
+      "id": 973006,
+      "awake_times": 0,
+      "children_id": 3006
+    },
+    "973007": {
+      "lvl": 15,
+      "id": 973007,
+      "awake_times": 0,
+      "children_id": 3007
+    },
+    "973008": {
+      "lvl": 15,
+      "id": 973008,
+      "awake_times": 0,
+      "children_id": 3008
+    },
+    "973009": {
+      "lvl": 15,
+      "id": 973009,
+      "awake_times": 0,
+      "children_id": 3009
+    },
+    "973010": {
+      "lvl": 15,
+      "id": 973010,
+      "awake_times": 0,
+      "children_id": 3010
+    },
+    "973011": {
+      "lvl": 15,
+      "id": 973011,
+      "awake_times": 0,
+      "children_id": 3011
+    },
+    "973012": {
+      "lvl": 15,
+      "id": 973012,
+      "awake_times": 0,
+      "children_id": 3012
+    },
+    "928001": {
+      "lvl": 40,
+      "id": 928001,
+      "awake_times": 0,
+      "children_id": 8001
+    },
+    "928002": {
+      "lvl": 40,
+      "id": 928002,
+      "awake_times": 0,
+      "children_id": 8002
+    },
+    "928003": {
+      "lvl": 40,
+      "id": 928003,
+      "awake_times": 0,
+      "children_id": 8003
+    },
+    "928004": {
+      "lvl": 40,
+      "id": 928004,
+      "awake_times": 0,
+      "children_id": 8004
+    },
+    "928005": {
+      "lvl": 40,
+      "id": 928005,
+      "awake_times": 0,
+      "children_id": 8005
+    },
+    "928006": {
+      "lvl": 40,
+      "id": 928006,
+      "awake_times": 0,
+      "children_id": 8006
+    },
+    "928007": {
+      "lvl": 40,
+      "id": 928007,
+      "awake_times": 0,
+      "children_id": 8007
+    },
+    "4001101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 4001101,
+      "awake_times": [],
+      "children_id": 4001
+    },
+    "972001": {
+      "lvl": 15,
+      "id": 972001,
+      "awake_times": 0,
+      "children_id": 2001
+    },
+    "972002": {
+      "lvl": 15,
+      "id": 972002,
+      "awake_times": 0,
+      "children_id": 2002
+    },
+    "972003": {
+      "lvl": 15,
+      "id": 972003,
+      "awake_times": 0,
+      "children_id": 2003
+    },
+    "972004": {
+      "lvl": 15,
+      "id": 972004,
+      "awake_times": 0,
+      "children_id": 2004
+    },
+    "972005": {
+      "lvl": 15,
+      "id": 972005,
+      "awake_times": 0,
+      "children_id": 2005
+    },
+    "972006": {
+      "lvl": 15,
+      "id": 972006,
+      "awake_times": 0,
+      "children_id": 2006
+    },
+    "972007": {
+      "lvl": 15,
+      "id": 972007,
+      "awake_times": 0,
+      "children_id": 2007
+    },
+    "972008": {
+      "lvl": 15,
+      "id": 972008,
+      "awake_times": 0,
+      "children_id": 2008
+    },
+    "972009": {
+      "lvl": 15,
+      "id": 972009,
+      "awake_times": 0,
+      "children_id": 2009
+    },
+    "972010": {
+      "lvl": 15,
+      "id": 972010,
+      "awake_times": 0,
+      "children_id": 2010
+    },
+    "972011": {
+      "lvl": 15,
+      "id": 972011,
+      "awake_times": 0,
+      "children_id": 2011
+    },
+    "972012": {
+      "lvl": 15,
+      "id": 972012,
+      "awake_times": 0,
+      "children_id": 2012
+    },
+    "972013": {
+      "lvl": 15,
+      "id": 972013,
+      "awake_times": 0,
+      "children_id": 2013
+    },
+    "927002": {
+      "lvl": 40,
+      "id": 927002,
+      "awake_times": 0,
+      "children_id": 7002
+    },
+    "971001": {
+      "lvl": 15,
+      "id": 971001,
+      "awake_times": 0,
+      "children_id": 1001
+    },
+    "971002": {
+      "lvl": 15,
+      "id": 971002,
+      "awake_times": 0,
+      "children_id": 1002
+    },
+    "971003": {
+      "lvl": 15,
+      "id": 971003,
+      "awake_times": 0,
+      "children_id": 1003
+    },
+    "971004": {
+      "lvl": 15,
+      "id": 971004,
+      "awake_times": 0,
+      "children_id": 1004
+    },
+    "971005": {
+      "lvl": 15,
+      "id": 971005,
+      "awake_times": 0,
+      "children_id": 1005
+    },
+    "971006": {
+      "lvl": 15,
+      "id": 971006,
+      "awake_times": 0,
+      "children_id": 1006
+    },
+    "926001": {
+      "lvl": 40,
+      "id": 926001,
+      "awake_times": 0,
+      "children_id": 6001
+    },
+    "926002": {
+      "lvl": 40,
+      "id": 926002,
+      "awake_times": 0,
+      "children_id": 6002
+    },
+    "926003": {
+      "lvl": 40,
+      "id": 926003,
+      "awake_times": 0,
+      "children_id": 6003
+    },
+    "926004": {
+      "lvl": 40,
+      "id": 926004,
+      "awake_times": 0,
+      "children_id": 6004
+    },
+    "926005": {
+      "lvl": 40,
+      "id": 926005,
+      "awake_times": 0,
+      "children_id": 6005
+    },
+    "926006": {
+      "lvl": 40,
+      "id": 926006,
+      "awake_times": 0,
+      "children_id": 6006
+    },
+    "926007": {
+      "lvl": 40,
+      "id": 926007,
+      "awake_times": 0,
+      "children_id": 6007
+    },
+    "926008": {
+      "lvl": 40,
+      "id": 926008,
+      "awake_times": 0,
+      "children_id": 6008
+    },
+    "8002101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 8002101,
+      "awake_times": [],
+      "children_id": 8002
+    },
+    "925001": {
+      "lvl": 40,
+      "id": 925001,
+      "awake_times": 0,
+      "children_id": 5001
+    },
+    "925002": {
+      "lvl": 40,
+      "id": 925002,
+      "awake_times": 0,
+      "children_id": 5002
+    },
+    "925003": {
+      "lvl": 40,
+      "id": 925003,
+      "awake_times": 0,
+      "children_id": 5003
+    },
+    "925004": {
+      "lvl": 40,
+      "id": 925004,
+      "awake_times": 0,
+      "children_id": 5004
+    },
+    "925005": {
+      "lvl": 40,
+      "id": 925005,
+      "awake_times": 0,
+      "children_id": 5005
+    },
+    "925006": {
+      "lvl": 40,
+      "id": 925006,
+      "awake_times": 0,
+      "children_id": 5006
+    },
+    "925007": {
+      "lvl": 40,
+      "id": 925007,
+      "awake_times": 0,
+      "children_id": 5007
+    },
+    "400210": {
+      "lvl": 10,
+      "id": 400210,
+      "awake_times": 0,
+      "children_id": 4002
+    },
+    "8001101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 8001101,
+      "awake_times": [],
+      "children_id": 8001
+    },
+    "924001": {
+      "lvl": 40,
+      "id": 924001,
+      "awake_times": 0,
+      "children_id": 4001
+    },
+    "924002": {
+      "lvl": 40,
+      "id": 924002,
+      "awake_times": 0,
+      "children_id": 4002
+    },
+    "924003": {
+      "lvl": 40,
+      "id": 924003,
+      "awake_times": 0,
+      "children_id": 4003
+    },
+    "924004": {
+      "lvl": 40,
+      "id": 924004,
+      "awake_times": 0,
+      "children_id": 4004
+    },
+    "924005": {
+      "lvl": 40,
+      "id": 924005,
+      "awake_times": 0,
+      "children_id": 4005
+    },
+    "924006": {
+      "lvl": 40,
+      "id": 924006,
+      "awake_times": 0,
+      "children_id": 4006
+    },
+    "924007": {
+      "lvl": 40,
+      "id": 924007,
+      "awake_times": 0,
+      "children_id": 4007
+    },
+    "968001": {
+      "lvl": 20,
+      "id": 968001,
+      "awake_times": 0,
+      "children_id": 8001
+    },
+    "968002": {
+      "lvl": 20,
+      "id": 968002,
+      "awake_times": 0,
+      "children_id": 8002
+    },
+    "968003": {
+      "lvl": 20,
+      "id": 968003,
+      "awake_times": 0,
+      "children_id": 8003
+    },
+    "968004": {
+      "lvl": 20,
+      "id": 968004,
+      "awake_times": 0,
+      "children_id": 8004
+    },
+    "968005": {
+      "lvl": 20,
+      "id": 968005,
+      "awake_times": 0,
+      "children_id": 8005
+    },
+    "968006": {
+      "lvl": 20,
+      "id": 968006,
+      "awake_times": 0,
+      "children_id": 8006
+    },
+    "968007": {
+      "lvl": 20,
+      "id": 968007,
+      "awake_times": 0,
+      "children_id": 8007
+    },
+    "923001": {
+      "lvl": 40,
+      "id": 923001,
+      "awake_times": 0,
+      "children_id": 3001
+    },
+    "923002": {
+      "lvl": 40,
+      "id": 923002,
+      "awake_times": 0,
+      "children_id": 3002
+    },
+    "923003": {
+      "lvl": 40,
+      "id": 923003,
+      "awake_times": 0,
+      "children_id": 3003
+    },
+    "923004": {
+      "lvl": 40,
+      "id": 923004,
+      "awake_times": 0,
+      "children_id": 3004
+    },
+    "923005": {
+      "lvl": 40,
+      "id": 923005,
+      "awake_times": 0,
+      "children_id": 3005
+    },
+    "923006": {
+      "lvl": 40,
+      "id": 923006,
+      "awake_times": 0,
+      "children_id": 3006
+    },
+    "923007": {
+      "lvl": 40,
+      "id": 923007,
+      "awake_times": 0,
+      "children_id": 3007
+    },
+    "923008": {
+      "lvl": 40,
+      "id": 923008,
+      "awake_times": 0,
+      "children_id": 3008
+    },
+    "923009": {
+      "lvl": 40,
+      "id": 923009,
+      "awake_times": 0,
+      "children_id": 3009
+    },
+    "923010": {
+      "lvl": 40,
+      "id": 923010,
+      "awake_times": 0,
+      "children_id": 3010
+    },
+    "923011": {
+      "lvl": 40,
+      "id": 923011,
+      "awake_times": 0,
+      "children_id": 3011
+    },
+    "967001": {
+      "lvl": 20,
+      "id": 967001,
+      "awake_times": 0,
+      "children_id": 7001
+    },
+    "967002": {
+      "lvl": 20,
+      "id": 967002,
+      "awake_times": 0,
+      "children_id": 7002
+    },
+    "922001": {
+      "lvl": 40,
+      "id": 922001,
+      "awake_times": 0,
+      "children_id": 2001
+    },
+    "922002": {
+      "lvl": 40,
+      "id": 922002,
+      "awake_times": 0,
+      "children_id": 2002
+    },
+    "922003": {
+      "lvl": 40,
+      "id": 922003,
+      "awake_times": 0,
+      "children_id": 2003
+    },
+    "922004": {
+      "lvl": 40,
+      "id": 922004,
+      "awake_times": 0,
+      "children_id": 2004
+    },
+    "922005": {
+      "lvl": 40,
+      "id": 922005,
+      "awake_times": 0,
+      "children_id": 2005
+    },
+    "922006": {
+      "lvl": 40,
+      "id": 922006,
+      "awake_times": 0,
+      "children_id": 2006
+    },
+    "922007": {
+      "lvl": 40,
+      "id": 922007,
+      "awake_times": 0,
+      "children_id": 2007
+    },
+    "922008": {
+      "lvl": 40,
+      "id": 922008,
+      "awake_times": 0,
+      "children_id": 2008
+    },
+    "922009": {
+      "lvl": 40,
+      "id": 922009,
+      "awake_times": 0,
+      "children_id": 2009
+    },
+    "922010": {
+      "lvl": 40,
+      "id": 922010,
+      "awake_times": 0,
+      "children_id": 2010
+    },
+    "922011": {
+      "lvl": 40,
+      "id": 922011,
+      "awake_times": 0,
+      "children_id": 2011
+    },
+    "966001": {
+      "lvl": 20,
+      "id": 966001,
+      "awake_times": 0,
+      "children_id": 6001
+    },
+    "966002": {
+      "lvl": 20,
+      "id": 966002,
+      "awake_times": 0,
+      "children_id": 6002
+    },
+    "966003": {
+      "lvl": 20,
+      "id": 966003,
+      "awake_times": 0,
+      "children_id": 6003
+    },
+    "966004": {
+      "lvl": 20,
+      "id": 966004,
+      "awake_times": 0,
+      "children_id": 6004
+    },
+    "966005": {
+      "lvl": 20,
+      "id": 966005,
+      "awake_times": 0,
+      "children_id": 6005
+    },
+    "966006": {
+      "lvl": 20,
+      "id": 966006,
+      "awake_times": 0,
+      "children_id": 6006
+    },
+    "966007": {
+      "lvl": 20,
+      "id": 966007,
+      "awake_times": 0,
+      "children_id": 6007
+    },
+    "966008": {
+      "lvl": 20,
+      "id": 966008,
+      "awake_times": 0,
+      "children_id": 6008
+    },
+    "1010001": {
+      "lvl": 35,
+      "id": 1010001,
+      "awake_times": 0,
+      "children_id": 80001
+    },
+    "1010002": {
+      "lvl": 35,
+      "id": 1010002,
+      "awake_times": 0,
+      "children_id": 80002
+    },
+    "1010003": {
+      "lvl": 35,
+      "id": 1010003,
+      "awake_times": 0,
+      "children_id": 80003
+    },
+    "1010004": {
+      "lvl": 35,
+      "id": 1010004,
+      "awake_times": 0,
+      "children_id": 80004
+    },
+    "921004": {
+      "lvl": 40,
+      "id": 921004,
+      "awake_times": 0,
+      "children_id": 1004
+    },
+    "921005": {
+      "lvl": 40,
+      "id": 921005,
+      "awake_times": 0,
+      "children_id": 1005
+    },
+    "921006": {
+      "lvl": 40,
+      "id": 921006,
+      "awake_times": 0,
+      "children_id": 1006
+    },
+    "965001": {
+      "lvl": 20,
+      "id": 965001,
+      "awake_times": 0,
+      "children_id": 5001
+    },
+    "965002": {
+      "lvl": 20,
+      "id": 965002,
+      "awake_times": 0,
+      "children_id": 5002
+    },
+    "965003": {
+      "lvl": 20,
+      "id": 965003,
+      "awake_times": 0,
+      "children_id": 5003
+    },
+    "965004": {
+      "lvl": 20,
+      "id": 965004,
+      "awake_times": 0,
+      "children_id": 5004
+    },
+    "965005": {
+      "lvl": 20,
+      "id": 965005,
+      "awake_times": 0,
+      "children_id": 5005
+    },
+    "965006": {
+      "lvl": 20,
+      "id": 965006,
+      "awake_times": 0,
+      "children_id": 5006
+    },
+    "965007": {
+      "lvl": 20,
+      "id": 965007,
+      "awake_times": 0,
+      "children_id": 5007
+    },
+    "964001": {
+      "lvl": 20,
+      "id": 964001,
+      "awake_times": 0,
+      "children_id": 4001
+    },
+    "964002": {
+      "lvl": 20,
+      "id": 964002,
+      "awake_times": 0,
+      "children_id": 4002
+    },
+    "964003": {
+      "lvl": 20,
+      "id": 964003,
+      "awake_times": 0,
+      "children_id": 4003
+    },
+    "964004": {
+      "lvl": 20,
+      "id": 964004,
+      "awake_times": 0,
+      "children_id": 4004
+    },
+    "964005": {
+      "lvl": 20,
+      "id": 964005,
+      "awake_times": 0,
+      "children_id": 4005
+    },
+    "964006": {
+      "lvl": 20,
+      "id": 964006,
+      "awake_times": 0,
+      "children_id": 4006
+    },
+    "964007": {
+      "lvl": 20,
+      "id": 964007,
+      "awake_times": 0,
+      "children_id": 4007
+    },
+    "3014101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 3014101,
+      "awake_times": [],
+      "children_id": 3014
+    },
+    "30011": {
+      "lvl": 1,
+      "id": 30011,
+      "awake_times": 0,
+      "children_id": 3001
+    },
+    "963001": {
+      "lvl": 20,
+      "id": 963001,
+      "awake_times": 0,
+      "children_id": 3001
+    },
+    "963002": {
+      "lvl": 20,
+      "id": 963002,
+      "awake_times": 0,
+      "children_id": 3002
+    },
+    "963003": {
+      "lvl": 20,
+      "id": 963003,
+      "awake_times": 0,
+      "children_id": 3003
+    },
+    "963004": {
+      "lvl": 20,
+      "id": 963004,
+      "awake_times": 0,
+      "children_id": 3004
+    },
+    "963005": {
+      "lvl": 20,
+      "id": 963005,
+      "awake_times": 0,
+      "children_id": 3005
+    },
+    "963006": {
+      "lvl": 20,
+      "id": 963006,
+      "awake_times": 0,
+      "children_id": 3006
+    },
+    "963007": {
+      "lvl": 20,
+      "id": 963007,
+      "awake_times": 0,
+      "children_id": 3007
+    },
+    "963008": {
+      "lvl": 20,
+      "id": 963008,
+      "awake_times": 0,
+      "children_id": 3008
+    },
+    "3013101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 3013101,
+      "awake_times": [],
+      "children_id": 3013
+    },
+    "963010": {
+      "lvl": 20,
+      "id": 963010,
+      "awake_times": 0,
+      "children_id": 3010
+    },
+    "963011": {
+      "lvl": 20,
+      "id": 963011,
+      "awake_times": 0,
+      "children_id": 3011
+    },
+    "963012": {
+      "lvl": 20,
+      "id": 963012,
+      "awake_times": 0,
+      "children_id": 3012
+    },
+    "963013": {
+      "lvl": 20,
+      "id": 963013,
+      "awake_times": 0,
+      "children_id": 3013
+    },
+    "963014": {
+      "lvl": 20,
+      "id": 963014,
+      "awake_times": 0,
+      "children_id": 3014
+    },
+    "918003": {
+      "lvl": 45,
+      "id": 918003,
+      "awake_times": 0,
+      "children_id": 8003
+    },
+    "918004": {
+      "lvl": 45,
+      "id": 918004,
+      "awake_times": 0,
+      "children_id": 8004
+    },
+    "30041": {
+      "lvl": 1,
+      "id": 30041,
+      "awake_times": 0,
+      "children_id": 3004
+    },
+    "9680001": {
+      "lvl": 20,
+      "id": 9680001,
+      "awake_times": 0,
+      "children_id": 80001
+    },
+    "9680002": {
+      "lvl": 20,
+      "id": 9680002,
+      "awake_times": 0,
+      "children_id": 80002
+    },
+    "9680003": {
+      "lvl": 20,
+      "id": 9680003,
+      "awake_times": 0,
+      "children_id": 80003
+    },
+    "9680004": {
+      "lvl": 20,
+      "id": 9680004,
+      "awake_times": 0,
+      "children_id": 80004
+    },
+    "962001": {
+      "lvl": 20,
+      "id": 962001,
+      "awake_times": 0,
+      "children_id": 2001
+    },
+    "962002": {
+      "lvl": 20,
+      "id": 962002,
+      "awake_times": 0,
+      "children_id": 2002
+    },
+    "962003": {
+      "lvl": 20,
+      "id": 962003,
+      "awake_times": 0,
+      "children_id": 2003
+    },
+    "962004": {
+      "lvl": 20,
+      "id": 962004,
+      "awake_times": 0,
+      "children_id": 2004
+    },
+    "962005": {
+      "lvl": 20,
+      "id": 962005,
+      "awake_times": 0,
+      "children_id": 2005
+    },
+    "962006": {
+      "lvl": 20,
+      "id": 962006,
+      "awake_times": 0,
+      "children_id": 2006
+    },
+    "962007": {
+      "lvl": 20,
+      "id": 962007,
+      "awake_times": 0,
+      "children_id": 2007
+    },
+    "962008": {
+      "lvl": 20,
+      "id": 962008,
+      "awake_times": 0,
+      "children_id": 2008
+    },
+    "3012101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 3012101,
+      "awake_times": [],
+      "children_id": 3012
+    },
+    "962010": {
+      "lvl": 20,
+      "id": 962010,
+      "awake_times": 0,
+      "children_id": 2010
+    },
+    "962011": {
+      "lvl": 20,
+      "id": 962011,
+      "awake_times": 0,
+      "children_id": 2011
+    },
+    "962012": {
+      "lvl": 20,
+      "id": 962012,
+      "awake_times": 0,
+      "children_id": 2012
+    },
+    "962013": {
+      "lvl": 20,
+      "id": 962013,
+      "awake_times": 0,
+      "children_id": 2013
+    },
+    "917002": {
+      "lvl": 45,
+      "id": 917002,
+      "awake_times": 0,
+      "children_id": 7002
+    },
+    "961001": {
+      "lvl": 20,
+      "id": 961001,
+      "awake_times": 0,
+      "children_id": 1001
+    },
+    "961002": {
+      "lvl": 20,
+      "id": 961002,
+      "awake_times": 0,
+      "children_id": 1002
+    },
+    "961003": {
+      "lvl": 20,
+      "id": 961003,
+      "awake_times": 0,
+      "children_id": 1003
+    },
+    "961004": {
+      "lvl": 20,
+      "id": 961004,
+      "awake_times": 0,
+      "children_id": 1004
+    },
+    "961005": {
+      "lvl": 20,
+      "id": 961005,
+      "awake_times": 0,
+      "children_id": 1005
+    },
+    "961006": {
+      "lvl": 20,
+      "id": 961006,
+      "awake_times": 0,
+      "children_id": 1006
+    },
+    "30081": {
+      "lvl": 1,
+      "id": 30081,
+      "awake_times": 0,
+      "children_id": 3008
+    },
+    "916001": {
+      "lvl": 45,
+      "id": 916001,
+      "awake_times": 0,
+      "children_id": 6001
+    },
+    "916002": {
+      "lvl": 45,
+      "id": 916002,
+      "awake_times": 0,
+      "children_id": 6002
+    },
+    "916003": {
+      "lvl": 45,
+      "id": 916003,
+      "awake_times": 0,
+      "children_id": 6003
+    },
+    "916004": {
+      "lvl": 45,
+      "id": 916004,
+      "awake_times": 0,
+      "children_id": 6004
+    },
+    "916005": {
+      "lvl": 45,
+      "id": 916005,
+      "awake_times": 0,
+      "children_id": 6005
+    },
+    "916006": {
+      "lvl": 45,
+      "id": 916006,
+      "awake_times": 0,
+      "children_id": 6006
+    },
+    "916007": {
+      "lvl": 45,
+      "id": 916007,
+      "awake_times": 0,
+      "children_id": 6007
+    },
+    "1009101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 1009101,
+      "awake_times": [],
+      "children_id": 1009
+    },
+    "3010101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 3010101,
+      "awake_times": [],
+      "children_id": 3010
+    },
+    "915001": {
+      "lvl": 45,
+      "id": 915001,
+      "awake_times": 0,
+      "children_id": 5001
+    },
+    "915002": {
+      "lvl": 45,
+      "id": 915002,
+      "awake_times": 0,
+      "children_id": 5002
+    },
+    "915003": {
+      "lvl": 45,
+      "id": 915003,
+      "awake_times": 0,
+      "children_id": 5003
+    },
+    "915004": {
+      "lvl": 45,
+      "id": 915004,
+      "awake_times": 0,
+      "children_id": 5004
+    },
+    "915005": {
+      "lvl": 45,
+      "id": 915005,
+      "awake_times": 0,
+      "children_id": 5005
+    },
+    "915006": {
+      "lvl": 45,
+      "id": 915006,
+      "awake_times": 0,
+      "children_id": 5006
+    },
+    "915007": {
+      "lvl": 45,
+      "id": 915007,
+      "awake_times": 0,
+      "children_id": 5007
+    },
+    "1008101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 1008101,
+      "awake_times": [],
+      "children_id": 1008
+    },
+    "70011": {
+      "lvl": 1,
+      "id": 70011,
+      "awake_times": 0,
+      "children_id": 7001
+    },
+    "70015": {
+      "lvl": 5,
+      "id": 70015,
+      "awake_times": 0,
+      "children_id": 7001
+    },
+    "3009101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 3009101,
+      "awake_times": [],
+      "children_id": 3009
+    },
+    "914001": {
+      "lvl": 45,
+      "id": 914001,
+      "awake_times": 0,
+      "children_id": 4001
+    },
+    "914002": {
+      "lvl": 45,
+      "id": 914002,
+      "awake_times": 0,
+      "children_id": 4002
+    },
+    "914003": {
+      "lvl": 45,
+      "id": 914003,
+      "awake_times": 0,
+      "children_id": 4003
+    },
+    "914004": {
+      "lvl": 45,
+      "id": 914004,
+      "awake_times": 0,
+      "children_id": 4004
+    },
+    "914005": {
+      "lvl": 45,
+      "id": 914005,
+      "awake_times": 0,
+      "children_id": 4005
+    },
+    "914006": {
+      "lvl": 45,
+      "id": 914006,
+      "awake_times": 0,
+      "children_id": 4006
+    },
+    "914007": {
+      "lvl": 45,
+      "id": 914007,
+      "awake_times": 0,
+      "children_id": 4007
+    },
+    "958001": {
+      "lvl": 25,
+      "id": 958001,
+      "awake_times": 0,
+      "children_id": 8001
+    },
+    "958002": {
+      "lvl": 25,
+      "id": 958002,
+      "awake_times": 0,
+      "children_id": 8002
+    },
+    "958003": {
+      "lvl": 25,
+      "id": 958003,
+      "awake_times": 0,
+      "children_id": 8003
+    },
+    "958004": {
+      "lvl": 25,
+      "id": 958004,
+      "awake_times": 0,
+      "children_id": 8004
+    },
+    "958005": {
+      "lvl": 25,
+      "id": 958005,
+      "awake_times": 0,
+      "children_id": 8005
+    },
+    "958006": {
+      "lvl": 25,
+      "id": 958006,
+      "awake_times": 0,
+      "children_id": 8006
+    },
+    "958007": {
+      "lvl": 25,
+      "id": 958007,
+      "awake_times": 0,
+      "children_id": 8007
+    },
+    "913001": {
+      "lvl": 45,
+      "id": 913001,
+      "awake_times": 0,
+      "children_id": 3001
+    },
+    "913002": {
+      "lvl": 45,
+      "id": 913002,
+      "awake_times": 0,
+      "children_id": 3002
+    },
+    "913003": {
+      "lvl": 45,
+      "id": 913003,
+      "awake_times": 0,
+      "children_id": 3003
+    },
+    "913004": {
+      "lvl": 45,
+      "id": 913004,
+      "awake_times": 0,
+      "children_id": 3004
+    },
+    "913005": {
+      "lvl": 45,
+      "id": 913005,
+      "awake_times": 0,
+      "children_id": 3005
+    },
+    "913006": {
+      "lvl": 45,
+      "id": 913006,
+      "awake_times": 0,
+      "children_id": 3006
+    },
+    "913007": {
+      "lvl": 45,
+      "id": 913007,
+      "awake_times": 0,
+      "children_id": 3007
+    },
+    "1006101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 1006101,
+      "awake_times": [],
+      "children_id": 1006
+    },
+    "913009": {
+      "lvl": 45,
+      "id": 913009,
+      "awake_times": 0,
+      "children_id": 3009
+    },
+    "913010": {
+      "lvl": 45,
+      "id": 913010,
+      "awake_times": 0,
+      "children_id": 3010
+    },
+    "913011": {
+      "lvl": 45,
+      "id": 913011,
+      "awake_times": 0,
+      "children_id": 3011
+    },
+    "957001": {
+      "lvl": 25,
+      "id": 957001,
+      "awake_times": 0,
+      "children_id": 7001
+    },
+    "957002": {
+      "lvl": 25,
+      "id": 957002,
+      "awake_times": 0,
+      "children_id": 7002
+    },
+    "3007101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 3007101,
+      "awake_times": [],
+      "children_id": 3007
+    },
+    "912001": {
+      "lvl": 45,
+      "id": 912001,
+      "awake_times": 0,
+      "children_id": 2001
+    },
+    "912002": {
+      "lvl": 45,
+      "id": 912002,
+      "awake_times": 0,
+      "children_id": 2002
+    },
+    "912003": {
+      "lvl": 45,
+      "id": 912003,
+      "awake_times": 0,
+      "children_id": 2003
+    },
+    "912004": {
+      "lvl": 45,
+      "id": 912004,
+      "awake_times": 0,
+      "children_id": 2004
+    },
+    "912005": {
+      "lvl": 45,
+      "id": 912005,
+      "awake_times": 0,
+      "children_id": 2005
+    },
+    "912006": {
+      "lvl": 45,
+      "id": 912006,
+      "awake_times": 0,
+      "children_id": 2006
+    },
+    "912007": {
+      "lvl": 45,
+      "id": 912007,
+      "awake_times": 0,
+      "children_id": 2007
+    },
+    "912008": {
+      "lvl": 45,
+      "id": 912008,
+      "awake_times": 0,
+      "children_id": 2008
+    },
+    "5008101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 5008101,
+      "awake_times": [],
+      "children_id": 5008
+    },
+    "912010": {
+      "lvl": 45,
+      "id": 912010,
+      "awake_times": 0,
+      "children_id": 2010
+    },
+    "912011": {
+      "lvl": 45,
+      "id": 912011,
+      "awake_times": 0,
+      "children_id": 2011
+    },
+    "956001": {
+      "lvl": 25,
+      "id": 956001,
+      "awake_times": 0,
+      "children_id": 6001
+    },
+    "956002": {
+      "lvl": 25,
+      "id": 956002,
+      "awake_times": 0,
+      "children_id": 6002
+    },
+    "956003": {
+      "lvl": 25,
+      "id": 956003,
+      "awake_times": 0,
+      "children_id": 6003
+    },
+    "956004": {
+      "lvl": 25,
+      "id": 956004,
+      "awake_times": 0,
+      "children_id": 6004
+    },
+    "956005": {
+      "lvl": 25,
+      "id": 956005,
+      "awake_times": 0,
+      "children_id": 6005
+    },
+    "956006": {
+      "lvl": 25,
+      "id": 956006,
+      "awake_times": 0,
+      "children_id": 6006
+    },
+    "956007": {
+      "lvl": 25,
+      "id": 956007,
+      "awake_times": 0,
+      "children_id": 6007
+    },
+    "956008": {
+      "lvl": 25,
+      "id": 956008,
+      "awake_times": 0,
+      "children_id": 6008
+    },
+    "921001": {
+      "lvl": 40,
+      "id": 921001,
+      "awake_times": 0,
+      "children_id": 1001
+    },
+    "921002": {
+      "lvl": 40,
+      "id": 921002,
+      "awake_times": 0,
+      "children_id": 1002
+    },
+    "921003": {
+      "lvl": 40,
+      "id": 921003,
+      "awake_times": 0,
+      "children_id": 1003
+    },
+    "1000001": {
+      "lvl": 40,
+      "id": 1000001,
+      "awake_times": 0,
+      "children_id": 80001
+    },
+    "1000002": {
+      "lvl": 40,
+      "id": 1000002,
+      "awake_times": 0,
+      "children_id": 80002
+    },
+    "1000003": {
+      "lvl": 40,
+      "id": 1000003,
+      "awake_times": 0,
+      "children_id": 80003
+    },
+    "1000004": {
+      "lvl": 40,
+      "id": 1000004,
+      "awake_times": 0,
+      "children_id": 80004
+    },
+    "911004": {
+      "lvl": 45,
+      "id": 911004,
+      "awake_times": 0,
+      "children_id": 1004
+    },
+    "911005": {
+      "lvl": 45,
+      "id": 911005,
+      "awake_times": 0,
+      "children_id": 1005
+    },
+    "911006": {
+      "lvl": 45,
+      "id": 911006,
+      "awake_times": 0,
+      "children_id": 1006
+    },
+    "922012": {
+      "lvl": 40,
+      "id": 922012,
+      "awake_times": 0,
+      "children_id": 2012
+    },
+    "1004101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 1004101,
+      "awake_times": [],
+      "children_id": 1004
+    },
+    "5007101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 5007101,
+      "awake_times": [],
+      "children_id": 5007
+    },
+    "898003": {
+      "lvl": 70,
+      "id": 898003,
+      "awake_times": 4,
+      "children_id": 8003
+    },
+    "922013": {
+      "lvl": 40,
+      "id": 922013,
+      "awake_times": 0,
+      "children_id": 2013
+    },
+    "955001": {
+      "lvl": 25,
+      "id": 955001,
+      "awake_times": 0,
+      "children_id": 5001
+    },
+    "955002": {
+      "lvl": 25,
+      "id": 955002,
+      "awake_times": 0,
+      "children_id": 5002
+    },
+    "955003": {
+      "lvl": 25,
+      "id": 955003,
+      "awake_times": 1,
+      "children_id": 5003
+    },
+    "955004": {
+      "lvl": 25,
+      "id": 955004,
+      "awake_times": 0,
+      "children_id": 5004
+    },
+    "955005": {
+      "lvl": 25,
+      "id": 955005,
+      "awake_times": 0,
+      "children_id": 5005
+    },
+    "955006": {
+      "lvl": 25,
+      "id": 955006,
+      "awake_times": 0,
+      "children_id": 5006
+    },
+    "955007": {
+      "lvl": 25,
+      "id": 955007,
+      "awake_times": 0,
+      "children_id": 5007
+    },
+    "898001": {
+      "lvl": 70,
+      "id": 898001,
+      "awake_times": 4,
+      "children_id": 8001
+    },
+    "897002": {
+      "lvl": 70,
+      "id": 897002,
+      "awake_times": 4,
+      "children_id": 7002
+    },
+    "897001": {
+      "lvl": 70,
+      "id": 897001,
+      "awake_times": 4,
+      "children_id": 7001
+    },
+    "896008": {
+      "lvl": 70,
+      "id": 896008,
+      "awake_times": 4,
+      "children_id": 6008
+    },
+    "936008": {
+      "lvl": 35,
+      "id": 936008,
+      "awake_times": 0,
+      "children_id": 6008
+    },
+    "896006": {
+      "lvl": 70,
+      "id": 896006,
+      "awake_times": 4,
+      "children_id": 6006
+    },
+    "896005": {
+      "lvl": 70,
+      "id": 896005,
+      "awake_times": 4,
+      "children_id": 6005
+    },
+    "896004": {
+      "lvl": 70,
+      "id": 896004,
+      "awake_times": 4,
+      "children_id": 6004
+    },
+    "896003": {
+      "lvl": 70,
+      "id": 896003,
+      "awake_times": 4,
+      "children_id": 6003
+    },
+    "896002": {
+      "lvl": 70,
+      "id": 896002,
+      "awake_times": 4,
+      "children_id": 6002
+    },
+    "896001": {
+      "lvl": 70,
+      "id": 896001,
+      "awake_times": 4,
+      "children_id": 6001
+    },
+    "936002": {
+      "lvl": 35,
+      "id": 936002,
+      "awake_times": 0,
+      "children_id": 6002
+    },
+    "1003101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 1003101,
+      "awake_times": [],
+      "children_id": 1003
+    },
+    "895006": {
+      "lvl": 70,
+      "id": 895006,
+      "awake_times": 4,
+      "children_id": 5006
+    },
+    "895005": {
+      "lvl": 70,
+      "id": 895005,
+      "awake_times": 4,
+      "children_id": 5005
+    },
+    "895004": {
+      "lvl": 70,
+      "id": 895004,
+      "awake_times": 4,
+      "children_id": 5004
+    },
+    "954001": {
+      "lvl": 25,
+      "id": 954001,
+      "awake_times": 0,
+      "children_id": 4001
+    },
+    "954002": {
+      "lvl": 25,
+      "id": 954002,
+      "awake_times": 0,
+      "children_id": 4002
+    },
+    "954003": {
+      "lvl": 25,
+      "id": 954003,
+      "awake_times": 0,
+      "children_id": 4003
+    },
+    "954004": {
+      "lvl": 25,
+      "id": 954004,
+      "awake_times": 0,
+      "children_id": 4004
+    },
+    "954005": {
+      "lvl": 25,
+      "id": 954005,
+      "awake_times": 0,
+      "children_id": 4005
+    },
+    "954006": {
+      "lvl": 25,
+      "id": 954006,
+      "awake_times": 0,
+      "children_id": 4006
+    },
+    "954007": {
+      "lvl": 25,
+      "id": 954007,
+      "awake_times": 0,
+      "children_id": 4007
+    },
+    "895003": {
+      "lvl": 70,
+      "id": 895003,
+      "awake_times": 4,
+      "children_id": 5003
+    },
+    "895002": {
+      "lvl": 70,
+      "id": 895002,
+      "awake_times": 4,
+      "children_id": 5002
+    },
+    "20011": {
+      "lvl": 1,
+      "id": 20011,
+      "awake_times": 0,
+      "children_id": 2001
+    },
+    "895001": {
+      "lvl": 70,
+      "id": 895001,
+      "awake_times": 4,
+      "children_id": 5001
+    },
+    "894007": {
+      "lvl": 70,
+      "id": 894007,
+      "awake_times": 4,
+      "children_id": 4007
+    },
+    "894006": {
+      "lvl": 70,
+      "id": 894006,
+      "awake_times": 4,
+      "children_id": 4006
+    },
+    "894005": {
+      "lvl": 70,
+      "id": 894005,
+      "awake_times": 4,
+      "children_id": 4005
+    },
+    "998004": {
+      "lvl": 1,
+      "id": 998004,
+      "awake_times": 0,
+      "children_id": 8004
+    },
+    "894004": {
+      "lvl": 70,
+      "id": 894004,
+      "awake_times": 4,
+      "children_id": 4004
+    },
+    "894003": {
+      "lvl": 70,
+      "id": 894003,
+      "awake_times": 4,
+      "children_id": 4003
+    },
+    "894002": {
+      "lvl": 70,
+      "id": 894002,
+      "awake_times": 4,
+      "children_id": 4002
+    },
+    "894001": {
+      "lvl": 70,
+      "id": 894001,
+      "awake_times": 4,
+      "children_id": 4001
+    },
+    "893012": {
+      "lvl": 70,
+      "id": 893012,
+      "awake_times": 4,
+      "children_id": 3012
+    },
+    "5005101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 5005101,
+      "awake_times": [],
+      "children_id": 5005
+    },
+    "893011": {
+      "lvl": 70,
+      "id": 893011,
+      "awake_times": 4,
+      "children_id": 3011
+    },
+    "893010": {
+      "lvl": 70,
+      "id": 893010,
+      "awake_times": 4,
+      "children_id": 3010
+    },
+    "953001": {
+      "lvl": 25,
+      "id": 953001,
+      "awake_times": 0,
+      "children_id": 3001
+    },
+    "953002": {
+      "lvl": 25,
+      "id": 953002,
+      "awake_times": 0,
+      "children_id": 3002
+    },
+    "953003": {
+      "lvl": 25,
+      "id": 953003,
+      "awake_times": 0,
+      "children_id": 3003
+    },
+    "953004": {
+      "lvl": 25,
+      "id": 953004,
+      "awake_times": 0,
+      "children_id": 3004
+    },
+    "953005": {
+      "lvl": 25,
+      "id": 953005,
+      "awake_times": 0,
+      "children_id": 3005
+    },
+    "953006": {
+      "lvl": 25,
+      "id": 953006,
+      "awake_times": 0,
+      "children_id": 3006
+    },
+    "953007": {
+      "lvl": 25,
+      "id": 953007,
+      "awake_times": 0,
+      "children_id": 3007
+    },
+    "953008": {
+      "lvl": 25,
+      "id": 953008,
+      "awake_times": 0,
+      "children_id": 3008
+    },
+    "953009": {
+      "lvl": 25,
+      "id": 953009,
+      "awake_times": 0,
+      "children_id": 3009
+    },
+    "953010": {
+      "lvl": 25,
+      "id": 953010,
+      "awake_times": 0,
+      "children_id": 3010
+    },
+    "953011": {
+      "lvl": 25,
+      "id": 953011,
+      "awake_times": 0,
+      "children_id": 3011
+    },
+    "997001": {
+      "lvl": 1,
+      "id": 997001,
+      "awake_times": 0,
+      "children_id": 7001
+    },
+    "908001": {
+      "lvl": 60,
+      "id": 908001,
+      "awake_times": 2,
+      "children_id": 8001
+    },
+    "908002": {
+      "lvl": 60,
+      "id": 908002,
+      "awake_times": 2,
+      "children_id": 8002
+    },
+    "908003": {
+      "lvl": 60,
+      "id": 908003,
+      "awake_times": 2,
+      "children_id": 8003
+    },
+    "908004": {
+      "lvl": 60,
+      "id": 908004,
+      "awake_times": 2,
+      "children_id": 8004
+    },
+    "908005": {
+      "lvl": 60,
+      "id": 908005,
+      "awake_times": 2,
+      "children_id": 8005
+    },
+    "908006": {
+      "lvl": 60,
+      "id": 908006,
+      "awake_times": 2,
+      "children_id": 8006
+    },
+    "908007": {
+      "lvl": 60,
+      "id": 908007,
+      "awake_times": 2,
+      "children_id": 8007
+    },
+    "1001101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 1001101,
+      "awake_times": [],
+      "children_id": 1001
+    },
+    "893009": {
+      "lvl": 70,
+      "id": 893009,
+      "awake_times": 4,
+      "children_id": 3009
+    },
+    "893008": {
+      "lvl": 70,
+      "id": 893008,
+      "awake_times": 4,
+      "children_id": 3008
+    },
+    "893007": {
+      "lvl": 70,
+      "id": 893007,
+      "awake_times": 4,
+      "children_id": 3007
+    },
+    "952001": {
+      "lvl": 25,
+      "id": 952001,
+      "awake_times": 0,
+      "children_id": 2001
+    },
+    "952002": {
+      "lvl": 25,
+      "id": 952002,
+      "awake_times": 0,
+      "children_id": 2002
+    },
+    "952003": {
+      "lvl": 25,
+      "id": 952003,
+      "awake_times": 0,
+      "children_id": 2003
+    },
+    "952004": {
+      "lvl": 25,
+      "id": 952004,
+      "awake_times": 0,
+      "children_id": 2004
+    },
+    "952005": {
+      "lvl": 25,
+      "id": 952005,
+      "awake_times": 0,
+      "children_id": 2005
+    },
+    "952006": {
+      "lvl": 25,
+      "id": 952006,
+      "awake_times": 0,
+      "children_id": 2006
+    },
+    "952007": {
+      "lvl": 25,
+      "id": 952007,
+      "awake_times": 0,
+      "children_id": 2007
+    },
+    "952008": {
+      "lvl": 25,
+      "id": 952008,
+      "awake_times": 0,
+      "children_id": 2008
+    },
+    "952009": {
+      "lvl": 25,
+      "id": 952009,
+      "awake_times": 0,
+      "children_id": 2009
+    },
+    "952010": {
+      "lvl": 25,
+      "id": 952010,
+      "awake_times": 0,
+      "children_id": 2010
+    },
+    "952011": {
+      "lvl": 25,
+      "id": 952011,
+      "awake_times": 0,
+      "children_id": 2011
+    },
+    "996001": {
+      "lvl": 1,
+      "id": 996001,
+      "awake_times": 0,
+      "children_id": 6001
+    },
+    "952013": {
+      "lvl": 25,
+      "id": 952013,
+      "awake_times": 0,
+      "children_id": 2013
+    },
+    "996003": {
+      "lvl": 5,
+      "id": 996003,
+      "awake_times": 0,
+      "children_id": 6003
+    },
+    "996004": {
+      "lvl": 1,
+      "id": 996004,
+      "awake_times": 0,
+      "children_id": 6004
+    },
+    "996005": {
+      "lvl": 1,
+      "id": 996005,
+      "awake_times": 0,
+      "children_id": 6005
+    },
+    "996006": {
+      "lvl": 1,
+      "id": 996006,
+      "awake_times": 0,
+      "children_id": 6006
+    },
+    "893006": {
+      "lvl": 70,
+      "id": 893006,
+      "awake_times": 4,
+      "children_id": 3006
+    },
+    "9580001": {
+      "lvl": 25,
+      "id": 9580001,
+      "awake_times": 0,
+      "children_id": 80001
+    },
+    "9580002": {
+      "lvl": 25,
+      "id": 9580002,
+      "awake_times": 0,
+      "children_id": 80002
+    },
+    "9580003": {
+      "lvl": 25,
+      "id": 9580003,
+      "awake_times": 0,
+      "children_id": 80003
+    },
+    "9580004": {
+      "lvl": 25,
+      "id": 9580004,
+      "awake_times": 0,
+      "children_id": 80004
+    },
+    "893005": {
+      "lvl": 70,
+      "id": 893005,
+      "awake_times": 4,
+      "children_id": 3005
+    },
+    "951001": {
+      "lvl": 25,
+      "id": 951001,
+      "awake_times": 0,
+      "children_id": 1001
+    },
+    "951002": {
+      "lvl": 25,
+      "id": 951002,
+      "awake_times": 0,
+      "children_id": 1002
+    },
+    "951003": {
+      "lvl": 25,
+      "id": 951003,
+      "awake_times": 0,
+      "children_id": 1003
+    },
+    "951004": {
+      "lvl": 25,
+      "id": 951004,
+      "awake_times": 0,
+      "children_id": 1004
+    },
+    "951005": {
+      "lvl": 25,
+      "id": 951005,
+      "awake_times": 0,
+      "children_id": 1005
+    },
+    "951006": {
+      "lvl": 25,
+      "id": 951006,
+      "awake_times": 0,
+      "children_id": 1006
+    },
+    "893004": {
+      "lvl": 70,
+      "id": 893004,
+      "awake_times": 4,
+      "children_id": 3004
+    },
+    "893003": {
+      "lvl": 70,
+      "id": 893003,
+      "awake_times": 4,
+      "children_id": 3003
+    },
+    "3001101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 3001101,
+      "awake_times": [],
+      "children_id": 3001
+    },
+    "893002": {
+      "lvl": 70,
+      "id": 893002,
+      "awake_times": 4,
+      "children_id": 3002
+    },
+    "893001": {
+      "lvl": 70,
+      "id": 893001,
+      "awake_times": 4,
+      "children_id": 3001
+    },
+    "995001": {
+      "lvl": 1,
+      "id": 995001,
+      "awake_times": 0,
+      "children_id": 5001
+    },
+    "995002": {
+      "lvl": 1,
+      "id": 995002,
+      "awake_times": 0,
+      "children_id": 5002
+    },
+    "995003": {
+      "lvl": 5,
+      "id": 995003,
+      "awake_times": 0,
+      "children_id": 5003
+    },
+    "995004": {
+      "lvl": 1,
+      "id": 995004,
+      "awake_times": 0,
+      "children_id": 5004
+    },
+    "906004": {
+      "lvl": 60,
+      "id": 906004,
+      "awake_times": 2,
+      "children_id": 6004
+    },
+    "906005": {
+      "lvl": 60,
+      "id": 906005,
+      "awake_times": 2,
+      "children_id": 6005
+    },
+    "906006": {
+      "lvl": 60,
+      "id": 906006,
+      "awake_times": 2,
+      "children_id": 6006
+    },
+    "906007": {
+      "lvl": 60,
+      "id": 906007,
+      "awake_times": 2,
+      "children_id": 6007
+    },
+    "906008": {
+      "lvl": 60,
+      "id": 906008,
+      "awake_times": 2,
+      "children_id": 6008
+    },
+    "5002101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 5002101,
+      "awake_times": [],
+      "children_id": 5002
+    },
+    "892013": {
+      "lvl": 70,
+      "id": 892013,
+      "awake_times": 4,
+      "children_id": 2013
+    },
+    "892012": {
+      "lvl": 70,
+      "id": 892012,
+      "awake_times": 4,
+      "children_id": 2012
+    },
+    "892011": {
+      "lvl": 70,
+      "id": 892011,
+      "awake_times": 4,
+      "children_id": 2011
+    },
+    "892010": {
+      "lvl": 70,
+      "id": 892010,
+      "awake_times": 4,
+      "children_id": 2010
+    },
+    "50035": {
+      "lvl": 5,
+      "id": 50035,
+      "awake_times": 0,
+      "children_id": 5003
+    },
+    "892008": {
+      "lvl": 70,
+      "id": 892008,
+      "awake_times": 4,
+      "children_id": 2008
+    },
+    "9780004": {
+      "lvl": 15,
+      "id": 9780004,
+      "awake_times": 0,
+      "children_id": 80004
+    },
+    "4009101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 4009101,
+      "awake_times": [],
+      "children_id": 4009
+    },
+    "892005": {
+      "lvl": 70,
+      "id": 892005,
+      "awake_times": 4,
+      "children_id": 2005
+    },
+    "892004": {
+      "lvl": 70,
+      "id": 892004,
+      "awake_times": 4,
+      "children_id": 2004
+    },
+    "892003": {
+      "lvl": 70,
+      "id": 892003,
+      "awake_times": 4,
+      "children_id": 2003
+    },
+    "892002": {
+      "lvl": 70,
+      "id": 892002,
+      "awake_times": 4,
+      "children_id": 2002
+    },
+    "892001": {
+      "lvl": 70,
+      "id": 892001,
+      "awake_times": 4,
+      "children_id": 2001
+    },
+    "994001": {
+      "lvl": 1,
+      "id": 994001,
+      "awake_times": 0,
+      "children_id": 4001
+    },
+    "994002": {
+      "lvl": 5,
+      "id": 994002,
+      "awake_times": 0,
+      "children_id": 4002
+    },
+    "994003": {
+      "lvl": 1,
+      "id": 994003,
+      "awake_times": 0,
+      "children_id": 4003
+    },
+    "300410": {
+      "lvl": 10,
+      "id": 300410,
+      "awake_times": 0,
+      "children_id": 3004
+    },
+    "905004": {
+      "lvl": 60,
+      "id": 905004,
+      "awake_times": 2,
+      "children_id": 5004
+    },
+    "905005": {
+      "lvl": 60,
+      "id": 905005,
+      "awake_times": 2,
+      "children_id": 5005
+    },
+    "905006": {
+      "lvl": 60,
+      "id": 905006,
+      "awake_times": 2,
+      "children_id": 5006
+    },
+    "905007": {
+      "lvl": 60,
+      "id": 905007,
+      "awake_times": 2,
+      "children_id": 5007
+    },
+    "9480001": {
+      "lvl": 30,
+      "id": 9480001,
+      "awake_times": 0,
+      "children_id": 80001
+    },
+    "5001101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 5001101,
+      "awake_times": [],
+      "children_id": 5001
+    },
+    "96003": {
+      "lvl": 1,
+      "id": 96003,
+      "awake_times": 0,
+      "children_id": 6003
+    },
+    "96004": {
+      "lvl": 1,
+      "id": 96004,
+      "awake_times": 0,
+      "children_id": 6004
+    },
+    "891003": {
+      "lvl": 70,
+      "id": 891003,
+      "awake_times": 4,
+      "children_id": 1003
+    },
+    "891002": {
+      "lvl": 70,
+      "id": 891002,
+      "awake_times": 4,
+      "children_id": 1002
+    },
+    "891001": {
+      "lvl": 70,
+      "id": 891001,
+      "awake_times": 4,
+      "children_id": 1001
+    },
+    "96005": {
+      "lvl": 1,
+      "id": 96005,
+      "awake_times": 0,
+      "children_id": 6005
+    },
+    "96006": {
+      "lvl": 1,
+      "id": 96006,
+      "awake_times": 0,
+      "children_id": 6006
+    },
+    "50031": {
+      "lvl": 1,
+      "id": 50031,
+      "awake_times": 0,
+      "children_id": 5003
+    },
+    "100110": {
+      "lvl": 10,
+      "id": 100110,
+      "awake_times": 0,
+      "children_id": 1001
+    },
+    "60021": {
+      "lvl": 1,
+      "id": 60021,
+      "awake_times": 0,
+      "children_id": 6002
+    },
+    "907002": {
+      "lvl": 60,
+      "id": 907002,
+      "awake_times": 2,
+      "children_id": 7002
+    },
+    "907001": {
+      "lvl": 60,
+      "id": 907001,
+      "awake_times": 2,
+      "children_id": 7001
+    },
+    "906003": {
+      "lvl": 60,
+      "id": 906003,
+      "awake_times": 2,
+      "children_id": 6003
+    },
+    "993001": {
+      "lvl": 1,
+      "id": 993001,
+      "awake_times": 0,
+      "children_id": 3001
+    },
+    "993002": {
+      "lvl": 1,
+      "id": 993002,
+      "awake_times": 0,
+      "children_id": 3002
+    },
+    "993003": {
+      "lvl": 1,
+      "id": 993003,
+      "awake_times": 0,
+      "children_id": 3003
+    },
+    "993004": {
+      "lvl": 1,
+      "id": 993004,
+      "awake_times": 0,
+      "children_id": 3004
+    },
+    "993005": {
+      "lvl": 1,
+      "id": 993005,
+      "awake_times": 0,
+      "children_id": 3005
+    },
+    "993006": {
+      "lvl": 1,
+      "id": 993006,
+      "awake_times": 0,
+      "children_id": 3006
+    },
+    "993007": {
+      "lvl": 1,
+      "id": 993007,
+      "awake_times": 0,
+      "children_id": 3007
+    },
+    "993008": {
+      "lvl": 5,
+      "id": 993008,
+      "awake_times": 0,
+      "children_id": 3008
+    },
+    "906002": {
+      "lvl": 60,
+      "id": 906002,
+      "awake_times": 2,
+      "children_id": 6002
+    },
+    "906001": {
+      "lvl": 60,
+      "id": 906001,
+      "awake_times": 2,
+      "children_id": 6001
+    },
+    "60035": {
+      "lvl": 5,
+      "id": 60035,
+      "awake_times": 0,
+      "children_id": 6003
+    },
+    "905003": {
+      "lvl": 60,
+      "id": 905003,
+      "awake_times": 2,
+      "children_id": 5003
+    },
+    "948001": {
+      "lvl": 30,
+      "id": 948001,
+      "awake_times": 0,
+      "children_id": 8001
+    },
+    "948002": {
+      "lvl": 30,
+      "id": 948002,
+      "awake_times": 0,
+      "children_id": 8002
+    },
+    "948003": {
+      "lvl": 30,
+      "id": 948003,
+      "awake_times": 0,
+      "children_id": 8003
+    },
+    "948004": {
+      "lvl": 30,
+      "id": 948004,
+      "awake_times": 0,
+      "children_id": 8004
+    },
+    "948005": {
+      "lvl": 30,
+      "id": 948005,
+      "awake_times": 0,
+      "children_id": 8005
+    },
+    "948006": {
+      "lvl": 30,
+      "id": 948006,
+      "awake_times": 0,
+      "children_id": 8006
+    },
+    "948007": {
+      "lvl": 30,
+      "id": 948007,
+      "awake_times": 0,
+      "children_id": 8007
+    },
+    "905002": {
+      "lvl": 60,
+      "id": 905002,
+      "awake_times": 2,
+      "children_id": 5002
+    },
+    "905001": {
+      "lvl": 60,
+      "id": 905001,
+      "awake_times": 2,
+      "children_id": 5001
+    },
+    "904007": {
+      "lvl": 60,
+      "id": 904007,
+      "awake_times": 2,
+      "children_id": 4007
+    },
+    "904006": {
+      "lvl": 60,
+      "id": 904006,
+      "awake_times": 2,
+      "children_id": 4006
+    },
+    "992001": {
+      "lvl": 5,
+      "id": 992001,
+      "awake_times": 0,
+      "children_id": 2001
+    },
+    "992002": {
+      "lvl": 1,
+      "id": 992002,
+      "awake_times": 0,
+      "children_id": 2002
+    },
+    "903002": {
+      "lvl": 60,
+      "id": 903002,
+      "awake_times": 2,
+      "children_id": 3002
+    },
+    "992004": {
+      "lvl": 1,
+      "id": 992004,
+      "awake_times": 0,
+      "children_id": 2004
+    },
+    "992005": {
+      "lvl": 1,
+      "id": 992005,
+      "awake_times": 0,
+      "children_id": 2005
+    },
+    "992006": {
+      "lvl": 1,
+      "id": 992006,
+      "awake_times": 0,
+      "children_id": 2006
+    },
+    "903006": {
+      "lvl": 60,
+      "id": 903006,
+      "awake_times": 2,
+      "children_id": 3006
+    },
+    "903007": {
+      "lvl": 60,
+      "id": 903007,
+      "awake_times": 2,
+      "children_id": 3007
+    },
+    "903008": {
+      "lvl": 60,
+      "id": 903008,
+      "awake_times": 2,
+      "children_id": 3008
+    },
+    "903009": {
+      "lvl": 60,
+      "id": 903009,
+      "awake_times": 2,
+      "children_id": 3009
+    },
+    "903010": {
+      "lvl": 60,
+      "id": 903010,
+      "awake_times": 2,
+      "children_id": 3010
+    },
+    "903011": {
+      "lvl": 60,
+      "id": 903011,
+      "awake_times": 2,
+      "children_id": 3011
+    },
+    "947001": {
+      "lvl": 30,
+      "id": 947001,
+      "awake_times": 0,
+      "children_id": 7001
+    },
+    "947002": {
+      "lvl": 30,
+      "id": 947002,
+      "awake_times": 0,
+      "children_id": 7002
+    },
+    "904005": {
+      "lvl": 60,
+      "id": 904005,
+      "awake_times": 2,
+      "children_id": 4005
+    },
+    "904004": {
+      "lvl": 60,
+      "id": 904004,
+      "awake_times": 2,
+      "children_id": 4004
+    },
+    "904003": {
+      "lvl": 60,
+      "id": 904003,
+      "awake_times": 2,
+      "children_id": 4003
+    },
+    "904002": {
+      "lvl": 60,
+      "id": 904002,
+      "awake_times": 2,
+      "children_id": 4002
+    },
+    "600210": {
+      "lvl": 10,
+      "id": 600210,
+      "awake_times": 0,
+      "children_id": 6002
+    },
+    "904001": {
+      "lvl": 60,
+      "id": 904001,
+      "awake_times": 2,
+      "children_id": 4001
+    },
+    "903012": {
+      "lvl": 60,
+      "id": 903012,
+      "awake_times": 2,
+      "children_id": 3012
+    },
+    "903005": {
+      "lvl": 60,
+      "id": 903005,
+      "awake_times": 2,
+      "children_id": 3005
+    },
+    "903004": {
+      "lvl": 60,
+      "id": 903004,
+      "awake_times": 2,
+      "children_id": 3004
+    },
+    "991001": {
+      "lvl": 5,
+      "id": 991001,
+      "awake_times": 0,
+      "children_id": 1001
+    },
+    "991002": {
+      "lvl": 1,
+      "id": 991002,
+      "awake_times": 0,
+      "children_id": 1002
+    },
+    "991003": {
+      "lvl": 1,
+      "id": 991003,
+      "awake_times": 0,
+      "children_id": 1003
+    },
+    "991004": {
+      "lvl": 1,
+      "id": 991004,
+      "awake_times": 0,
+      "children_id": 1004
+    },
+    "991005": {
+      "lvl": 1,
+      "id": 991005,
+      "awake_times": 0,
+      "children_id": 1005
+    },
+    "902005": {
+      "lvl": 60,
+      "id": 902005,
+      "awake_times": 2,
+      "children_id": 2005
+    },
+    "902006": {
+      "lvl": 60,
+      "id": 902006,
+      "awake_times": 2,
+      "children_id": 2006
+    },
+    "902007": {
+      "lvl": 60,
+      "id": 902007,
+      "awake_times": 2,
+      "children_id": 2007
+    },
+    "902008": {
+      "lvl": 60,
+      "id": 902008,
+      "awake_times": 2,
+      "children_id": 2008
+    },
+    "902009": {
+      "lvl": 60,
+      "id": 902009,
+      "awake_times": 2,
+      "children_id": 2009
+    },
+    "60081": {
+      "lvl": 1,
+      "id": 60081,
+      "awake_times": 0,
+      "children_id": 6008
+    },
+    "902011": {
+      "lvl": 60,
+      "id": 902011,
+      "awake_times": 2,
+      "children_id": 2011
+    },
+    "946001": {
+      "lvl": 30,
+      "id": 946001,
+      "awake_times": 0,
+      "children_id": 6001
+    },
+    "946002": {
+      "lvl": 30,
+      "id": 946002,
+      "awake_times": 0,
+      "children_id": 6002
+    },
+    "946003": {
+      "lvl": 30,
+      "id": 946003,
+      "awake_times": 0,
+      "children_id": 6003
+    },
+    "946004": {
+      "lvl": 30,
+      "id": 946004,
+      "awake_times": 0,
+      "children_id": 6004
+    },
+    "946005": {
+      "lvl": 30,
+      "id": 946005,
+      "awake_times": 0,
+      "children_id": 6005
+    },
+    "946006": {
+      "lvl": 30,
+      "id": 946006,
+      "awake_times": 0,
+      "children_id": 6006
+    },
+    "946007": {
+      "lvl": 30,
+      "id": 946007,
+      "awake_times": 0,
+      "children_id": 6007
+    },
+    "946008": {
+      "lvl": 30,
+      "id": 946008,
+      "awake_times": 0,
+      "children_id": 6008
+    },
+    "903003": {
+      "lvl": 60,
+      "id": 903003,
+      "awake_times": 2,
+      "children_id": 3003
+    },
+    "903001": {
+      "lvl": 60,
+      "id": 903001,
+      "awake_times": 2,
+      "children_id": 3001
+    },
+    "902013": {
+      "lvl": 60,
+      "id": 902013,
+      "awake_times": 2,
+      "children_id": 2013
+    },
+    "990001": {
+      "lvl": 45,
+      "id": 990001,
+      "awake_times": 0,
+      "children_id": 80001
+    },
+    "990002": {
+      "lvl": 45,
+      "id": 990002,
+      "awake_times": 0,
+      "children_id": 80002
+    },
+    "990003": {
+      "lvl": 45,
+      "id": 990003,
+      "awake_times": 0,
+      "children_id": 80003
+    },
+    "990004": {
+      "lvl": 45,
+      "id": 990004,
+      "awake_times": 0,
+      "children_id": 80004
+    },
+    "990005": {
+      "lvl": 45,
+      "id": 990005,
+      "awake_times": 0,
+      "children_id": 80001
+    },
+    "901005": {
+      "lvl": 60,
+      "id": 901005,
+      "awake_times": 2,
+      "children_id": 1005
+    },
+    "901006": {
+      "lvl": 60,
+      "id": 901006,
+      "awake_times": 2,
+      "children_id": 1006
+    },
+    "902012": {
+      "lvl": 60,
+      "id": 902012,
+      "awake_times": 2,
+      "children_id": 2012
+    },
+    "2017101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 2017101,
+      "awake_times": [],
+      "children_id": 2017
+    },
+    "902010": {
+      "lvl": 60,
+      "id": 902010,
+      "awake_times": 2,
+      "children_id": 2010
+    },
+    "902004": {
+      "lvl": 60,
+      "id": 902004,
+      "awake_times": 2,
+      "children_id": 2004
+    },
+    "902003": {
+      "lvl": 60,
+      "id": 902003,
+      "awake_times": 2,
+      "children_id": 2003
+    },
+    "945001": {
+      "lvl": 30,
+      "id": 945001,
+      "awake_times": 0,
+      "children_id": 5001
+    },
+    "945002": {
+      "lvl": 30,
+      "id": 945002,
+      "awake_times": 0,
+      "children_id": 5002
+    },
+    "945003": {
+      "lvl": 30,
+      "id": 945003,
+      "awake_times": 0,
+      "children_id": 5003
+    },
+    "945004": {
+      "lvl": 30,
+      "id": 945004,
+      "awake_times": 0,
+      "children_id": 5004
+    },
+    "945005": {
+      "lvl": 30,
+      "id": 945005,
+      "awake_times": 0,
+      "children_id": 5005
+    },
+    "945006": {
+      "lvl": 30,
+      "id": 945006,
+      "awake_times": 0,
+      "children_id": 5006
+    },
+    "945007": {
+      "lvl": 30,
+      "id": 945007,
+      "awake_times": 0,
+      "children_id": 5007
+    },
+    "902002": {
+      "lvl": 60,
+      "id": 902002,
+      "awake_times": 2,
+      "children_id": 2002
+    },
+    "902001": {
+      "lvl": 60,
+      "id": 902001,
+      "awake_times": 2,
+      "children_id": 2001
+    },
+    "901004": {
+      "lvl": 60,
+      "id": 901004,
+      "awake_times": 2,
+      "children_id": 1004
+    },
+    "901003": {
+      "lvl": 60,
+      "id": 901003,
+      "awake_times": 2,
+      "children_id": 1003
+    },
+    "901002": {
+      "lvl": 60,
+      "id": 901002,
+      "awake_times": 2,
+      "children_id": 1002
+    },
+    "901001": {
+      "lvl": 60,
+      "id": 901001,
+      "awake_times": 2,
+      "children_id": 1001
+    },
+    "918007": {
+      "lvl": 45,
+      "id": 918007,
+      "awake_times": 0,
+      "children_id": 8007
+    },
+    "918006": {
+      "lvl": 45,
+      "id": 918006,
+      "awake_times": 0,
+      "children_id": 8006
+    },
+    "918005": {
+      "lvl": 45,
+      "id": 918005,
+      "awake_times": 0,
+      "children_id": 8005
+    },
+    "918002": {
+      "lvl": 45,
+      "id": 918002,
+      "awake_times": 0,
+      "children_id": 8002
+    },
+    "918001": {
+      "lvl": 45,
+      "id": 918001,
+      "awake_times": 0,
+      "children_id": 8001
+    },
+    "917001": {
+      "lvl": 45,
+      "id": 917001,
+      "awake_times": 0,
+      "children_id": 7001
+    },
+    "916008": {
+      "lvl": 45,
+      "id": 916008,
+      "awake_times": 0,
+      "children_id": 6008
+    },
+    "913012": {
+      "lvl": 45,
+      "id": 913012,
+      "awake_times": 0,
+      "children_id": 3012
+    },
+    "913008": {
+      "lvl": 45,
+      "id": 913008,
+      "awake_times": 0,
+      "children_id": 3008
+    },
+    "912013": {
+      "lvl": 45,
+      "id": 912013,
+      "awake_times": 0,
+      "children_id": 2013
+    },
+    "944001": {
+      "lvl": 30,
+      "id": 944001,
+      "awake_times": 0,
+      "children_id": 4001
+    },
+    "944002": {
+      "lvl": 30,
+      "id": 944002,
+      "awake_times": 0,
+      "children_id": 4002
+    },
+    "944003": {
+      "lvl": 30,
+      "id": 944003,
+      "awake_times": 0,
+      "children_id": 4003
+    },
+    "944004": {
+      "lvl": 30,
+      "id": 944004,
+      "awake_times": 0,
+      "children_id": 4004
+    },
+    "944005": {
+      "lvl": 30,
+      "id": 944005,
+      "awake_times": 0,
+      "children_id": 4005
+    },
+    "944006": {
+      "lvl": 30,
+      "id": 944006,
+      "awake_times": 0,
+      "children_id": 4006
+    },
+    "944007": {
+      "lvl": 30,
+      "id": 944007,
+      "awake_times": 0,
+      "children_id": 4007
+    },
+    "912012": {
+      "lvl": 45,
+      "id": 912012,
+      "awake_times": 0,
+      "children_id": 2012
+    },
+    "912009": {
+      "lvl": 45,
+      "id": 912009,
+      "awake_times": 0,
+      "children_id": 2009
+    },
+    "10011": {
+      "lvl": 1,
+      "id": 10011,
+      "awake_times": 0,
+      "children_id": 1001
+    },
+    "911003": {
+      "lvl": 45,
+      "id": 911003,
+      "awake_times": 0,
+      "children_id": 1003
+    },
+    "988001": {
+      "lvl": 10,
+      "id": 988001,
+      "awake_times": 0,
+      "children_id": 8001
+    },
+    "988002": {
+      "lvl": 10,
+      "id": 988002,
+      "awake_times": 0,
+      "children_id": 8002
+    },
+    "988003": {
+      "lvl": 10,
+      "id": 988003,
+      "awake_times": 0,
+      "children_id": 8003
+    },
+    "988004": {
+      "lvl": 10,
+      "id": 988004,
+      "awake_times": 0,
+      "children_id": 8004
+    },
+    "988005": {
+      "lvl": 10,
+      "id": 988005,
+      "awake_times": 0,
+      "children_id": 8005
+    },
+    "988006": {
+      "lvl": 10,
+      "id": 988006,
+      "awake_times": 0,
+      "children_id": 8006
+    },
+    "988007": {
+      "lvl": 10,
+      "id": 988007,
+      "awake_times": 0,
+      "children_id": 8007
+    },
+    "911002": {
+      "lvl": 45,
+      "id": 911002,
+      "awake_times": 0,
+      "children_id": 1002
+    },
+    "2015101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 2015101,
+      "awake_times": [],
+      "children_id": 2015
+    },
+    "911001": {
+      "lvl": 45,
+      "id": 911001,
+      "awake_times": 0,
+      "children_id": 1001
+    },
+    "927001": {
+      "lvl": 40,
+      "id": 927001,
+      "awake_times": 0,
+      "children_id": 7001
+    },
+    "923012": {
+      "lvl": 40,
+      "id": 923012,
+      "awake_times": 0,
+      "children_id": 3012
+    },
+    "943001": {
+      "lvl": 30,
+      "id": 943001,
+      "awake_times": 0,
+      "children_id": 3001
+    },
+    "943002": {
+      "lvl": 30,
+      "id": 943002,
+      "awake_times": 0,
+      "children_id": 3002
+    },
+    "943003": {
+      "lvl": 30,
+      "id": 943003,
+      "awake_times": 0,
+      "children_id": 3003
+    },
+    "943004": {
+      "lvl": 30,
+      "id": 943004,
+      "awake_times": 0,
+      "children_id": 3004
+    },
+    "943005": {
+      "lvl": 30,
+      "id": 943005,
+      "awake_times": 0,
+      "children_id": 3005
+    },
+    "943006": {
+      "lvl": 30,
+      "id": 943006,
+      "awake_times": 0,
+      "children_id": 3006
+    },
+    "943007": {
+      "lvl": 30,
+      "id": 943007,
+      "awake_times": 0,
+      "children_id": 3007
+    },
+    "943008": {
+      "lvl": 30,
+      "id": 943008,
+      "awake_times": 0,
+      "children_id": 3008
+    },
+    "943009": {
+      "lvl": 30,
+      "id": 943009,
+      "awake_times": 0,
+      "children_id": 3009
+    },
+    "943010": {
+      "lvl": 30,
+      "id": 943010,
+      "awake_times": 0,
+      "children_id": 3010
+    },
+    "943011": {
+      "lvl": 30,
+      "id": 943011,
+      "awake_times": 0,
+      "children_id": 3011
+    },
+    "943012": {
+      "lvl": 30,
+      "id": 943012,
+      "awake_times": 0,
+      "children_id": 3012
+    },
+    "987002": {
+      "lvl": 10,
+      "id": 987002,
+      "awake_times": 0,
+      "children_id": 7002
+    },
+    "898002": {
+      "lvl": 70,
+      "id": 898002,
+      "awake_times": 4,
+      "children_id": 8002
+    },
+    "600310": {
+      "lvl": 10,
+      "id": 600310,
+      "awake_times": 0,
+      "children_id": 6003
+    },
+    "898004": {
+      "lvl": 70,
+      "id": 898004,
+      "awake_times": 4,
+      "children_id": 8004
+    },
+    "898005": {
+      "lvl": 70,
+      "id": 898005,
+      "awake_times": 4,
+      "children_id": 8005
+    },
+    "898006": {
+      "lvl": 70,
+      "id": 898006,
+      "awake_times": 4,
+      "children_id": 8006
+    },
+    "898007": {
+      "lvl": 70,
+      "id": 898007,
+      "awake_times": 4,
+      "children_id": 8007
+    },
+    "2014101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 2014101,
+      "awake_times": [],
+      "children_id": 2014
+    },
+    "700110": {
+      "lvl": 10,
+      "id": 700110,
+      "awake_times": 0,
+      "children_id": 7001
+    },
+    "97001": {
+      "lvl": 1,
+      "id": 97001,
+      "awake_times": 0,
+      "children_id": 7001
+    },
+    "938006": {
+      "lvl": 35,
+      "id": 938006,
+      "awake_times": 0,
+      "children_id": 8006
+    },
+    "942001": {
+      "lvl": 30,
+      "id": 942001,
+      "awake_times": 0,
+      "children_id": 2001
+    },
+    "942002": {
+      "lvl": 30,
+      "id": 942002,
+      "awake_times": 0,
+      "children_id": 2002
+    },
+    "942003": {
+      "lvl": 30,
+      "id": 942003,
+      "awake_times": 0,
+      "children_id": 2003
+    },
+    "942004": {
+      "lvl": 30,
+      "id": 942004,
+      "awake_times": 0,
+      "children_id": 2004
+    },
+    "942005": {
+      "lvl": 30,
+      "id": 942005,
+      "awake_times": 0,
+      "children_id": 2005
+    },
+    "942006": {
+      "lvl": 30,
+      "id": 942006,
+      "awake_times": 0,
+      "children_id": 2006
+    },
+    "942007": {
+      "lvl": 30,
+      "id": 942007,
+      "awake_times": 0,
+      "children_id": 2007
+    },
+    "942008": {
+      "lvl": 30,
+      "id": 942008,
+      "awake_times": 0,
+      "children_id": 2008
+    },
+    "942009": {
+      "lvl": 30,
+      "id": 942009,
+      "awake_times": 0,
+      "children_id": 2009
+    },
+    "942010": {
+      "lvl": 30,
+      "id": 942010,
+      "awake_times": 0,
+      "children_id": 2010
+    },
+    "942011": {
+      "lvl": 30,
+      "id": 942011,
+      "awake_times": 0,
+      "children_id": 2011
+    },
+    "942012": {
+      "lvl": 30,
+      "id": 942012,
+      "awake_times": 0,
+      "children_id": 2012
+    },
+    "942013": {
+      "lvl": 30,
+      "id": 942013,
+      "awake_times": 0,
+      "children_id": 2013
+    },
+    "986003": {
+      "lvl": 10,
+      "id": 986003,
+      "awake_times": 0,
+      "children_id": 6003
+    },
+    "986004": {
+      "lvl": 10,
+      "id": 986004,
+      "awake_times": 0,
+      "children_id": 6004
+    },
+    "986005": {
+      "lvl": 10,
+      "id": 986005,
+      "awake_times": 0,
+      "children_id": 6005
+    },
+    "986006": {
+      "lvl": 10,
+      "id": 986006,
+      "awake_times": 0,
+      "children_id": 6006
+    },
+    "986007": {
+      "lvl": 10,
+      "id": 986007,
+      "awake_times": 0,
+      "children_id": 6007
+    },
+    "986008": {
+      "lvl": 10,
+      "id": 986008,
+      "awake_times": 0,
+      "children_id": 6008
+    },
+    "938005": {
+      "lvl": 35,
+      "id": 938005,
+      "awake_times": 0,
+      "children_id": 8005
+    },
+    "938004": {
+      "lvl": 35,
+      "id": 938004,
+      "awake_times": 0,
+      "children_id": 8004
+    },
+    "96001": {
+      "lvl": 1,
+      "id": 96001,
+      "awake_times": 0,
+      "children_id": 6001
+    },
+    "96002": {
+      "lvl": 1,
+      "id": 96002,
+      "awake_times": 0,
+      "children_id": 6002
+    },
+    "941001": {
+      "lvl": 30,
+      "id": 941001,
+      "awake_times": 0,
+      "children_id": 1001
+    },
+    "941002": {
+      "lvl": 30,
+      "id": 941002,
+      "awake_times": 0,
+      "children_id": 1002
+    },
+    "941003": {
+      "lvl": 30,
+      "id": 941003,
+      "awake_times": 0,
+      "children_id": 1003
+    },
+    "941004": {
+      "lvl": 30,
+      "id": 941004,
+      "awake_times": 0,
+      "children_id": 1004
+    },
+    "941005": {
+      "lvl": 30,
+      "id": 941005,
+      "awake_times": 0,
+      "children_id": 1005
+    },
+    "941006": {
+      "lvl": 30,
+      "id": 941006,
+      "awake_times": 0,
+      "children_id": 1006
+    },
+    "938003": {
+      "lvl": 35,
+      "id": 938003,
+      "awake_times": 0,
+      "children_id": 8003
+    },
+    "938002": {
+      "lvl": 35,
+      "id": 938002,
+      "awake_times": 0,
+      "children_id": 8002
+    },
+    "938001": {
+      "lvl": 35,
+      "id": 938001,
+      "awake_times": 0,
+      "children_id": 8001
+    },
+    "937002": {
+      "lvl": 35,
+      "id": 937002,
+      "awake_times": 0,
+      "children_id": 7002
+    },
+    "937001": {
+      "lvl": 35,
+      "id": 937001,
+      "awake_times": 0,
+      "children_id": 7001
+    },
+    "985001": {
+      "lvl": 10,
+      "id": 985001,
+      "awake_times": 0,
+      "children_id": 5001
+    },
+    "985002": {
+      "lvl": 10,
+      "id": 985002,
+      "awake_times": 0,
+      "children_id": 5002
+    },
+    "985003": {
+      "lvl": 10,
+      "id": 985003,
+      "awake_times": 0,
+      "children_id": 5003
+    },
+    "985004": {
+      "lvl": 10,
+      "id": 985004,
+      "awake_times": 0,
+      "children_id": 5004
+    },
+    "985005": {
+      "lvl": 10,
+      "id": 985005,
+      "awake_times": 0,
+      "children_id": 5005
+    },
+    "985006": {
+      "lvl": 10,
+      "id": 985006,
+      "awake_times": 0,
+      "children_id": 5006
+    },
+    "985007": {
+      "lvl": 10,
+      "id": 985007,
+      "awake_times": 0,
+      "children_id": 5007
+    },
+    "896007": {
+      "lvl": 70,
+      "id": 896007,
+      "awake_times": 4,
+      "children_id": 6007
+    },
+    "2012101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 2012101,
+      "awake_times": [],
+      "children_id": 2012
+    },
+    "9480002": {
+      "lvl": 30,
+      "id": 9480002,
+      "awake_times": 0,
+      "children_id": 80002
+    },
+    "9480003": {
+      "lvl": 30,
+      "id": 9480003,
+      "awake_times": 0,
+      "children_id": 80003
+    },
+    "9480004": {
+      "lvl": 30,
+      "id": 9480004,
+      "awake_times": 0,
+      "children_id": 80004
+    },
+    "95003": {
+      "lvl": 1,
+      "id": 95003,
+      "awake_times": 0,
+      "children_id": 5003
+    },
+    "95004": {
+      "lvl": 1,
+      "id": 95004,
+      "awake_times": 0,
+      "children_id": 5004
+    },
+    "936007": {
+      "lvl": 35,
+      "id": 936007,
+      "awake_times": 0,
+      "children_id": 6007
+    },
+    "9880001": {
+      "lvl": 10,
+      "id": 9880001,
+      "awake_times": 0,
+      "children_id": 80001
+    },
+    "9880002": {
+      "lvl": 10,
+      "id": 9880002,
+      "awake_times": 0,
+      "children_id": 80002
+    },
+    "9880003": {
+      "lvl": 10,
+      "id": 9880003,
+      "awake_times": 0,
+      "children_id": 80003
+    },
+    "9880004": {
+      "lvl": 10,
+      "id": 9880004,
+      "awake_times": 0,
+      "children_id": 80004
+    },
+    "936006": {
+      "lvl": 35,
+      "id": 936006,
+      "awake_times": 0,
+      "children_id": 6006
+    },
+    "936005": {
+      "lvl": 35,
+      "id": 936005,
+      "awake_times": 0,
+      "children_id": 6005
+    },
+    "936004": {
+      "lvl": 35,
+      "id": 936004,
+      "awake_times": 0,
+      "children_id": 6004
+    },
+    "936003": {
+      "lvl": 35,
+      "id": 936003,
+      "awake_times": 0,
+      "children_id": 6003
+    },
+    "984001": {
+      "lvl": 10,
+      "id": 984001,
+      "awake_times": 0,
+      "children_id": 4001
+    },
+    "984002": {
+      "lvl": 10,
+      "id": 984002,
+      "awake_times": 0,
+      "children_id": 4002
+    },
+    "984003": {
+      "lvl": 10,
+      "id": 984003,
+      "awake_times": 0,
+      "children_id": 4003
+    },
+    "984004": {
+      "lvl": 10,
+      "id": 984004,
+      "awake_times": 0,
+      "children_id": 4004
+    },
+    "984005": {
+      "lvl": 10,
+      "id": 984005,
+      "awake_times": 0,
+      "children_id": 4005
+    },
+    "984006": {
+      "lvl": 10,
+      "id": 984006,
+      "awake_times": 0,
+      "children_id": 4006
+    },
+    "984007": {
+      "lvl": 10,
+      "id": 984007,
+      "awake_times": 0,
+      "children_id": 4007
+    },
+    "895007": {
+      "lvl": 70,
+      "id": 895007,
+      "awake_times": 4,
+      "children_id": 5007
+    },
+    "2011101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 2011101,
+      "awake_times": [],
+      "children_id": 2011
+    },
+    "936001": {
+      "lvl": 35,
+      "id": 936001,
+      "awake_times": 0,
+      "children_id": 6001
+    },
+    "94001": {
+      "lvl": 1,
+      "id": 94001,
+      "awake_times": 0,
+      "children_id": 4001
+    },
+    "94002": {
+      "lvl": 1,
+      "id": 94002,
+      "awake_times": 0,
+      "children_id": 4002
+    },
+    "94003": {
+      "lvl": 1,
+      "id": 94003,
+      "awake_times": 0,
+      "children_id": 4003
+    },
+    "983012": {
+      "lvl": 10,
+      "id": 983012,
+      "awake_times": 0,
+      "children_id": 3012
+    },
+    "982009": {
+      "lvl": 10,
+      "id": 982009,
+      "awake_times": 0,
+      "children_id": 2009
+    },
+    "982011": {
+      "lvl": 10,
+      "id": 982011,
+      "awake_times": 0,
+      "children_id": 2011
+    },
+    "982012": {
+      "lvl": 10,
+      "id": 982012,
+      "awake_times": 0,
+      "children_id": 2012
+    },
+    "982013": {
+      "lvl": 10,
+      "id": 982013,
+      "awake_times": 0,
+      "children_id": 2013
+    },
+    "6003101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 6003101,
+      "awake_times": [],
+      "children_id": 6003
+    },
+    "50021": {
+      "lvl": 1,
+      "id": 50021,
+      "awake_times": 0,
+      "children_id": 5002
+    },
+    "4005101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 4005101,
+      "awake_times": [],
+      "children_id": 4005
+    },
+    "933012": {
+      "lvl": 35,
+      "id": 933012,
+      "awake_times": 0,
+      "children_id": 3012
+    },
+    "933009": {
+      "lvl": 35,
+      "id": 933009,
+      "awake_times": 0,
+      "children_id": 3009
+    },
+    "983001": {
+      "lvl": 10,
+      "id": 983001,
+      "awake_times": 0,
+      "children_id": 3001
+    },
+    "983002": {
+      "lvl": 10,
+      "id": 983002,
+      "awake_times": 0,
+      "children_id": 3002
+    },
+    "983003": {
+      "lvl": 10,
+      "id": 983003,
+      "awake_times": 0,
+      "children_id": 3003
+    },
+    "983004": {
+      "lvl": 15,
+      "id": 983004,
+      "awake_times": 0,
+      "children_id": 3004
+    },
+    "983005": {
+      "lvl": 10,
+      "id": 983005,
+      "awake_times": 0,
+      "children_id": 3005
+    },
+    "983006": {
+      "lvl": 10,
+      "id": 983006,
+      "awake_times": 0,
+      "children_id": 3006
+    },
+    "983007": {
+      "lvl": 10,
+      "id": 983007,
+      "awake_times": 0,
+      "children_id": 3007
+    },
+    "983008": {
+      "lvl": 10,
+      "id": 983008,
+      "awake_times": 0,
+      "children_id": 3008
+    },
+    "2010101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 2010101,
+      "awake_times": [],
+      "children_id": 2010
+    },
+    "983010": {
+      "lvl": 10,
+      "id": 983010,
+      "awake_times": 0,
+      "children_id": 3010
+    },
+    "983011": {
+      "lvl": 10,
+      "id": 983011,
+      "awake_times": 0,
+      "children_id": 3011
+    },
+    "93002": {
+      "lvl": 1,
+      "id": 93002,
+      "awake_times": 0,
+      "children_id": 3002
+    },
+    "93003": {
+      "lvl": 1,
+      "id": 93003,
+      "awake_times": 0,
+      "children_id": 3003
+    },
+    "93004": {
+      "lvl": 1,
+      "id": 93004,
+      "awake_times": 0,
+      "children_id": 3004
+    },
+    "93005": {
+      "lvl": 1,
+      "id": 93005,
+      "awake_times": 0,
+      "children_id": 3005
+    },
+    "93006": {
+      "lvl": 1,
+      "id": 93006,
+      "awake_times": 0,
+      "children_id": 3006
+    },
+    "93007": {
+      "lvl": 1,
+      "id": 93007,
+      "awake_times": 0,
+      "children_id": 3007
+    },
+    "93008": {
+      "lvl": 5,
+      "id": 93008,
+      "awake_times": 0,
+      "children_id": 3008
+    },
+    "938007": {
+      "lvl": 35,
+      "id": 938007,
+      "awake_times": 0,
+      "children_id": 8007
+    },
+    "93001": {
+      "lvl": 1,
+      "id": 93001,
+      "awake_times": 0,
+      "children_id": 3001
+    },
+    "976005": {
+      "lvl": 15,
+      "id": 976005,
+      "awake_times": 0,
+      "children_id": 6005
+    },
+    "976002": {
+      "lvl": 15,
+      "id": 976002,
+      "awake_times": 0,
+      "children_id": 6002
+    },
+    "976001": {
+      "lvl": 15,
+      "id": 976001,
+      "awake_times": 0,
+      "children_id": 6001
+    },
+    "982001": {
+      "lvl": 10,
+      "id": 982001,
+      "awake_times": 0,
+      "children_id": 2001
+    },
+    "982002": {
+      "lvl": 10,
+      "id": 982002,
+      "awake_times": 0,
+      "children_id": 2002
+    },
+    "982003": {
+      "lvl": 10,
+      "id": 982003,
+      "awake_times": 0,
+      "children_id": 2003
+    },
+    "982004": {
+      "lvl": 10,
+      "id": 982004,
+      "awake_times": 0,
+      "children_id": 2004
+    },
+    "982005": {
+      "lvl": 10,
+      "id": 982005,
+      "awake_times": 0,
+      "children_id": 2005
+    },
+    "982006": {
+      "lvl": 10,
+      "id": 982006,
+      "awake_times": 0,
+      "children_id": 2006
+    },
+    "982007": {
+      "lvl": 10,
+      "id": 982007,
+      "awake_times": 0,
+      "children_id": 2007
+    },
+    "982008": {
+      "lvl": 10,
+      "id": 982008,
+      "awake_times": 0,
+      "children_id": 2008
+    },
+    "2009101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 2009101,
+      "awake_times": [],
+      "children_id": 2009
+    },
+    "982010": {
+      "lvl": 10,
+      "id": 982010,
+      "awake_times": 0,
+      "children_id": 2010
+    },
+    "92001": {
+      "lvl": 5,
+      "id": 92001,
+      "awake_times": 0,
+      "children_id": 2001
+    },
+    "92002": {
+      "lvl": 1,
+      "id": 92002,
+      "awake_times": 0,
+      "children_id": 2002
+    },
+    "92003": {
+      "lvl": 1,
+      "id": 92003,
+      "awake_times": 0,
+      "children_id": 2003
+    },
+    "92004": {
+      "lvl": 1,
+      "id": 92004,
+      "awake_times": 0,
+      "children_id": 2004
+    },
+    "92005": {
+      "lvl": 1,
+      "id": 92005,
+      "awake_times": 0,
+      "children_id": 2005
+    },
+    "92006": {
+      "lvl": 1,
+      "id": 92006,
+      "awake_times": 0,
+      "children_id": 2006
+    },
+    "92007": {
+      "lvl": 1,
+      "id": 92007,
+      "awake_times": 0,
+      "children_id": 2007
+    },
+    "92008": {
+      "lvl": 1,
+      "id": 92008,
+      "awake_times": 0,
+      "children_id": 2008
+    },
+    "92009": {
+      "lvl": 1,
+      "id": 92009,
+      "awake_times": 0,
+      "children_id": 2009
+    },
+    "92010": {
+      "lvl": 1,
+      "id": 92010,
+      "awake_times": 0,
+      "children_id": 2010
+    },
+    "92011": {
+      "lvl": 1,
+      "id": 92011,
+      "awake_times": 0,
+      "children_id": 2011
+    },
+    "92012": {
+      "lvl": 1,
+      "id": 92012,
+      "awake_times": 0,
+      "children_id": 2012
+    },
+    "92013": {
+      "lvl": 1,
+      "id": 92013,
+      "awake_times": 0,
+      "children_id": 2013
+    },
+    "981001": {
+      "lvl": 10,
+      "id": 981001,
+      "awake_times": 0,
+      "children_id": 1001
+    },
+    "981002": {
+      "lvl": 10,
+      "id": 981002,
+      "awake_times": 0,
+      "children_id": 1002
+    },
+    "981003": {
+      "lvl": 10,
+      "id": 981003,
+      "awake_times": 0,
+      "children_id": 1003
+    },
+    "981004": {
+      "lvl": 10,
+      "id": 981004,
+      "awake_times": 0,
+      "children_id": 1004
+    },
+    "981005": {
+      "lvl": 10,
+      "id": 981005,
+      "awake_times": 0,
+      "children_id": 1005
+    },
+    "981006": {
+      "lvl": 10,
+      "id": 981006,
+      "awake_times": 0,
+      "children_id": 1006
+    },
+    "892006": {
+      "lvl": 70,
+      "id": 892006,
+      "awake_times": 4,
+      "children_id": 2006
+    },
+    "892007": {
+      "lvl": 70,
+      "id": 892007,
+      "awake_times": 4,
+      "children_id": 2007
+    },
+    "2008101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 2008101,
+      "awake_times": [],
+      "children_id": 2008
+    },
+    "892009": {
+      "lvl": 70,
+      "id": 892009,
+      "awake_times": 4,
+      "children_id": 2009
+    },
+    "91001": {
+      "lvl": 5,
+      "id": 91001,
+      "awake_times": 0,
+      "children_id": 1001
+    },
+    "91002": {
+      "lvl": 1,
+      "id": 91002,
+      "awake_times": 0,
+      "children_id": 1002
+    },
+    "91003": {
+      "lvl": 1,
+      "id": 91003,
+      "awake_times": 0,
+      "children_id": 1003
+    },
+    "91004": {
+      "lvl": 1,
+      "id": 91004,
+      "awake_times": 0,
+      "children_id": 1004
+    },
+    "91005": {
+      "lvl": 5,
+      "id": 91005,
+      "awake_times": 0,
+      "children_id": 1005
+    },
+    "91006": {
+      "lvl": 20,
+      "id": 91006,
+      "awake_times": 1,
+      "children_id": 1005
+    },
+    "91007": {
+      "lvl": 23,
+      "id": 91007,
+      "awake_times": 1,
+      "children_id": 4003
+    },
+    "91008": {
+      "lvl": 23,
+      "id": 91008,
+      "awake_times": 1,
+      "children_id": 6006
+    },
+    "91009": {
+      "lvl": 30,
+      "id": 91009,
+      "awake_times": 0,
+      "children_id": 1004
+    },
+    "91010": {
+      "lvl": 30,
+      "id": 91010,
+      "awake_times": 1,
+      "children_id": 4004
+    },
+    "91011": {
+      "lvl": 45,
+      "id": 91011,
+      "awake_times": 1,
+      "children_id": 6003
+    },
+    "95002": {
+      "lvl": 1,
+      "id": 95002,
+      "awake_times": 0,
+      "children_id": 5002
+    },
+    "95001": {
+      "lvl": 1,
+      "id": 95001,
+      "awake_times": 0,
+      "children_id": 5001
+    },
+    "980001": {
+      "lvl": 60,
+      "id": 980001,
+      "awake_times": 2,
+      "children_id": 80001
+    },
+    "980002": {
+      "lvl": 60,
+      "id": 980002,
+      "awake_times": 2,
+      "children_id": 80002
+    },
+    "980003": {
+      "lvl": 60,
+      "id": 980003,
+      "awake_times": 2,
+      "children_id": 80003
+    },
+    "980004": {
+      "lvl": 60,
+      "id": 980004,
+      "awake_times": 2,
+      "children_id": 80004
+    },
+    "891004": {
+      "lvl": 70,
+      "id": 891004,
+      "awake_times": 4,
+      "children_id": 1004
+    },
+    "891005": {
+      "lvl": 70,
+      "id": 891005,
+      "awake_times": 4,
+      "children_id": 1005
+    },
+    "891006": {
+      "lvl": 70,
+      "id": 891006,
+      "awake_times": 4,
+      "children_id": 1006
+    },
+    "933001": {
+      "lvl": 35,
+      "id": 933001,
+      "awake_times": 0,
+      "children_id": 3001
+    },
+    "962009": {
+      "lvl": 20,
+      "id": 962009,
+      "awake_times": 0,
+      "children_id": 2009
+    },
+    "30045": {
+      "lvl": 5,
+      "id": 30045,
+      "awake_times": 0,
+      "children_id": 3004
+    },
+    "98004": {
+      "lvl": 5,
+      "id": 98004,
+      "awake_times": 0,
+      "children_id": 8004
+    },
+    "963009": {
+      "lvl": 20,
+      "id": 963009,
+      "awake_times": 0,
+      "children_id": 3009
+    },
+    "935001": {
+      "lvl": 35,
+      "id": 935001,
+      "awake_times": 0,
+      "children_id": 5001
+    },
+    "935002": {
+      "lvl": 35,
+      "id": 935002,
+      "awake_times": 0,
+      "children_id": 5002
+    },
+    "935003": {
+      "lvl": 35,
+      "id": 935003,
+      "awake_times": 0,
+      "children_id": 5003
+    },
+    "935004": {
+      "lvl": 35,
+      "id": 935004,
+      "awake_times": 0,
+      "children_id": 5004
+    },
+    "935005": {
+      "lvl": 35,
+      "id": 935005,
+      "awake_times": 0,
+      "children_id": 5005
+    },
+    "935006": {
+      "lvl": 35,
+      "id": 935006,
+      "awake_times": 0,
+      "children_id": 5006
+    },
+    "935007": {
+      "lvl": 35,
+      "id": 935007,
+      "awake_times": 0,
+      "children_id": 5007
+    },
+    "983009": {
+      "lvl": 10,
+      "id": 983009,
+      "awake_times": 0,
+      "children_id": 3009
+    },
+    "4008101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 4008101,
+      "awake_times": [],
+      "children_id": 4008
+    },
+    "952012": {
+      "lvl": 25,
+      "id": 952012,
+      "awake_times": 0,
+      "children_id": 2012
+    },
+    "996002": {
+      "lvl": 5,
+      "id": 996002,
+      "awake_times": 0,
+      "children_id": 6002
+    },
+    "10015": {
+      "lvl": 5,
+      "id": 10015,
+      "awake_times": 0,
+      "children_id": 1001
+    },
+    "953012": {
+      "lvl": 25,
+      "id": 953012,
+      "awake_times": 0,
+      "children_id": 3012
+    },
+    "986002": {
+      "lvl": 10,
+      "id": 986002,
+      "awake_times": 0,
+      "children_id": 6002
+    },
+    "986001": {
+      "lvl": 10,
+      "id": 986001,
+      "awake_times": 0,
+      "children_id": 6001
+    },
+    "987001": {
+      "lvl": 10,
+      "id": 987001,
+      "awake_times": 0,
+      "children_id": 7001
+    },
+    "40025": {
+      "lvl": 5,
+      "id": 40025,
+      "awake_times": 0,
+      "children_id": 4002
+    },
+    "60031": {
+      "lvl": 1,
+      "id": 60031,
+      "awake_times": 0,
+      "children_id": 6003
+    },
+    "60025": {
+      "lvl": 5,
+      "id": 60025,
+      "awake_times": 0,
+      "children_id": 6002
+    },
+    "8008101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 8008101,
+      "awake_times": [],
+      "children_id": 8008
+    },
+    "6009101": {
+      "lvl": [
+        4,
+        6
+      ],
+      "id": 6009101,
+      "awake_times": [],
+      "children_id": 6009
+    },
+    "992013": {
+      "lvl": 5,
+      "id": 992013,
+      "awake_times": 0,
+      "children_id": 2013
+    }
+  }
+}

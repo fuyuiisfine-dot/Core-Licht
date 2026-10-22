@@ -1,0 +1,134 @@
+
+public static string GetAutoResURI(string filePath) { }
+1af6e38: str      x21, [sp, #-0x30]! 
+1af6e3c: stp      x20, x19, [sp, #0x10] 
+1af6e40: stp      x29, x30, [sp, #0x20] 
+1af6e44: add      x29, sp, #0x20 
+1af6e48: adrp     x20, #0x2e88000 
+1af6e4c: ldrb     w8, [x20, #0x96e] 
+1af6e50: mov      x19, x0 
+1af6e54: tbnz     w8, #0, #0x1af6e70 
+1af6e58: adrp     x8, #0x2ccf000 
+1af6e5c: ldr      x8, [x8, #0x268] 
+1af6e60: ldr      w0, [x8] 
+1af6e64: bl       #0xd328f8 
+1af6e68: mov      w8, #1 
+1af6e6c: strb     w8, [x20, #0x96e] 
+1af6e70: adrp     x21, #0x2cbf000 
+1af6e74: ldr      x21, [x21, #0x5b8] Onecore.Plugins.Utils.PathUtils_TypeInfo
+1af6e78: ldr      x0, [x21] Onecore.Plugins.Utils.PathUtils_TypeInfo
+1af6e7c: ldrb     w8, [x0, #0x12f] 
+1af6e80: tbz      w8, #1, #0x1af6e90 
+1af6e84: ldr      w8, [x0, #0xe0] 
+1af6e88: cbnz     w8, #0x1af6e90 
+1af6e8c: bl       #0xd329a4 
+1af6e90: mov      x0, x19 
+1af6e94: bl       #0x1af6934 public static string GetPDResRealFilePath(string filePath) { }
+1af6e98: adrp     x8, #0x2d0e000 
+1af6e9c: ldr      x8, [x8, #0x7b8] Onecore.Plugins.Utils.FileUtils_TypeInfo
+1af6ea0: mov      x20, x0 
+1af6ea4: ldr      x8, [x8] Onecore.Plugins.Utils.FileUtils_TypeInfo
+1af6ea8: ldrb     w9, [x8, #0x12f] 
+1af6eac: tbz      w9, #1, #0x1af6ec0 
+1af6eb0: ldr      w9, [x8, #0xe0] 
+1af6eb4: cbnz     w9, #0x1af6ec0 
+1af6eb8: mov      x0, x8 
+1af6ebc: bl       #0xd329a4 
+1af6ec0: mov      x0, x20 
+1af6ec4: mov      x1, xzr 
+1af6ec8: bl       #0x1538b60 public static bool Exists(string path) { }
+1af6ecc: ldr      x8, [x21] Onecore.Plugins.Utils.PathUtils_TypeInfo
+1af6ed0: ldrh     w9, [x8, #0x12e] 
+1af6ed4: tbz      w0, #0, #0x1af6f00 
+1af6ed8: tbz      w9, #9, #0x1af6eec 
+1af6edc: ldr      w9, [x8, #0xe0] 
+1af6ee0: cbnz     w9, #0x1af6eec 
+1af6ee4: mov      x0, x8 
+1af6ee8: bl       #0xd329a4 
+1af6eec: mov      x0, x19 
+1af6ef0: ldp      x29, x30, [sp, #0x20] 
+1af6ef4: ldp      x20, x19, [sp, #0x10] 
+1af6ef8: ldr      x21, [sp], #0x30 
+1af6efc: b        #0x1af6dcc 
+1af6f00: tbz      w9, #9, #0x1af6f14 
+1af6f04: ldr      w9, [x8, #0xe0] 
+1af6f08: cbnz     w9, #0x1af6f14 
+1af6f0c: mov      x0, x8 
+1af6f10: bl       #0xd329a4 
+1af6f14: mov      x0, x19 
+1af6f18: ldp      x29, x30, [sp, #0x20] 
+1af6f1c: ldp      x20, x19, [sp, #0x10] 
+1af6f20: ldr      x21, [sp], #0x30 
+1af6f24: b        #0x1af6d60 
+
+public void .ctor() { }
+1af6f28: mov      x1, xzr 
+1af6f2c: b        #0x1a74f90 
+
+private static void .cctor() { }
+1af6f30: ret       
+
+public void .ctor(string[] ips) { }
+1af6f34: stp      x28, x27, [sp, #-0x60]! 
+1af6f38: stp      x26, x25, [sp, #0x10] 
+1af6f3c: stp      x24, x23, [sp, #0x20] 
+1af6f40: stp      x22, x21, [sp, #0x30] 
+1af6f44: stp      x20, x19, [sp, #0x40] 
+1af6f48: stp      x29, x30, [sp, #0x50] 
+1af6f4c: add      x29, sp, #0x50 
+1af6f50: adrp     x21, #0x2e88000 
+1af6f54: ldrb     w8, [x21, #0x970] 
+1af6f58: mov      x19, x1 
+1af6f5c: mov      x20, x0 
+1af6f60: tbnz     w8, #0, #0x1af6f7c 
+1af6f64: adrp     x8, #0x2cad000 
+1af6f68: ldr      x8, [x8, #0x958] 
+1af6f6c: ldr      w0, [x8] 
+1af6f70: bl       #0xd328f8 
+1af6f74: mov      w8, #1 
+1af6f78: strb     w8, [x21, #0x970] 
+1af6f7c: adrp     x8, #0x2cc1000 
+1af6f80: ldr      x8, [x8, #0xc70] System.Collections.Generic.List<Pings.IPTimeData>_TypeInfo
+1af6f84: ldr      x0, [x8] System.Collections.Generic.List<Pings.IPTimeData>_TypeInfo
+1af6f88: bl       #0xd329c0 
+1af6f8c: adrp     x8, #0x2cbf000 
+1af6f90: ldr      x8, [x8, #0x780] Method$System.Collections.Generic.List<Pings.IPTimeData>..ctor()
+1af6f94: mov      x21, x0 
+1af6f98: ldr      x1, [x8] Method$System.Collections.Generic.List<Pings.IPTimeData>..ctor()
+1af6f9c: bl       #0x1fff464 |-List<CinemachineBrain.BrainFrame>..ctor
+1af6fa0: str      x21, [x20, #0x18] 
+1af6fa4: adrp     x8, #0x2c75000 
+1af6fa8: ldr      x8, [x8, #0xf30] System.Collections.Generic.List<Ping>_TypeInfo
+1af6fac: ldr      x0, [x8] System.Collections.Generic.List<Ping>_TypeInfo
+1af6fb0: bl       #0xd329c0 
+1af6fb4: adrp     x8, #0x2ce9000 
+1af6fb8: ldr      x8, [x8, #0xbf0] Method$System.Collections.Generic.List<Ping>..ctor()
+1af6fbc: mov      x21, x0 
+1af6fc0: ldr      x1, [x8] Method$System.Collections.Generic.List<Ping>..ctor()
+1af6fc4: bl       #0x1fff464 |-List<CinemachineBrain.BrainFrame>..ctor
+1af6fc8: mov      x0, x20 
+1af6fcc: mov      x1, xzr 
+1af6fd0: str      x21, [x20, #0x20] 
+1af6fd4: bl       #0x1a74f90 public void .ctor() { }
+1af6fd8: cbz      x19, #0x1af7090 
+1af6fdc: ldr      x8, [x19, #0x18] 
+1af6fe0: cmp      w8, #1 
+1af6fe4: b.lt     #0x1af7090 
+1af6fe8: and      x8, x8, #0xffffffff 
+1af6fec: cbz      x8, #0x1af7084 
+1af6ff0: adrp     x28, #0x2caf000 
+1af6ff4: ldr      x28, [x28, #0x20] Onecore.Plugins.Utils.Pings_TypeInfo
+1af6ff8: mov      x25, xzr 
+1af6ffc: sxtw     x26, w8 
+1af7000: add      x27, x19, #0x20 
+1af7004: ldr      x0, [x28] Onecore.Plugins.Utils.Pings_TypeInfo
+1af7008: ldr      x21, [x20, #0x18] 
+1af700c: ldr      x22, [x27, x25, lsl #3] 
+1af7010: ldrb     w8, [x0, #0x12f] 
+1af7014: tbz      w8, #1, #0x1af7028 
+1af7018: ldr      w8, [x0, #0xe0] 
+1af701c: cbnz     w8, #0x1af7028 
+1af7020: bl       #0xd329a4 
+1af7024: ldr      x0, [x28] Onecore.Plugins.Utils.Pings_TypeInfo
+1af7028: ldr      x8, [x0, #0xb8] 
+1af702c: ldr      w24, [x8] 

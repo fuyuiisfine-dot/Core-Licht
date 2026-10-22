@@ -1,0 +1,5065 @@
+
+´
+proto_artist.proto	ZeroProtoproto_type.proto"
+artist_info_c2s"õ
+artist_info_s2c
+team_max (RteamMaxB
+artist_teams (2.ZeroProto.p_preset_artist_teamRartistTeams)
+items (2.ZeroProto.p_artistRitems"A
+artist_add_items_s2c)
+items (2.ZeroProto.p_artistRitems"+
+artist_delete_items_s2c
+ids (Rids"V
+artist_update_attr_s2c
+id (Rid,
+attrs (2.ZeroProto.p_key_valueRattrs"f
+artist_update_fans_s2c
+id (Rid
+	male_fans (RmaleFans
+female_fans (R
+femaleFans"M
+artist_update_attr_point_s2c
+id (Rid
+
+attr_point (R	attrPoint"h
+artist_update_film_adepts_s2c
+id (Rid7
+film_adepts (2.ZeroProto.p_key_valueR
+filmAdepts"i
+artist_update_film_grades_s2c
+id (Rid8
+film_grades (2.ZeroProto.p_film_gradeR
+filmGrades"B
+artist_update_labour_s2c
+id (Rid
+labour (Rlabour"R
+artist_lvl_up_s2c
+id (Rid
+lvl (Rlvl
+	need_fans (RneedFans"'
+artist_change_job_c2s
+id (Rid"Ä
+artist_change_job_s2c
+result (Rresult
+id (Rid
+job (Rjob
+lvl (Rlvl
+	need_fans (RneedFans"?
+artist_up_star_c2s
+id (Rid
+cost_ids (RcostIds"P
+artist_up_star_s2c
+result (Rresult
+id (Rid
+star (Rstar"<
+artist_change_name_c2s
+id (Rid
+name (	Rname"T
+artist_change_name_s2c
+result (Rresult
+id (Rid
+name (	Rname"&
+artist_resolve_c2s
+ids (Rids",
+artist_resolve_s2c
+result (Rresult"~
+artist_set_team_artist_c2s
+team_id (RteamId
+index (Rindex
+id (Rid!
+refresh_time (RrefreshTime"ñ
+artist_set_team_artist_s2c
+result (Rresult
+team_id (RteamId
+index (Rindex
+id (Rid!
+refresh_time (RrefreshTime"N
+artist_remove_team_artist_c2s
+team_id (RteamId
+index (Rindex"v
+artist_remove_team_artist_s2c
+result (Rresult
+team_id (RteamId
+index (Rindex
+id (Rid"G
+artist_set_team_name_c2s
+team_id (RteamId
+name (	Rname"_
+artist_set_team_name_s2c
+result (Rresult
+team_id (RteamId
+name (	Rname">
+!artist_notify_update_team_max_s2c
+team_max (RteamMax")
+artist_change_color_c2s
+id (Rid"W
+artist_change_color_s2c
+result (Rresult
+id (Rid
+color (Rcolor";
+artist_notify_delete_teams_s2c
+team_ids (RteamIds"e
+artist_notify_refresh_teams_s2cB
+artist_teams (2.ZeroProto.p_preset_artist_teamRartistTeams"?
+artist_update_state_s2c
+id (Rid
+state (Rstate
+‰
+proto_badge.proto	ZeroProtoproto_type.proto"
+badge_list_c2s"C
+badge_list_s2c1
+
+badge_list (2.ZeroProto.p_badgeR	badgeList")
+badge_commit_c2s
+sys_id (RsysId"í
+badge_commit_s2c
+code (Rcode7
+reward_list (2.ZeroProto.p_key_valueR
+rewardList1
+
+badge_info (2.ZeroProto.p_badgeR	badgeInfo"E
+badge_update_s2c1
+
+badge_info (2.ZeroProto.p_badgeR	badgeInfo"@
+badge_show_type_c2s
+type (Rtype
+sys_id (RsysId"a
+badge_show_type_s2c
+result (Rresult2
+badge (2.ZeroProto.p_show_type_badgeRbadge"J
+badge_show_list_c2s3
+	show_list (2.ZeroProto.p_key_valueRshowList"c
+badge_show_list_s2c
+result (Rresult4
+	show_list (2.ZeroProto.p_show_badgeRshowList
+∆
+proto_battle_login.proto	ZeroProto"∞
+battle_login_info_s2c
+token (	Rtoken
+serv_id (RservId!
+serv_address (	RservAddress
+	serv_port (RservPort(
+serv_con_address (	RservConAddress"G
+battle_login_login_c2s
+role_id (RroleId
+token (	Rtoken",
+battle_login_login_s2c
+code (Rcode"H
+battle_login_repeat_c2s
+role_id (RroleId
+token (	Rtoken"-
+battle_login_repeat_s2c
+code (Rcode"
+battle_login_enter_map_c2s"0
+battle_login_enter_map_s2c
+code (Rcode",
+battle_login_leave_s2c
+code (Rcode
+’
+proto_bgm.proto	ZeroProto"
+bgm_info_c2s"8
+bgm_info_s2c
+bgms (Rbgms
+theme (Rtheme""
+bgm_unlock_c2s
+bgm (Rbgm""
+bgm_unlock_s2c
+bgm (Rbgm"%
+bgm_set_theme_c2s
+bgm (Rbgm
+¿#
+proto_building.proto	ZeroProtoproto_type.proto"2
+building_info_c2s
+
+is_request (R	isRequest"Ç
+building_info_s2c4
+center (2.ZeroProto.p_building_centerRcenter7
+	room_list (2.ZeroProto.p_building_roomRroomList"4
+building_objects_info_c2s
+room_id (RroomId"f
+building_objects_info_s2c
+room_id (RroomId0
+list (2.ZeroProto.p_building_objectRlist"1
+building_unlock_core_c2s
+sys_id (RsysId"b
+building_unlock_core_s2c
+result (Rresult.
+core (2.ZeroProto.p_building_coreRcore"+
+building_upgrade_core_c2s
+id (Rid"c
+building_upgrade_core_s2c
+result (Rresult.
+core (2.ZeroProto.p_building_coreRcore"j
+building_place_c2s
+room_id (RroomId;
+pos_list (2 .ZeroProto.p_building_object_posRposList"∫
+building_place_s2c
+result (Rresult
+room_id (RroomId=
+object_list (2.ZeroProto.p_building_objectR
+objectList:
+fur_list (2.ZeroProto.p_building_furnitureRfurList8
+mac_list (2.ZeroProto.p_building_machineRmacList>
+	snap_list (2!.ZeroProto.p_building_object_snapRsnapList"1
+building_unlock_room_c2s
+sys_id (RsysId"b
+building_unlock_room_s2c
+result (Rresult.
+room (2.ZeroProto.p_building_roomRroom"E
+building_enter_scene_c2s
+type (Rtype
+sys_id (RsysId"]
+building_enter_scene_s2c
+result (Rresult
+type (Rtype
+sys_id (RsysId"'
+building_use_pill_c2s
+id (Rid"b
+building_use_pill_s2c
+result (Rresult1
+info (2.ZeroProto.p_building_machineRinfo"3
+building_draw_output_c2s
+id_list (RidList"d
+building_draw_output_s2c
+result (Rresult0
+list (2.ZeroProto.p_building_outputRlist"5
+#building_notify_object_pos_list_c2s
+id (Rid"b
+#building_notify_object_pos_list_s2c;
+pos_list (2 .ZeroProto.p_building_object_posRposList"5
+building_notify_object_list_c2s
+list (Rlist"S
+building_notify_object_list_s2c0
+list (2.ZeroProto.p_building_objectRlist"6
+ building_notify_machine_list_c2s
+list (Rlist"U
+ building_notify_machine_list_s2c1
+list (2.ZeroProto.p_building_machineRlist"8
+"building_notify_furniture_list_c2s
+list (Rlist"Y
+"building_notify_furniture_list_s2c3
+list (2.ZeroProto.p_building_furnitureRlist" 
+building_spare_object_info_c2s"W
+building_spare_object_info_s2c5
+list (2!.ZeroProto.p_building_object_snapRlist"P
+building_gaining_objects_s2c0
+list (2.ZeroProto.p_building_objectRlist"1
+building_confirm_object_c2s
+list (Rlist"I
+building_confirm_object_s2c
+result (Rresult
+list (Rlist"W
+building_notify_center_info_s2c4
+center (2.ZeroProto.p_building_centerRcenter"4
+building_upgrade_room_c2s
+room_id (RroomId"c
+building_upgrade_room_s2c
+result (Rresult.
+room (2.ZeroProto.p_building_roomRroom"6
+building_draw_atoms_reward_c2s
+index (Rindex"§
+building_draw_atoms_reward_s2c
+result (Rresult
+index (Rindex
+atoms_index (R
+atomsIndex3
+	item_list (2.ZeroProto.p_key_valueRitemList"S
+building_notify_fur_dust_s2c3
+list (2.ZeroProto.p_building_fur_atomsRlist"E
+building_clean_furs_c2s*
+list (2.ZeroProto.p_key_valueRlist"p
+building_clean_furs_s2c
+result (Rresult=
+reward_list (2.ZeroProto.p_building_rewardR
+rewardList"
+building_core_list_c2s"Q
+building_core_list_s2c7
+	core_list (2.ZeroProto.p_building_coreRcoreList"S
+building_notify_room_s2c7
+	room_list (2.ZeroProto.p_building_roomRroomList"W
+building_notify_room_atoms_s2c5
+
+atoms_list (2.ZeroProto.p_key_valueR	atomsList"E
+building_clean_room_c2s*
+list (2.ZeroProto.p_key_valueRlist"o
+building_reset_room_c2s
+room_id (RroomId;
+pos_list (2 .ZeroProto.p_building_object_posRposList"
+building_status_list_c2s"S
+building_status_list_s2c7
+status_list (2.ZeroProto.p_key_valueR
+statusList"
+building_guide_rush_c2s"L
+building_change_room_name_c2s
+room_id (RroomId
+name (	Rname"d
+building_change_room_name_s2c
+result (Rresult
+room_id (RroomId
+name (	Rname"
+building_notify_bonus_c2s"L
+building_notify_bonus_s2c/
+list (2.ZeroProto.p_building_bonusRlist"4
+building_draw_bonus_c2s
+bonus_id (RbonusId"L
+building_draw_bonus_s2c
+result (Rresult
+bonus_id (RbonusId"5
+building_share_bonus_c2s
+bonus_id (RbonusId"M
+building_share_bonus_s2c
+result (Rresult
+bonus_id (RbonusId
+∫,
+proto_children.proto	ZeroProtoproto_type.proto"
+children_all_c2s"N
+children_all_s2c:
+children_list (2.ZeroProto.p_childrenRchildrenList"h
+!children_update_children_list_s2cC
+children_info_list (2.ZeroProto.p_childrenRchildrenInfoList"$
+children_awake_c2s
+id (Rid"d
+children_awake_s2c
+code (Rcode:
+children_info (2.ZeroProto.p_childrenRchildrenInfo"#
+children_sync_c2s
+id (Rid"ú
+children_sync_s2c
+code (Rcode:
+children_info (2.ZeroProto.p_childrenRchildrenInfo7
+reward_list (2.ZeroProto.p_item_gainR
+rewardList"e
+children_up_lvl_by_item_id_c2s
+id (Rid3
+	item_list (2.ZeroProto.p_key_valueRitemList"p
+children_up_lvl_by_item_id_s2c
+code (Rcode:
+children_info (2.ZeroProto.p_childrenRchildrenInfo"o
+children_set_assistant_c2s
+index (Rindex
+id (Rid
+type (Rtype
+skin_id (RskinId"o
+children_set_assistant_s2c
+index (Rindex
+id (Rid
+type (Rtype
+skin_id (RskinId"+
+children_up_skill_lvl_c2s
+id (Rid"k
+children_up_skill_lvl_s2c
+code (Rcode:
+children_info (2.ZeroProto.p_childrenRchildrenInfo"
+children_favor_info_c2s"Z
+children_favor_info_s2c?
+team_favor_list (2.ZeroProto.p_team_favorRteamFavorList"b
+children_update_team_favors_s2c?
+team_favor_list (2.ZeroProto.p_team_favorRteamFavorList"Y
+!children_get_team_favor_award_c2s
+sys_id (RsysId
+
+reward_uid (R	rewardUid"o
+!children_get_team_favor_award_s2c
+code (Rcode6
+
+team_favor (2.ZeroProto.p_team_favorR	teamFavor"L
+children_select_fight_skill_c2s
+id (Rid
+skill_id (RskillId"`
+children_select_fight_skill_s2c
+code (Rcode
+id (Rid
+skill_id (RskillId"/
+children_list_by_type_c2s
+type (Rtype"k
+children_list_by_type_s2c
+type (Rtype:
+children_list (2.ZeroProto.p_childrenRchildrenList".
+children_del_npc_ids_s2c
+list (Rlist"
+children_unlock_info_c2s"√
+children_unlock_info_s2c3
+	char_list (2.ZeroProto.p_key_valueRcharList5
+
+voice_list (2.ZeroProto.p_key_valueR	voiceList;
+remember_list (2.ZeroProto.p_key_valueRrememberList"≈
+children_update_unlock_s2c3
+	char_list (2.ZeroProto.p_key_valueRcharList5
+
+voice_list (2.ZeroProto.p_key_valueR	voiceList;
+remember_list (2.ZeroProto.p_key_valueRrememberList"0
+children_one_children_info_c2s
+id (Rid"\
+children_one_children_info_s2c:
+children_info (2.ZeroProto.p_childrenRchildrenInfo"T
+'children_one_children_info_by_sysid_c2s
+type (Rtype
+sys_id (RsysId"e
+'children_one_children_info_by_sysid_s2c:
+children_info (2.ZeroProto.p_childrenRchildrenInfo"@
+children_use_skin_c2s
+id (Rid
+skin_id (RskinId"T
+children_use_skin_s2c
+code (Rcode
+id (Rid
+skin_id (RskinId"á
+children_gain_notice_s2c
+	gain_type (RgainTypeN
+reward_children_list (2.ZeroProto.p_children_rewardRrewardChildrenList"L
+children_favor_change_s2c/
+list (2.ZeroProto.p_children_favorRlist"
+children_assist_info_c2s"r
+children_assist_info_s2c
+mode (Rmode
+index (Rindex,
+list (2.ZeroProto.p_assist_infoRlist"5
+children_set_assistant_mode_c2s
+mode (Rmode"5
+children_set_assistant_mode_s2c
+mode (Rmode"O
+children_set_assistant_list_c2s,
+list (2.ZeroProto.p_assist_infoRlist"O
+children_add_favor_s2c5
+
+favor_list (2.ZeroProto.p_key_valueR	favorList"]
+children_update_power_s2c@
+children_list (2.ZeroProto.p_children_powerRchildrenList"p
+children_equip_auth_c2s
+opt_type (RoptType
+children_id (R
+childrenId
+equip_id (RequipId"i
+children_equip_auth_s2c
+code (Rcode:
+children_info (2.ZeroProto.p_childrenRchildrenInfo"(
+children_check_new_c2s
+id (Rid"<
+children_check_new_s2c
+code (Rcode
+id (Rid"+
+children_fetter_break_c2s
+id (Rid"k
+children_fetter_break_s2c
+code (Rcode:
+children_info (2.ZeroProto.p_childrenRchildrenInfo"E
+children_favor_award_c2s
+id (Rid
+favor_lv (RfavorLv"Y
+children_favor_award_s2c
+code (Rcode
+id (Rid
+favor_lv (RfavorLv"d
+children_favor_give_gifts_c2s
+id (Rid3
+	item_list (2.ZeroProto.p_key_valueRitemList"3
+children_favor_give_gifts_s2c
+code (Rcode"@
+children_unlock_c2s
+type (Rtype
+sys_id (RsysId"@
+children_unlock_s2c
+type (Rtype
+sys_id (RsysId"1
+children_fetter_break_point_c2s
+id (Rid"h
+children_fetter_break_point_s2c
+code (Rcode
+id (Rid!
+fetter_break (RfetterBreak"U
+children_favor_team_award_c2s
+team_id (RteamId
+	favor_lvl (RfavorLvl"i
+children_favor_team_award_s2c
+code (Rcode
+team_id (RteamId
+	favor_lvl (RfavorLvl"
+children_team_change_list_c2s"X
+children_team_change_list_s2c7
+change_list (2.ZeroProto.p_key_valueR
+changeList"S
+children_team_change_s2c7
+change_list (2.ZeroProto.p_key_valueR
+changeList"
+children_group_list_c2s"U
+children_group_list_s2c:
+
+group_list (2.ZeroProto.p_children_groupR	groupList"3
+children_group_star_up_c2s
+sys_id (RsysId"l
+children_group_star_up_s2c
+code (Rcode:
+
+group_info (2.ZeroProto.p_children_groupR	groupInfo"è
+children_unlock_skin_s2c
+id (Rid
+sys_id (RsysId
+skin_id (RskinId3
+	item_list (2.ZeroProto.p_key_valueRitemList"
+children_num_c2s"$
+children_num_s2c
+num (Rnum"
+children_bag_skin_list_c2s"9
+children_bag_skin_list_s2c
+	skin_list (RskinList
+å
+proto_common_activity.proto	ZeroProtoproto_type.proto"D
+%common_activity_get_activity_info_c2s
+	gift_list (RgiftList"a
+%common_activity_get_activity_info_s2c8
+	gift_list (2.ZeroProto.p_key_value_tinyRgiftList"a
+%common_activity_update_gift_state_s2c8
+	gift_list (2.ZeroProto.p_key_value_tinyRgiftList"'
+%common_activity_get_activity_list_c2s"è
+%common_activity_get_activity_list_s2cA
+activity_list (2.ZeroProto.p_common_activityRactivityList#
+invested_list (RinvestedList"j
+%common_activity_open_new_activity_s2cA
+activity_info (2.ZeroProto.p_common_activityRactivityInfo"=
+"common_activity_get_reward_req_c2s
+gift_id (RgiftId"^
+"common_activity_get_reward_req_s2c8
+	gift_info (2.ZeroProto.p_key_value_tinyRgiftInfo"a
+"common_activity_close_activity_s2c;
+activity_list (2.ZeroProto.p_key_valueRactivityList"@
+'common_activity_purchase_invest_req_c2s
+act_id (RactId"@
+'common_activity_purchase_invest_req_s2c
+act_id (RactId"i
+$common_activity_update_red_point_s2cA
+red_point_info (2.ZeroProto.p_key_value_tinyRredPointInfo"8
+common_activity_answer_info_c2s
+act_id (RactId"¬
+common_activity_answer_info_s2c
+act_id (RactId
+progress (Rprogress'
+progress_reward (RprogressRewardC
+question_list (2.ZeroProto.p_activity_questionRquestionList"z
+#common_activity_answer_question_c2s
+act_id (RactId
+question_id (R
+questionId
+	answer_id (RanswerId"À
+#common_activity_answer_question_s2c
+act_id (RactId
+question_id (R
+questionId
+	answer_id (RanswerId7
+reward_list (2.ZeroProto.p_key_valueR
+rewardList
+result (Rresult"V
+!common_activity_answer_reward_c2s
+act_id (RactId
+progress (Rprogress"j
+!common_activity_answer_reward_s2c
+code (Rcode
+act_id (RactId
+progress (Rprogress"
+common_activity_task_list_c2s"X
+common_activity_task_list_s2c7
+	task_list (2.ZeroProto.p_activity_taskRtaskList"Z
+common_activity_task_update_s2c7
+	task_list (2.ZeroProto.p_activity_taskRtaskList"8
+common_activity_task_commit_c2s
+sys_id (RsysId"a
+common_activity_task_commit_s2c>
+new_task_info (2.ZeroProto.p_activity_taskRnewTaskInfo"8
+common_activity_puzzle_info_c2s
+act_id (RactId"ü
+common_activity_puzzle_info_s2c
+act_id (RactId7
+puzzle_list (2.ZeroProto.p_key_valueR
+puzzleList,
+active_puzzle_list (RactivePuzzleList"L
+!common_activity_puzzle_active_c2s
+act_id (RactId
+pos (Rpos"`
+!common_activity_puzzle_active_s2c
+code (Rcode
+act_id (RactId
+pos (Rpos"s
+!common_activity_puzzle_update_s2c
+act_id (RactId7
+puzzle_info (2.ZeroProto.p_key_valueR
+puzzleInfo"o
+#common_activity_puzzle_exchange_c2s
+act_id (RactId
+type (Rtype
+
+item_index (R	itemIndex"9
+#common_activity_puzzle_exchange_s2c
+code (Rcode
+é
+proto_cost.proto	ZeroProtoproto_type.proto"e
+cost_update_hero_c2s
+team_id (RteamId4
+	hero_list (2.ZeroProto.p_hero_indexRheroList"Í
+cost_update_team_c2s
+
+team_index (R	teamIndex
+team_id (RteamId
+event_id (ReventId;
+children_list (2.ZeroProto.p_key_valueRchildrenListB
+fetter_child_list (2.ZeroProto.p_key_valueRfetterChildList"o
+cost_update_team_s2c
+result (Rresult?
+children_team (2.ZeroProto.p_children_teamRchildrenTeam"m
+cost_update_name_c2s
+
+team_index (R	teamIndex
+event_id (ReventId
+	team_name (	RteamName"Ö
+cost_update_name_s2c
+result (Rresult
+
+team_index (R	teamIndex
+event_id (ReventId
+	team_name (	RteamName"1
+cost_event_teams_c2s
+event_id (ReventId"|
+cost_event_teams_s2c#
+default_index (RdefaultIndex?
+children_team (2.ZeroProto.p_children_teamRchildrenTeam"R
+cost_default_c2s
+event_id (ReventId#
+default_index (RdefaultIndex"j
+cost_default_s2c
+result (Rresult
+event_id (ReventId#
+default_index (RdefaultIndex"k
+cost_set_assistant_c2s
+event_id (ReventId
+	player_id (RplayerId
+child_id (RchildId"å
+cost_set_assistant_s2c
+result (Rresult
+event_id (ReventId?
+friend_assist (2.ZeroProto.p_friend_assistRfriendAssist"'
+cost_guide_c2s
+dup_id (RdupId"ÿ
+cost_guide_s2c
+result (Rresult?
+children_team (2.ZeroProto.p_children_teamRchildrenTeam1
+
+spell_list (2.ZeroProto.p_spellR	spellList:
+children_list (2.ZeroProto.p_childrenRchildrenList"Ö
+cost_set_assistant2_c2s
+child_id (RchildId
+event_id (ReventId
+team_id (RteamId
+	player_id (RplayerId"¶
+cost_set_assistant2_s2c
+result (Rresult
+event_id (ReventId
+team_id (RteamId?
+friend_assist (2.ZeroProto.p_friend_assistRfriendAssist"ß
+cost_update_challenge_c2s
+
+team_index (R	teamIndex
+dup_id (RdupId
+team_id (RteamId;
+children_list (2.ZeroProto.p_key_valueRchildrenList"6
+cost_cancel_assistant_c2s
+event_id (ReventId"N
+cost_cancel_assistant_s2c
+result (Rresult
+event_id (ReventId"P
+cost_cancel_assistant2_c2s
+event_id (ReventId
+team_id (RteamId"h
+cost_cancel_assistant2_s2c
+result (Rresult
+event_id (ReventId
+team_id (RteamId"/
+cost_pvp_guide_c2s
+group_id (RgroupId"˜
+cost_pvp_guide_s2c
+result (Rresult
+group_id (RgroupId?
+children_team (2.ZeroProto.p_children_teamRchildrenTeam1
+
+spell_list (2.ZeroProto.p_spellR	spellList:
+children_list (2.ZeroProto.p_childrenRchildrenList"t
+cost_fetter_child_c2s
+team_id (RteamIdB
+fetter_child_list (2.ZeroProto.p_key_valueRfetterChildList"p
+cost_fetter_child_s2c
+result (Rresult?
+children_team (2.ZeroProto.p_children_teamRchildrenTeam
+£
+proto_crafting.proto	ZeroProto"1
+crafting_decompose_c2s
+id_list (RidList"I
+crafting_decompose_s2c
+result (Rresult
+id_list (RidList"R
+crafting_compose_machine_c2s
+mac_id (RmacId
+	cost_list (RcostList"j
+crafting_compose_machine_s2c
+result (Rresult
+mac_id (RmacId
+	cost_list (RcostList"T
+crafting_compose_furniture_c2s
+fur_id (RfurId
+	cost_list (RcostList"l
+crafting_compose_furniture_s2c
+result (Rresult
+fur_id (RfurId
+	cost_list (RcostList
+®
+proto_credit.proto	ZeroProtoproto_type.proto"
+credit_info_c2s"È
+credit_info_s2c
+end_time (RendTime
+
+credit_lvl (R	creditLvl#
+credit_amount (RcreditAmount5
+
+shop_items (2.ZeroProto.p_key_valueR	shopItems@
+need_repay_items (2.ZeroProto.p_key_valueRneedRepayItems"9
+credit_buy_c2s
+sys_id (RsysId
+num (Rnum"v
+credit_buy_s2c
+result (Rresult
+sys_id (RsysId
+num (Rnum#
+credit_amount (RcreditAmount"B
+credit_repay_c2s.
+repays (2.ZeroProto.p_key_valueRrepays"
+credit_repay_s2c
+result (Rresult.
+repays (2.ZeroProto.p_key_valueRrepays#
+credit_amount (RcreditAmount
+ª
+proto_dispatch.proto	ZeroProtoproto_type.proto"
+dispatch_info_c2s"Z
+dispatch_info_s2c
+visible (Rvisible+
+doing (2.ZeroProto.p_dispatchRdoing"Z
+dispatch_start_c2s
+dispatch_id (R
+dispatchId#
+children_list (RchildrenList"S
+dispatch_start_s2c
+code (Rcode)
+info (2.ZeroProto.p_dispatchRinfo"4
+dispatch_stop_c2s
+dispatch_id (R
+dispatchId"R
+dispatch_stop_s2c
+code (Rcode)
+info (2.ZeroProto.p_dispatchRinfo"6
+dispatch_finish_c2s
+dispatch_id (R
+dispatchId"k
+dispatch_finish_s2c
+code (Rcode
+is_del (RisDel)
+info (2.ZeroProto.p_dispatchRinfo".
+dispatch_add_visible_s2c
+list (Rlist"@
+dispatch_update_s2c)
+info (2.ZeroProto.p_dispatchRinfo"C
+dispatch_children_s2c*
+info (2.ZeroProto.p_key_valueRinfo
+œ!
+proto_dup.proto	ZeroProtoproto_type.proto"
+dup_info_c2s"9
+dup_info_s2c)
+info (2.ZeroProto.p_role_dupRinfo";
+dup_update_s2c)
+info (2.ZeroProto.p_role_dupRinfo"Ñ
+dup_pass_info_s2c
+dup_id (RdupId
+result (Rresult
+star (Rstar*
+task (2.ZeroProto.p_key_valueRtask#
+children_list (RchildrenList5
+info (2!.ZeroProto.p_dup_rand_pass_rewardRinfo
+times (Rtimes
+	pass_time (RpassTime"
+is_first_pass	 (RisFirstPass%
+is_first_3_star
+ (RisFirst3Star&
+is_patrol_event (RisPatrolEvent"X
+dup_enter_c2s
+dungeon (Rdungeon
+team_id (RteamId
+times (Rtimes")
+dup_watch_c2s
+dungeon (Rdungeon")
+dup_sweep_c2s
+dungeon (Rdungeon"Å
+dup_sweep_s2c
+code (Rcode
+dungeon (RdungeonB
+reward_show (2!.ZeroProto.p_dup_rand_pass_rewardR
+rewardShow"
+dup_tower_info_c2s"ä
+dup_tower_info_s2c
+
+bind_money (R	bindMoney(
+bind_money_limit (RbindMoneyLimit+
+info (2.ZeroProto.p_role_towerRinfo" 
+dup_tower_achieve_get_info_c2s"T
+dup_tower_achieve_get_info_s2c2
+info (2.ZeroProto.p_tower_achieve_getRinfo"P
+ dup_get_tower_achieve_reward_c2s
+tower (Rtower
+number (Rnumber"é
+ dup_get_tower_achieve_reward_s2c
+code (Rcode
+tower (Rtower
+number (Rnumber(
+bind_money_limit (RbindMoneyLimit"D
+dup_enter_tower_c2s
+floor (Rfloor
+team_id (RteamId"^
+dup_enter_tower_s2c
+code (Rcode
+floor (Rfloor
+
+del_ticket (R	delTicket"›
+dup_tower_end_s2c
+result (Rresult
+dup_id (RdupId
+	pass_time (RpassTime
+is_over (RisOver
+reward (Rreward
+return_vita (R
+returnVita*
+task (2.ZeroProto.p_key_valueRtask"2
+dup_tower_total_reward_s2c
+value (Rvalue"J
+dup_select_agent_c2s
+dungeon (Rdungeon
+whether (Rwhether"^
+dup_select_agent_s2c
+code (Rcode
+dungeon (Rdungeon
+whether (Rwhether":
+dup_chapters_reward_info_c2s
+chapters (Rchapters"N
+dup_chapters_reward_info_s2c
+chapters (Rchapters
+list (Rlist"Q
+dup_get_chapters_reward_c2s
+chapters (Rchapters
+number (Rnumber"e
+dup_get_chapters_reward_s2c
+code (Rcode
+chapters (Rchapters
+number (Rnumber"+
+dup_tower_start_c2s
+tower (Rtower"?
+dup_tower_start_s2c
+code (Rcode
+tower (Rtower"*
+dup_tower_stop_c2s
+tower (Rtower"w
+dup_tower_stop_s2c
+code (Rcode
+tower (Rtower
+reward (Rreward
+return_vita (R
+returnVita"@
+dup_tower_auto_c2s
+tower (Rtower
+floor (Rfloor"s
+dup_tower_auto_s2c
+code (Rcode
+tower (Rtower
+floor (Rfloor
+
+start_time (R	startTime"2
+dup_tower_auto_suspend_c2s
+tower (Rtower"µ
+dup_tower_auto_suspend_s2c
+code (Rcode
+tower (Rtower
+	end_floor (RendFloor
+is_over (RisOver
+reward (Rreward
+return_vita (R
+returnVita"3
+dup_tower_auto_complete_s2c
+tower (Rtower"4
+dup_end_favor_add_s2c
+	favor_add (RfavorAdd" 
+dup_daily_drop_select_info_c2s"X
+dup_daily_drop_select_info_s2c6
+info (2".ZeroProto.p_dup_daily_drop_selectRinfo"G
+dup_daily_drop_select_c2s
+type (Rtype
+select (Rselect"[
+dup_daily_drop_select_s2c
+code (Rcode
+type (Rtype
+select (Rselect"/
+dup_daily_reward_info_c2s
+type (Rtype"C
+dup_daily_reward_info_s2c
+type (Rtype
+list (Rlist"F
+dup_get_daily_reward_c2s
+type (Rtype
+number (Rnumber"Z
+dup_get_daily_reward_s2c
+code (Rcode
+type (Rtype
+number (Rnumber"C
+%dup_strategy_chapters_reward_info_c2s
+chapters (Rchapters"W
+%dup_strategy_chapters_reward_info_s2c
+chapters (Rchapters
+list (Rlist"Z
+$dup_get_strategy_chapters_reward_c2s
+chapters (Rchapters
+number (Rnumber"n
+$dup_get_strategy_chapters_reward_s2c
+code (Rcode
+chapters (Rchapters
+number (Rnumber"?
+dup_save_sweep_c2s
+map_id (RmapId
+line (Rline"©
+dup_save_sweep_s2c
+code (Rcode
+type (Rtype
+map_id (RmapId
+line (Rline@
+sweep_lineup (2.ZeroProto.p_dup_sweep_lineupRsweepLineup
+†
+proto_equip.proto	ZeroProtoproto_type.proto"
+equip_info_c2s"A
+equip_info_s2c/
+info (2.ZeroProto.p_children_equipRinfo"C
+equip_update_s2c/
+info (2.ZeroProto.p_children_equipRinfo"+
+equip_delete_s2c
+id_list (RidList"T
+equip_dress_c2s
+id (Rid
+children_id (R
+childrenId
+pos (Rpos"5
+equip_dress_s2c
+code (Rcode
+id (Rid"#
+equip_undress_c2s
+id (Rid"7
+equip_undress_s2c
+code (Rcode
+id (Rid"I
+equip_compose_choice_attrs_c2s
+id (Rid
+id_list (RidList"î
+equip_compose_choice_attrs_s2c
+code (Rcode
+id (Rid
+is_login (RisLogin3
+info (2.ZeroProto.p_equip_choice_attrsRinfo"2
+equip_compose_c2s
+
+attr_order (R	attrOrder"'
+equip_compose_s2c
+code (Rcode"B
+equip_reset_choice_attrs_c2s
+id (Rid
+star (Rstar"¶
+equip_reset_choice_attrs_s2c
+code (Rcode
+id (Rid
+star (Rstar
+is_login (RisLogin3
+info (2.ZeroProto.p_equip_choice_attrsRinfo"0
+equip_reset_c2s
+
+attr_order (R	attrOrder"%
+equip_reset_s2c
+code (Rcode",
+equip_resolve_c2s
+id_list (RidList"'
+equip_resolve_s2c
+code (Rcode"4
+equip_lock_c2s
+id (Rid
+lock (Rlock"H
+equip_lock_s2c
+code (Rcode
+id (Rid
+lock (Rlock"|
+equip_strong_c2s
+id (Rid
+
+equip_list (R	equipList9
+stuff_amount (2.ZeroProto.p_key_valueRstuffAmount"&
+equip_strong_s2c
+code (Rcode""
+equip_purify_c2s
+id (Rid"&
+equip_purify_s2c
+code (Rcode"9
+equip_reset_affix_c2s
+id (Rid
+pos (Rpos"+
+equip_reset_affix_s2c
+code (Rcode"3
+equip_see_c2s
+id (Rid
+flag (Rflag"G
+equip_see_s2c
+code (Rcode
+id (Rid
+flag (Rflag"9
+equip_replace_c2s
+a_id (RaId
+b_id (RbId"M
+equip_replace_s2c
+code (Rcode
+a_id (RaId
+b_id (RbId
+•
+proto_explore.proto	ZeroProtoproto_type.proto"
+explore_info_c2s"J
+explore_info_s2c6
+	info_list (2.ZeroProto.p_explore_infoRinfoList"}
+explore_enter_c2s
+sys_id (RsysId4
+	hero_list (2.ZeroProto.p_hero_indexRheroList
+	child_ids (RchildIds"á
+explore_enter_s2c
+sys_id (RsysId4
+	hero_list (2.ZeroProto.p_hero_indexRheroList
+grid (Rgrid
+sight_grids (R
+sightGrids
+
+fade_grids (R	fadeGrids
+
+free_areas (R	freeAreasI
+replace_events (2".ZeroProto.p_explore_replace_eventRreplaceEvents
+team_id (RteamId
+
+danger_val	 (R	dangerVal!
+efficacy_val
+ (RefficacyVal
+chips (Rchips;
+danger_limits (2.ZeroProto.p_key_valueRdangerLimits9
+event_counts (2.ZeroProto.p_key_valueReventCounts"+
+explore_childs_c2s
+sys_id (RsysId"ï
+explore_childs_s2c
+sys_id (RsysId4
+	hero_list (2.ZeroProto.p_hero_indexRheroList2
+childs (2.ZeroProto.p_explore_childRchilds"*
+explore_items_c2s
+sys_id (RsysId"[
+explore_items_s2c
+sys_id (RsysId/
+items (2.ZeroProto.p_explore_itemRitems"*
+explore_leave_c2s
+sys_id (RsysId"*
+explore_leave_s2c
+sys_id (RsysId"*
+explore_reset_c2s
+sys_id (RsysId"*
+explore_reset_s2c
+sys_id (RsysId"?
+explore_move_c2s
+sys_id (RsysId
+grids (Rgrids"b
+explore_get_event_data_c2s
+sys_id (RsysId
+grid (Rgrid
+event_id (ReventId"±
+explore_hire_event_data_s2c
+sys_id (RsysId
+grid (Rgrid
+event_id (ReventId
+jobs (Rjobs8
+childs (2 .ZeroProto.p_explore_event_childRchilds"ö
+explore_gain_event_data_s2c
+sys_id (RsysId
+grid (Rgrid
+event_id (ReventId5
+gains (2.ZeroProto.p_explore_event_itemRgains"z
+explore_trigger_event_c2s
+sys_id (RsysId
+grid (Rgrid
+event_id (ReventId
+ext_ids (RextIds"í
+explore_trigger_event_s2c
+result (Rresult
+sys_id (RsysId
+grid (Rgrid
+event_id (ReventId
+ext_ids (RextIds"Ω
+explore_dup_end_s2c
+result (Rresult
+dup_id (RdupId
+star (Rstar
+grid (Rgrid
+event_id (ReventId
+team_id (RteamId
+	pass_time (RpassTime"Ç
+explore_add_replace_events_s2c
+sys_id (RsysIdI
+replace_events (2".ZeroProto.p_explore_replace_eventRreplaceEvents"R
+explore_add_fade_grids_s2c
+sys_id (RsysId
+
+fade_grids (R	fadeGrids"b
+explore_update_values_s2c
+sys_id (RsysId.
+values (2.ZeroProto.p_key_valueRvalues"J
+explore_add_sight_grids_c2s
+sys_id (RsysId
+grids (Rgrids"K
+explore_add_free_area_s2c
+sys_id (RsysId
+area_id (RareaId"b
+explore_update_items_s2c
+sys_id (RsysId/
+items (2.ZeroProto.p_explore_itemRitems"F
+explore_transfer_grid_s2c
+sys_id (RsysId
+grid (Rgrid"v
+ explore_update_danger_limits_s2c
+sys_id (RsysId;
+danger_limits (2.ZeroProto.p_key_valueRdangerLimits"g
+explore_dec_children_times_s2c
+sys_id (RsysId.
+childs (2.ZeroProto.p_key_valueRchilds"ñ
+explore_trophy_event_data_s2c
+sys_id (RsysId
+grid (Rgrid
+event_id (ReventId/
+items (2.ZeroProto.p_explore_itemRitems"I
+explore_new_event_c2s
+sys_id (RsysId
+event_id (ReventId"K
+explore_save_team_c2s
+sys_id (RsysId
+	child_ids (RchildIds"/
+explore_save_team_s2c
+result (Rresult
+ï
+proto_favor.proto	ZeroProtoproto_type.proto"
+favor_info_c2s"ä
+favor_info_s2c8
+team_favors (2.ZeroProto.p_team_favorR
+teamFavors>
+couple_favors (2.ZeroProto.p_couple_favorRcoupleFavors"X
+favor_update_team_favors_s2c8
+team_favors (2.ZeroProto.p_team_favorR
+teamFavors"`
+favor_update_couple_favors_s2c>
+couple_favors (2.ZeroProto.p_couple_favorRcoupleFavors"7
+favor_get_team_favor_award_c2s
+sys_id (RsysId"O
+favor_get_team_favor_award_s2c
+result (Rresult
+sys_id (RsysId
+⁄
+proto_fight.proto	ZeroProtoproto_type.proto"’
+fight_sync_hp_s2c
+mapid (Rmapid
+line (Rline
+	object_id (RobjectId
+hp (Rhp
+hp_max (RhpMax
+es (Res
+es_max (ResMax
+type (Rtype
+from_id	 (RfromId"Å
+fight_sync_mp_s2c
+mapid (Rmapid
+line (Rline
+	object_id (RobjectId
+mp (Rmp
+mp_max (RmpMax"ﬂ
+fight_use_skill_c2s
+mapid (Rmapid
+line (Rline
+	skill_uid (RskillUid
+skill_id (RskillId3
+attacker (2.ZeroProto.p_fighter_idRattacker1
+target (2.ZeroProto.p_skill_targetRtarget"∑
+fight_use_skill_s2c
+result (Rresult3
+attacker (2.ZeroProto.p_fighter_idRattacker
+	skill_uid (RskillUid
+skill_id (RskillId
+	skill_lvl (RskillLvl"Ü
+fight_broadcast_use_skill_s2c
+mapid (Rmapid
+line (Rline
+	skill_uid (RskillUid
+skill_id (RskillId
+	skill_lvl (RskillLvl3
+attacker (2.ZeroProto.p_fighter_idRattacker1
+target (2.ZeroProto.p_skill_targetRtarget"Ø
+fight_skill_hit_c2s
+mapid (Rmapid
+line (Rline3
+attacker (2.ZeroProto.p_fighter_idRattacker3
+defender (2.ZeroProto.p_fighter_idRdefender
+	skill_uid (RskillUid
+skill_id (RskillId
+hit_seq (RhitSeq 
+hit_back_dis (R
+hitBackDis7
+hit_back_pos	 (2.ZeroProto.p_positionR
+hitBackPos"
+hit_effect_id
+ (RhitEffectId
+hit_pos (RhitPos
+	hit_sound (	RhitSound"–
+fight_skill_hit_s2c
+mapid (Rmapid
+line (Rline3
+attacker (2.ZeroProto.p_fighter_idRattacker3
+defender (2.ZeroProto.p_fighter_idRdefender
+	skill_uid (RskillUid
+skill_id (RskillId 
+hit_back_dis (R
+hitBackDis7
+hit_back_pos (2.ZeroProto.p_positionR
+hitBackPos"
+hit_effect_id	 (RhitEffectId
+hit_pos
+ (RhitPos
+	hit_sound (	RhitSound
+	hit_state (RhitState
+	hit_value (RhitValue"^
+fight_break_skill_c2s
+mapid (Rmapid
+line (Rline
+	skill_uid (RskillUid"^
+fight_break_skill_s2c
+mapid (Rmapid
+line (Rline
+	skill_uid (RskillUid"‰
+fight_trigger_buff_c2s
+mapid (Rmapid
+line (Rline3
+attacker (2.ZeroProto.p_fighter_idRattacker3
+defender (2.ZeroProto.p_fighter_idRdefender
+	skill_uid (RskillUid
+buff_seq (RbuffSeq"\
+fight_skill_end_c2s
+mapid (Rmapid
+line (Rline
+	skill_uid (RskillUid">
+fight_role_die_s2c
+mapid (Rmapid
+line (Rline"]
+fight_revive_c2s
+mapid (Rmapid
+line (Rline
+revive_type (R
+reviveType"K
+fight_revive_s2c
+result (Rresult
+revive_type (R
+reviveType"ù
+fight_ground_destroy_c2s
+mapid (Rmapid
+line (Rline3
+attacker (2.ZeroProto.p_fighter_idRattacker"
+ground_obj_id (RgroundObjId"u
+fight_ground_destroy_s2c
+code (Rcode
+mapid (Rmapid
+line (Rline
+	object_id (RobjectId"®
+fight_summon_object_c2s
+mapid (Rmapid
+line (Rline
+	skill_uid (RskillUid
+	summon_id (RsummonId)
+site (2.ZeroProto.p_positionRsite"t
+fight_summon_object_s2c
+code (Rcode
+mapid (Rmapid
+line (Rline
+	object_id (RobjectId"◊
+fight_mount_object_skill_s2c
+mapid (Rmapid
+line (Rline
+	object_id (RobjectId
+	skill_uid (RskillUid
+skill_id (RskillId
+	skill_lvl (RskillLvl
+	target_id (RtargetId"ù
+fight_update_skill_cds_s2c
+mapid (Rmapid
+line (Rline
+	object_id (RobjectId8
+	skill_cds (2.ZeroProto.p_fight_skill_cdRskillCds"
+fight_update_skill_card_s2c
+mapid (Rmapid
+line (Rline6
+
+skill_card (2.ZeroProto.p_skill_cardR	skillCard
+æ
+proto_friend_pvp.proto	ZeroProtoproto_type.proto".
+friend_pvp_invite_c2s
+role_b (RroleB"
+friend_pvp_phase_c2s"†
+friend_pvp_phase_s2c
+id (Rid
+phase (Rphase
+role_a (RroleA
+role_b (RroleB
+end_time (RendTime
+role_ids (RroleIds"<
+friend_pvp_reply_c2s
+reply (Rreply
+id (Rid"C
+friend_pvp_notify_reply_s2c
+reply (Rreply
+id (Rid"A
+friend_pvp_confirm_c2s
+id (Rid
+team_id (RteamId"'
+friend_pvp_cancel_c2s
+id (Rid"B
+friend_pvp_notify_cancel_s2c
+id (Rid
+name (	Rname"&
+friend_pvp_close_s2c
+id (Rid"L
+friend_pvp_notify_close_s2c
+id (Rid
+
+is_confirm (R	isConfirm"
+friend_pvp_match_info_c2s"V
+friend_pvp_match_info_s2c9
+
+match_team (2.ZeroProto.p_nf_match_teamR	matchTeam
+Ä
+proto_friend.proto	ZeroProtoproto_type.proto"
+friend_info_c2s"W
+friend_info_s2c
+is_inc (RisInc-
+friends (2.ZeroProto.p_friendRfriends"
+friend_apply_info_c2s"b
+friend_apply_info_s2c
+is_inc (RisInc2
+
+apply_list (2.ZeroProto.p_friendR	applyList"0
+friend_add_friend_c2s
+role_id (RroleId"0
+friend_add_friend_s2c
+role_id (RroleId"3
+friend_delete_friend_c2s
+role_id (RroleId"3
+friend_delete_friend_s2c
+role_id (RroleId"M
+friend_friend_reply_c2s
+is_agree (RisAgree
+role_id (RroleId"e
+friend_friend_reply_s2c
+result (Rresult
+is_agree (RisAgree
+role_id (RroleId"@
+friend_search_c2s
+role_id (RroleId
+name (	Rname"D
+friend_search_s2c/
+searches (2.ZeroProto.p_friendRsearches"9
+friend_mark_friends_read_c2s
+role_ids (RroleIds"@
+#friend_mark_friend_applies_read_c2s
+role_ids (RroleIds"
+friend_assist_info_c2s"M
+friend_assist_info_s2c3
+assists (2.ZeroProto.p_fight_assistRassists"B
+friend_set_assist_c2s
+grid (Rgrid
+sys_id (RsysId"m
+friend_set_assist_s2c
+result (Rresult<
+fight_assist (2.ZeroProto.p_fight_assistRfightAssist"7
+friend_friendliness_info_c2s
+role_id (RroleId"y
+friend_friendliness_info_s2c
+role_id (RroleId
+lvl (Rlvl
+in_val (RinVal
+out_val (RoutVal"
+friend_friendship_points_c2s"◊
+friend_friendship_points_s2c9
+assist_times (2.ZeroProto.p_key_valueRassistTimes9
+friend_times (2.ZeroProto.p_key_valueRfriendTimesA
+record_list (2 .ZeroProto.p_child_assist_recordR
+recordList"R
+friend_assist_child_info_c2s
+role_id (RroleId
+child_id (RchildId"Ü
+friend_assist_child_info_s2c1
+children (2.ZeroProto.p_childrenRchildren3
+equips (2.ZeroProto.p_children_equipRequips"ú
+friend_gain_info_s2c
+num (Rnum#
+popular_child (RpopularChild.
+popular_child_times (RpopularChildTimes,
+popular_child_gain (RpopularChildGain+
+player (2.ZeroProto.p_friendRplayer!
+player_times (RplayerTimes
+player_gain (R
+playerGain">
+friend_note_c2s
+role_id (RroleId
+note (	Rnote"V
+friend_note_s2c
+result (Rresult
+role_id (RroleId
+note (	Rnote"O
+friend_batch_set_assists_c2s/
+kv_list (2.ZeroProto.p_key_valueRkvList"v
+friend_batch_set_assists_s2c
+result (Rresult>
+fight_assists (2.ZeroProto.p_fight_assistRfightAssists"-
+friend_gift_info_c2s
+act_id (RactId"≠
+friend_gift_info_s2c
+act_id (RactId:
+	self_gift (2.ZeroProto.p_friend_self_giftRselfGiftB
+friend_gift_list (2.ZeroProto.p_friend_giftRfriendGiftList"L
+friend_gift_req_c2s
+act_id (RactId
+req_item_id (R	reqItemId")
+friend_gift_req_s2c
+code (Rcode"j
+friend_gift_give_c2s
+act_id (RactId
+	friend_id (RfriendId
+req_item_id (R	reqItemId"*
+friend_gift_give_s2c
+code (Rcode",
+friend_gift_get_c2s
+act_id (RactId")
+friend_gift_get_s2c
+code (Rcode"k
+friend_gift_update_s2c
+act_id (RactId:
+	self_gift (2.ZeroProto.p_friend_self_giftRselfGift
+ﬁ
+proto_front_dup.proto	ZeroProtoproto_type.proto"Q
+front_dup_in_log_c2s
+map_id (RmapId"
+child_id_list (RchildIdList"ì
+front_dup_fin_log_c2s
+map_id (RmapId
+result (Rresult
+dup_time (RdupTime
+goal (Rgoal
+cnt (Rcnt"
+child_id_list (RchildIdList6
+
+depolylist (2.ZeroProto.p_key_valueR
+depolylist.
+deaths (2.ZeroProto.p_key_valueRdeaths"æ
+front_dup_none_role_fight_c2s
+uid (	Ruid
+map_id (RmapId"
+child_id_list (RchildIdList
+result (Rresult
+
+start_time (R	startTime
+dup_time (RdupTime
+â
+proto_gain.proto	ZeroProtoproto_type.proto"#
+gain_list_c2s
+type (Rtype"S
+gain_list_s2c
+code (Rcode.
+	gain_list (2.ZeroProto.p_gainRgainList"^
+gain_update_s2c
+	tips_type (RtipsType.
+	gain_list (2.ZeroProto.p_gainRgainList
+∞
+proto_headshots.proto	ZeroProto"
+headshots_info_c2s"i
+headshots_info_s2c
+entry (Rentry
+head (Rhead
+id (Rid
+frame_id (RframeId"&
+headshots_change_c2s
+id (Rid"&
+headshots_change_s2c
+id (Rid",
+headshots_change_frame_c2s
+id (Rid",
+headshots_change_frame_s2c
+id (Rid"9
+headshots_click_c2s
+type (Rtype
+id (Rid"9
+headshots_click_s2c
+type (Rtype
+id (Rid"
+headshots_detail_c2s"ä
+headshots_detail_s2c
+list (Rlist
+
+frame_list (R	frameList
+gain_ids (RgainIds$
+gain_frame_ids (RgainFrameIds"D
+headshots_update_red_s2c
+entry (Rentry
+head (Rhead
+Ù
+proto_hero.proto	ZeroProtoproto_type.proto"
+hero_info_c2s"6
+hero_info_s2c%
+list (2.ZeroProto.p_heroRlist"=
+hero_awake_c2s
+form (Rform
+hero_id (RheroId"í
+hero_awake_s2c
+code (Rcode
+form (Rform%
+hero (2.ZeroProto.p_heroRhero1
+children (2.ZeroProto.p_childrenRchildren"B
+hero_alter_c2s
+team_id (RteamId
+hero_id (RheroId"x
+hero_alter_s2c
+code (Rcode
+team_id (RteamId
+form (Rform%
+hero (2.ZeroProto.p_heroRhero"=
+hero_notify_hero_s2c%
+hero (2.ZeroProto.p_heroRhero"\
+hero_hero_children_info_c2s
+form (Rform
+hero_id (RheroId
+lvl (Rlvl"ë
+hero_hero_children_info_s2c
+code (Rcode
+form (Rform
+hero_id (RheroId1
+children (2.ZeroProto.p_childrenRchildren"
+hero_all_skin_info_c2s"R
+hero_all_skin_info_s2c8
+	skin_list (2.ZeroProto.p_hero_skin_infoRskinList"\
+hero_change_skin_c2s
+form (Rform
+hero_id (RheroId
+skin_id (RskinId"p
+hero_change_skin_s2c
+code (Rcode
+form (Rform
+hero_id (RheroId
+skin_id (RskinId"1
+hero_one_skin_info_c2s
+hero_id (RheroId"R
+hero_one_skin_info_s2c8
+	skin_info (2.ZeroProto.p_hero_skin_infoRskinInfo"3
+hero_sync_c2s
+id (Rid
+form (Rform"Æ
+hero_sync_s2c
+result (Rresult
+id (Rid
+form (Rform%
+hero (2.ZeroProto.p_heroRhero:
+children_info (2.ZeroProto.p_childrenRchildrenInfo"k
+hero_upgrade_c2s
+id (Rid
+form (Rform3
+	item_list (2.ZeroProto.p_key_valueRitemList"≠
+hero_upgrade_s2c
+code (Rcode
+id (Rid
+form (Rform:
+children_info (2.ZeroProto.p_childrenRchildrenInfo%
+hero (2.ZeroProto.p_heroRhero"<
+hero_unlock_c2s
+sys_id (RsysId
+form (Rform"w
+hero_unlock_s2c
+code (Rcode
+sys_id (RsysId
+form (Rform%
+hero (2.ZeroProto.p_heroRhero"M
+hero_once_change_skin_c2s
+hero_id (RheroId
+skin_id (RskinId"i
+hero_once_change_skin_s2c
+code (Rcode8
+	skin_list (2.ZeroProto.p_hero_skin_infoRskinList
+ı	
+proto_hertz.proto	ZeroProtoproto_type.proto"'
+hertz_info_c2s
+act_id (RactId"ÿ
+hertz_info_s2c
+act_id (RactId
+	act_money (RactMoney!
+history_star (RhistoryStar
+hook (Rhook
+
+likes_list (R	likesList<
+reward_state (2.ZeroProto.p_hertz_rewardRrewardState"Y
+hertz_get_reward_c2s
+act_id (RactId
+type (Rtype
+number (Rnumber"m
+hertz_get_reward_s2c
+code (Rcode
+act_id (RactId
+type (Rtype
+number (Rnumber",
+hertz_rank_info_c2s
+act_id (RactId"ú
+hertz_rank_info_s2c
+act_id (RactId
+rank_per (RrankPer
+star (Rstar
+time (Rtime+
+list (2.ZeroProto.p_hertz_rankRlist"8
+hertz_likes_c2s
+act_id (RactId
+id (Rid"L
+hertz_likes_s2c
+code (Rcode
+act_id (RactId
+id (Rid".
+hertz_hook_reward_c2s
+act_id (RactId"B
+hertz_hook_reward_s2c
+code (Rcode
+act_id (RactId"I
+hertz_update_act_money_s2c
+act_id (RactId
+value (Rvalue"5
+hertz_dup_pass_time_info_c2s
+dup_id (RdupId"©
+hertz_dup_pass_time_info_s2c
+dup_id (RdupId
+	self_time (RselfTime
+
+top10_time (R	top10Time6
+top10_lineup (2.ZeroProto.p_lineupRtop10Lineup
+á
+
+proto_item.proto	ZeroProtoproto_type.proto"
+item_info_c2s"6
+item_info_s2c%
+info (2.ZeroProto.p_itemRinfo"8
+item_update_s2c%
+info (2.ZeroProto.p_itemRinfo"*
+item_delete_s2c
+id_list (RidList"9
+item_use_c2s
+item_id (RitemId
+num (Rnum";
+item_use_s2c
+code (Rcode
+item_id (RitemId"W
+item_sell_c2s
+location (Rlocation*
+list (2.ZeroProto.p_key_valueRlist"#
+item_sell_s2c
+code (Rcode";
+item_gain_s2c*
+list (2.ZeroProto.p_item_gainRlist"Ç
+item_compose_c2s
+type (Rtype
+sys_id (RsysId
+num (Rnum1
+alternative_material (RalternativeMaterial"ñ
+item_compose_s2c
+code (Rcode
+type (Rtype
+sys_id (RsysId
+num (Rnum1
+alternative_material (RalternativeMaterial"K
+item_up_children_c2s
+item_id (RitemId
+children (Rchildren"_
+item_up_children_s2c
+code (Rcode
+item_id (RitemId
+children (Rchildren"^
+item_choice_gift_c2s
+item_id (RitemId
+	reward_id (RrewardId
+num (Rnum"r
+item_choice_gift_s2c
+code (Rcode
+item_id (RitemId
+	reward_id (RrewardId
+num (Rnum"T
+item_dup_thing_gain_s2c9
+	item_list (2.ZeroProto.p_dup_reward_itemRitemList
+¥
+proto_login.proto	ZeroProtoproto_type.proto"i
+login_heart_c2s
+index (Rindex
+client_time (R
+clientTime
+server_time (R
+serverTime"c
+login_heart_s2c
+index (Rindex
+server_time (R
+serverTime
+run_time (RrunTime"„
+login_auth_c2s
+uid (	Ruid
+uname (	Runame
+p_key (	RpKey
+time (Rtime
+bind (Rbind
+token (	Rtoken
+	login_sid (RloginSid9
+client_info (2.ZeroProto.p_client_infoR
+clientInfo"≠
+login_auth_s2c
+code (Rcode
+	time_zone (RtimeZone
+serv_id (RservId
+	open_time (RopenTime4
+	role_list (2.ZeroProto.p_login_infoRroleList"=
+login_create_role_c2s
+name (	Rname
+sex (Rsex"a
+login_create_role_s2c
+code (Rcode4
+	role_info (2.ZeroProto.p_login_infoRroleInfo"'
+login_select_role_c2s
+id (Rid";
+login_select_role_s2c
+code (Rcode
+id (Rid"æ
+login_repeat_c2s
+id (Rid
+p_key (	RpKey
+time (Rtime
+token (	Rtoken!
+game_version (	RgameVersion
+	login_sid (RloginSid
+	proto_num (RprotoNum"&
+login_repeat_s2c
+code (Rcode"8
+login_reject_s2c
+code (Rcode
+msg (	Rmsg"A
+login_random_name_c2s
+sex (Rsex
+amount (Ramount"=
+login_random_name_s2c
+sex (Rsex
+list (	Rlist"
+login_bind_c2s"$
+login_bind_s2c
+code (Rcode"7
+login_sync_proto_num_s2c
+	proto_num (RprotoNum
+†
+proto_lottery.proto	ZeroProtoproto_type.proto"
+lottery_pool_c2s"J
+lottery_pool_s2c6
+	pool_list (2.ZeroProto.p_lottery_poolRpoolList"D
+lottery_draw_c2s
+pool_sys_id (R	poolSysId
+pos (Rpos"ú
+lottery_draw_s2c
+code (Rcode<
+reward_list (2.ZeroProto.p_lottery_rewardR
+rewardList6
+	pool_info (2.ZeroProto.p_lottery_poolRpoolInfo"4
+lottery_donate_c2s
+pool_sys_id (R	poolSysId"§
+lottery_donate_s2c
+code (Rcode
+pool_sys_id (R	poolSysId!
+donate_times (RdonateTimes7
+reward_list (2.ZeroProto.p_key_valueR
+rewardList"J
+lottery_update_s2c4
+new_pool (2.ZeroProto.p_lottery_poolRnewPool
+•
+proto_mail.proto	ZeroProtoproto_type.proto"
+mail_base_c2s"=
+mail_base_s2c,
+mails (2.ZeroProto.p_mail_baseRmails"
+mail_read_c2s
+id (Rid"M
+mail_read_s2c<
+mail_content (2.ZeroProto.p_mail_contentRmailContent"-
+mail_extract_c2s
+mail_ids (RmailIds"-
+mail_extract_s2c
+mail_ids (RmailIds",
+mail_delete_c2s
+mail_ids (RmailIds",
+mail_delete_s2c
+mail_ids (RmailIds"7
+mail_favorite_c2s
+id (Rid
+type (Rtype"O
+mail_favorite_s2c
+id (Rid
+code (Rcode
+status (Rstatus"<
+mail_add_s2c,
+mails (2.ZeroProto.p_mail_baseRmails"
+mail_red_c2s""
+mail_red_s2c
+code (Rcode
+ÿ!
+proto_map.proto	ZeroProtoproto_type.proto"
+map_relogin_c2s"B
+map_enter_c2s
+mapid (Rmapid
+	child_ids (RchildIds"ó
+map_enter_s2c
+result (Rresult
+mapid (Rmapid
+line (Rline
+temp_id (RtempId4
+children (2.ZeroProto.p_fight_childRchildren=
+
+spell_list (2.ZeroProto.p_fight_spell_skillR	spellList6
+
+skill_card (2.ZeroProto.p_skill_cardR	skillCard"{
+map_objects_enter_s2c
+mapid (Rmapid
+line (Rline8
+map_objects (2.ZeroProto.p_map_objectR
+mapObjects"`
+map_objects_leave_s2c
+mapid (Rmapid
+line (Rline
+
+object_ids (R	objectIds"h
+map_walk_c2s
+mapid (Rmapid
+line (Rline.
+walks (2.ZeroProto.p_object_walkRwalks"¥
+map_walk_s2c
+mapid (Rmapid
+line (Rline
+	object_id (RobjectId)
+site (2.ZeroProto.p_positionRsite2
+	desc_site (2.ZeroProto.p_positionRdescSite"k
+map_move_step_c2s
+mapid (Rmapid
+line (Rline,
+steps (2.ZeroProto.p_move_stepRsteps"k
+map_move_stop_c2s
+mapid (Rmapid
+line (Rline,
+steps (2.ZeroProto.p_move_stepRsteps"Ö
+map_move_stop_s2c
+mapid (Rmapid
+line (Rline
+	object_id (RobjectId)
+site (2.ZeroProto.p_positionRsite"W
+map_single_dup_info_s2c
+mapid (Rmapid
+line (Rline
+star (Rstar"H
+map_update_object_s2c/
+object (2.ZeroProto.p_map_objectRobject"ç
+map_update_object_buffs_s2c
+mapid (Rmapid
+line (Rline
+	object_id (RobjectId'
+buffs (2.ZeroProto.p_buffRbuffs"Y
+map_change_pkmode_c2s
+mapid (Rmapid
+line (Rline
+pkmode (Rpkmode"q
+map_change_pkmode_s2c
+result (Rresult
+mapid (Rmapid
+line (Rline
+pkmode (Rpkmode"í
+map_update_object_kv_s2c
+mapid (Rmapid
+line (Rline
+	object_id (RobjectId/
+kv_list (2.ZeroProto.p_key_valueRkvList"v
+map_release_childs_c2s
+mapid (Rmapid
+line (Rline2
+childs (2.ZeroProto.p_release_childRchilds"é
+map_release_childs_s2c
+result (Rresult
+mapid (Rmapid
+line (Rline2
+childs (2.ZeroProto.p_release_childRchilds"=
+map_start_dup_c2s
+mapid (Rmapid
+line (Rline"r
+map_dup_left_time_s2c
+mapid (Rmapid
+line (Rline
+state (Rstate
+end_time (RendTime"9
+map_leave_c2s
+mapid (Rmapid
+line (Rline"Q
+map_leave_s2c
+result (Rresult
+mapid (Rmapid
+line (Rline"g
+map_dup_end_s2c
+mapid (Rmapid
+line (Rline
+result (Rresult
+star (Rstar"F
+map_enter_dup_c2s
+mapid (Rmapid
+	child_ids (RchildIds"9
+map_pause_c2s
+mapid (Rmapid
+line (Rline"Z
+map_pause_s2c
+mapid (Rmapid
+line (Rline
+pause_start (R
+pauseStart"@
+map_cancel_pause_c2s
+mapid (Rmapid
+line (Rline"_
+map_cancel_pause_s2c
+mapid (Rmapid
+line (Rline
+
+pause_time (R	pauseTime"ï
+map_time_s2c
+mapid (Rmapid
+line (Rline
+	init_time (RinitTime
+
+pause_time (R	pauseTime
+pause_start (R
+pauseStart"-
+map_notice_agent_s2c
+map_id (RmapId"*
+map_set_agent_c2s
+map_id (RmapId">
+map_set_agent_s2c
+code (Rcode
+map_id (RmapId"+
+map_agent_team_c2s
+map_id (RmapId"È
+map_agent_team_s2c
+code (Rcode
+map_id (RmapId
+hero_id (RheroId
+	hero_form (RheroForm;
+children_list (2.ZeroProto.p_key_valueRchildrenList5
+
+spell_list (2.ZeroProto.p_key_valueR	spellList"7
+map_kill_mon_info_c2s
+mon_id_list (R	monIdList"k
+map_kill_mon_info_s2c
+code (Rcode>
+kill_mon_list (2.ZeroProto.p_kill_mon_infoRkillMonList".
+map_agent_can_use_c2s
+map_id (RmapId"M
+map_agent_can_use_s2c
+map_id (RmapId
+
+have_agent (R	haveAgent"H
+map_agent_manual_switch_c2s
+map_id (RmapId
+line (Rline"\
+map_agent_manual_switch_s2c
+code (Rcode
+map_id (RmapId
+line (Rline"~
+map_mon_fly_out_c2s
+map_id (RmapId
+line (Rline
+object_type (R
+objectType
+	object_id (RobjectId"q
+map_mon_fly_out_s2c
+code (Rcode
+map_id (RmapId
+line (Rline
+	object_id (RobjectId
+˝
+proto_multi_boss.proto	ZeroProtoproto_type.proto"
+multi_boss_info_c2s"ê
+multi_boss_info_s2c
+code (Rcode
+times (Rtimes
+
+enhance_ts (R	enhanceTs0
+list (2.ZeroProto.p_multi_boss_infoRlist"1
+multi_boss_rank_info_c2s
+sys_id (RsysId"∆
+multi_boss_rank_info_s2c
+code (Rcode
+id (Rid
+rank_per (RrankPer
+damage (Rdamage!
+total_damage (RtotalDamage0
+list (2.ZeroProto.p_multi_boss_rankRlist"1
+multi_boss_dup_entry_c2s
+sys_id (RsysId".
+multi_boss_dup_entry_s2c
+code (Rcode"ﬂ
+multi_boss_dup_end_s2c
+result (Rresult
+dup_id (RdupId
+	pass_time (RpassTime
+damage (Rdamage
+grade (Rgrade,
+items (2.ZeroProto.p_item_gainRitems
+
+child_list (R	childList"6
+multi_boss_team_recommend_c2s
+sys_id (RsysId"w
+multi_boss_team_recommend_s2c
+code (Rcode
+sys_id (RsysId+
+list (2.ZeroProto.p_value_listRlist"3
+multi_boss_update_times_s2c
+times (Rtimes"
+multi_boss_best_rank_c2s"Y
+multi_boss_best_rank_s2c
+code (Rcode
+sys_id (RsysId
+rank (Rrank
+∫-
+proto_nf.proto	ZeroProtoproto_type.proto"ˇ
+nf_enter_dup_s2c
+map_id (RmapId
+line (Rline
+group_id (RgroupId
+obj_id (RobjId
+	rand_seed (RrandSeed
+	init_cost (RinitCost
+max_cost (RmaxCost
+view (RviewB
+role_passive_skill	 (2.ZeroProto.p_nf_gainRrolePassiveSkill4
+
+child_list
+ (2.ZeroProto.p_nf_childR	childList4
+
+spell_list (2.ZeroProto.p_nf_spellR	spellList1
+	hero_list (2.ZeroProto.p_nf_heroRheroListB
+fetter_child_list (2.ZeroProto.p_nf_fetterRfetterChildList"ç	
+nf_dup_end_c2s
+
+is_restart (R	isRestart
+type (Rtype
+obj_id (RobjId
+map_id (RmapId
+line (Rline
+cost (Rcost
+result (Rresult
+dup_time (RdupTime
+
+ahead_time	 (R	aheadTime
+
+recall_num
+ (R	recallNum3
+cost_sta (2.ZeroProto.p_nf_cost_staRcostSta0
+gain_sta (2.ZeroProto.p_gain_staRgainSta;
+kill_mon_sta (2.ZeroProto.p_kill_mon_staR
+killMonStaD
+kill_summon_sta (2.ZeroProto.p_kill_summon_staRkillSummonSta0
+mon_list (2.ZeroProto.p_c_nf_monRmonList6
+
+child_list (2.ZeroProto.p_c_nf_childR	childList6
+
+spell_list (2.ZeroProto.p_c_nf_spellR	spellList%
+redepoly_times (RredepolyTimes6
+
+depolylist (2.ZeroProto.p_key_valueR
+depolylistA
+alive_mon_list (2.ZeroProto.p_c_nf_alive_monRaliveMonListJ
+alive_summon_list (2.ZeroProto.p_c_nf_alive_summonRaliveSummonList:
+pvp_equip_active_time_list (RpvpEquipActiveTimeList/
+kv_list (2.ZeroProto.p_key_valueRkvList9
+
+pvp_result (2.ZeroProto.p_nf_pvp_resultR	pvpResult'
+statistic_bytes (RstatisticBytes6
+
+skill_time (2.ZeroProto.p_skill_timeR	skillTime"O
+nf_dup_end_s2c
+code (Rcode
+map_id (RmapId
+line (Rline"q
+nf_save_agent_c2s
+map_id (RmapId
+line (Rline1
+op_list (2.ZeroProto.p_nf_agent_opRopList"f
+nf_save_agent_s2c
+code (Rcode
+type (Rtype
+map_id (RmapId
+line (Rline"q
+nf_send_agent_s2c
+map_id (RmapId
+line (Rline1
+op_list (2.ZeroProto.p_nf_agent_opRopList"Å
+nf_secret_ex_info_s2c
+map_id (RmapId
+line (Rline=
+
+color_list (2.ZeroProto.p_secret_gain_colorR	colorList"'
+nf_dup_tri_c2s
+map_id (RmapId"Å
+nf_dup_tri_s2c
+map_id (RmapId
+line (Rline
+num (Rnum2
+tri_list (2.ZeroProto.p_nf_triggerRtriList"
+nf_match_info_c2s"Ö
+nf_match_info_s2c
+status (Rstatus
+
+match_time (R	matchTime9
+
+match_team (2.ZeroProto.p_nf_match_teamR	matchTeam"O
+nf_update_team_s2c9
+
+match_team (2.ZeroProto.p_nf_match_teamR	matchTeam"H
+nf_start_match_c2s
+team_id (RteamId
+map_type (RmapType"\
+nf_start_match_s2c
+code (Rcode
+team_id (RteamId
+map_type (RmapType"
+nf_cancel_match_c2s")
+nf_cancel_match_s2c
+code (Rcode"e
+nf_change_ready_s2c
+code (Rcode
+type (Rtype
+id (Rid
+status (Rstatus".
+nf_prepare_fight_s2c
+status (Rstatus"
+nf_ready_fight_c2s"(
+nf_ready_fight_s2c
+code (Rcode":
+nf_commit_opt_c2s%
+opt (2.ZeroProto.p_nf_optRopt"'
+nf_commit_opt_s2c
+code (Rcode"=
+nf_sync_opt_s2c*
+opt (2.ZeroProto.p_nf_sync_optRopt"/
+nf_history_opt_c2s
+frame_id (RframeId"æ
+nf_history_opt_s2c
+code (Rcode 
+max_frame_id (R
+maxFrameId$
+start_frame_id (RstartFrameId 
+end_frame_id (R
+endFrameId*
+opt (2.ZeroProto.p_nf_sync_optRopt"
+nf_login_switch_c2s")
+nf_login_switch_s2c
+type (Rtype"ã
+nf_player_enter_s2c
+map_id (RmapId
+line (Rline
+num (Rnum7
+player_list (2.ZeroProto.p_nf_playerR
+playerList"
+nf_leave_room_c2s"'
+nf_leave_room_s2c
+code (Rcode"
+nf_ping_c2s"!
+nf_ping_s2c
+code (Rcode"
+nf_return_hall_s2c"*
+nf_agent_team_c2s
+map_id (RmapId"Í
+nf_agent_team_s2c
+code (Rcode
+map_id (RmapId1
+	hero_list (2.ZeroProto.p_nf_heroRheroList@
+children_list (2.ZeroProto.p_nf_agent_childRchildrenList5
+
+spell_list (2.ZeroProto.p_key_valueR	spellList"6
+nf_kill_mon_info_c2s
+mon_id_list (R	monIdList"j
+nf_kill_mon_info_s2c
+code (Rcode>
+kill_mon_list (2.ZeroProto.p_kill_mon_infoRkillMonList"-
+nf_agent_can_use_c2s
+map_id (RmapId"L
+nf_agent_can_use_s2c
+map_id (RmapId
+
+have_agent (R	haveAgent"
+nf_kill_mon_list_c2s"R
+nf_kill_mon_list_s2c:
+kill_mon_list (2.ZeroProto.p_key_valueRkillMonList"
+nf_mon_guide_info_c2s"N
+nf_mon_guide_info_s2c5
+
+guide_list (2.ZeroProto.p_key_valueR	guideList")
+nf_mon_guide_c2s
+mon_id (RmonId"?
+nf_mon_guide_s2c
+mon_id (RmonId
+count (Rcount"%
+nf_set_view_c2s
+view (Rview"9
+nf_set_view_s2c
+code (Rcode
+view (Rview"-
+nf_kill_mon_flag_c2s
+mon_id (RmonId"-
+nf_kill_mon_flag_s2c
+mon_id (RmonId"t
+nf_agent_fail_s2c&
+reward_need_cnt (RrewardNeedCnt7
+reward_list (2.ZeroProto.p_item_gainR
+rewardList"(
+nf_report_list_c2s
+type (Rtype"y
+nf_report_list_s2c
+code (Rcode
+type (Rtype;
+report_list (2.ZeroProto.p_battle_reportR
+reportList"&
+nf_report_detail_c2s
+id (Rid"g
+nf_report_detail_s2c
+code (Rcode;
+report_list (2.ZeroProto.p_battle_reportR
+reportList"'
+nf_collect_report_c2s
+id (Rid";
+nf_collect_report_s2c
+code (Rcode
+id (Rid".
+nf_cancel_collect_report_c2s
+id (Rid"B
+nf_cancel_collect_report_s2c
+code (Rcode
+id (Rid"P
+nf_add_report_s2c;
+report_list (2.ZeroProto.p_battle_reportR
+reportList"3
+nf_del_report_s2c
+del_id_list (R	delIdList"F
+nf_notify_report_s2c.
+list (2.ZeroProto.p_battle_reportRlist
+¨
+proto_noob_target.proto	ZeroProto"
+noob_target_main_ui_info_c2s"T
+noob_target_main_ui_info_s2c
+cur_days (RcurDays
+end_time (RendTime"=
+noob_target_reward_liveness_c2s
+liveness (Rliveness"Q
+noob_target_reward_liveness_s2c
+code (Rcode
+liveness (Rliveness
+ı
+proto_open_act.proto	ZeroProtoproto_type.proto"
+open_act_info_c2s">
+open_act_info_s2c)
+list (2.ZeroProto.p_open_actRlist">
+open_act_open_s2c)
+info (2.ZeroProto.p_open_actRinfo"+
+open_act_close_s2c
+act_id (RactId
+π
+proto_open_func.proto	ZeroProto"
+open_func_all_c2s"'
+open_func_all_s2c
+list (Rlist"W
+open_func_update_list_s2c
+	open_list (RopenList
+
+close_list (R	closeList
+≈
+proto_pass_dup_present.proto	ZeroProtoproto_type.proto"e
+"pass_dup_present_activity_info_s2c?
+activity_list (2.ZeroProto.p_activity_infoRactivityList"k
+(pass_dup_present_update_button_state_s2c?
+activity_list (2.ZeroProto.p_activity_infoRactivityList"B
+pass_dup_present_get_reward_c2s
+activity_id (R
+activityId"X
+pass_dup_present_get_reward_s2c
+activity_id (R
+activityId
+state (Rstate"l
+)pass_dup_present_close_func_interface_s2c?
+activity_list (2.ZeroProto.p_activity_infoRactivityList"H
+%pass_dup_present_get_button_state_c2s
+activity_id (R
+activityId"^
+%pass_dup_present_get_button_state_s2c
+activity_id (R
+activityId
+state (Rstate
+Á
+proto_patrol.proto	ZeroProtoproto_type.proto"
+patrol_info_c2s"<
+patrol_info_s2c)
+doing (2.ZeroProto.p_patrolRdoing"T
+patrol_start_c2s
+	patrol_id (RpatrolId#
+children_list (RchildrenList"O
+patrol_start_s2c
+code (Rcode'
+info (2.ZeroProto.p_patrolRinfo".
+patrol_stop_c2s
+	patrol_id (RpatrolId"N
+patrol_stop_s2c
+code (Rcode'
+info (2.ZeroProto.p_patrolRinfo"0
+patrol_finish_c2s
+	patrol_id (RpatrolId"P
+patrol_finish_s2c
+code (Rcode'
+info (2.ZeroProto.p_patrolRinfo"<
+patrol_update_s2c'
+info (2.ZeroProto.p_patrolRinfo"A
+patrol_children_s2c*
+info (2.ZeroProto.p_key_valueRinfo"7
+patrol_client_notice_s2c
+	patrol_id (RpatrolId
+ã
+proto_post.proto	ZeroProtoproto_type.proto"T
+post_notify_room_list_s2c7
+	room_list (2.ZeroProto.p_building_roomRroomList"“
+post_notify_object_list_s2c=
+object_list (2.ZeroProto.p_building_objectR
+objectList:
+fur_list (2.ZeroProto.p_building_furnitureRfurList8
+mac_list (2.ZeroProto.p_building_machineRmacList"
+post_info_c2s"Ü
+post_info_s2c#
+gained_points (RgainedPoints
+	broom_num (RbroomNum
+refresh_num (R
+refreshNum#
+neighbor_list (RneighborList!
+cleaned_furs (RcleanedFurs#
+popular_child (RpopularChild.
+popular_child_times (RpopularChildTimes,
+popular_child_gain (RpopularChildGain+
+player	 (2.ZeroProto.p_friendRplayer!
+player_times
+ (RplayerTimes
+player_gain (R
+playerGain,
+last_neighbor_time (RlastNeighborTime(
+last_revert_time (RlastRevertTime" 
+post_visit_c2s
+id (Rid"Ë
+post_visit_s2c
+result (Rresult
+id (Rid?
+children_list (2.ZeroProto.p_post_childrenRchildrenList3
+	core_list (2.ZeroProto.p_key_valueRcoreList8
+	room_list (2.ZeroProto.p_post_room_snapRroomList";
+post_clean_c2s
+id (Rid
+fur_list (RfurList"w
+post_clean_s2c
+result (Rresult
+id (Rid=
+reward_list (2.ZeroProto.p_building_rewardR
+rewardList"r
+post_notify_visit_info_s2c
+	friend_id (RfriendId
+time (Rtime#
+visit_imagine (RvisitImagine"\
+post_notify_clean_info_s2c>
+cleaned_record (2.ZeroProto.p_post_cleanRcleanedRecord".
+post_draw_cleaned_reward_c2s
+id (Rid"ñ
+post_draw_cleaned_reward_s2c
+result (Rresult
+id (Rid
+end_time (RendTime3
+	item_list (2.ZeroProto.p_key_valueRitemList"1
+post_neighbor_list_c2s
+id_list (RidList"R
+post_neighbor_list_s2c8
+neighbor_list (2.ZeroProto.p_friendRneighborList"
+post_refresh_list_c2s">
+post_clean_room_c2s
+id (Rid
+room_id (RroomId"
+post_record_list_c2s"P
+post_record_list_s2c8
+record_list (2.ZeroProto.p_post_cleanR
+recordList",
+post_headshot_list_c2s
+list (Rlist"H
+post_headshot_list_s2c.
+list (2.ZeroProto.p_post_headshotRlist"-
+post_delete_records_s2c
+list (Rlist"
+post_revert_pool_c2s".
+post_revert_pool_s2c
+result (Rresult
+˘
+proto_pvp_equip.proto	ZeroProtoproto_type.proto"
+pvp_equip_info_c2s"r
+pvp_equip_info_s2c.
+equips (2.ZeroProto.p_pvp_equipRequips,
+slots (2.ZeroProto.p_key_valueRslots"F
+pvp_equip_update_s2c.
+equips (2.ZeroProto.p_pvp_equipRequips"(
+pvp_equip_delete_s2c
+ids (Rids">
+pvp_equip_dress_c2s
+team_id (RteamId
+id (Rid"V
+pvp_equip_dress_s2c
+result (Rresult
+team_id (RteamId
+id (Rid"@
+pvp_equip_undress_c2s
+team_id (RteamId
+id (Rid"X
+pvp_equip_undress_s2c
+result (Rresult
+team_id (RteamId
+id (Rid"*
+pvp_equip_strengthen_c2s
+id (Rid"B
+pvp_equip_strengthen_s2c
+result (Rresult
+id (Rid"
+pvp_equip_season_end_c2s"x
+pvp_equip_season_end_s2c.
+equips (2.ZeroProto.p_key_valueRequips,
+items (2.ZeroProto.p_item_gainRitems"5
+pvp_equip_summon_child_c2s
+team_id (RteamId"V
+pvp_equip_summon_child_s2c8
+summon_child (2.ZeroProto.p_childrenRsummonChild
+å
+proto_pvp.proto	ZeroProtoproto_type.proto"
+pvp_info_c2s"Â
+pvp_info_s2c
+	season_id (RseasonId
+pvp_id (RpvpId
+lvl (Rlvl
+points (Rpoints
+server_rank (R
+serverRank,
+season_server_rank (RseasonServerRank.
+history_server_rank (RhistoryServerRank 
+ever_max_lvl (R
+everMaxLvl
+max_lvl	 (RmaxLvl
+max_star
+ (RmaxStar
+	early_lvl (RearlyLvl
+star (Rstar
+acc_star (RaccStar
+rank_reward (R
+rankReward#
+weekly_reward (RweeklyReward
+type (Rtype
+	acc_times (RaccTimes
+fight_times (R
+fightTimes=
+children_times (2.ZeroProto.p_key_valueRchildrenTimes*
+pool (2.ZeroProto.p_key_valueRpool8
+history_list (2.ZeroProto.p_pvp_rankRhistoryList
+is_shown (RisShown"+
+pvp_weekly_reward_c2s
+star (Rstar"h
+pvp_weekly_reward_s2c
+result (Rresult
+star (Rstar#
+weekly_reward (RweeklyReward"'
+pvp_rank_reward_c2s
+lvl (Rlvl"`
+pvp_rank_reward_s2c
+result (Rresult
+lvl (Rlvl
+rank_reward (R
+rankReward"
+pvp_sync_phase_c2s"E
+pvp_sync_phase_s2c
+phase (Rphase
+end_time (RendTime"G
+pvp_select_c2s
+phase (Rphase
+children_id (R
+childrenId"R
+pvp_self_select_c2s;
+children_list (2.ZeroProto.p_key_valueRchildrenList"
+pvp_confirm_prepare_c2s"
+pvp_pool_c2s"Í
+pvp_pool_s2c:
+six_star_list (2.ZeroProto.p_key_valueRsixStarList5
+
+other_list (2.ZeroProto.p_key_valueR	otherList3
+	self_list (2.ZeroProto.p_key_valueRselfList2
+	attr_list (2.ZeroProto.p_pvp_attrRattrList"B
+pvp_change_hero_c2s
+hero_id (RheroId
+form (Rform"·
+pvp_dup_end_s2c
+dup_id (RdupId
+result (Rresult
+star (Rstar
+gain_points (R
+gainPoints3
+	gain_list (2.ZeroProto.p_key_valueRgainList5
+	team_list (2.ZeroProto.p_nf_pvp_teamRteamList"T
+pvp_set_self_pool_c2s;
+children_list (2.ZeroProto.p_key_valueRchildrenList"l
+pvp_set_self_pool_s2c
+result (Rresult;
+children_list (2.ZeroProto.p_key_valueRchildrenList"-
+pvp_ban_c2s
+sys_id_list (R	sysIdList"@
+pvp_ban_s2c
+result (Rresult
+ban_list (RbanList"=
+pvp_npc_list_s2c)
+list (2.ZeroProto.p_childrenRlist"
+pvp_recommend_c2s"O
+pvp_recommend_s2c:
+
+recommends (2.ZeroProto.p_pvp_recommendR
+recommends"
+pvp_show_calc_c2s"+
+pvp_show_calc_s2c
+result (Rresult"R
+pvp_notify_children_attr_s2c2
+	attr_list (2.ZeroProto.p_pvp_attrRattrList"ç
+pvp_match_show_s2c
+	season_id (RseasonId
+pvp_id (RpvpId
+rank (Rrank
+star (Rstar
+	child_lvl (RchildLvl"N
+pvp_report_c2s
+id (Rid
+options (Roptions
+text (	Rtext"8
+pvp_report_s2c
+result (Rresult
+id (Rid
+ó
+proto_recharge.proto	ZeroProtoproto_type.proto"
+recharge_first_info_c2s"1
+recharge_first_info_s2c
+status (Rstatus"
+recharge_first_reward_c2s"_
+recharge_first_reward_s2c.
+reward (2.ZeroProto.p_key_valueRreward
+code (Rcode"
+recharge_times_list_c2s"P
+recharge_times_list_s2c5
+
+times_list (2.ZeroProto.p_key_valueR	timesList"
+recharge_times_update_c2s"R
+recharge_times_update_s2c5
+
+times_list (2.ZeroProto.p_key_valueR	timesList"8
+recharge_coin_buy_c2s
+recharge_id (R
+rechargeId"L
+recharge_coin_buy_s2c
+code (Rcode
+recharge_id (R
+rechargeId"
+recharge_new_sync_c2s"
+recharge_new_sync_s2c
+ı
+proto_recruit.proto	ZeroProtoproto_type.proto"
+recruit_pool_c2s"J
+recruit_pool_s2c6
+	pool_list (2.ZeroProto.p_recruit_poolRpoolList"é
+recruit_draw_c2s
+pool_sys_id (R	poolSysId
+
+draw_times (R	drawTimes 
+fixed_sys_id (R
+fixedSysId
+is_bonus (RisBonus"Ì
+recruit_draw_s2c
+code (Rcode
+pool_sys_id (R	poolSysId
+
+draw_times (R	drawTimesN
+reward_children_list (2.ZeroProto.p_children_rewardRrewardChildrenList6
+	pool_info (2.ZeroProto.p_recruit_poolRpoolInfo"V
+recruit_update_pool_list_s2c6
+	pool_list (2.ZeroProto.p_recruit_poolRpoolList"X
+ recruit_exchange_draw_reward_c2s
+pool_sys_id (R	poolSysId
+index (Rindex"∑
+ recruit_exchange_draw_reward_s2c
+code (Rcode
+pool_sys_id (R	poolSysId
+index (Rindex
+
+draw_times (R	drawTimesN
+reward_children_list (2.ZeroProto.p_children_rewardRrewardChildrenList6
+	pool_info (2.ZeroProto.p_recruit_poolRpoolInfo"
+add_money_num (RaddMoneyNum"1
+recruit_close_pool_list_s2c
+list (Rlist"“
+recruit_bottom_draw_notice_s2c
+pool_sys_id (R	poolSysId
+
+draw_times (R	drawTimes!
+bottom_index (RbottomIndexN
+reward_children_list (2.ZeroProto.p_children_rewardRrewardChildrenList"?
+recruit_bottom_draw_submit_c2s
+
+index_list (R	indexList"S
+recruit_bottom_draw_submit_s2c
+code (Rcode
+
+index_list (R	indexList"M
+recruit_record_list_c2s
+group_id (RgroupId
+page_id (RpageId"°
+recruit_record_list_s2c
+pages (Rpages
+group_id (RgroupId
+page_id (RpageId<
+record_list (2.ZeroProto.p_recruit_recordR
+recordList"2
+recruit_desc_c2s
+pool_sys_id (R	poolSysId"F
+recruit_desc_s2c
+pool_sys_id (R	poolSysId
+desc (	Rdesc"2
+recruit_rate_c2s
+pool_sys_id (R	poolSysId"≤
+recruit_rate_s2c
+pool_sys_id (R	poolSysId;
+sys_up_list (2.ZeroProto.p_sys_recruit_upR	sysUpListA
+sys_rate_list (2.ZeroProto.p_sys_recruit_rateRsysRateList
+‡
+proto_role.proto	ZeroProtoproto_type.proto"'
+role_gm_command_c2s
+cmd (	Rcmd"r
+role_info_s2c/
+kv_list (2.ZeroProto.p_key_valueRkvList0
+ks_list (2.ZeroProto.p_key_stringRksList"7
+role_notice_s2c
+type (Rtype
+msg (	Rmsg">
+role_resource_s2c)
+k_v (2.ZeroProto.p_key_value_2RkV"
+role_personal_info_c2s"D
+role_personal_info_s2c*
+info (2.ZeroProto.p_role_infoRinfo"6
+role_set_signature_c2s
+	signature (	R	signature"6
+role_set_signature_s2c
+	signature (	R	signature".
+role_other_info_c2s
+role_id (RroleId"A
+role_other_info_s2c*
+info (2.ZeroProto.p_role_infoRinfo"2
+role_exchange_bind_money_c2s
+cost (Rcost"F
+role_exchange_bind_money_s2c
+code (Rcode
+cost (Rcost"
+role_noob_stage_info_c2s"0
+role_noob_stage_info_s2c
+stage (Rstage"/
+role_set_noob_stage_c2s
+stage (Rstage"C
+role_set_noob_stage_s2c
+code (Rcode
+stage (Rstage"E
+role_log_client_error_c2s
+error (	Rerror
+time (Rtime"/
+role_log_client_error_s2c
+code (Rcode"
+role_questionnaire_info_c2s"M
+role_questionnaire_info_s2c.
+list (2.ZeroProto.p_questionnaireRlist"P
+role_questionnaire_open_c2s
+ques_id (RquesId
+version (Rversion"N
+role_questionnaire_open_s2c
+ques_id (RquesId
+status (Rstatus"≠
+role_questionnaire_commit_c2s
+ques_id (RquesId
+version (Rversion
+	cost_time (RcostTime<
+answers (2".ZeroProto.p_questionnaire_answersRanswers"P
+role_questionnaire_commit_s2c
+ques_id (RquesId
+status (Rstatus"f
+role_click_c2s6
+
+times_list (2.ZeroProto.p_click_infoR	timesList
+	timestamp (R	timestamp"B
+role_click_s2c
+	timestamp (R	timestamp
+code (Rcode"
+role_announcement_notice_s2c"!
+role_gift_c2s
+key (	Rkey"#
+role_gift_s2c
+code (Rcode"=
+role_recharge_simulation_c2s
+
+product_id (R	productId"r
+$role_questionnaire_status_update_s2c2
+queses (2.ZeroProto.p_questionnaireRqueses
+status (Rstatus"Y
+role_tw_log_s2c
+event_id (	ReventId+
+args (2.ZeroProto.p_key_stringRargs"2
+role_push_update_token_c2s
+token (	Rtoken"
+role_daily_refresh_s2c")
+role_set_background_c2s
+id (Rid"N
+role_share_c2s
+
+share_type (R	shareType
+
+share_plat (R	sharePlat"D
+role_temp_c2s3
+kvlist (2.ZeroProto.p_key_value_nameRkvlist"D
+role_temp_s2c3
+kvlist (2.ZeroProto.p_key_value_nameRkvlist"*
+role_set_birth_c2s
+birth (Rbirth"B
+role_set_birth_s2c
+result (Rresult
+birth (Rbirth"
+role_background_info_c2s".
+role_background_info_s2c
+list (Rlist",
+role_unlock_background_s2c
+id (Rid"'
+role_change_sex_c2s
+sex (Rsex";
+role_change_sex_s2c
+code (Rcode
+sex (Rsex"6
+role_modify_role_name_c2s
+new_name (	RnewName"å
+role_modify_role_name_s2c
+result (Rresult
+name (	Rname
+name_num (RnameNum(
+last_modify_time (RlastModifyTime
+Û
+proto_scenario.proto	ZeroProtoproto_type.proto"
+scenario_status_c2s"Â
+scenario_status_s2c
+	script_id (RscriptId
+	timepoint (R	timepoint7
+cur_sublist (2.ZeroProto.p_key_valueR
+curSublist=
+chosen_sublist (2.ZeroProto.p_key_valueRchosenSublist
+	next_list (RnextList"g
+scenario_enter_c2s
+	script_id (RscriptId
+choice (Rchoice
+	timepoint (R	timepoint"Q
+scenario_complete_c2s
+	script_id (RscriptId
+	quit_flag (RquitFlag"4
+scenario_complete_s2c
+	script_id (RscriptId"
+scenario_happened_c2s"C
+scenario_happened_s2c*
+list (2.ZeroProto.p_key_valueRlist"
+scenario_skip_all_c2s"
+scenario_happened_cg_c2s"3
+scenario_happened_cg_s2c
+cg_list (RcgList"+
+scenario_play_cg_c2s
+cg_id (RcgId"X
+scenario_play_cg_s2c
+code (Rcode
+cg_id (RcgId
+cg_list (RcgList
+µ&
+proto_secret.proto	ZeroProtoproto_type.proto"
+secret_info_c2s"
+secret_info_s2c
+status (Rstatus
+grid_id (RgridId
+	calc_time (RcalcTime
+	open_time (RopenTime
+model_id (RmodelId
+	ps_status (RpsStatus
+max_lvl (RmaxLvl
+
+season_lvl (R	seasonLvl
+	season_id	 (RseasonId(
+have_last_season
+ (RhaveLastSeason&
+have_new_season (RhaveNewSeason
+fort_hp (RfortHp!
+study_status (RstudyStatus
+	study_num (RstudyNum
+	study_lvl (RstudyLvl$
+gain_upper_num (RgainUpperNum
+cycle_study (R
+cycleStudy
+cycle_money (R
+cycleMoney(
+init_gain_status (RinitGainStatus
+medical_num (R
+medicalNum"
+have_fort_num (RhaveFortNum 
+max_fort_num (R
+maxFortNum,
+extra_reward_count (RextraRewardCount4
+	cycle_box (2.ZeroProto.p_secret_boxRcycleBox
+old_max_lvl (R	oldMaxLvl 
+model_lvl_id (R
+modelLvlId"
+secret_grid_list_c2s"|
+secret_grid_list_s2c
+code (Rcode
+model_id (RmodelId5
+	grid_list (2.ZeroProto.p_secret_gridRgridList"
+secret_child_list_c2s"e
+secret_child_list_s2c
+code (Rcode8
+
+child_list (2.ZeroProto.p_secret_childR	childList"L
+secret_trigger_event_c2s
+event_id (ReventId
+opt_id (RoptId".
+secret_trigger_event_s2c
+code (Rcode"6
+secret_cycle_box_reward_c2s
+box_pos (RboxPos"1
+secret_cycle_box_reward_s2c
+code (Rcode"{
+secret_open_grid_c2s
+id (Rid1
+ext_list (2.ZeroProto.p_key_valueRextList 
+gain_id_list (R
+gainIdList":
+secret_open_grid_s2c
+code (Rcode
+id (Rid"
+secret_update_grid_c2s"j
+secret_update_grid_s2c
+model_id (RmodelId5
+	grid_list (2.ZeroProto.p_secret_gridRgridList"S
+secret_update_child_s2c8
+
+child_list (2.ZeroProto.p_secret_childR	childList"
+secret_last_season_info_c2s"±
+secret_last_season_info_s2c
+code (Rcode
+	season_id (RseasonId
+mode (Rmode
+layer (Rlayer
+step (Rstep
+fight (Rfight
+gain_num (RgainNum
+	entry_num (RentryNum
+	study_lvl	 (RstudyLvl
+	study_num
+ (RstudyNum
+	ret_money (RretMoney"Ã
+secret_dup_end_s2c
+result (Rresult
+dup_id (RdupId
+star (Rstar
+	cost_time (RcostTime
+
+child_list (R	childList7
+reward_show (2.ZeroProto.p_item_gainR
+rewardShow"'
+secret_create_npc_c2s
+id (Rid"m
+secret_create_npc_s2c
+code (Rcode
+id (Rid0
+npc_list (2.ZeroProto.p_childrenRnpcList"è
+secret_history_reward_s2c
+is_first (RisFirst
+old_max_lvl (R	oldMaxLvl7
+reward_show (2.ZeroProto.p_item_gainR
+rewardShow"(
+secret_create_gain_c2s
+id (Rid"\
+secret_create_gain_s2c
+code (Rcode
+id (Rid
+sys_id_list (R	sysIdList"k
+ secret_box_event_reward_show_s2c
+id (Rid7
+reward_show (2.ZeroProto.p_item_gainR
+rewardShow" 
+secret_set_look_new_season_c2s"4
+secret_set_look_new_season_s2c
+code (Rcode"I
+secret_cycle_box_acc_c2s
+box_pos (RboxPos
+times (Rtimes".
+secret_cycle_box_acc_s2c
+code (Rcode"B
+secret_open_act_c2s
+mode (Rmode
+id_list (RidList"V
+secret_open_act_s2c
+code (Rcode
+mode (Rmode
+id_list (RidList"
+secret_give_up_act_c2s",
+secret_give_up_act_s2c
+code (Rcode"
+secret_entry_list_c2s"e
+secret_entry_list_s2c
+code (Rcode8
+
+entry_list (2.ZeroProto.p_secret_entryR	entryList"S
+secret_update_entry_s2c8
+
+entry_list (2.ZeroProto.p_secret_entryR	entryList"
+secret_update_model_lvl_c2s"S
+secret_update_model_lvl_s2c
+code (Rcode 
+model_lvl_id (R
+modelLvlId"
+secret_study_upgrade_c2s"h
+secret_study_upgrade_s2c
+code (Rcode
+	study_num (RstudyNum
+	study_lvl (RstudyLvl"4
+secret_select_init_gain_c2s
+sys_id (RsysId"H
+secret_select_init_gain_s2c
+code (Rcode
+sys_id (RsysId"-
+secret_collect_list_c2s
+type (Rtype"d
+secret_collect_list_s2c
+code (Rcode
+type (Rtype!
+collect_list (RcollectList"-
+secret_collect_info_c2s
+type (Rtype"t
+secret_collect_info_s2c
+code (Rcode
+type (Rtype
+num (Rnum
+reward_list (R
+rewardList"2
+secret_collect_reward_c2s
+sys_id (RsysId"F
+secret_collect_reward_s2c
+code (Rcode
+sys_id (RsysId"&
+secret_look_gain_c2s
+id (Rid"Z
+secret_look_gain_s2c
+code (Rcode
+id (Rid
+sys_id_list (R	sysIdList"2
+secret_resolve_gain_c2s
+id_list (RidList"F
+secret_resolve_gain_s2c
+code (Rcode
+id_list (RidList"
+secret_gain_tag_info_c2s"p
+secret_gain_tag_info_s2c
+code (Rcode@
+tag_gain_list (2.ZeroProto.p_secret_gain_tagRtagGainList"^
+secret_update_gain_tag_s2c@
+tag_gain_list (2.ZeroProto.p_secret_gain_tagRtagGainList
+∞
+proto_setting.proto	ZeroProtoproto_type.proto"
+setting_info_c2s"D
+setting_info_s2c0
+setting (2.ZeroProto.p_key_valueRsetting"F
+setting_change_c2s0
+setting (2.ZeroProto.p_key_valueRsetting"Z
+setting_change_s2c
+code (Rcode0
+setting (2.ZeroProto.p_key_valueRsetting
+˙
+proto_shop.proto	ZeroProtoproto_type.proto";
+shop_shop_page_info_c2s 
+page_id_list (R
+pageIdList"E
+shop_shop_page_info_s2c*
+list (2.ZeroProto.p_shop_pageRlist"/
+shop_shop_item_one_c2s
+sys_id (RsysId"M
+shop_shop_item_one_s2c3
+	item_info (2.ZeroProto.p_shop_itemRitemInfo"7
+shop_buy_c2s
+sys_id (RsysId
+num (Rnum"K
+shop_buy_s2c
+code (Rcode
+sys_id (RsysId
+num (Rnum"
+shop_month_card_all_c2s"F
+shop_month_card_all_s2c+
+list (2.ZeroProto.p_month_cardRlist"N
+shop_update_month_card_list_s2c+
+list (2.ZeroProto.p_month_cardRlist"N
+ shop_month_card_daily_reward_s2c*
+month_card_sysids (RmonthCardSysids"G
+shop_update_page_info_s2c*
+list (2.ZeroProto.p_shop_pageRlist")
+shop_close_page_s2c
+list (Rlist"<
+shop_exchange_c2s
+sys_id (RsysId
+num (Rnum"P
+shop_exchange_s2c
+code (Rcode
+sys_id (RsysId
+num (Rnum"8
+shop_recharge_buy_s2c
+recharge_id (R
+rechargeId
+ò
+proto_sign.proto	ZeroProtoproto_type.proto"
+sign_daily_c2s"ê
+sign_daily_s2c
+	sign_time (RsignTime5
+	sign_list (2.ZeroProto.p_sign_recordRsignList*
+month_card_sysids (RmonthCardSysids"
+sign_info_c2s"L
+sign_info_s2c;
+sign_records (2.ZeroProto.p_sign_recordRsignRecords"^
+sign_in_c2s
+sign_id (RsignId
+
+sign_index (R	signIndex
+item_id (RitemId"ê
+sign_in_s2c
+
+sign_index (R	signIndex
+	sign_time (RsignTime
+item_id (RitemId,
+sign (2.ZeroProto.p_sign_recordRsign"
+sign_total_c2s"L
+sign_total_s2c
+	sign_time (RsignTime
+
+sign_total (R	signTotal"
+sign_check_s2c
+Æ
+proto_skill.proto	ZeroProtoproto_type.proto"
+skill_info_c2s"<
+skill_info_s2c*
+skills (2.ZeroProto.p_skillRskills"N
+skill_equip_c2s
+id (Rid
+seq (Rseq
+skill_id (RskillId"f
+skill_equip_s2c
+result (Rresult
+id (Rid
+seq (Rseq
+skill_id (RskillId">
+skill_upgrade_c2s
+id (Rid
+skill_id (RskillId"s
+skill_upgrade_s2c
+result (Rresult
+id (Rid
+skill_id (RskillId
+	skill_lvl (RskillLvl"<
+skill_reset_c2s
+id (Rid
+skill_id (RskillId"T
+skill_reset_s2c
+result (Rresult
+id (Rid
+skill_id (RskillId""
+skill_detach_c2s
+id (Rid"E
+skill_detach_s2c
+result (Rresult
+skill_id (RskillId"A
+skill_research_c2s
+skill_id (RskillId
+ids (Rids"l
+skill_research_s2c
+result (Rresult
+skill_id (RskillId#
+research_rate (RresearchRate"T
+skill_update_use_count_s2c
+skill_id (RskillId
+	use_count (RuseCount"9
+skill_add_s2c(
+skill (2.ZeroProto.p_skillRskill
+¬
+proto_spe_act.proto	ZeroProtoproto_type.proto"
+spe_act_all_c2s";
+spe_act_all_s2c(
+list (2.ZeroProto.p_spe_actRlist">
+spe_act_change_s2c(
+list (2.ZeroProto.p_spe_actRlist
+ı
+proto_spell.proto	ZeroProtoproto_type.proto"
+spell_have_c2s"C
+spell_have_s2c1
+
+spell_list (2.ZeroProto.p_spellR	spellList"4
+spell_research_ins_task_c2s
+ins_id (RinsId"^
+spell_research_ins_task_s2c?
+selected_list (2.ZeroProto.p_research_taskRselectedList"K
+spell_accept_spell_task_c2s
+ins_id (RinsId
+sys_id (RsysId"µ
+spell_accept_spell_task_s2c
+result (Rresult=
+	institute (2.ZeroProto.p_research_instituteR	institute?
+selected_list (2.ZeroProto.p_research_taskRselectedList"M
+spell_complete_spell_task_c2s
+ins_id (RinsId
+sys_id (RsysId"e
+spell_complete_spell_task_s2c
+result (Rresult
+ins_id (RinsId
+sys_id (RsysId"0
+spell_spec_research_c2s
+ins_id (RinsId"^
+spell_spec_research_s2c
+result (Rresult
+ins_id (RinsId
+times (Rtimes"2
+spell_secret_research_c2s
+ins_id (RinsId"J
+spell_secret_research_s2c
+result (Rresult
+ins_id (RinsId"5
+spell_refresh_spell_task_c2s
+ins_id (RinsId"u
+spell_refresh_spell_task_s2c
+result (Rresult=
+	institute (2.ZeroProto.p_research_instituteR	institute"I
+spell_skin_switch_c2s
+spell_id (RspellId
+sys_id (RsysId"Y
+spell_skin_switch_s2c
+result (Rresult(
+spell (2.ZeroProto.p_spellRspell"+
+spell_activate_c2s
+sys_id (RsysId"V
+spell_activate_s2c
+result (Rresult(
+spell (2.ZeroProto.p_spellRspell"Å
+spell_load_c2s
+
+team_index (R	teamIndex
+event_id (ReventId5
+
+spell_list (2.ZeroProto.p_key_valueR	spellList"ô
+spell_load_s2c
+result (Rresult
+
+team_index (R	teamIndex
+event_id (ReventId5
+
+spell_list (2.ZeroProto.p_key_valueR	spellList"D
+spell_upgrade_c2s
+spell_id (RspellId
+tolvl (Rtolvl"U
+spell_upgrade_s2c
+result (Rresult(
+spell (2.ZeroProto.p_spellRspell"3
+spell_star_upgrade_c2s
+spell_id (RspellId"Z
+spell_star_upgrade_s2c
+result (Rresult(
+spell (2.ZeroProto.p_spellRspell"^
+spell_alter_gift_c2s
+spell_id (RspellId
+star (Rstar
+gift_id (RgiftId"X
+spell_alter_gift_s2c
+result (Rresult(
+spell (2.ZeroProto.p_spellRspell"4
+spell_research_ins_info_c2s
+ins_id (RinsId"\
+spell_research_ins_info_s2c=
+	institute (2.ZeroProto.p_research_instituteR	institute"
+spell_ins_init_c2s
+È
+proto_squad_pvp.proto	ZeroProtoproto_type.proto"
+squad_pvp_info_c2s"C
+squad_pvp_info_s2c
+	season_id (RseasonId
+lvl (Rlvl"
+squad_pvp_notify_phase_c2s" 
+squad_pvp_notify_phase_s2c
+phase (Rphase#
+children_list (RchildrenList
+	buff_list (RbuffList
+end_time (RendTime9
+
+pvp_result (2.ZeroProto.p_nf_pvp_resultR	pvpResult"3
+squad_pvp_select_children_c2s
+list (Rlist"G
+squad_pvp_select_children_s2c
+code (Rcode
+list (Rlist"/
+squad_pvp_select_buff_c2s
+list (Rlist"C
+squad_pvp_select_buff_s2c
+code (Rcode
+list (Rlist" 
+squad_pvp_notify_team_info_c2s"W
+squad_pvp_notify_team_info_s2c5
+mem_list (2.ZeroProto.p_nf_match_teamRmemList
+ù
+proto_subplots.proto	ZeroProtoproto_type.proto"
+subplots_info_c2s"C
+subplots_info_s2c.
+list (2.ZeroProto.p_subplots_taskRlist"r
+subplots_finish_c2s
+task_id (RtaskId!
+select_index (RselectIndex
+use_chicken (R
+useChicken"ù
+subplots_finish_s2c
+code (Rcode!
+select_index (RselectIndex
+use_chicken (R
+useChicken.
+task (2.ZeroProto.p_subplots_taskRtask"2
+subplots_get_reward_c2s
+task_id (RtaskId"F
+subplots_get_reward_s2c
+code (Rcode
+task_id (RtaskId
+Â	
+proto_surprise.proto	ZeroProtoproto_type.proto"
+surprise_info_c2s"≠
+surprise_info_s2c-
+dups (2.ZeroProto.p_surprise_dupRdups1
+surprise (2.ZeroProto.p_surpriseRsurprise
+	cache_cnt (RcacheCnt
+left_cnt (RleftCnt"
+surprise_open_c2s"F
+surprise_open_s2c1
+surprise (2.ZeroProto.p_surpriseRsurprise"
+surprise_close_s2c"‡
+surprise_dup_win_s2c
+dup_id (RdupId
+	cost_time (RcostTime
+	best_time (RbestTime
+grade (Rgrade
+score (Rscore,
+items (2.ZeroProto.p_item_gainRitems
+
+child_list (R	childList"
+surprise_dup_lost_s2c
+type (Rtype
+dup_id (RdupId
+	cost_time (RcostTime
+grade (Rgrade
+left_hp (RleftHp 
+left_hp_rate (R
+leftHpRate
+revive_time (R
+reviveTime
+
+child_list (R	childList"H
+surprise_enter_dup_c2s
+dup_id (RdupId
+team_id (RteamId"
+surprise_tasks_c2s"B
+surprise_tasks_s2c,
+tasks (2.ZeroProto.p_key_valueRtasks"-
+surprise_tasks_finish_s2c
+ids (Rids".
+surprise_get_task_reward_c2s
+id (Rid"F
+surprise_get_task_reward_s2c
+result (Rresult
+id (Rid"W
+surprise_update_cache_cnt_s2c
+	cache_cnt (RcacheCnt
+left_cnt (RleftCnt
+ñ
+proto_task.proto	ZeroProtoproto_type.proto"
+task_info_c2s"d
+task_info_s2c
+	task_done (RtaskDone6
+
+task_doing (2.ZeroProto.p_task_doingR	taskDoing"*
+task_accept_c2s
+task_id (RtaskId"_
+task_accept_s2c
+code (Rcode8
+accept_task (2.ZeroProto.p_task_doingR
+acceptTask"*
+task_commit_c2s
+task_id (RtaskId"a
+task_commit_s2c
+code (Rcode
+task_id (RtaskId!
+task_visible (RtaskVisible"s
+task_track_info_s2c
+task_id (RtaskId
+state (Rstate-
+track (2.ZeroProto.p_task_trackRtrack",
+task_liveness_info_c2s
+type (Rtype"`
+task_liveness_info_s2c
+type (Rtype
+liveness (Rliveness
+reward (Rreward"*
+task_delete_s2c
+task_id (RtaskId"
+task_hero_stage_info_c2s"n
+task_hero_stage_info_s2c
+stage (Rstage
+
+start_time (R	startTime
+
+prev_total (R	prevTotal" 
+task_get_hero_stage_reward_c2s"W
+task_get_hero_stage_reward_s2c
+code (Rcode!
+reward_stage (RrewardStage"O
+task_reward_liveness_c2s
+type (Rtype
+liveness_id (R
+livenessId"c
+task_reward_liveness_s2c
+code (Rcode
+type (Rtype
+liveness_id (R
+livenessId"/
+task_association_c2s
+task_id (RtaskId")
+task_commit_all_c2s
+type (Rtype"Z
+task_commit_all_s2c
+code (Rcode
+type (Rtype
+	task_list (RtaskList"
+task_island_stage_info_c2s"2
+task_island_stage_info_s2c
+stage (Rstage""
+ task_get_island_stage_reward_c2s"6
+ task_get_island_stage_reward_s2c
+code (Rcode
+¢
+proto_time_item.proto	ZeroProtoproto_type.proto"
+time_item_info_c2s"@
+time_item_info_s2c*
+info (2.ZeroProto.p_time_itemRinfo"B
+time_item_update_s2c*
+info (2.ZeroProto.p_time_itemRinfo"/
+time_item_delete_c2s
+id_list (RidList"/
+time_item_delete_s2c
+id_list (RidList"5
+time_item_use_c2s
+id (Rid
+num (Rnum"7
+time_item_use_s2c
+code (Rcode
+id (Rid
+“
+proto_trade.proto	ZeroProtoproto_type.proto"
+trade_info_c2s"È
+trade_info_s2c!
+change_times (RchangeTimes5
+
+count_list (2.ZeroProto.p_key_valueR	countList<
+all_count_list (2.ZeroProto.p_key_valueRallCountList?
+finished_counts (2.ZeroProto.p_key_valueRfinishedCounts"
+trade_order_list_c2s"R
+trade_order_list_s2c:
+
+order_list (2.ZeroProto.p_building_orderR	orderList"+
+trade_start_order_c2s
+type (Rtype"v
+trade_start_order_s2c
+result (Rresult
+type (Rtype1
+order (2.ZeroProto.p_building_orderRorder"E
+trade_change_order_c2s
+id (Rid
+	item_list (RitemList"Ü
+trade_change_order_s2c
+result (Rresult!
+change_times (RchangeTimes1
+order (2.ZeroProto.p_building_orderRorder")
+trade_draw_c2s
+id_list (RidList"A
+trade_draw_s2c
+result (Rresult
+id_list (RidList"S
+trade_notify_list_s2c:
+
+order_list (2.ZeroProto.p_building_orderR	orderList
+◊ë
+proto_type.proto	ZeroProto"B
+p_key_value_name
+k (Rk
+v (Rv
+name (	Rname")
+p_key_value
+k (Rk
+v (Rv"+
+p_key_value_2
+k (Rk
+v (Rv".
+p_key_value_tiny
+k (Rk
+v (Rv"*
+p_key_string
+k (Rk
+s (	Rs""
+p_value_list
+list (Rlist"[
+p_item
+id (Rid
+item_id (RitemId
+count (Rcount
+bind (Rbind"j
+p_task_track
+key_id (RkeyId
+track_event (R
+trackEvent
+num (Rnum
+sum (Rsum"l
+p_task_doing
+task_id (RtaskId
+state (Rstate-
+track (2.ZeroProto.p_task_trackRtrack";
+p_dup_sweep_lineup
+id (Rid
+sys_id (RsysId"È
+
+p_role_dup
+dup_id (RdupId
+star (Rstar
+is_agent (RisAgent*
+task (2.ZeroProto.p_key_valueRtask'
+challenge_times (RchallengeTimes@
+sweep_lineup (2.ZeroProto.p_dup_sweep_lineupRsweepLineup"ë
+p_dup_rand_pass_reward
+rate_id (RrateId
+item_id (RitemId
+item_num (RitemNum*
+gain (2.ZeroProto.p_item_gainRgain"¢
+p_role_tower_floor
+dup_id (RdupId
+already (Ralready
+pass (Rpass
+	pass_time (RpassTime*
+task (2.ZeroProto.p_key_valueRtask"Ù
+p_role_tower
+tower (Rtower
+start (Rstart
+floor (Rfloor
+
+free_count (R	freeCount
+
+auto_floor (R	autoFloor&
+auto_start_time (RautoStartTime<
+
+floor_info (2.ZeroProto.p_role_tower_floorR	floorInfo"U
+p_tower_achieve_get
+tower (Rtower
+number (Rnumber
+get (Rget"n
+p_dup_sweep_reward
+order (RorderB
+reward_info (2!.ZeroProto.p_dup_rand_pass_rewardR
+rewardInfo"e
+p_dup_daily_drop_select
+type (Rtype
+day_of_week (R	dayOfWeek
+select (Rselect"G
+p_equip_attrs
+attr_id (RattrId
+
+attr_value (R	attrValue"Y
+p_equip_skill
+skill_id (RskillId
+star (Rstar
+entry_id (RentryId"y
+p_equip_ex_attrs
+attr_id (RattrId
+
+attr_value (R	attrValue
+star (Rstar
+entry_id (RentryId"`
+p_equip_affix
+pos (Rpos
+affix_id (RaffixId
+lvl (Rlvl
+par (Rpar"Ó
+p_children_equip
+id (Rid
+equip_id (RequipId
+children_id (R
+childrenId
+pos (Rpos
+color (Rcolor
+lvl (Rlvl
+
+strong_exp (R	strongExp
+strong (Rstrong
+lock	 (Rlock
+see
+ (Rsee"
+wafer_pos_num (RwaferPosNum#
+corrode_affix (RcorrodeAffix
+
+rare_skill (R	rareSkill.
+skill (2.ZeroProto.p_equip_skillRskill7
+
+base_attrs (2.ZeroProto.p_equip_attrsR	baseAttrs6
+ex_attrs (2.ZeroProto.p_equip_ex_attrsRexAttrs7
+
+affix_info (2.ZeroProto.p_equip_affixR	affixInfo5
+
+wafer_info (2.ZeroProto.p_key_valueR	waferInfo"q
+p_equip_choice_attrs
+order (Rorder
+attr (Rattr
+value (Rvalue
+entry_id (RentryId"»
+p_item_gain
+id (Rid
+item_id (RitemId
+	object_id (RobjectId
+num (Rnum
+color (Rcolor
+lvl (Rlvl"
+wafer_pos_num (RwaferPosNum#
+corrode_affix (RcorrodeAffix7
+
+base_attrs	 (2.ZeroProto.p_equip_attrsR	baseAttrs7
+
+affix_info
+ (2.ZeroProto.p_equip_affixR	affixInfo"®
+
+p_dispatch
+dispatch_id (R
+dispatchId
+count (Rcount
+
+start_time (R	startTime
+finish_time (R
+finishTime#
+children_list (RchildrenList"¬
+p_wafer
+id (Rid
+wafer_id (RwaferId
+equip_id (RequipId
+pos (Rpos
+lvl (Rlvl
+grade (Rgrade7
+
+base_attrs (2.ZeroProto.p_equip_attrsR	baseAttrs"g
+p_time_item
+id (Rid
+item_id (RitemId
+count (Rcount
+end_time (RendTime"û
+p_patrol
+	patrol_id (RpatrolId
+
+start_time (R	startTime
+finish_time (R
+finishTime
+event (Revent
+	event_dup (ReventDup&
+event_over_time (ReventOverTime;
+children_list (2.ZeroProto.p_key_valueRchildrenList
+
+event_desc (R	eventDesc":
+p_hertz_reward
+type (Rtype
+state (Rstate"»
+p_hertz_rank
+role_id (RroleId
+head_id (RheadId
+frame_id (RframeId
+name (	Rname
+name_num (RnameNum
+star (Rstar
+time (Rtime
+likes (Rlikes"√
+p_lineup
+role_id (RroleId
+head_id (RheadId
+frame_id (RframeId
+name (	Rname
+name_num (RnameNum;
+children_list (2.ZeroProto.p_key_valueRchildrenList"]
+p_venue_obj
+obj_id (RobjId
+status (Rstatus
+action_list (R
+actionList"ª
+p_client_info
+did (	Rdid!
+game_version (	RgameVersion
+os (	Ros
+os_ver (	RosVer
+device (	Rdevice
+device_type (	R
+deviceType
+screen (	Rscreen
+mno (	Rmno
+nm	 (	Rnm
+platform
+ (	Rplatform%
+union_platform (	RunionPlatform
+channel (	Rchannel
+big_version (	R
+bigVersion!
+package_name (	RpackageName!
+package_type (	RpackageType
+game_id (	RgameId"Ç
+p_login_info
+id (Rid
+name (	Rname
+sex (Rsex
+level (Rlevel&
+last_login_time (RlastLoginTime"n
+p_fight_child
+child_id (RchildId
+rel_num (RrelNum
+type (Rtype
+sys_id (RsysId"o
+
+p_nf_spell
+id (Rid
+sys_id (RsysId
+star (Rstar
+lvl (Rlvl
+index (Rindex"b
+p_c_nf_spell
+id (Rid
+sys_id (RsysId
+star (Rstar
+use_num (RuseNum"Ã
+	p_nf_gain
+id (Rid
+sys_id (RsysId
+overlap_num (R
+overlapNum
+time (Rtime0
+ps_skill (2.ZeroProto.p_nf_skillRpsSkill1
+ext_list (2.ZeroProto.p_key_valueRextList"D
+
+p_nf_skill
+skill_id (RskillId
+	skill_lvl (RskillLvl"Q
+p_nf_child_equip
+sys_id (RsysId
+pos (Rpos
+color (Rcolor"[
+p_skill_sta
+skill_id (RskillId
+	skill_lvl (RskillLvl
+count (Rcount"x
+p_skill_hit_sta
+skill_id (RskillId
+	skill_lvl (RskillLvl
+hit_seq (RhitSeq
+count (Rcount"p
+
+p_gain_sta
+id (Rid
+sys_id (RsysId;
+ps_skill_sta (2.ZeroProto.p_ps_skill_staR
+psSkillSta"^
+p_ps_skill_sta
+skill_id (RskillId
+	skill_lvl (RskillLvl
+count (Rcount"\
+
+p_buff_sta
+id (Rid
+	use_count (RuseCount!
+effect_count (ReffectCount"»
+p_nf_trigger
+id (Rid
+event (Revent<
+	condition (2.ZeroProto.p_trigger_cond_listR	condition.
+tri_do (2.ZeroProto.p_trigger_doRtriDo7
+tri_else_do (2.ZeroProto.p_trigger_doR	triElseDo
+
+start_time (R	startTime
+
+loop_count (R	loopCount
+wave (Rwave
+dif_time	 (RdifTime"´
+p_nf_match_team
+id (Rid
+type (Rtype
+name (	Rname
+lvl (Rlvl
+rank (Rrank
+head_id (RheadId
+frame_id (RframeId
+photo (	Rphoto
+group_id	 (RgroupId
+obj_id
+ (RobjId
+status (Rstatus
+fight_times (R
+fightTimes:
+
+child_list (2.ZeroProto.p_nf_match_childR	childList7
+	hero_list (2.ZeroProto.p_nf_match_heroRheroList@
+children_pool (2.ZeroProto.p_nf_match_childRchildrenPool
+ban_list (RbanList3
+	buff_list (2.ZeroProto.p_key_valueRbuffList" 
+p_nf_pvp_team
+id (Rid
+type (Rtype
+name (	Rname
+lvl (Rlvl
+rank (Rrank
+photo (	Rphoto
+star (Rstar
+fight_times (R
+fightTimes
+	suit_type	 (RsuitType:
+
+child_list
+ (2.ZeroProto.p_nf_match_childR	childList7
+	hero_list (2.ZeroProto.p_nf_match_heroRheroList"ı
+p_nf_match_child
+sys_id (RsysId
+index (Rindex
+lvl (Rlvl
+
+sync_times (R	syncTimes
+awake_times (R
+awakeTimes
+use_skin (RuseSkin
+	skill_lvl (RskillLvl*
+attr (2.ZeroProto.p_key_valueRattr"à
+p_nf_match_hero
+sys_id (RsysId
+lvl (Rlvl
+use_skin (RuseSkin
+form (Rform
+index (Rindex
+
+sync_times (R	syncTimes
+awake_times (R
+awakeTimes
+	skill_lvl (RskillLvl*
+attr	 (2.ZeroProto.p_key_valueRattr"æ
+p_nf_opt
+obj_id (RobjId
+group_id (RgroupId/
+kv_list (2.ZeroProto.p_key_valueRkvList
+	byte_list (RbyteList2
+	site_list (2.ZeroProto.p_positionRsiteList"Z
+p_nf_sync_opt
+frame_id (RframeId.
+opt_list (2.ZeroProto.p_nf_optRoptList"1
+p_tri_time_check
+
+start_time (R	startTime"a
+p_trigger_cond_list
+type (Rtype6
+	cond_list (2.ZeroProto.p_trigger_condRcondList"û
+p_trigger_cond
+type (Rtype$
+cond_star_less (RcondStarLessC
+cond_time_check (2.ZeroProto.p_tri_time_checkRcondTimeCheckH
+cond_cost_check (2 .ZeroProto.p_tri_cond_cost_checkRcondCostCheck=
+cond_kill_mon (2.ZeroProto.p_tri_cond_monRcondKillMonL
+cond_time_trigger (2 .ZeroProto.p_tri_cond_time_checkRcondTimeTriggerJ
+cond_kill_trigger (2.ZeroProto.p_tri_cond_kill_triRcondKillTrigger<
+cond_mon_hp (2.ZeroProto.p_tri_cond_mon_hpR	condMonHpE
+cond_tri_check	 (2.ZeroProto.p_tri_cond_tri_checkRcondTriCheck?
+cond_mon_num
+ (2.ZeroProto.p_tri_cond_mon_numR
+condMonNumK
+cond_score_check (2!.ZeroProto.p_tri_cond_score_checkRcondScoreCheckF
+cond_kill_summon (2.ZeroProto.p_tri_cond_summonRcondKillSummonE
+cond_summon_hp (2.ZeroProto.p_tri_cond_summon_hpRcondSummonHpH
+cond_summon_num (2 .ZeroProto.p_tri_cond_summon_numRcondSummonNum",
+p_tri_cond_score_check
+type (Rtype"s
+p_tri_cond_mon_num
+tri_id (RtriId
+mon_id (RmonId
+choice (Rchoice
+mon_num (RmonNum"Ç
+p_tri_cond_summon_num
+tri_id (RtriId
+	summon_id (RsummonId
+choice (Rchoice
+
+summon_num (R	summonNum"-
+p_tri_cond_tri_check
+tri_id (RtriId"Q
+p_tri_cond_mon_hp
+tri_id (RtriId
+mon_id (RmonId
+hp (Rhp"Z
+p_tri_cond_summon_hp
+tri_id (RtriId
+	summon_id (RsummonId
+hp (Rhp",
+p_tri_cond_kill_tri
+tri_id (RtriId"?
+p_tri_cond_time_check
+time (Rtime
+list (Rlist"~
+p_tri_cond_cost_check
+cost (Rcost
+pre_cost (RpreCost
+mon_list (RmonList
+	wave_list (RwaveList"C
+p_tri_cond_mon1
+mon_list (2.ZeroProto.p_key_valueRmonList"L
+p_tri_cond_summon7
+summon_list (2.ZeroProto.p_key_valueR
+summonList"Ö
+p_trigger_do(
+c_mon (2.ZeroProto.p_nf_monRcMon1
+c_ground (2.ZeroProto.p_nf_groundRcGround.
+d_stop (2.ZeroProto.p_dup_resultRdStop5
+
+a_mon_cost (2.ZeroProto.p_a_mon_costRaMonCost(
+wave (2.ZeroProto.p_nf_waveRwave@
+unlock_extra_area (2.ZeroProto.p_nf_areaRunlockExtraArea
+
+recom_list (R	recomList&
+kill_recom_list (RkillRecomList":
+	p_nf_area
+group_id (RgroupId
+area (Rarea"x
+	p_nf_wave
+time (Rtime
+wave_id (RwaveId
+show_time_1 (R	showTime1
+show_time_2 (R	showTime2"v
+p_a_mon_cost!
+trigger_time (RtriggerTime
+add_cost (RaddCost
+title (	Rtitle
+desc (	Rdesc"A
+p_dup_result
+group_id (RgroupId
+result (Rresult"Í
+p_nf_ground
+	ground_id (RgroundId
+name (	Rname)
+site (2.ZeroProto.p_positionRsite
+angle (Rangle
+model_id (RmodelId
+group_id (RgroupId3
+	attr_list (2.ZeroProto.p_key_valueRattrList"ê
+p_nf_mon
+mon_id (RmonId
+type (Rtype
+lvl (Rlvl
+name (	Rname)
+site (2.ZeroProto.p_positionRsite
+angle (Rangle
+model_id (RmodelId
+obj_id (RobjId
+group_id	 (RgroupId
+fly_time
+ (RflyTime
+fly_dis (RflyDis
+	wait_time (RwaitTime
+state_queue (R
+stateQueue(
+patrol_path_list (RpatrolPathList'
+same_ui_batch_id (RsameUiBatchId&
+first_show_wave (RfirstShowWave
+	shout_ids (RshoutIds&
+state_show_mark (RstateShowMark
+hp_scale (RhpScale
+	hp_remain (RhpRemain3
+	attr_list (2.ZeroProto.p_key_valueRattrListA
+active_skill_list (2.ZeroProto.p_nf_skillRactiveSkillListC
+passive_skill_list (2.ZeroProto.p_nf_skillRpassiveSkillList"¨
+	p_nf_hero
+hero_id (RheroId
+	hero_form (RheroForm
+hero_sys_id (R	heroSysId
+pos (Rpos*
+first_deploy_time (RfirstDeployTime
+deploy_time (R
+deployTime 
+child_sys_id (R
+childSysId
+	init_time (RinitTime
+lvl	 (Rlvl
+use_skin
+ (RuseSkin"Ô
+p_battle_report
+id (Rid
+time (Rtime
+type (Rtype
+
+collect_id (R	collectId;
+member_list (2.ZeroProto.p_battle_memberR
+memberList'
+statistic_bytes (RstatisticBytes
+is_reported (R
+isReported"ª
+p_battle_member
+role_id (RroleId
+type (Rtype
+lvl (Rlvl
+rank_lvl (RrankLvl
+	rank_star (RrankStar
+name (	Rname
+name_num (RnameNum
+head_id (RheadId
+frame_id	 (RframeId
+	suit_type
+ (RsuitType
+calc_result (R
+calcResult
+	calc_star (RcalcStar:
+
+child_list (2.ZeroProto.p_nf_match_childR	childList7
+	hero_list (2.ZeroProto.p_nf_match_heroRheroList"‰
+p_nf_agent_child
+id (Rid
+type (Rtype
+sys_id (RsysId
+lvl (Rlvl
+
+sync_times (R	syncTimes
+awake_times (R
+awakeTimes
+star (Rstar
+use_skin (RuseSkin
+index	 (Rindex"∑
+
+p_nf_child
+child_id (RchildId
+sys_id (RsysId
+owner_id (RownerId
+obj_id (RobjId
+lvl (Rlvl
+
+sync_times (R	syncTimes
+awake_times (R
+awakeTimes
+use_skin (RuseSkin
+type	 (Rtype
+index
+ (Rindex
+cost (Rcost
+	revive_cd (RreviveCd
+	init_mana (RinitMana
+place_count (R
+placeCount
+	skill_lvl (RskillLvl)
+site (2.ZeroProto.p_positionRsite3
+	attr_list (2.ZeroProto.p_key_valueRattrListA
+active_skill_list (2.ZeroProto.p_nf_skillRactiveSkillListC
+passive_skill_list (2.ZeroProto.p_nf_skillRpassiveSkillList:
+
+equip_list (2.ZeroProto.p_nf_child_equipR	equipList"≤
+p_c_nf_child
+child_id (RchildId
+sys_id (RsysId
+obj_id (RobjId
+hp_scale (RhpScale
+use_num (RuseNum
+
+recall_num (R	recallNum"
+use_skill_num (RuseSkillNum3
+	skill_sta (2.ZeroProto.p_skill_staRskillSta>
+skill_hit_sta	 (2.ZeroProto.p_skill_hit_staRskillHitSta;
+ps_skill_sta
+ (2.ZeroProto.p_ps_skill_staR
+psSkillSta0
+buff_sta (2.ZeroProto.p_buff_staRbuffSta"7
+p_nf_cost_sta
+type (Rtype
+cost (Rcost"B
+p_nf_pvp_result
+group_id (RgroupId
+score (Rscore"ì
+p_nf_player
+group_id (RgroupId
+obj_id (RobjId
+	init_cost (RinitCost
+max_cost (RmaxCost
+type (RtypeB
+role_passive_skill (2.ZeroProto.p_nf_gainRrolePassiveSkill4
+
+child_list (2.ZeroProto.p_nf_childR	childList.
+mon_list (2.ZeroProto.p_nf_monRmonList1
+	hero_list	 (2.ZeroProto.p_nf_heroRheroList)
+child_sys_id_list
+ (RchildSysIdList"ñ
+p_nf_fetter 
+group_sys_id (R
+groupSysId 
+child_sys_id (R
+childSysIdC
+passive_skill_list (2.ZeroProto.p_nf_skillRpassiveSkillList"⁄
+p_pvp_rival
+rival_id (RrivalId
+phase (Rphase.
+team (2.ZeroProto.p_children_teamRteam.
+	hero_list (2.ZeroProto.p_heroRheroList:
+children_list (2.ZeroProto.p_childrenRchildrenList"Q
+
+p_pvp_attr
+id (Rid3
+	attr_list (2.ZeroProto.p_key_valueRattrList"q
+p_kill_mon_sta
+mon_id (RmonId
+lvl (Rlvl
+type (Rtype
+id (Rid
+time (Rtime"B
+p_kill_summon_sta
+	summon_id (RsummonId
+num (Rnum";
+p_c_nf_alive_mon
+mon_id (RmonId
+num (Rnum"D
+p_c_nf_alive_summon
+	summon_id (RsummonId
+num (Rnum"⁄
+
+p_c_nf_mon
+mon_id (RmonId
+hp_scale (RhpScale
+	hp_remain (RhpRemain
+group_id (RgroupId3
+	skill_sta (2.ZeroProto.p_skill_staRskillSta>
+skill_hit_sta (2.ZeroProto.p_skill_hit_staRskillHitSta;
+ps_skill_sta (2.ZeroProto.p_ps_skill_staR
+psSkillSta0
+buff_sta (2.ZeroProto.p_buff_staRbuffSta"@
+p_kill_mon_info
+mon_id (RmonId
+status (Rstatus"ï
+p_dup_save_mon
+mon_id (RmonId
+lvl (Rlvl
+hp_scale (RhpScale
+angle (Rangle)
+site (2.ZeroProto.p_positionRsite"å
+p_dup_save_ground
+	ground_id (RgroundId
+hp_scale (RhpScale
+angle (Rangle)
+site (2.ZeroProto.p_positionRsite"?
+p_dup_save_spell
+sys_id (RsysId
+count (Rcount"·
+p_map_object
+	object_id (RobjectId
+object_type (R
+objectType
+sys_id (RsysId
+role_id (RroleId
+name (	Rname
+mapid (Rmapid
+line (Rline
+lvl (Rlvl
+pkmode	 (Rpkmode
+group_id
+ (RgroupId)
+site (2.ZeroProto.p_positionRsite
+
+move_order (R	moveOrder2
+	dest_site (2.ZeroProto.p_positionRdestSite
+hp (Rhp
+es (Res
+mp (Rmp,
+attrs (2.ZeroProto.p_key_valueRattrs0
+skills (2.ZeroProto.p_fight_skillRskills
+serv_id (RservId
+plat (	Rplat
+	serv_name (	RservName'
+buffs (2.ZeroProto.p_buffRbuffs#
+object_states (RobjectStates:
+
+extra_info (2.ZeroProto.p_key_value_nameR	extraInfo"6
+
+p_position
+x (Rx
+y (Ry
+z (Rz"À
+p_object_walk
+	object_id (RobjectId
+object_type (R
+objectType)
+site (2.ZeroProto.p_positionRsite2
+	dest_site (2.ZeroProto.p_positionRdestSite
+
+move_order (R	moveOrder"ï
+p_move_step
+	object_id (RobjectId
+object_type (R
+objectType)
+site (2.ZeroProto.p_positionRsite
+
+move_order (R	moveOrder"L
+p_fighter_id
+	object_id (RobjectId
+object_type (R
+objectType"l
+p_skill_target/
+target (2.ZeroProto.p_fighter_idRtarget)
+site (2.ZeroProto.p_positionRsite"í
+p_fight_spell_skill
+skill_id (RskillId
+	skill_lvl (RskillLvl
+spell_id (RspellId
+star (Rstar
+count (Rcount"Æ
+p_skill_card
+id (Rid
+skill_id (RskillId
+	skill_lvl (RskillLvl
+obj_type (RobjType
+obj_id (RobjId
+num (Rnum
+time (Rtime"Ö
+p_fight_skill
+skill_id (RskillId
+	skill_lvl (RskillLvl!
+last_release (RlastRelease
+dec_time (RdecTime"k
+p_fight_skill_cd
+skill_id (RskillId!
+last_release (RlastRelease
+dec_time (RdecTime"ï
+p_buff
+id (Rid
+type (Rtype
+
+start_time (R	startTime
+end_time (RendTime
+count (Rcount
+from_id (RfromId"W
+p_release_child
+child_id (RchildId)
+site (2.ZeroProto.p_positionRsite";
+p_children_skill
+sys_id (RsysId
+lvl (Rlvl"ë
+p_nf_agent_op/
+kv_list (2.ZeroProto.p_key_valueRkvList
+	byte_list (RbyteList2
+	site_list (2.ZeroProto.p_positionRsiteList"Á
+p_secret_grid
+id (Rid
+step (Rstep
+num (Rnum
+event_id (ReventId
+scenario_id (R
+scenarioId
+status (Rstatus
+opt_list (RoptList1
+ext_info (2.ZeroProto.p_key_valueRextInfo"?
+p_secret_child
+child_id (RchildId
+cost (Rcost"5
+p_secret_box
+box_id (RboxId
+ts (Rts"L
+p_secret_friend
+id (Rid
+sys_id (RsysId
+cost (Rcost"d
+p_gain
+id (Rid
+type (Rtype
+sys_id (RsysId
+overlap_num (R
+overlapNum"=
+p_secret_gain_color
+color (Rcolor
+num (Rnum"e
+p_secret_gain_tag
+id (Rid
+tag_id (RtagId
+gain_id (RgainId
+num (Rnum"a
+p_secret_entry
+id (Rid
+sys_id (RsysId
+status (Rstatus
+pos (Rpos"N
+p_secret_task
+id (Rid
+sys_id (RsysId
+status (Rstatus"Ó
+
+p_children
+id (Rid
+type (Rtype
+sys_id (RsysId
+exp (Rexp
+lvl (Rlvl
+
+sync_times (R	syncTimes
+awake_times (R
+awakeTimesD
+secondary_skill (2.ZeroProto.p_children_skillRsecondarySkill*
+attr	 (2.ZeroProto.p_key_valueRattr
+get_time
+ (RgetTime
+	favor_lvl (RfavorLvl&
+favor_award_lvl (RfavorAwardLvl
+favor (Rfavor
+fight_skill (R
+fightSkill
+	skill_lvl (RskillLvl
+use_skin (RuseSkin
+	skin_list (RskinList
+dispatch_id (R
+dispatchId
+star (Rstar
+
+gain_times (R	gainTimes
+power (Rpower"
+auth_equip_id (RauthEquipId
+is_new (RisNew!
+fetter_break (RfetterBreak
+	patrol_id (RpatrolId"8
+p_children_power
+id (Rid
+power (Rpower"î
+p_children_favor
+id (Rid
+sys_id (RsysId
+favor (Rfavor
+	favor_lvl (RfavorLvl&
+favor_award_lvl (RfavorAwardLvl"V
+p_favor_storage
+id (Rid
+storage (Rstorage
+can_draw (RcanDraw"q
+p_children_reward
+sys_id (RsysId
+num (Rnum3
+	item_list (2.ZeroProto.p_key_valueRitemList"§
+p_recruit_pool_save
+
+draw_times (R	drawTimes$
+money_cost_num (RmoneyCostNumH
+reward_children_list (2.ZeroProto.p_key_valueRrewardChildrenList"à
+p_recruit_pool_bonus
+times (Rtimes
+etime (Retime
+ntime (Rntime
+rtimes (Rrtimes
+cdtime (Rcdtime"®
+p_recruit_pool
+id (Rid
+sys_id (RsysId
+
+draw_times (R	drawTimes4
+is_new_pool_base_reward (RisNewPoolBaseReward;
+	draw_save (2.ZeroProto.p_recruit_pool_saveRdrawSave>
+
+bonus_list (2.ZeroProto.p_recruit_pool_bonusR	bonusList
+
+base_times (R	baseTimes"à
+p_recruit_record
+pool_sys_id (R	poolSysId 
+child_sys_id (R
+childSysId
+is_new (RisNew
+	draw_time (RdrawTime"S
+p_sys_recruit_up
+type (Rtype
+rate (Rrate
+up_list (RupList"m
+p_sys_recruit_rate
+type (Rtype
+rate (Rrate
+	real_rate (RrealRate
+list (Rlist"Z
+p_hero_index
+index (Rindex
+hero_id (RheroId
+	hero_form (RheroForm"…
+p_children_team
+
+team_index (R	teamIndex
+team_id (RteamId
+event_id (ReventId
+	team_name (	RteamName;
+children_list (2.ZeroProto.p_key_valueRchildrenList5
+
+spell_list (2.ZeroProto.p_key_valueR	spellList?
+friend_assist (2.ZeroProto.p_friend_assistRfriendAssist
+up_flag (RupFlag4
+	hero_list	 (2.ZeroProto.p_hero_indexRheroListB
+fetter_child_list
+ (2.ZeroProto.p_key_valueRfetterChildList"€
+p_spell
+spell_id (RspellId
+sys_id (RsysId
+star (Rstar
+lvl (Rlvl
+type (Rtype
+skin (Rskin
+	skin_list (RskinList3
+	gift_list (2.ZeroProto.p_key_valueRgiftList"õ
+p_mail_base
+id (Rid
+title (	Rtitle
+sender_name (	R
+senderName
+	send_time (RsendTime
+is_read (RisRead
+is_favorite (R
+isFavorite
+	is_delete (RisDelete
+
+is_extract (R	isExtract
+head_id	 (RheadId
+end_time
+ (RendTime"f
+p_mail_attach
+item_id (RitemId
+num (Rnum
+lvl (Rlvl
+quality (Rquality"t
+p_mail_content
+id (Rid8
+
+attachment (2.ZeroProto.p_mail_attachR
+attachment
+content (	Rcontent"µ
+p_sign_record
+code (Rcode
+id (Rid
+sign_indexs (R
+signIndexs$
+can_sign_total (RcanSignTotal9
+spec_rewards (2.ZeroProto.p_key_valueRspecRewards"M
+p_show_badge
+grid (Rgrid
+sys_id (RsysId
+time (Rtime"R
+p_show_type_badge
+grid (Rgrid
+sys_id (RsysId
+time (Rtime"˙
+p_role_info
+role_id (RroleId
+name (	Rname
+name_num (RnameNum
+level (Rlevel
+sex (Rsex
+create_time (R
+createTime
+birth (Rbirth
+head_id (RheadId
+frame_id	 (RframeId
+	signature
+ (	R	signature!
+children_num (RchildrenNum
+dup_id (RdupId"
+assist_sys_id (RassistSysId$
+assist_skin_id (RassistSkinId,
+fight_assist_grids (RfightAssistGrids>
+fight_assists (2.ZeroProto.p_fight_assistRfightAssists8
+show_badges (2.ZeroProto.p_show_badgeR
+showBadgesF
+show_type_badges (2.ZeroProto.p_show_type_badgeRshowTypeBadges"π
+p_shop_item
+sys_id (RsysId
+is_close (RisClose
+	buy_times (RbuyTimes3
+	need_list (2.ZeroProto.p_key_valueRneedList&
+next_reset_time (RnextResetTime"á
+p_shop_page
+page_id (RpageId3
+	item_list (2.ZeroProto.p_shop_itemRitemList*
+next_refresh_time (RnextRefreshTime"©
+p_month_card
+sys_id (RsysId"
+last_buy_time (RlastBuyTime&
+last_daily_time (RlastDailyTime
+	acc_times (RaccTimes
+end_time (RendTime"õ
+p_friend
+id (Rid
+name (	Rname
+name_num (RnameNum
+note (	Rnote
+level (Rlevel
+photo (	Rphoto
+head_id (RheadId
+frame_id (RframeId
+logout_time	 (R
+logoutTime"
+friendliness
+ (Rfriendliness,
+fight_assist_grids (RfightAssistGrids>
+fight_assists (2.ZeroProto.p_fight_assistRfightAssists
+is_read (RisRead
+dust_lvl (RdustLvl
+	season_id (RseasonId
+pvp_lvl (RpvpLvl
+pvp_star (RpvpStar$
+pvp_is_defined (RpvpIsDefined"t
+p_team_favor
+sys_id (RsysId
+	favor_lvl (RfavorLvl0
+rewards (2.ZeroProto.p_key_valueRrewards"=
+p_children_group
+sys_id (RsysId
+star (Rstar"¡
+p_fight_assist
+grid (Rgrid
+child_id (RchildId
+sys_id (RsysId
+skin_id (RskinId
+lvl (Rlvl
+
+sync_times (R	syncTimes
+awake_times (R
+awakeTimes"ë
+p_friend_assist
+role_id (RroleId
+	role_name (	RroleName
+role_lvl (RroleLvl
+sys_id (RsysId
+child_id (RchildId
+level (Rlevel
+
+sync_times (R	syncTimes
+awake_times (R
+awakeTimes
+skill_id	 (RskillId
+	skill_lvl
+ (RskillLvl
+skin_id (RskinId!
+assist_times (RassistTimes
+cost (Rcost
+
+is_revised (R	isRevised"ê
+p_child_assist_record
+child_id (RchildId
+points (Rpoints
+times (Rtimes.
+list (2.ZeroProto.p_assist_recordRlist"a
+p_assist_record
+	player_id (RplayerId
+times (Rtimes
+	last_time (RlastTime"h
+p_subplots_task
+sys_id (RsysId!
+select_index (RselectIndex
+	is_reward (RisReward"ò
+p_explore_info
+sys_id (RsysId
+explore_val (R
+exploreVal
+is_reset (RisReset
+	child_ids (RchildIds
+awards (Rawards"_
+p_explore_replace_event
+grid (Rgrid
+event_a (ReventA
+event_b (ReventB"7
+p_explore_child
+id (Rid
+times (Rtimes"M
+p_explore_item
+type (Rtype
+sys_id (RsysId
+num (Rnum"í
+p_explore_event_child1
+children (2.ZeroProto.p_childrenRchildren
+times (Rtimes
+is_temp (RisTemp
+is_hire (RisHire"\
+p_explore_event_item-
+item (2.ZeroProto.p_explore_itemRitem
+is_get (RisGet"z
+
+p_open_act
+act_id (RactId
+act_type (RactType
+	open_time (RopenTime
+
+close_time (R	closeTime"É
+p_research_task
+ins_id (RinsId
+sys_id (RsysId
+
+start_time (R	startTime#
+complete_time (RcompleteTime"•
+p_research_institute
+ins_id (RinsId#
+refresh_times (RrefreshTimes.
+spec_research_times (RspecResearchTimes!
+waiting_list (RwaitingList"m
+p_building_core
+id (Rid
+sys_id (RsysId
+lvl (Rlvl!
+upgrade_time (RupgradeTime"R
+p_building_buff
+type (Rtype
+sub_type (RsubType
+num (Rnum"Ó
+p_building_center#
+highest_atoms (RhighestAtoms
+atoms_index (R
+atomsIndex
+	pills_num (RpillsNum
+power (Rpower
+clean_times (R
+cleanTimes
+	next_time (RnextTime
+power_speed (R
+powerSpeed-
+next_gain_pill_time (RnextGainPillTime
+end_time	 (RendTime7
+	buff_list
+ (2.ZeroProto.p_building_buffRbuffList"Ó
+p_building_room
+id (Rid$
+attach_room_id (RattachRoomId
+sys_id (RsysId
+lvl (Rlvl
+atoms (Ratoms
+	used_elec (RusedElec
+max_elec (RmaxElec
+
+used_space (R	usedSpace
+object_list	 (R
+objectList
+name
+ (	Rname!
+upgrade_time (RupgradeTime7
+	buff_list (2.ZeroProto.p_building_buffRbuffList"©
+p_building_object
+id (Rid
+room_id (RroomId
+sys_id (RsysId
+lvl (Rlvl
+status (Rstatus
+is_valid (RisValid
+get_time (RgetTime
+face (Rface
+pos_x	 (RposX
+pos_y
+ (RposY
+pos_z (RposZ!
+library_list (RlibraryList"Ã
+p_building_object_snap
+id (Rid
+sys_id (RsysId
+lvl (Rlvl
+status (Rstatus
+get_time (RgetTime!
+library_list (RlibraryList#
+default_speed (RdefaultSpeed"ï
+p_building_machine
+id (Rid
+	used_elec (RusedElec
+output (Routput
+
+output_max (R	outputMax!
+output_speed (RoutputSpeed#
+default_speed (RdefaultSpeed
+
+cost_power (R	costPower
+
+start_time (R	startTime
+sys_id	 (RsysId"ã
+p_building_furniture
+id (Rid
+dust_lvl (RdustLvl
+atoms (Ratoms
+	dust_time (RdustTime
+sys_id (RsysId"z
+p_building_object_pos
+id (Rid
+face (Rface
+pos_x (RposX
+pos_y (RposY
+pos_z (RposZ"W
+p_building_fur_atoms
+id (Rid
+dust_lvl (RdustLvl
+atoms (Ratoms"â
+p_building_reward
+id (Rid
+atoms (Ratoms
+dust_lvl (RdustLvl3
+	item_list (2.ZeroProto.p_key_valueRitemList"y
+p_building_output/
+mac (2.ZeroProto.p_building_machineRmac3
+	item_list (2.ZeroProto.p_key_valueRitemList"ô
+p_building_bonus
+id (Rid
+sys_id (RsysId&
+first_gain_time (RfirstGainTime
+	is_shared (RisShared
+can_draw (RcanDraw"ö
+p_post_children
+id (Rid!
+enter_status (RenterStatus
+sys_id (RsysId
+skin_id (RskinId$
+living_room_id (RlivingRoomId"ê
+p_post_clean
+id (Rid
+role_id (RroleId
+	friend_id (RfriendId
+type (Rtype
+
+visit_time (R	visitTime
+end_time (RendTime>
+clean_time_list (2.ZeroProto.p_key_valueRcleanTimeList
+is_drawn (RisDrawn#
+visit_imagine	 (RvisitImagine3
+	item_list
+ (2.ZeroProto.p_key_valueRitemList7
+reward_list (2.ZeroProto.p_key_valueR
+rewardList"_
+p_post_room_snap
+id (Rid
+sys_id (RsysId
+lvl (Rlvl
+name (	Rname"ö
+p_post_headshot
+id (Rid
+head_id (RheadId
+frame_id (RframeId
+name (	Rname
+name_num (RnameNum
+level (Rlevel"∏
+p_building_order
+id (Rid
+sys_id (RsysId#
+complete_time (RcompleteTime3
+	item_list (2.ZeroProto.p_key_valueRitemList#
+refresh_times (RrefreshTimes"Ü
+p_war_order
+sys_id (RsysId
+lvl (Rlvl
+grade (Rgrade
+exp (Rexp
+week_exp (RweekExp
+normal_list (R
+normalList#
+advanced_list (RadvancedList*
+advanced_ext_list (RadvancedExtList
+new_flag	 (RnewFlag"é
+p_questionnaire
+ques_id (RquesId
+filename (	Rfilename
+status (Rstatus.
+reward (2.ZeroProto.p_key_valueRreward"Ø
+p_questionnaire_answers
+question_id (R
+questionId
+number (Rnumber
+type (	Rtype
+value (	Rvalue
+text (	Rtext
+
+min_choice (R	minChoice"°
+p_hero_form_info
+form (Rform
+
+sync_times (R	syncTimes
+lvl (Rlvl
+exp (Rexp
+use_skin (RuseSkin
+	skin_list (RskinList"æ
+p_hero
+id (Rid
+type (Rtype
+
+awaketimes (R
+awaketimes
+sys_id (RsysId
+children_id (R
+childrenId8
+	form_list (2.ZeroProto.p_hero_form_infoRformList"c
+p_hero_form_skin_info
+form (Rform
+use_skin (RuseSkin
+	skin_list (RskinList"j
+p_hero_skin_info
+hero_id (RheroId=
+	skin_list (2 .ZeroProto.p_hero_form_skin_infoRskinList"i
+p_assist_info
+index (Rindex
+id (Rid
+type (Rtype
+skin_sys_id (R	skinSysId"H
+p_click_info
+id (Rid
+times (Rtimes
+time (Rtime"à
+p_war_fight_simple_formation
+id (Rid
+type (Rtype'
+pos (2.ZeroProto.p_positionRpos
+	hero_form (RheroForm"k
+p_war_fight_obj
+
+fight_type (R	fightType
+sys_id (RsysId
+lv (Rlv
+form (Rform"Û
+p_war_fight_report
+type (Rtype
+nickname (	Rnickname
+map_id (RmapId
+	pass_star (RpassStar
+result (Rresult
+ts (Rts
+unread (Runread9
+
+child_list (2.ZeroProto.p_war_fight_objR	childList"ÿ
+p_lottery_pool
+sys_pool_id (R	sysPoolId
+loop_cnt (RloopCnt
+stime (Rstime!
+donate_times (RdonateTimes
+	show_list (RshowList5
+
+award_list (2.ZeroProto.p_key_valueR	awardList"[
+p_lottery_reward
+pos (Rpos5
+
+award_list (2.ZeroProto.p_key_valueR	awardList"p
+p_badge
+sys_id (RsysId
+cur (Rcur
+need (Rneed
+state (Rstate
+time (Rtime"a
+p_pvp_equip
+id (Rid
+sys_id (RsysId
+lvl (Rlvl
+team_ids (RteamIds"O
+
+p_pvp_rank
+	season_id (RseasonId
+lvl (Rlvl
+star (Rstar"8
+p_show_hero
+sys_id (RsysId
+form (Rform"Ã
+p_pvp_recommend
+type (Rtype
+rank_lvl (RrankLvl
+	role_name (	RroleName
+	team_name (	RteamName,
+heros (2.ZeroProto.p_show_heroRheros"
+child_sys_ids (RchildSysIds"o
+p_activity_brie_info
+activity_id (R
+activityId
+end_time (RendTime
+	red_point (RredPoint"r
+p_common_activity
+type_id (RtypeIdD
+activity_list (2.ZeroProto.p_activity_brie_infoRactivityList"ñ
+p_activity_question
+id (Rid
+sys_id (RsysId
+
+answer_seq (R	answerSeq
+answer_list (R
+answerList
+correct (Rcorrect"P
+p_activity_task
+sys_id (RsysId
+cur (Rcur
+state (Rstate"S
+p_surprise_dup
+dup_id (RdupId
+grade (Rgrade
+score (Rscore"ª
+
+p_surprise
+
+start_time (R	startTime
+	cost_time (RcostTime
+revive_time (R
+reviveTime
+dup_id (RdupId
+left_hp (RleftHp 
+left_hp_rate (R
+leftHpRate"V
+p_multi_boss_info
+id (Rid
+kill_num (RkillNum
+damage (Rdamage"?
+p_multi_boss_rank
+rank (Rrank
+damage (Rdamage"^
+p_friend_gift
+role_id (RroleId
+req_item_id (R	reqItemId
+state (Rstate"°
+p_friend_self_gift
+req_item_id (R	reqItemId:
+	give_role (2.ZeroProto.p_friend_gift_roleRgiveRole
+give_cnt (RgiveCnt
+state (Rstate"ñ
+p_friend_gift_role
+id (Rid
+name (	Rname
+note (	Rnote
+level (Rlevel
+head_id (RheadId
+frame_id (RframeId"C
+p_skill_time
+skill_id (RskillId
+seconds (Rseconds"5
+p_dup_reward_item
+id (Rid
+num (Rnum
+¨
+proto_venue.proto	ZeroProtoproto_type.proto"+
+venue_info_c2s
+venue_id (RvenueId"^
+venue_info_s2c
+venue_id (RvenueId1
+obj_info (2.ZeroProto.p_venue_objRobjInfo"F
+venue_action_c2s
+obj_id (RobjId
+	action_id (RactionId"Z
+venue_action_s2c
+code (Rcode
+obj_id (RobjId
+	action_id (RactionId"I
+venue_update_obj_s2c1
+obj_info (2.ZeroProto.p_venue_objRobjInfo
+∆
+proto_vip.proto	ZeroProto"
+vip_gift_info_c2s"'
+vip_gift_info_s2c
+list (Rlist"*
+vip_buy_gift_c2s
+number (Rnumber">
+vip_buy_gift_s2c
+code (Rcode
+number (Rnumber
+Â
+proto_vitality.proto	ZeroProto"
+vitality_info_c2s"”
+vitality_info_s2c
+vitality (Rvitality
+vit_max (RvitMax!
+exchange_num (RexchangeNum!
+daily_reward (RdailyReward&
+new_role_reward (RnewRoleReward
+	next_time (RnextTime"B
+vitality_use_item_c2s
+item_id (RitemId
+num (Rnum"Å
+vitality_use_item_s2c
+result (Rresult
+vitality (Rvitality
+vit_max (RvitMax
+	next_time (RnextTime"$
+vitality_buy_c2s
+num (Rnum"«
+vitality_buy_s2c
+result (Rresult
+vitality (Rvitality
+vit_max (RvitMax!
+exchange_num (RexchangeNum&
+new_role_reward (RnewRoleReward
+	next_time (RnextTime"1
+vitality_daily_reward_c2s
+index (Rindex"l
+vitality_daily_reward_s2c
+result (Rresult
+index (Rindex!
+daily_reward (RdailyReward
+°
+proto_wafer.proto	ZeroProtoproto_type.proto"
+wafer_info_c2s"8
+wafer_info_s2c&
+info (2.ZeroProto.p_waferRinfo":
+wafer_update_s2c&
+info (2.ZeroProto.p_waferRinfo"+
+wafer_delete_s2c
+id_list (RidList"N
+wafer_dress_c2s
+id (Rid
+equip_id (RequipId
+pos (Rpos"5
+wafer_dress_s2c
+code (Rcode
+id (Rid"#
+wafer_undress_c2s
+id (Rid"7
+wafer_undress_s2c
+code (Rcode
+id (Rid"E
+wafer_compose_c2s
+same_id (RsameId
+id_list (RidList"7
+wafer_compose_s2c
+code (Rcode
+id (Rid",
+wafer_resolve_c2s
+id_list (RidList"'
+wafer_resolve_s2c
+code (Rcode
+∑
+proto_war_fight.proto	ZeroProtoproto_type.proto"
+war_fight_info_c2s"ê
+war_fight_info_s2c
+code (Rcode
+	season_id (RseasonId
+star_num (RstarNum'
+milestone_state (RmilestoneState#
+develop_level (RdevelopLevel
+	match_num (RmatchNum 
+match_num_ts (R
+matchNumTs*
+unread_report_num (RunreadReportNum 
+atk_star_num	 (R
+atkStarNum
+	atk_count
+ (RatkCount6
+unread_yesterday_report (RunreadYesterdayReport"
+war_fight_upgrade_develop_c2s"I
+war_fight_upgrade_develop_s2c
+code (Rcode
+level (Rlevel"
+war_fight_draw_child_c2s"B
+war_fight_draw_child_s2c
+code (Rcode
+list (Rlist"3
+war_fight_choose_child_c2s
+sys_id (RsysId"G
+war_fight_choose_child_s2c
+code (Rcode
+sys_id (RsysId"3
+war_fight_unlock_child_c2s
+sys_id (RsysId"G
+war_fight_unlock_child_s2c
+code (Rcode
+sys_id (RsysId"
+war_fight_formation_c2s"ä
+war_fight_formation_s2c
+code (Rcode
+map_id (RmapIdD
+	info_list (2'.ZeroProto.p_war_fight_simple_formationRinfoList"}
+war_fight_update_formation_c2s
+map_id (RmapIdD
+	info_list (2'.ZeroProto.p_war_fight_simple_formationRinfoList"4
+war_fight_update_formation_s2c
+code (Rcode";
+"war_fight_get_milestone_reward_c2s
+sys_id (RsysId"N
+"war_fight_get_milestone_reward_s2c
+code (Rcode
+state (Rstate"%
+#war_fight_refresh_children_list_c2s"9
+#war_fight_refresh_children_list_s2c
+code (Rcode"
+war_fight_match_c2s")
+war_fight_match_s2c
+code (Rcode"0
+war_fight_match_result_s2c
+code (Rcode"œ
+war_fight_fight_result_s2c
+dup_id (RdupId
+result (Rresult
+star (Rstar
+nickname (	Rnickname
+
+child_list (R	childList3
+	item_list (2.ZeroProto.p_key_valueRitemList"
+war_fight_report_c2s"Ü
+war_fight_report_s2c
+code (Rcode 
+atk_star_num (R
+atkStarNum
+	atk_count (RatkCount 
+def_star_num (R
+defStarNum
+	def_count (RdefCount)
+gain_def_star_num (RgainDefStarNum1
+list (2.ZeroProto.p_war_fight_reportRlist" 
+war_fight_yesterday_report_c2s"4
+war_fight_yesterday_report_s2c
+code (Rcode"Ñ
+war_fight_settle_info_s2c
+star_num (RstarNum'
+milestone_state (RmilestoneState#
+develop_level (RdevelopLevel
+Œ
+proto_war_order.proto	ZeroProtoproto_type.proto"
+war_order_info_c2s"I
+war_order_info_s2c3
+	war_order (2.ZeroProto.p_war_orderRwarOrder":
+war_order_draw_c2s
+type (Rtype
+lvl (Rlvl"á
+war_order_draw_s2c
+result (Rresult
+type (Rtype
+lvl (Rlvl3
+	war_order (2.ZeroProto.p_war_orderRwarOrder"
+war_order_draw_all_c2s"e
+war_order_draw_all_s2c
+result (Rresult3
+	war_order (2.ZeroProto.p_war_orderRwarOrder"-
+war_order_upgrade_c2s
+grade (Rgrade"d
+war_order_upgrade_s2c
+result (Rresult3
+	war_order (2.ZeroProto.p_war_orderRwarOrder")
+war_order_buy_exp_c2s
+num (Rnum"d
+war_order_buy_exp_s2c
+result (Rresult3
+	war_order (2.ZeroProto.p_war_orderRwarOrder"
+war_order_new_flag_c2s"0
+war_order_new_flag_s2c
+result (Rresult

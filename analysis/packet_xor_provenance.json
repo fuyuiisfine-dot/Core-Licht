@@ -1,0 +1,8 @@
+{
+  "metadata_offset": "0x39a069",
+  "length": 256,
+  "sha1": "AFDB694BFA892BC872A116B516A86C3A8C1C83EE",
+  "cctor_rva": "0x1586334",
+  "field_handle_got": "0x2cabfd0",
+  "field_handle_relocation": "0x2eb2368"
+}

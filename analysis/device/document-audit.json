@@ -1,0 +1,29 @@
+{
+  "characters": 75,
+  "missing_character_documents": [],
+  "groups": {
+    "per": {
+      "references": 150,
+      "missing_ids": [],
+      "empty_text_ids": [],
+      "placeholder_ids": []
+    },
+    "voice": {
+      "references": 3960,
+      "missing_ids": [],
+      "empty_text_ids": [],
+      "placeholder_ids": [
+        2201240
+      ]
+    },
+    "remember": {
+      "references": 0,
+      "missing_ids": [],
+      "empty_text_ids": [],
+      "placeholder_ids": []
+    }
+  },
+  "user_confirmed_text_and_voice_normal": true,
+  "source": "direct user confirmation",
+  "gameplay_checkpoint": "device.before-gameplay-1792230980995462300.sqlite3"
+}

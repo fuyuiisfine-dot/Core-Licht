@@ -1,0 +1,15 @@
+{
+  "account_level": 100,
+  "characters": 75,
+  "min_character_level": 100,
+  "max_character_level": 150,
+  "hero_forms": 8,
+  "skins": 233,
+  "functions": 85,
+  "phone_roster_verified": true,
+  "phone_character_detail_verified": true,
+  "phone_skin_changes_verified": true,
+  "phone_team_screen_verified": false,
+  "unit_tests_passed": 26,
+  "pre_gm_backup": "client-work/device.before-gm-1792229949783068100.sqlite3"
+}

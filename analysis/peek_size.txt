@@ -1,0 +1,63 @@
+
+public int PeekPacketSize(int offset) { }
+1585594: stp      x22, x21, [sp, #-0x30]! 
+1585598: stp      x20, x19, [sp, #0x10] 
+158559c: stp      x29, x30, [sp, #0x20] 
+15855a0: add      x29, sp, #0x20 
+15855a4: ldr      x20, [x0, #0x10] 
+15855a8: mov      x19, x0 
+15855ac: mov      w21, w1 
+15855b0: bl       #0xd32904 
+15855b4: cbz      x20, #0x158565c 
+15855b8: ldr      x8, [x20] 
+15855bc: mov      x0, x20 
+15855c0: ldp      x9, x1, [x8, #0x1e0] 
+15855c4: blr      x9 
+15855c8: tbnz     w21, #0x1f, #0x15855e4 
+15855cc: mov      x20, x0 
+15855d0: mov      x0, x19 
+15855d4: bl       #0x15840e0 public int get_size() { }
+15855d8: add      w8, w21, #2 
+15855dc: cmp      w8, w0 
+15855e0: b.le     #0x15855ec 
+15855e4: mov      w0, #-1 
+15855e8: b        #0x158564c 
+15855ec: ldr      x22, [x19, #0x10] 
+15855f0: bl       #0xd32904 
+15855f4: cbz      x22, #0x158565c 
+15855f8: ldr      x8, [x22] 
+15855fc: sxtw     x1, w21 
+1585600: mov      x0, x22 
+1585604: mov      w2, wzr 
+1585608: ldr      x9, [x8, #0x2c0] 
+158560c: ldr      x3, [x8, #0x2c8] 
+1585610: blr      x9 
+1585614: mov      x0, x19 
+1585618: bl       #0x1585660 public ushort ReadPacketUInt16() { }
+158561c: ldr      x21, [x19, #0x10] 
+1585620: mov      w19, w0 
+1585624: bl       #0xd32904 
+1585628: cbz      x21, #0x158565c 
+158562c: ldr      x8, [x21] 
+1585630: mov      x0, x21 
+1585634: mov      x1, x20 
+1585638: mov      w2, wzr 
+158563c: ldr      x9, [x8, #0x2c0] 
+1585640: ldr      x3, [x8, #0x2c8] 
+1585644: blr      x9 
+1585648: and      w0, w19, #0xffff 
+158564c: ldp      x29, x30, [sp, #0x20] 
+1585650: ldp      x20, x19, [sp, #0x10] 
+1585654: ldp      x22, x21, [sp], #0x30 
+1585658: ret       
+158565c: bl       #0xd329c8 
+
+public ushort ReadPacketUInt16() { }
+1585660: stp      x20, x19, [sp, #-0x20]! 
+1585664: stp      x29, x30, [sp, #0x10] 
+1585668: add      x29, sp, #0x10 
+158566c: ldr      x20, [x0, #0x20] 
+1585670: mov      x19, x0 
+1585674: bl       #0xd32904 
+1585678: cbz      x20, #0x15856cc 
+158567c: ldr      x8, [x20] 

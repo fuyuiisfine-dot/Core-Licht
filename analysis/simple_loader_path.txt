@@ -1,0 +1,170 @@
+
+private bool MoveNext() { }
+1afbc90: sub      sp, sp, #0x50 
+1afbc94: str      x23, [sp, #0x10] 
+1afbc98: stp      x22, x21, [sp, #0x20] 
+1afbc9c: stp      x20, x19, [sp, #0x30] 
+1afbca0: stp      x29, x30, [sp, #0x40] 
+1afbca4: add      x29, sp, #0x40 
+1afbca8: adrp     x20, #0x2e88000 
+1afbcac: ldrb     w8, [x20, #0x9a1] 
+1afbcb0: mov      x19, x0 
+1afbcb4: tbnz     w8, #0, #0x1afbcd0 
+1afbcb8: adrp     x8, #0x2c6f000 
+1afbcbc: ldr      x8, [x8, #0x4b0] 
+1afbcc0: ldr      w0, [x8] 
+1afbcc4: bl       #0xd328f8 
+1afbcc8: mov      w8, #1 
+1afbccc: strb     w8, [x20, #0x9a1] 
+1afbcd0: ldr      w8, [x19, #0x10] 
+1afbcd4: cmp      w8, #3 
+1afbcd8: b.hi     #0x1afbd64 
+1afbcdc: adrp     x9, #0x230f000 
+1afbce0: add      x9, x9, #0xdf8 
+1afbce4: ldrsw    x8, [x9, x8, lsl #2] 
+1afbce8: add      x8, x8, x9 
+1afbcec: br       x8 
+1afbcf0: mov      w8, #-1 
+1afbcf4: str      xzr, [x19, #0x40] 
+1afbcf8: str      w8, [x19, #0x10] 
+1afbcfc: adrp     x8, #0x2cbf000 
+1afbd00: ldr      x8, [x8, #0x5b8] Onecore.Plugins.Utils.PathUtils_TypeInfo
+1afbd04: ldrb     w9, [x19, #0x20] 
+1afbd08: ldr      x20, [x19, #0x28] 
+1afbd0c: ldr      x0, [x8] Onecore.Plugins.Utils.PathUtils_TypeInfo
+1afbd10: ldrh     w8, [x0, #0x12e] 
+1afbd14: cbz      w9, #0x1afbd6c 
+1afbd18: tbz      w8, #9, #0x1afbd28 
+1afbd1c: ldr      w8, [x0, #0xe0] 
+1afbd20: cbnz     w8, #0x1afbd28 
+1afbd24: bl       #0xd329a4 
+1afbd28: mov      x0, x20 
+1afbd2c: bl       #0x1af6e38 public static string GetAutoResURI(string filePath) { }
+1afbd30: b        #0x1afbd84 
+1afbd34: mov      w8, #-1 
+1afbd38: add      x20, x19, #0x30 
+1afbd3c: add      x22, x19, #0x48 
+1afbd40: str      w8, [x19, #0x10] 
+1afbd44: b        #0x1afbe00 
+1afbd48: mov      w20, wzr 
+1afbd4c: mov      w8, #-1 
+1afbd50: b        #0x1afc044 
+1afbd54: mov      w8, #-1 
+1afbd58: add      x22, x19, #0x48 
+1afbd5c: str      w8, [x19, #0x10] 
+1afbd60: b        #0x1afbe34 
+1afbd64: mov      w20, wzr 
+1afbd68: b        #0x1afc048 
+1afbd6c: tbz      w8, #9, #0x1afbd7c 
+1afbd70: ldr      w8, [x0, #0xe0] 
+1afbd74: cbnz     w8, #0x1afbd7c 
+1afbd78: bl       #0xd329a4 
+1afbd7c: mov      x0, x20 
+1afbd80: bl       #0x1af6d60 public static string GetSAResURI(string filePath) { }
+1afbd84: str      x0, [x19, #0x40] 
+1afbd88: adrp     x8, #0x2d0e000 
+1afbd8c: ldr      x8, [x8, #0x6b8] UnityEngine.Networking.UnityWebRequest_TypeInfo
+1afbd90: mov      x21, x0 
+1afbd94: ldr      x0, [x8] UnityEngine.Networking.UnityWebRequest_TypeInfo
+1afbd98: bl       #0xd329c0 
+1afbd9c: mov      x1, x21 
+1afbda0: mov      x2, xzr 
+1afbda4: mov      x20, x0 
+1afbda8: bl       #0x20a0330 public void .ctor(string url) { }
+1afbdac: str      x20, [x19, #0x48] 
+1afbdb0: adrp     x8, #0x2c75000 
+1afbdb4: ldr      x8, [x8, #0x7b0] UnityEngine.Networking.DownloadHandlerBuffer_TypeInfo
+1afbdb8: ldr      x0, [x8] UnityEngine.Networking.DownloadHandlerBuffer_TypeInfo
+1afbdbc: bl       #0xd329c0 
+1afbdc0: mov      x1, xzr 
+1afbdc4: mov      x21, x0 
+1afbdc8: bl       #0x209fe04 public void .ctor() { }
+1afbdcc: cbz      x20, #0x1afc3d4 
+1afbdd0: mov      x0, x20 
+1afbdd4: mov      x1, x21 
+1afbdd8: mov      x2, xzr 
+1afbddc: add      x22, x19, #0x48 
+1afbde0: bl       #0x20a06b8 public void set_downloadHandler(DownloadHandler value) { }
+1afbde4: ldr      x0, [x22] 
+1afbde8: cbz      x0, #0x1afc3d4 
+1afbdec: mov      x20, x19 
+1afbdf0: ldr      x21, [x20, #0x30]! 
+1afbdf4: mov      x1, xzr 
+1afbdf8: bl       #0x20a0b28 public UnityWebRequestAsyncOperation SendWebRequest() { }
+1afbdfc: cbz      x21, #0x1afc064 
+1afbe00: ldr      x0, [x22] 
+1afbe04: cbz      x0, #0x1afc074 
+1afbe08: ldr      x20, [x20] 
+1afbe0c: mov      x1, xzr 
+1afbe10: bl       #0x20a17d0 public float get_downloadProgress() { }
+1afbe14: cbz      x20, #0x1afc07c 
+1afbe18: mov      x0, x20 
+1afbe1c: bl       #0x1afb628 public virtual void Invoke(float progress) { }
+1afbe20: ldr      x0, [x22] 
+1afbe24: cbz      x0, #0x1afc3d4 
+1afbe28: mov      x1, xzr 
+1afbe2c: bl       #0x20a1750 public bool get_isDone() { }
+1afbe30: tbz      w0, #0, #0x1afbf28 
+1afbe34: ldr      x0, [x22] 
+1afbe38: cbz      x0, #0x1afc3d4 
+1afbe3c: mov      x1, xzr 
+1afbe40: bl       #0x20a10d4 public bool get_isNetworkError() { }
+1afbe44: tbnz     w0, #0, #0x1afbe5c 
+1afbe48: ldr      x0, [x22] 
+1afbe4c: cbz      x0, #0x1afc3d4 
+1afbe50: mov      x1, xzr 
+1afbe54: bl       #0x20a1114 public bool get_isHttpError() { }
+1afbe58: tbz      w0, #0, #0x1afbf3c 
+1afbe5c: adrp     x23, #0x2cfc000 
+1afbe60: ldr      x23, [x23, #0x678] object[]_TypeInfo
+1afbe64: mov      w1, #2 
+1afbe68: ldr      x0, [x23] object[]_TypeInfo
+1afbe6c: bl       #0xd32908 
+1afbe70: cbz      x0, #0x1afc3d4 
+1afbe74: ldr      x21, [x19, #0x40] 
+1afbe78: mov      x20, x0 
+1afbe7c: cbz      x21, #0x1afbe94 
+1afbe80: ldr      x8, [x20] 
+1afbe84: mov      x0, x21 
+1afbe88: ldr      x1, [x8, #0x40] 
+1afbe8c: bl       #0xd329b0 
+1afbe90: cbz      x0, #0x1afc3e4 
+1afbe94: ldr      w8, [x20, #0x18] 
+1afbe98: cbz      w8, #0x1afc3d8 
+1afbe9c: str      x21, [x20, #0x20] 
+1afbea0: ldr      x0, [x22] 
+1afbea4: cbz      x0, #0x1afc3d4 
+1afbea8: mov      x1, xzr 
+1afbeac: bl       #0x20a0edc public string get_error() { }
+1afbeb0: mov      x21, x0 
+1afbeb4: cbz      x0, #0x1afbecc 
+1afbeb8: ldr      x8, [x20] 
+1afbebc: mov      x0, x21 
+1afbec0: ldr      x1, [x8, #0x40] 
+1afbec4: bl       #0xd329b0 
+1afbec8: cbz      x0, #0x1afc3e4 
+1afbecc: ldr      w8, [x20, #0x18] 
+1afbed0: cmp      w8, #1 
+1afbed4: b.ls     #0x1afc3d8 
+1afbed8: str      x21, [x20, #0x28] 
+1afbedc: adrp     x8, #0x2cdb000 
+1afbee0: ldr      x8, [x8, #0x8c8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+1afbee4: ldr      x0, [x8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+1afbee8: ldrb     w8, [x0, #0x12f] 
+1afbeec: tbz      w8, #1, #0x1afbefc 
+1afbef0: ldr      w8, [x0, #0xe0] 
+1afbef4: cbnz     w8, #0x1afbefc 
+1afbef8: bl       #0xd329a4 
+1afbefc: adrp     x8, #0x2c7a000 
+1afbf00: ldr      x8, [x8, #0x4d8] [SimpleLoader] load failed ({0})-({1})
+1afbf04: mov      x1, x20 
+1afbf08: mov      x2, xzr 
+1afbf0c: ldr      x0, [x8] [SimpleLoader] load failed ({0})-({1})
+1afbf10: bl       #0x11ada90 public static void Error(object message, object[] argv) { }
+1afbf14: ldr      x0, [x19, #0x38] 
+1afbf18: cbz      x0, #0x1afc00c 
+1afbf1c: mov      x1, xzr 
+1afbf20: bl       #0x1afb888 public virtual void Invoke(object obj) { }
+1afbf24: b        #0x1afc00c 
+1afbf28: mov      w8, #2 
+1afbf2c: str      xzr, [x19, #0x18] 

@@ -1,0 +1,257 @@
+
+private bool ProcessBuffer(int bytes) { }
+158a10c: stp      x28, x27, [sp, #-0x60]! 
+158a110: stp      x26, x25, [sp, #0x10] 
+158a114: stp      x24, x23, [sp, #0x20] 
+158a118: stp      x22, x21, [sp, #0x30] 
+158a11c: stp      x20, x19, [sp, #0x40] 
+158a120: stp      x29, x30, [sp, #0x50] 
+158a124: add      x29, sp, #0x50 
+158a128: sub      sp, sp, #0x10 
+158a12c: adrp     x21, #0x2e82000 
+158a130: ldrb     w8, [x21, #0xd0c] 
+158a134: mov      w20, w1 
+158a138: mov      x19, x0 
+158a13c: tbnz     w8, #0, #0x158a158 
+158a140: adrp     x8, #0x2cfa000 
+158a144: ldr      x8, [x8, #0xa60] 
+158a148: ldr      w0, [x8] 
+158a14c: bl       #0xd328f8 
+158a150: mov      w8, #1 
+158a154: strb     w8, [x21, #0xd0c] 
+158a158: sub      x24, sp, #0x10 
+158a15c: sturb    wzr, [x29, #-0x54] 
+158a160: mov      sp, x24 
+158a164: mov      x23, x19 
+158a168: ldr      x0, [x23, #0x98]! 
+158a16c: cbz      x0, #0x158a198 
+158a170: mov      w1, #1 
+158a174: bl       #0x1584f20 public BinaryWriter BeginWriting(bool append = False) { }
+158a178: cbz      x0, #0x158a4b0 
+158a17c: ldr      x8, [x0] 
+158a180: ldr      x1, [x19, #0x90] 
+158a184: mov      w2, wzr 
+158a188: mov      w3, w20 
+158a18c: ldp      x9, x4, [x8, #0x1e0] 
+158a190: blr      x9 
+158a194: b        #0x158a1ec 
+158a198: adrp     x8, #0x2ce0000 
+158a19c: ldr      x8, [x8, #0x398] 
+158a1a0: ldr      x0, [x8] 
+158a1a4: ldrb     w8, [x0, #0x12f] 
+158a1a8: tbz      w8, #1, #0x158a1b8 
+158a1ac: ldr      w8, [x0, #0xe0] 
+158a1b0: cbnz     w8, #0x158a1b8 
+158a1b4: bl       #0xd329a4 
+158a1b8: bl       #0x15842a8 public static SNBuffer Create() { }
+158a1bc: str      x0, [x23] 
+158a1c0: cbz      x0, #0x158a4b0 
+158a1c4: mov      w1, wzr 
+158a1c8: bl       #0x1584f20 public BinaryWriter BeginWriting(bool append = False) { }
+158a1cc: cbz      x0, #0x158a4b0 
+158a1d0: ldr      x8, [x0] 
+158a1d4: ldr      x1, [x19, #0x90] 
+158a1d8: mov      w2, wzr 
+158a1dc: mov      w3, w20 
+158a1e0: ldp      x9, x4, [x8, #0x1e0] 
+158a1e4: blr      x9 
+158a1e8: str      xzr, [x19, #0xa0] 
+158a1ec: ldr      x0, [x23] 
+158a1f0: cbz      x0, #0x158a4b0 
+158a1f4: bl       #0x15840e0 public int get_size() { }
+158a1f8: ldr      w1, [x19, #0xa4] 
+158a1fc: sub      w26, w0, w1 
+158a200: cmp      w26, #2 
+158a204: b.lt     #0x158a48c 
+158a208: ldr      w27, [x19, #0xa0] 
+158a20c: mov      w25, #-1 
+158a210: mov      w28, #0x19d 
+158a214: cbnz     w27, #0x158a2d0 
+158a218: ldr      x0, [x23] 
+158a21c: cbz      x0, #0x158a4b0 
+158a220: bl       #0x1585594 public int PeekPacketSize(int offset) { }
+158a224: str      w0, [x19, #0xa0] 
+158a228: adrp     x8, #0x2cfc000 
+158a22c: ldr      x8, [x8, #0x678] 
+158a230: mov      w20, w0 
+158a234: mov      w1, #1 
+158a238: ldr      x0, [x8] 
+158a23c: bl       #0xd32908 
+158a240: adrp     x9, #0x2cb4000 
+158a244: ldr      w8, [x19, #0xa0] 
+158a248: ldr      x9, [x9, #0x150] 
+158a24c: mov      x21, x0 
+158a250: sub      x1, x29, #0x58 
+158a254: stur     w8, [x29, #-0x58] 
+158a258: ldr      x0, [x9] 
+158a25c: bl       #0xd329b4 
+158a260: cbz      x21, #0x158a4b0 
+158a264: mov      x22, x0 
+158a268: cbz      x0, #0x158a280 
+158a26c: ldr      x8, [x21] 
+158a270: mov      x0, x22 
+158a274: ldr      x1, [x8, #0x40] 
+158a278: bl       #0xd329b0 
+158a27c: cbz      x0, #0x158a4cc 
+158a280: ldr      w8, [x21, #0x18] 
+158a284: cbz      w8, #0x158a4c0 
+158a288: str      x22, [x21, #0x20] 
+158a28c: adrp     x8, #0x2cc1000 
+158a290: ldr      x8, [x8, #0x4f0] 
+158a294: ldr      x0, [x8] 
+158a298: ldrb     w8, [x0, #0x12f] 
+158a29c: tbz      w8, #1, #0x158a2ac 
+158a2a0: ldr      w8, [x0, #0xe0] 
+158a2a4: cbnz     w8, #0x158a2ac 
+158a2a8: bl       #0xd329a4 
+158a2ac: adrp     x8, #0x2cd5000 
+158a2b0: ldr      x8, [x8, #0x168] 
+158a2b4: cmp      w20, #0x10, lsl #12 
+158a2b8: cset     w0, lo 
+158a2bc: mov      x2, x21 
+158a2c0: ldr      x1, [x8] 
+158a2c4: mov      x3, xzr 
+158a2c8: bl       #0x11da8c0 public static void Assert(bool comparison, object message, object[] argv) { }
+158a2cc: ldr      w27, [x19, #0xa0] 
+158a2d0: sub      w26, w26, #2 
+158a2d4: cmp      w26, w27 
+158a2d8: b.eq     #0x158a418 
+158a2dc: b.le     #0x158a48c 
+158a2e0: adrp     x8, #0x2ce0000 
+158a2e4: ldr      x8, [x8, #0x398] 
+158a2e8: ldr      x0, [x8] 
+158a2ec: ldrb     w8, [x0, #0x12f] 
+158a2f0: tbz      w8, #1, #0x158a300 
+158a2f4: ldr      w8, [x0, #0xe0] 
+158a2f8: cbnz     w8, #0x158a300 
+158a2fc: bl       #0xd329a4 
+158a300: bl       #0x15842a8 public static SNBuffer Create() { }
+158a304: cbz      x0, #0x158a4b0 
+158a308: mov      w1, wzr 
+158a30c: mov      x22, x0 
+158a310: bl       #0x1584f20 public BinaryWriter BeginWriting(bool append = False) { }
+158a314: ldr      x8, [x23] 
+158a318: cbz      x8, #0x158a4b0 
+158a31c: mov      x21, x0 
+158a320: mov      x0, x8 
+158a324: bl       #0x15841f4 public byte[] get_buffer() { }
+158a328: cbz      x21, #0x158a4b0 
+158a32c: ldr      x8, [x21] 
+158a330: ldr      w2, [x19, #0xa4] 
+158a334: add      w20, w27, #2 
+158a338: mov      x1, x0 
+158a33c: ldp      x9, x4, [x8, #0x1e0] 
+158a340: mov      x0, x21 
+158a344: mov      w3, w20 
+158a348: blr      x9 
+158a34c: mov      w1, #2 
+158a350: mov      x0, x22 
+158a354: bl       #0x15851fc public BinaryReader BeginReading(int startOffset) { }
+158a358: ldr      x21, [x19, #0x78] 
+158a35c: sturb    wzr, [x29, #-0x54] 
+158a360: sub      x1, x29, #0x54 
+158a364: mov      x0, x21 
+158a368: mov      x2, xzr 
+158a36c: bl       #0x154e44c public static void Enter(object obj, ref bool lockTaken) { }
+158a370: ldr      x0, [x19, #0x78] 
+158a374: cbz      x0, #0x158a3f4 
+158a378: adrp     x8, #0x2c91000 
+158a37c: ldr      x8, [x8, #0x978] 
+158a380: ldr      x2, [x8] 
+158a384: mov      x1, x22 
+158a388: bl       #0x1d58b88 |-Queue<Cat>.Enqueue
+158a38c: add      w25, w25, #1 
+158a390: mov      x22, xzr 
+158a394: str      w28, [x24, w25, sxtw #2] 
+158a398: ldurb    w8, [x29, #-0x54] 
+158a39c: cbz      w8, #0x158a3ac 
+158a3a0: mov      x0, x21 
+158a3a4: mov      x1, xzr 
+158a3a8: bl       #0x154e46c public static void Exit(object obj) { }
+158a3ac: cbnz     x22, #0x158a4b4 
+158a3b0: cmn      w25, #1 
+158a3b4: b.eq     #0x158a3d4 
+158a3b8: ldr      w8, [x24, w25, sxtw #2] 
+158a3bc: cmp      w8, #0x19d 
+158a3c0: cset     w8, eq 
+158a3c4: cmp      w25, #0 
+158a3c8: cset     w9, ge 
+158a3cc: and      w8, w9, w8 
+158a3d0: sub      w25, w25, w8 
+158a3d4: ldp      w8, w9, [x19, #0xa0] 
+158a3d8: mov      w27, wzr 
+158a3dc: sub      w26, w26, w8 
+158a3e0: add      w1, w9, w20 
+158a3e4: cmp      w26, #1 
+158a3e8: stp      wzr, w1, [x19, #0xa0] 
+158a3ec: b.gt     #0x158a214 
+158a3f0: b        #0x158a48c 
+158a3f4: bl       #0xd329c8 
+158a3f8: b        #0x158a4c0 
+158a3fc: b        #0x158a400 
+158a400: cmp      w1, #1 
+158a404: b.ne     #0x158a504 
+158a408: bl       #0x9d6bc0 
+158a40c: ldr      x22, [x0] 
+158a410: bl       #0x9d6090 
+158a414: b        #0x158a398 
+158a418: ldr      x0, [x23] 
+158a41c: cbz      x0, #0x158a4b0 
+158a420: ldr      w8, [x19, #0xa4] 
+158a424: add      w1, w8, #2 
+158a428: bl       #0x15851fc public BinaryReader BeginReading(int startOffset) { }
+158a42c: ldr      x20, [x19, #0x78] 
+158a430: sturb    wzr, [x29, #-0x54] 
+158a434: sub      x1, x29, #0x54 
+158a438: mov      x0, x20 
+158a43c: mov      x2, xzr 
+158a440: bl       #0x154e44c public static void Enter(object obj, ref bool lockTaken) { }
+158a444: ldr      x0, [x19, #0x78] 
+158a448: cbz      x0, #0x158a4d8 
+158a44c: adrp     x8, #0x2c91000 
+158a450: ldr      x1, [x23] 
+158a454: ldr      x8, [x8, #0x978] 
+158a458: ldr      x2, [x8] 
+158a45c: bl       #0x1d58b88 |-Queue<Cat>.Enqueue
+158a460: add      w8, w25, #1 
+158a464: mov      w9, #0x115 
+158a468: mov      x19, xzr 
+158a46c: str      w9, [x24, w8, sxtw #2] 
+158a470: ldurb    w8, [x29, #-0x54] 
+158a474: cbz      w8, #0x158a484 
+158a478: mov      x0, x20 
+158a47c: mov      x1, xzr 
+158a480: bl       #0x154e46c public static void Exit(object obj) { }
+158a484: cbnz     x19, #0x158a4dc 
+158a488: stp      xzr, xzr, [x23] 
+158a48c: mov      w0, #1 
+158a490: sub      sp, x29, #0x50 
+158a494: ldp      x29, x30, [sp, #0x50] 
+158a498: ldp      x20, x19, [sp, #0x40] 
+158a49c: ldp      x22, x21, [sp, #0x30] 
+158a4a0: ldp      x24, x23, [sp, #0x20] 
+158a4a4: ldp      x26, x25, [sp, #0x10] 
+158a4a8: ldp      x28, x27, [sp], #0x60 
+158a4ac: ret       
+158a4b0: bl       #0xd329c8 
+158a4b4: mov      x0, x22 
+158a4b8: mov      x1, xzr 
+158a4bc: bl       #0xd32994 
+158a4c0: bl       #0xd329f4 
+158a4c4: mov      x1, xzr 
+158a4c8: bl       #0xd32994 
+158a4cc: bl       #0xd329e8 
+158a4d0: mov      x1, xzr 
+158a4d4: bl       #0xd32994 
+158a4d8: bl       #0xd329c8 
+158a4dc: mov      x0, x19 
+158a4e0: mov      x1, xzr 
+158a4e4: bl       #0xd32994 
+158a4e8: b        #0x158a4ec 
+158a4ec: cmp      w1, #1 
+158a4f0: b.ne     #0x158a504 
+158a4f4: bl       #0x9d6bc0 
+158a4f8: ldr      x19, [x0] 
+158a4fc: bl       #0x9d6090 
+158a500: b        #0x158a470 
+158a504: bl       #0x9d5f30 

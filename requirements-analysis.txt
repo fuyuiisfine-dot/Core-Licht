@@ -1,0 +1,5 @@
+capstone==5.0.9
+pyelftools==0.33
+UnityPy==1.25.4
+lupa==2.8
+fmod-toolkit==0.1.3

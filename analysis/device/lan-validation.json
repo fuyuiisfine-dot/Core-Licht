@@ -1,0 +1,13 @@
+{
+  "lan_login_verified": true,
+  "server_ip": "192.168.0.124",
+  "phone_ip": "192.168.0.210",
+  "game_port": 19090,
+  "http_port": 18080,
+  "adb_reverse_removed": true,
+  "phone_home_verified": "phone-lan-next.png",
+  "python_tests": 43,
+  "local_windows_client_verified": true,
+  "firewall_changes": false,
+  "exe_sha256": "129151628ac949f6b0949410980d795620529afd634d9a400a5f694db8fcb2e5"
+}

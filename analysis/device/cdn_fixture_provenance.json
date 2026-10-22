@@ -1,0 +1,74 @@
+[
+  {
+    "resource": "zero.jar",
+    "bytes": 30884,
+    "md5": "e58523ba8f8964a57f696b6df293f738",
+    "revision": "237783"
+  },
+  {
+    "resource": "Zero/Driver/UDriverLoadView.ab",
+    "bytes": 2346,
+    "md5": "a7a2ac6513b4606345fbbe817fff3741",
+    "revision": "178201"
+  },
+  {
+    "resource": "ZeroThemePark/tw/Zero/Driver/UDriverConfirmView.ab",
+    "bytes": 5619,
+    "md5": "f2aa455063ff976a3982e6dde9b23e91",
+    "revision": "178201"
+  },
+  {
+    "resource": "Zero/Driver/GameStartData.ab",
+    "bytes": 3776,
+    "md5": "734f6770cb69e5c4992baa920ea2d03c",
+    "revision": "213575"
+  },
+  {
+    "resource": "ZeroThemePark/tw_mmo/Zero/Driver/LoadingBG.ab",
+    "bytes": 543844,
+    "md5": "b2907092214730d77a466d4706eb3a45",
+    "revision": "176399"
+  },
+  {
+    "resource": "ZeroThemePark/tw/Zero/Driver/INContent.ab",
+    "bytes": 1551,
+    "md5": "047dcac38d66bd9f0f649f868aa99778",
+    "revision": "202759"
+  },
+  {
+    "resource": "ZeroThemePark/tw/Zero/Font/UFont.ab",
+    "bytes": 3528315,
+    "md5": "a0d99a734b92e941dba469f9d367fdc1",
+    "revision": "178201"
+  },
+  {
+    "resource": "ZeroThemePark/tw/Zero/UI/Module/FirstLoad/UFirstLoadView.ab",
+    "bytes": 336811,
+    "md5": "c46a28a67d2edb76015c687305e29b3d",
+    "revision": "208626"
+  },
+  {
+    "resource": "ZeroThemePark/tw/Zero/UI/Module/FirstLoad/UFirstConfirmView.ab",
+    "bytes": 5638,
+    "md5": "d51cf1d93daadf3607aa3272c37ef11c",
+    "revision": "178201"
+  },
+  {
+    "resource": "ZeroThemePark/tw_mmo/abVarList.ab",
+    "bytes": 41022,
+    "md5": "01fa036c9ea19e4dac89b9046b7d0ad7",
+    "revision": "237255"
+  },
+  {
+    "resource": "ZeroThemePark/tw_mmo/abDepList.ab",
+    "bytes": 84040,
+    "md5": "f618be773b84bd04b0632cd217d0f4cc",
+    "revision": "237255"
+  },
+  {
+    "resource": "ZeroThemePark/tw_mmo/GameVersion.ab",
+    "bytes": 261369,
+    "md5": "22609473101a8b653398a692b13a77e1",
+    "revision": "237884"
+  }
+]

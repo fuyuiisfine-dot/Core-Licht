@@ -1,0 +1,774 @@
+
+private bool MoveNext() { }
+1afb01c: sub      sp, sp, #0x50 
+1afb020: str      x23, [sp, #0x10] 
+1afb024: stp      x22, x21, [sp, #0x20] 
+1afb028: stp      x20, x19, [sp, #0x30] 
+1afb02c: stp      x29, x30, [sp, #0x40] 
+1afb030: add      x29, sp, #0x40 
+1afb034: adrp     x20, #0x2e88000 
+1afb038: ldrb     w8, [x20, #0x99f] 
+1afb03c: mov      x19, x0 
+1afb040: tbnz     w8, #0, #0x1afb05c 
+1afb044: adrp     x8, #0x2c75000 
+1afb048: ldr      x8, [x8, #0x2c0] 
+1afb04c: ldr      w0, [x8] 
+1afb050: bl       #0xd328f8 
+1afb054: mov      w8, #1 
+1afb058: strb     w8, [x20, #0x99f] 
+1afb05c: ldr      w8, [x19, #0x10] 
+1afb060: cmp      w8, #4 
+1afb064: b.hi     #0x1afb240 
+1afb068: adrp     x9, #0x230f000 
+1afb06c: add      x9, x9, #0xde4 
+1afb070: ldrsw    x8, [x9, x8, lsl #2] 
+1afb074: add      x8, x8, x9 
+1afb078: br       x8 
+1afb07c: mov      w8, #-1 
+1afb080: str      xzr, [x19, #0x40] 
+1afb084: str      w8, [x19, #0x10] 
+1afb088: adrp     x8, #0x2cbf000 
+1afb08c: ldr      x8, [x8, #0x5b8] Onecore.Plugins.Utils.PathUtils_TypeInfo
+1afb090: ldrb     w9, [x19, #0x20] 
+1afb094: ldr      x20, [x19, #0x28] 
+1afb098: ldr      x0, [x8] Onecore.Plugins.Utils.PathUtils_TypeInfo
+1afb09c: ldrh     w8, [x0, #0x12e] 
+1afb0a0: cbz      w9, #0x1afb358 
+1afb0a4: tbz      w8, #9, #0x1afb0b4 
+1afb0a8: ldr      w8, [x0, #0xe0] 
+1afb0ac: cbnz     w8, #0x1afb0b4 
+1afb0b0: bl       #0xd329a4 
+1afb0b4: mov      x0, x20 
+1afb0b8: bl       #0x1af69a0 public static string GetAutoResRealFilePath(string filePath) { }
+1afb0bc: b        #0x1afb370 
+1afb0c0: mov      w20, wzr 
+1afb0c4: mov      w8, #-1 
+1afb0c8: b        #0x1afb338 
+1afb0cc: mov      x21, x19 
+1afb0d0: ldr      x0, [x21, #0x48]! 
+1afb0d4: mov      w8, #-1 
+1afb0d8: ldur     x20, [x21, #-0x18] 
+1afb0dc: stur     w8, [x21, #-0x38] 
+1afb0e0: cbz      x0, #0x1afb390 
+1afb0e4: mov      x1, xzr 
+1afb0e8: bl       #0x1a62850 public float get_progress() { }
+1afb0ec: cbz      x20, #0x1afb3a8 
+1afb0f0: mov      x0, x20 
+1afb0f4: bl       #0x1afb628 public virtual void Invoke(float progress) { }
+1afb0f8: ldr      x0, [x21] 
+1afb0fc: cbz      x0, #0x1afb5d8 
+1afb100: mov      x1, xzr 
+1afb104: bl       #0x1a62810 public bool get_isDone() { }
+1afb108: tbnz     w0, #0, #0x1afb144 
+1afb10c: mov      w8, #2 
+1afb110: str      xzr, [x19, #0x18] 
+1afb114: b        #0x1afb234 
+1afb118: ldr      x0, [x19, #0x58] 
+1afb11c: mov      w8, #-1 
+1afb120: str      w8, [x19, #0x10] 
+1afb124: cbz      x0, #0x1afb5d8 
+1afb128: mov      x1, xzr 
+1afb12c: bl       #0x20eb1d4 public Object get_asset() { }
+1afb130: mov      x1, x0 
+1afb134: str      xzr, [x19, #0x58] 
+1afb138: b        #0x1afb2b8 
+1afb13c: mov      w8, #-1 
+1afb140: str      w8, [x19, #0x10] 
+1afb144: adrp     x22, #0x2cfc000 
+1afb148: ldr      x22, [x22, #0x678] object[]_TypeInfo
+1afb14c: mov      w1, #1 
+1afb150: ldr      x0, [x22] object[]_TypeInfo
+1afb154: bl       #0xd32908 
+1afb158: cbz      x0, #0x1afb5d8 
+1afb15c: ldr      x21, [x19, #0x40] 
+1afb160: mov      x20, x0 
+1afb164: cbz      x21, #0x1afb17c 
+1afb168: ldr      x8, [x20] 
+1afb16c: mov      x0, x21 
+1afb170: ldr      x1, [x8, #0x40] 
+1afb174: bl       #0xd329b0 
+1afb178: cbz      x0, #0x1afb5e8 
+1afb17c: ldr      w8, [x20, #0x18] 
+1afb180: cbz      w8, #0x1afb5dc 
+1afb184: str      x21, [x20, #0x20] 
+1afb188: adrp     x23, #0x2cdb000 
+1afb18c: ldr      x23, [x23, #0x8c8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+1afb190: ldr      x0, [x23] Onecore.Plugins.Base.BaseLogger_TypeInfo
+1afb194: ldrb     w8, [x0, #0x12f] 
+1afb198: tbz      w8, #1, #0x1afb1a8 
+1afb19c: ldr      w8, [x0, #0xe0] 
+1afb1a0: cbnz     w8, #0x1afb1a8 
+1afb1a4: bl       #0xd329a4 
+1afb1a8: adrp     x8, #0x2ca9000 
+1afb1ac: ldr      x8, [x8, #8] 
+1afb1b0: mov      x1, x20 
+1afb1b4: mov      x2, xzr 
+1afb1b8: ldr      x0, [x8] DG.Tweening.Plugins.FloatPlugin_TypeInfo
+1afb1bc: bl       #0x11af70c public static void Info(object message, object[] argv) { }
+1afb1c0: ldr      x0, [x19, #0x48] 
+1afb1c4: str      xzr, [x19, #0x50] 
+1afb1c8: cbz      x0, #0x1afb5d8 
+1afb1cc: mov      x1, xzr 
+1afb1d0: bl       #0x20eb18c public AssetBundle get_assetBundle() { }
+1afb1d4: str      x0, [x19, #0x50] 
+1afb1d8: adrp     x8, #0x2c79000 
+1afb1dc: ldr      x8, [x8, #0x6e0] UnityEngine.Object_TypeInfo
+1afb1e0: mov      x20, x0 
+1afb1e4: ldr      x0, [x8] UnityEngine.Object_TypeInfo
+1afb1e8: ldrb     w8, [x0, #0x12f] 
+1afb1ec: tbz      w8, #1, #0x1afb1fc 
+1afb1f0: ldr      w8, [x0, #0xe0] 
+1afb1f4: cbnz     w8, #0x1afb1fc 
+1afb1f8: bl       #0xd329a4 
+1afb1fc: mov      x0, xzr 
+1afb200: mov      x1, x20 
+1afb204: mov      x2, xzr 
+1afb208: bl       #0x1adad90 public static bool op_Inequality(Object x, Object y) { }
+1afb20c: tbz      w0, #0, #0x1afb248 
+1afb210: adrp     x8, #0x2c9e000 
+1afb214: ldr      x0, [x19, #0x50] 
+1afb218: ldr      x8, [x8, #0xb38] 
+1afb21c: mov      x2, xzr 
+1afb220: ldr      x1, [x8] 
+1afb224: bl       #0x1084ba8 public static AssetBundleRequest GetMainAssetAsync(AssetBundle ab, string mainAssetName = "") { }
+1afb228: str      x0, [x19, #0x58] 
+1afb22c: str      x0, [x19, #0x18] 
+1afb230: mov      w8, #3 
+1afb234: str      w8, [x19, #0x10] 
+1afb238: mov      w20, #1 
+1afb23c: b        #0x1afb33c 
+1afb240: mov      w20, wzr 
+1afb244: b        #0x1afb33c 
+1afb248: ldr      x0, [x22] object[]_TypeInfo
+1afb24c: mov      w1, #1 
+1afb250: bl       #0xd32908 
+1afb254: cbz      x0, #0x1afb5d8 
+1afb258: ldr      x21, [x19, #0x40] 
+1afb25c: mov      x20, x0 
+1afb260: cbz      x21, #0x1afb278 
+1afb264: ldr      x8, [x20] 
+1afb268: mov      x0, x21 
+1afb26c: ldr      x1, [x8, #0x40] 
+1afb270: bl       #0xd329b0 
+1afb274: cbz      x0, #0x1afb5e8 
+1afb278: ldr      w8, [x20, #0x18] 
+1afb27c: cbz      w8, #0x1afb5dc 
+1afb280: str      x21, [x20, #0x20] 
+1afb284: ldr      x0, [x23] Onecore.Plugins.Base.BaseLogger_TypeInfo
+1afb288: ldrb     w8, [x0, #0x12f] 
+1afb28c: tbz      w8, #1, #0x1afb29c 
+1afb290: ldr      w8, [x0, #0xe0] 
+1afb294: cbnz     w8, #0x1afb29c 
+1afb298: bl       #0xd329a4 
+1afb29c: adrp     x8, #0x2cbb000 
+1afb2a0: ldr      x8, [x8, #0x7b8] ab load not have ab({0})
+1afb2a4: mov      x1, x20 
+1afb2a8: mov      x2, xzr 
+1afb2ac: ldr      x0, [x8] ab load not have ab({0})
+1afb2b0: bl       #0x11ada90 public static void Error(object message, object[] argv) { }
+1afb2b4: mov      x1, xzr 
+1afb2b8: ldr      x0, [x19, #0x38] 
+1afb2bc: cbz      x0, #0x1afb2c4 
+1afb2c0: bl       #0x1afb888 public virtual void Invoke(object obj) { }
+1afb2c4: adrp     x8, #0x2c79000 
+1afb2c8: ldr      x8, [x8, #0x6e0] UnityEngine.Object_TypeInfo
+1afb2cc: ldr      x20, [x19, #0x50] 
+1afb2d0: ldr      x0, [x8] UnityEngine.Object_TypeInfo
+1afb2d4: ldrb     w8, [x0, #0x12f] 
+1afb2d8: tbz      w8, #1, #0x1afb2e8 
+1afb2dc: ldr      w8, [x0, #0xe0] 
+1afb2e0: cbnz     w8, #0x1afb2e8 
+1afb2e4: bl       #0xd329a4 
+1afb2e8: mov      x0, xzr 
+1afb2ec: mov      x1, x20 
+1afb2f0: mov      x2, xzr 
+1afb2f4: bl       #0x1adad90 public static bool op_Inequality(Object x, Object y) { }
+1afb2f8: tbz      w0, #0, #0x1afb310 
+1afb2fc: ldr      x0, [x19, #0x50] 
+1afb300: cbz      x0, #0x1afb5d8 
+1afb304: mov      w1, wzr 
+1afb308: mov      x2, xzr 
+1afb30c: bl       #0x20eb0bc public void Unload(bool unloadAllLoadedObjects) { }
+1afb310: str      xzr, [x19, #0x48] 
+1afb314: adrp     x8, #0x2ca2000 
+1afb318: ldr      x8, [x8, #0xaf8] bool_TypeInfo
+1afb31c: mov      w20, #1 
+1afb320: add      x1, sp, #0x1c 
+1afb324: strb     w20, [sp, #0x1c] 
+1afb328: ldr      x0, [x8] bool_TypeInfo
+1afb32c: bl       #0xd329b4 
+1afb330: str      x0, [x19, #0x18] 
+1afb334: mov      w8, #4 
+1afb338: str      w8, [x19, #0x10] 
+1afb33c: mov      w0, w20 
+1afb340: ldp      x29, x30, [sp, #0x40] 
+1afb344: ldp      x20, x19, [sp, #0x30] 
+1afb348: ldp      x22, x21, [sp, #0x20] 
+1afb34c: ldr      x23, [sp, #0x10] 
+1afb350: add      sp, sp, #0x50 
+1afb354: ret       
+1afb358: tbz      w8, #9, #0x1afb368 
+1afb35c: ldr      w8, [x0, #0xe0] 
+1afb360: cbnz     w8, #0x1afb368 
+1afb364: bl       #0xd329a4 
+1afb368: mov      x0, x20 
+1afb36c: bl       #0x1af68c8 public static string GetSAResRealFilePath(string filePath) { }
+1afb370: mov      x1, xzr 
+1afb374: str      x0, [x19, #0x40] 
+1afb378: bl       #0x20ea770 public static AssetBundleCreateRequest LoadFromFileAsync(string path) { }
+1afb37c: ldr      x20, [x19, #0x30] 
+1afb380: str      x0, [x19, #0x48] 
+1afb384: cbz      x20, #0x1afb398 
+1afb388: add      x21, x19, #0x48 
+1afb38c: cbnz     x0, #0x1afb0e4 
+1afb390: str      x21, [sp, #8] 
+1afb394: bl       #0xd329c8 
+1afb398: mov      w20, #1 
+1afb39c: str      x0, [x19, #0x18] 
+1afb3a0: str      w20, [x19, #0x10] 
+1afb3a4: b        #0x1afb33c 
+1afb3a8: bl       #0xd329c8 
+1afb3ac: b        #0x1afb4dc 
+1afb3b0: cmp      w1, #1 
+1afb3b4: mov      x20, x0 
+1afb3b8: b.ne     #0x1afb61c 
+1afb3bc: mov      x0, x20 
+1afb3c0: bl       #0x9d6bc0 
+1afb3c4: adrp     x8, #0x2cc8000 
+1afb3c8: ldr      x21, [x0] 
+1afb3cc: ldr      x8, [x8, #0xab8] System.Exception_TypeInfo
+1afb3d0: mov      x20, x0 
+1afb3d4: ldr      x1, [x21] 
+1afb3d8: ldr      x0, [x8] System.Exception_TypeInfo
+1afb3dc: bl       #0xd32b7c 
+1afb3e0: tbz      w0, #0, #0x1afb4a8 
+1afb3e4: bl       #0x9d6090 
+1afb3e8: adrp     x8, #0x2cfc000 
+1afb3ec: ldr      x8, [x8, #0x678] object[]_TypeInfo
+1afb3f0: mov      w1, #2 
+1afb3f4: ldr      x0, [x8] object[]_TypeInfo
+1afb3f8: bl       #0xd32908 
+1afb3fc: cbz      x0, #0x1afb5d8 
+1afb400: ldr      x22, [x19, #0x40] 
+1afb404: mov      x20, x0 
+1afb408: cbz      x22, #0x1afb420 
+1afb40c: ldr      x8, [x20] 
+1afb410: mov      x0, x22 
+1afb414: ldr      x1, [x8, #0x40] 
+1afb418: bl       #0xd329b0 
+1afb41c: cbz      x0, #0x1afb5e8 
+1afb420: ldr      w8, [x20, #0x18] 
+1afb424: cbz      w8, #0x1afb5dc 
+1afb428: str      x22, [x20, #0x20] 
+1afb42c: cbz      x21, #0x1afb5d8 
+1afb430: ldr      x8, [x21] 
+1afb434: mov      x0, x21 
+1afb438: ldp      x9, x1, [x8, #0x180] 
+1afb43c: blr      x9 
+1afb440: mov      x21, x0 
+1afb444: cbz      x0, #0x1afb45c 
+1afb448: ldr      x8, [x20] 
+1afb44c: mov      x0, x21 
+1afb450: ldr      x1, [x8, #0x40] 
+1afb454: bl       #0xd329b0 
+1afb458: cbz      x0, #0x1afb5e8 
+1afb45c: ldr      w8, [x20, #0x18] 
+1afb460: cmp      w8, #1 
+1afb464: b.ls     #0x1afb5dc 
+1afb468: str      x21, [x20, #0x28] 
+1afb46c: adrp     x8, #0x2cdb000 
+1afb470: ldr      x8, [x8, #0x8c8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+1afb474: ldr      x0, [x8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+1afb478: ldrb     w8, [x0, #0x12f] 
+1afb47c: tbz      w8, #1, #0x1afb48c 
+1afb480: ldr      w8, [x0, #0xe0] 
+1afb484: cbnz     w8, #0x1afb48c 
+1afb488: bl       #0xd329a4 
+1afb48c: adrp     x8, #0x2c7d000 
+1afb490: ldr      x8, [x8, #0xe00] SimpleLoader onLoadFinished call error ({0})({1})
+1afb494: mov      x1, x20 
+1afb498: mov      x2, xzr 
+1afb49c: ldr      x0, [x8] SimpleLoader onLoadFinished call error ({0})({1})
+1afb4a0: bl       #0x11ada90 public static void Error(object message, object[] argv) { }
+1afb4a4: b        #0x1afb2c4 
+1afb4a8: mov      w0, #8 
+1afb4ac: bl       #0x9d57e0 
+1afb4b0: ldr      x8, [x20] 
+1afb4b4: str      x8, [x0] 
+1afb4b8: adrp     x1, #0x2c33000 
+1afb4bc: add      x1, x1, #0x78 
+1afb4c0: mov      x2, xzr 
+1afb4c4: bl       #0x9d6940 
+1afb4c8: b        #0x1afb614 
+1afb4cc: mov      x20, x0 
+1afb4d0: bl       #0x9d6090 
+1afb4d4: b        #0x1afb61c 
+1afb4d8: str      x21, [sp, #8] 
+1afb4dc: mov      x20, x0 
+1afb4e0: cmp      w1, #1 
+1afb4e4: b.ne     #0x1afb61c 
+1afb4e8: mov      x0, x20 
+1afb4ec: bl       #0x9d6bc0 
+1afb4f0: adrp     x8, #0x2cc8000 
+1afb4f4: ldr      x21, [x0] 
+1afb4f8: ldr      x8, [x8, #0xab8] System.Exception_TypeInfo
+1afb4fc: mov      x20, x0 
+1afb500: ldr      x1, [x21] 
+1afb504: ldr      x0, [x8] System.Exception_TypeInfo
+1afb508: bl       #0xd32b7c 
+1afb50c: tbz      w0, #0, #0x1afb5f4 
+1afb510: bl       #0x9d6090 
+1afb514: adrp     x8, #0x2cfc000 
+1afb518: ldr      x8, [x8, #0x678] object[]_TypeInfo
+1afb51c: mov      w1, #2 
+1afb520: ldr      x0, [x8] object[]_TypeInfo
+1afb524: bl       #0xd32908 
+1afb528: cbz      x0, #0x1afb5d8 
+1afb52c: ldr      x22, [x19, #0x40] 
+1afb530: mov      x20, x0 
+1afb534: cbz      x22, #0x1afb54c 
+1afb538: ldr      x8, [x20] 
+1afb53c: mov      x0, x22 
+1afb540: ldr      x1, [x8, #0x40] 
+1afb544: bl       #0xd329b0 
+1afb548: cbz      x0, #0x1afb5e8 
+1afb54c: ldr      w8, [x20, #0x18] 
+1afb550: cbz      w8, #0x1afb5dc 
+1afb554: str      x22, [x20, #0x20] 
+1afb558: cbz      x21, #0x1afb5d8 
+1afb55c: ldr      x8, [x21] 
+1afb560: mov      x0, x21 
+1afb564: ldp      x9, x1, [x8, #0x180] 
+1afb568: blr      x9 
+1afb56c: mov      x21, x0 
+1afb570: cbz      x0, #0x1afb588 
+1afb574: ldr      x8, [x20] 
+1afb578: mov      x0, x21 
+1afb57c: ldr      x1, [x8, #0x40] 
+1afb580: bl       #0xd329b0 
+1afb584: cbz      x0, #0x1afb5e8 
+1afb588: ldr      w8, [x20, #0x18] 
+1afb58c: cmp      w8, #1 
+1afb590: b.ls     #0x1afb5dc 
+1afb594: str      x21, [x20, #0x28] 
+1afb598: adrp     x8, #0x2cdb000 
+1afb59c: ldr      x8, [x8, #0x8c8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+1afb5a0: ldr      x0, [x8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+1afb5a4: ldrb     w8, [x0, #0x12f] 
+1afb5a8: tbz      w8, #1, #0x1afb5b8 
+1afb5ac: ldr      w8, [x0, #0xe0] 
+1afb5b0: cbnz     w8, #0x1afb5b8 
+1afb5b4: bl       #0xd329a4 
+1afb5b8: adrp     x8, #0x2cba000 
+1afb5bc: ldr      x8, [x8, #0x38] SimpleLoader onProgress call error ({0})({1})
+1afb5c0: mov      x1, x20 
+1afb5c4: mov      x2, xzr 
+1afb5c8: ldr      x0, [x8] SimpleLoader onProgress call error ({0})({1})
+1afb5cc: bl       #0x11ada90 public static void Error(object message, object[] argv) { }
+1afb5d0: ldr      x21, [sp, #8] 
+1afb5d4: b        #0x1afb0f8 
+1afb5d8: bl       #0xd329c8 
+1afb5dc: bl       #0xd329f4 
+1afb5e0: mov      x1, xzr 
+1afb5e4: bl       #0xd32994 
+1afb5e8: bl       #0xd329e8 
+1afb5ec: mov      x1, xzr 
+1afb5f0: bl       #0xd32994 
+1afb5f4: mov      w0, #8 
+1afb5f8: bl       #0x9d57e0 
+1afb5fc: ldr      x8, [x20] 
+1afb600: str      x8, [x0] 
+1afb604: adrp     x1, #0x2c33000 
+1afb608: add      x1, x1, #0x78 
+1afb60c: mov      x2, xzr 
+1afb610: bl       #0x9d6940 
+1afb614: mov      x20, x0 
+1afb618: bl       #0x9d6090 
+1afb61c: mov      x0, x20 
+1afb620: bl       #0x9d5f30 
+1afb624: bl       #0xbec7ac 
+
+public virtual void Invoke(float progress) { }
+1afb628: sub      sp, sp, #0x70 
+1afb62c: str      d8, [sp, #0x10] 
+1afb630: stp      x26, x25, [sp, #0x20] 
+1afb634: stp      x24, x23, [sp, #0x30] 
+1afb638: stp      x22, x21, [sp, #0x40] 
+1afb63c: stp      x20, x19, [sp, #0x50] 
+1afb640: stp      x29, x30, [sp, #0x60] 
+1afb644: add      x29, sp, #0x60 
+1afb648: str      x0, [sp, #0x18] 
+1afb64c: str      s0, [sp, #0xc] 
+1afb650: ldr      x8, [x0, #0x68] 
+1afb654: mov      x19, x0 
+1afb658: cbz      x8, #0x1afb66c 
+1afb65c: ldr      x24, [x8, #0x18] 
+1afb660: cbz      x24, #0x1afb868 
+1afb664: add      x25, x8, #0x20 
+1afb668: b        #0x1afb674 
+1afb66c: add      x25, sp, #0x18 
+1afb670: mov      w24, #1 
+1afb674: add      x8, sp, #0xc 
+1afb678: mov      x26, xzr 
+1afb67c: sub      x20, x8, #0x10 
+1afb680: b        #0x1afb75c 
+1afb684: ldrh     w23, [x22, #0x48] 
+1afb688: tbz      w0, #0, #0x1afb6f4 
+1afb68c: mov      x0, x22 
+1afb690: bl       #0xd3291c 
+1afb694: ldr      x8, [x21] 
+1afb698: ldr      s8, [sp, #0xc] 
+1afb69c: mov      x1, x0 
+1afb6a0: ldrh     w9, [x8, #0x126] 
+1afb6a4: cbz      x9, #0x1afb6d0 
+1afb6a8: ldr      x11, [x8, #0xb0] 
+1afb6ac: mov      x10, xzr 
+1afb6b0: add      x11, x11, #8 
+1afb6b4: ldur     x12, [x11, #-8] 
+1afb6b8: cmp      x12, x1 
+1afb6bc: b.eq     #0x1afb738 
+1afb6c0: add      x10, x10, #1 
+1afb6c4: cmp      x10, x9 
+1afb6c8: add      x11, x11, #0x10 
+1afb6cc: b.lo     #0x1afb6b4 
+1afb6d0: mov      x0, x21 
+1afb6d4: mov      w2, w23 
+1afb6d8: bl       #0xcd0940 
+1afb6dc: b        #0x1afb748 
+1afb6e0: ldrh     w8, [x22, #0x48] 
+1afb6e4: ldr      x9, [x21] 
+1afb6e8: add      x8, x9, x8, lsl #4 
+1afb6ec: ldr      x0, [x8, #0x138] 
+1afb6f0: b        #0x1afb724 
+1afb6f4: ldr      x8, [x21] 
+1afb6f8: ldr      s0, [sp, #0xc] 
+1afb6fc: mov      x0, x21 
+1afb700: add      x8, x8, w23, uxtw #4 
+1afb704: ldp      x9, x1, [x8, #0x130] 
+1afb708: blr      x9 
+1afb70c: b        #0x1afb85c 
+1afb710: ldr      w9, [x11] 
+1afb714: add      w9, w9, w2 
+1afb718: add      x8, x8, w9, uxtw #4 
+1afb71c: add      x0, x8, #0x130 
+1afb720: ldr      x0, [x0, #8] 
+1afb724: mov      x1, x22 
+1afb728: bl       #0xd329a0 
+1afb72c: ldr      x8, [x0] 
+1afb730: mov      x1, x0 
+1afb734: b        #0x1afb74c 
+1afb738: ldr      w9, [x11] 
+1afb73c: add      w9, w9, w23 
+1afb740: add      x8, x8, w9, uxtw #4 
+1afb744: add      x0, x8, #0x130 
+1afb748: ldp      x8, x1, [x0] 
+1afb74c: mov      x0, x21 
+1afb750: mov      v0.16b, v8.16b 
+1afb754: blr      x8 
+1afb758: b        #0x1afb85c 
+1afb75c: ldr      x8, [x25, x26, lsl #3] 
+1afb760: ldp      x21, x22, [x8, #0x20] 
+1afb764: ldr      x23, [x8, #0x10] 
+1afb768: ldrsh    w9, [x22, #0x48] 
+1afb76c: cmn      w9, #1 
+1afb770: b.ne     #0x1afb77c 
+1afb774: mov      x0, x22 
+1afb778: bl       #0xd329ac 
+1afb77c: mov      x0, x22 
+1afb780: bl       #0xd32920 
+1afb784: tbz      w0, #0, #0x1afb7a4 
+1afb788: ldrb     w8, [x22, #0x4a] 
+1afb78c: cmp      w8, #1 
+1afb790: b.ne     #0x1afb84c 
+1afb794: ldr      s0, [sp, #0xc] 
+1afb798: mov      x0, x22 
+1afb79c: blr      x23 
+1afb7a0: b        #0x1afb85c 
+1afb7a4: cbz      x21, #0x1afb830 
+1afb7a8: ldrsh    w8, [x22, #0x48] 
+1afb7ac: cmn      w8, #1 
+1afb7b0: b.eq     #0x1afb84c 
+1afb7b4: ldr      x8, [x21] 
+1afb7b8: ldrb     w8, [x8, #0x111] 
+1afb7bc: tbnz     w8, #0, #0x1afb84c 
+1afb7c0: ldr      x8, [x19, #0x18] 
+1afb7c4: cbz      x8, #0x1afb84c 
+1afb7c8: mov      x0, x22 
+1afb7cc: bl       #0xd32918 
+1afb7d0: mov      w23, w0 
+1afb7d4: mov      x0, x22 
+1afb7d8: bl       #0xd32b68 
+1afb7dc: tbz      w23, #0, #0x1afb684 
+1afb7e0: ldr      s8, [sp, #0xc] 
+1afb7e4: tbz      w0, #0, #0x1afb6e0 
+1afb7e8: ldr      x8, [x21] 
+1afb7ec: ldr      x1, [x22, #0x18] 
+1afb7f0: ldrh     w2, [x22, #0x48] 
+1afb7f4: ldrh     w9, [x8, #0x126] 
+1afb7f8: cbz      x9, #0x1afb824 
+1afb7fc: ldr      x11, [x8, #0xb0] 
+1afb800: mov      x10, xzr 
+1afb804: add      x11, x11, #8 
+1afb808: ldur     x12, [x11, #-8] 
+1afb80c: cmp      x12, x1 
+1afb810: b.eq     #0x1afb710 
+1afb814: add      x10, x10, #1 
+1afb818: cmp      x10, x9 
+1afb81c: add      x11, x11, #0x10 
+1afb820: b.lo     #0x1afb808 
+1afb824: mov      x0, x21 
+1afb828: bl       #0xcd0940 
+1afb82c: b        #0x1afb720 
+1afb830: mov      x0, x22 
+1afb834: bl       #0xd3291c 
+1afb838: bl       #0xd32b80 
+1afb83c: tbz      w0, #0, #0x1afb84c 
+1afb840: mov      x0, x20 
+1afb844: mov      x1, x22 
+1afb848: blr      x23 
+1afb84c: ldr      s0, [sp, #0xc] 
+1afb850: mov      x0, x21 
+1afb854: mov      x1, x22 
+1afb858: blr      x23 
+1afb85c: add      x26, x26, #1 
+1afb860: cmp      x26, x24 
+1afb864: b.ne     #0x1afb75c 
+1afb868: ldp      x29, x30, [sp, #0x60] 
+1afb86c: ldp      x20, x19, [sp, #0x50] 
+1afb870: ldp      x22, x21, [sp, #0x40] 
+1afb874: ldp      x24, x23, [sp, #0x30] 
+1afb878: ldp      x26, x25, [sp, #0x20] 
+1afb87c: ldr      d8, [sp, #0x10] 
+1afb880: add      sp, sp, #0x70 
+1afb884: ret       
+
+public virtual void Invoke(object obj) { }
+1afb888: str      x27, [sp, #-0x60]! 
+1afb88c: stp      x26, x25, [sp, #0x10] 
+1afb890: stp      x24, x23, [sp, #0x20] 
+1afb894: stp      x22, x21, [sp, #0x30] 
+1afb898: stp      x20, x19, [sp, #0x40] 
+1afb89c: stp      x29, x30, [sp, #0x50] 
+1afb8a0: add      x29, sp, #0x50 
+1afb8a4: str      x0, [sp, #8] 
+1afb8a8: ldr      x8, [x0, #0x68] 
+1afb8ac: mov      x19, x0 
+1afb8b0: mov      x20, x1 
+1afb8b4: cbz      x8, #0x1afb8c8 
+1afb8b8: ldr      x25, [x8, #0x18] 
+1afb8bc: cbz      x25, #0x1afbc00 
+1afb8c0: add      x26, x8, #0x20 
+1afb8c4: b        #0x1afb8d0 
+1afb8c8: add      x26, sp, #8 
+1afb8cc: mov      w25, #1 
+1afb8d0: mov      x27, xzr 
+1afb8d4: sub      x21, x20, #0x10 
+1afb8d8: b        #0x1afba7c 
+1afb8dc: ldrh     w23, [x22, #0x48] 
+1afb8e0: tbz      w0, #0, #0x1afb948 
+1afb8e4: mov      x0, x22 
+1afb8e8: bl       #0xd3291c 
+1afb8ec: ldr      x8, [x20] 
+1afb8f0: mov      x1, x0 
+1afb8f4: ldrh     w9, [x8, #0x126] 
+1afb8f8: cbz      x9, #0x1afb924 
+1afb8fc: ldr      x11, [x8, #0xb0] 
+1afb900: mov      x10, xzr 
+1afb904: add      x11, x11, #8 
+1afb908: ldur     x12, [x11, #-8] 
+1afb90c: cmp      x12, x1 
+1afb910: b.eq     #0x1afb9f4 
+1afb914: add      x10, x10, #1 
+1afb918: cmp      x10, x9 
+1afb91c: add      x11, x11, #0x10 
+1afb920: b.lo     #0x1afb908 
+1afb924: mov      x0, x20 
+1afb928: mov      w2, w23 
+1afb92c: bl       #0xcd0940 
+1afb930: b        #0x1afba04 
+1afb934: ldrh     w8, [x22, #0x48] 
+1afb938: ldr      x9, [x20] 
+1afb93c: add      x8, x9, x8, lsl #4 
+1afb940: ldr      x0, [x8, #0x138] 
+1afb944: b        #0x1afb9e0 
+1afb948: ldr      x8, [x20] 
+1afb94c: mov      x0, x20 
+1afb950: add      x8, x8, w23, uxtw #4 
+1afb954: ldp      x9, x1, [x8, #0x130] 
+1afb958: blr      x9 
+1afb95c: b        #0x1afbbf4 
+1afb960: ldrh     w24, [x22, #0x48] 
+1afb964: tbz      w0, #0, #0x1afba14 
+1afb968: mov      x0, x22 
+1afb96c: bl       #0xd3291c 
+1afb970: ldr      x8, [x23] 
+1afb974: mov      x1, x0 
+1afb978: ldrh     w9, [x8, #0x126] 
+1afb97c: cbz      x9, #0x1afb9a8 
+1afb980: ldr      x11, [x8, #0xb0] 
+1afb984: mov      x10, xzr 
+1afb988: add      x11, x11, #8 
+1afb98c: ldur     x12, [x11, #-8] 
+1afb990: cmp      x12, x1 
+1afb994: b.eq     #0x1afba58 
+1afb998: add      x10, x10, #1 
+1afb99c: cmp      x10, x9 
+1afb9a0: add      x11, x11, #0x10 
+1afb9a4: b.lo     #0x1afb98c 
+1afb9a8: mov      x0, x23 
+1afb9ac: mov      w2, w24 
+1afb9b0: bl       #0xcd0940 
+1afb9b4: b        #0x1afba68 
+1afb9b8: ldrh     w8, [x22, #0x48] 
+1afb9bc: ldr      x9, [x23] 
+1afb9c0: add      x8, x9, x8, lsl #4 
+1afb9c4: ldr      x0, [x8, #0x138] 
+1afb9c8: b        #0x1afba44 
+1afb9cc: ldr      w9, [x11] 
+1afb9d0: add      w9, w9, w2 
+1afb9d4: add      x8, x8, w9, uxtw #4 
+1afb9d8: add      x0, x8, #0x130 
+1afb9dc: ldr      x0, [x0, #8] 
+1afb9e0: mov      x1, x22 
+1afb9e4: bl       #0xd329a0 
+1afb9e8: ldr      x8, [x0] 
+1afb9ec: mov      x1, x0 
+1afb9f0: b        #0x1afba08 
+1afb9f4: ldr      w9, [x11] 
+1afb9f8: add      w9, w9, w23 
+1afb9fc: add      x8, x8, w9, uxtw #4 
+1afba00: add      x0, x8, #0x130 
+1afba04: ldp      x8, x1, [x0] 
+1afba08: mov      x0, x20 
+1afba0c: blr      x8 
+1afba10: b        #0x1afbbf4 
+1afba14: ldr      x8, [x23] 
+1afba18: mov      x0, x23 
+1afba1c: mov      x1, x20 
+1afba20: add      x8, x8, w24, uxtw #4 
+1afba24: ldp      x9, x2, [x8, #0x130] 
+1afba28: blr      x9 
+1afba2c: b        #0x1afbbf4 
+1afba30: ldr      w9, [x11] 
+1afba34: add      w9, w9, w2 
+1afba38: add      x8, x8, w9, uxtw #4 
+1afba3c: add      x0, x8, #0x130 
+1afba40: ldr      x0, [x0, #8] 
+1afba44: mov      x1, x22 
+1afba48: bl       #0xd329a0 
+1afba4c: ldr      x8, [x0] 
+1afba50: mov      x2, x0 
+1afba54: b        #0x1afba6c 
+1afba58: ldr      w9, [x11] 
+1afba5c: add      w9, w9, w24 
+1afba60: add      x8, x8, w9, uxtw #4 
+1afba64: add      x0, x8, #0x130 
+1afba68: ldp      x8, x2, [x0] 
+1afba6c: mov      x0, x23 
+1afba70: mov      x1, x20 
+1afba74: blr      x8 
+1afba78: b        #0x1afbbf4 
+1afba7c: ldr      x8, [x26, x27, lsl #3] 
+1afba80: ldp      x23, x22, [x8, #0x20] 
+1afba84: ldr      x24, [x8, #0x10] 
+1afba88: ldrsh    w9, [x22, #0x48] 
+1afba8c: cmn      w9, #1 
+1afba90: b.ne     #0x1afba9c 
+1afba94: mov      x0, x22 
+1afba98: bl       #0xd329ac 
+1afba9c: mov      x0, x22 
+1afbaa0: bl       #0xd32920 
+1afbaa4: ldrb     w8, [x22, #0x4a] 
+1afbaa8: cmp      w8, #1 
+1afbaac: tbz      w0, #0, #0x1afbac8 
+1afbab0: b.eq     #0x1afbbe8 
+1afbab4: mov      x0, x23 
+1afbab8: mov      x1, x20 
+1afbabc: mov      x2, x22 
+1afbac0: blr      x24 
+1afbac4: b        #0x1afbbf4 
+1afbac8: b.ne     #0x1afbb54 
+1afbacc: cbz      x23, #0x1afbbcc 
+1afbad0: ldrsh    w8, [x22, #0x48] 
+1afbad4: cmn      w8, #1 
+1afbad8: b.eq     #0x1afbab4 
+1afbadc: ldr      x8, [x23] 
+1afbae0: ldrb     w8, [x8, #0x111] 
+1afbae4: tbnz     w8, #0, #0x1afbab4 
+1afbae8: ldr      x8, [x19, #0x18] 
+1afbaec: cbz      x8, #0x1afbab4 
+1afbaf0: mov      x0, x22 
+1afbaf4: bl       #0xd32918 
+1afbaf8: mov      w24, w0 
+1afbafc: mov      x0, x22 
+1afbb00: bl       #0xd32b68 
+1afbb04: tbz      w24, #0, #0x1afb960 
+1afbb08: tbz      w0, #0, #0x1afb9b8 
+1afbb0c: ldr      x8, [x23] 
+1afbb10: ldr      x1, [x22, #0x18] 
+1afbb14: ldrh     w2, [x22, #0x48] 
+1afbb18: ldrh     w9, [x8, #0x126] 
+1afbb1c: cbz      x9, #0x1afbb48 
+1afbb20: ldr      x11, [x8, #0xb0] 
+1afbb24: mov      x10, xzr 
+1afbb28: add      x11, x11, #8 
+1afbb2c: ldur     x12, [x11, #-8] 
+1afbb30: cmp      x12, x1 
+1afbb34: b.eq     #0x1afba30 
+1afbb38: add      x10, x10, #1 
+1afbb3c: cmp      x10, x9 
+1afbb40: add      x11, x11, #0x10 
+1afbb44: b.lo     #0x1afbb2c 
+1afbb48: mov      x0, x23 
+1afbb4c: bl       #0xcd0940 
+1afbb50: b        #0x1afba40 
+1afbb54: ldrsh    w8, [x22, #0x48] 
+1afbb58: cmn      w8, #1 
+1afbb5c: b.eq     #0x1afbbe8 
+1afbb60: ldr      x8, [x19, #0x18] 
+1afbb64: cbz      x8, #0x1afbbe8 
+1afbb68: mov      x0, x22 
+1afbb6c: bl       #0xd32918 
+1afbb70: mov      w23, w0 
+1afbb74: mov      x0, x22 
+1afbb78: bl       #0xd32b68 
+1afbb7c: tbz      w23, #0, #0x1afb8dc 
+1afbb80: tbz      w0, #0, #0x1afb934 
+1afbb84: ldr      x8, [x20] 
+1afbb88: ldr      x1, [x22, #0x18] 
+1afbb8c: ldrh     w2, [x22, #0x48] 
+1afbb90: ldrh     w9, [x8, #0x126] 
+1afbb94: cbz      x9, #0x1afbbc0 
+1afbb98: ldr      x11, [x8, #0xb0] 
+1afbb9c: mov      x10, xzr 
+1afbba0: add      x11, x11, #8 
+1afbba4: ldur     x12, [x11, #-8] 
+1afbba8: cmp      x12, x1 
+1afbbac: b.eq     #0x1afb9cc 
+1afbbb0: add      x10, x10, #1 
+1afbbb4: cmp      x10, x9 
+1afbbb8: add      x11, x11, #0x10 
+1afbbbc: b.lo     #0x1afbba4 
+1afbbc0: mov      x0, x20 
+1afbbc4: bl       #0xcd0940 
+1afbbc8: b        #0x1afb9dc 
+1afbbcc: mov      x0, x22 
+1afbbd0: bl       #0xd3291c 
+1afbbd4: bl       #0xd32b80 
+1afbbd8: tbz      w0, #0, #0x1afbbe8 
+1afbbdc: mov      x0, x21 
+1afbbe0: mov      x1, x22 
+1afbbe4: blr      x24 
+1afbbe8: mov      x0, x20 
+1afbbec: mov      x1, x22 
+1afbbf0: blr      x24 
+1afbbf4: add      x27, x27, #1 
+1afbbf8: cmp      x27, x25 
+1afbbfc: b.ne     #0x1afba7c 
+1afbc00: ldp      x29, x30, [sp, #0x50] 
+1afbc04: ldp      x20, x19, [sp, #0x40] 
+1afbc08: ldp      x22, x21, [sp, #0x30] 
+1afbc0c: ldp      x24, x23, [sp, #0x20] 
+1afbc10: ldp      x26, x25, [sp, #0x10] 
+1afbc14: ldr      x27, [sp], #0x60 
+1afbc18: ret       

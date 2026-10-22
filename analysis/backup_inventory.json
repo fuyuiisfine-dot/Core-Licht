@@ -1,0 +1,41 @@
+{
+  "apk": "D:\\tool\\platform-tools-latest-windows\\platform-tools\\game_backup\\com.tw99.no23.an.apk",
+  "apk_sha256": "f3460f1810d074e0b47153d3d8ee337e83ef7f2b9524f751f23f0d511b51356d",
+  "members": {
+    "lib/arm64-v8a/libil2cpp.so": {
+      "bytes": 48678736,
+      "sha256": "ccc3c80f5da41d42255c480d73273928998175c5538300d782ebafac402a1ef1"
+    },
+    "assets/bin/Data/Managed/Metadata/global-metadata.dat": {
+      "bytes": 7944608,
+      "sha256": "f72102cebf436794e47e7b0b27c7e9e682377779c99d216f4c9d90b427fdf87d"
+    }
+  },
+  "obb": [
+    {
+      "path": "D:\\tool\\platform-tools-latest-windows\\platform-tools\\game_backup\\obb\\main.138.com.tw99.no23.an.obb",
+      "bytes": 1538811147,
+      "entries": 9857,
+      "protocol_bundles": {
+        "assets/Zero/Lua/lua.ab": {
+          "bytes": 4687419,
+          "crc32": "0xb82869e0"
+        },
+        "assets/Zero/PB/pb.ab": {
+          "bytes": 28007,
+          "crc32": "0x30a4fbd6"
+        }
+      }
+    },
+    {
+      "path": "D:\\tool\\platform-tools-latest-windows\\platform-tools\\game_backup\\obb\\patch.138.com.tw99.no23.an.obb",
+      "bytes": 1684642455,
+      "entries": 2789,
+      "protocol_bundles": {}
+    }
+  ],
+  "native_abis": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "source": "x.Config.Excel.tw.DataTable_fake_map_config_TextAsset_-562440449446659227.bin",
+  "sha256": "bdef22baf3b5c28c0b3d5ad4ff802cebd2d170792588c0693abcd9fab283e719",
+  "numbered_parts": {},
+  "getter": "GetSysfake_map_config",
+  "data": [
+    {
+      "spell_list": [],
+      "hero_info": [],
+      "id": 1,
+      "child_list": [
+        [
+          3008,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1001,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          3004,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "map_id": 20000,
+      "loading_resource": 10009,
+      "desc": "新手關"
+    },
+    {
+      "spell_list": [],
+      "hero_info": [
+        [
+          1001,
+          1,
+          20
+        ]
+      ],
+      "id": 2,
+      "child_list": [
+        [
+          3008,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1001,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "map_id": 20001,
+      "loading_resource": 10009,
+      "desc": "新手關2"
+    },
+    {
+      "spell_list": [],
+      "hero_info": [],
+      "id": 3,
+      "child_list": [
+        [
+          3008,
+          5,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1001,
+          18,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          6008,
+          40,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          2001,
+          40,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "map_id": 10000,
+      "loading_resource": 10009,
+      "desc": "新手關0"
+    }
+  ]
+}

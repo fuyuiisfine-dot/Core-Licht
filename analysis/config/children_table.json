@@ -1,0 +1,1632 @@
+{
+  "source": "x.Config.Excel.tw.DataTable_children_table_TextAsset_-8886043812430442574.bin",
+  "sha256": "e3e70a0942785a7ed5b6f8612326b8bb610708a412aec1e1ecb075dd1d0a2663",
+  "numbered_parts": {},
+  "getter": "GetSyschildren_table",
+  "data": {
+    "2|=|2014": {
+      "children_id": 2014,
+      "text2": "",
+      "text1": "單體爆發",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|2014": {
+      "children_id": 2014,
+      "text2": "物理近戰",
+      "text1": "爆發",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|8005": {
+      "children_id": 8005,
+      "text2": "支援建築",
+      "text1": "護盾",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|80004": {
+      "children_id": 80004,
+      "text2": "",
+      "text1": "測試1",
+      "id": 1,
+      "color2": "",
+      "color1": "#ffffff"
+    },
+    "1|=|1007": {
+      "children_id": 1007,
+      "text2": "前排抗傷",
+      "text1": "攻城專精",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|1007": {
+      "children_id": 1007,
+      "text2": "前排",
+      "text1": "攻城專精",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|3014": {
+      "children_id": 3014,
+      "text2": "物理遠端",
+      "text1": "精英壓制",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|3014": {
+      "children_id": 3014,
+      "text2": "",
+      "text1": "精英壓制",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|7002": {
+      "children_id": 7002,
+      "text2": "物理近戰",
+      "text1": "人海",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|1006": {
+      "children_id": 1006,
+      "text2": "前排",
+      "text1": "嘲諷反擊",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|100006": {
+      "children_id": 100006,
+      "text2": "",
+      "text1": "單體治療",
+      "id": 1,
+      "color2": "",
+      "color1": "#86D293"
+    },
+    "1|=|4009": {
+      "children_id": 4009,
+      "text2": "異能遠端",
+      "text1": "群體輸出",
+      "id": 1,
+      "color2": "",
+      "color1": "#CC79F8"
+    },
+    "1|=|1006": {
+      "children_id": 1006,
+      "text2": "前排抗傷",
+      "text1": "嘲諷反擊",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|7012": {
+      "children_id": 7012,
+      "text2": "物理爆發",
+      "text1": "人海",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|7012": {
+      "children_id": 7012,
+      "text2": "物理爆發",
+      "text1": "人海",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|2004": {
+      "children_id": 2004,
+      "text2": "物理近戰",
+      "text1": "群體輸出",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|2004": {
+      "children_id": 2004,
+      "text2": "",
+      "text1": "群體輸出",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|2008": {
+      "children_id": 2008,
+      "text2": "",
+      "text1": "技能回費",
+      "id": 2,
+      "color2": "",
+      "color1": "#FFDB6F"
+    },
+    "1|=|2008": {
+      "children_id": 2008,
+      "text2": "物理近戰",
+      "text1": "技能回費",
+      "id": 1,
+      "color2": "",
+      "color1": "#FFDB6F"
+    },
+    "1|=|7008": {
+      "children_id": 7008,
+      "text2": "",
+      "text1": "人海",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|7008": {
+      "children_id": 7008,
+      "text2": "",
+      "text1": "人海",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|6007": {
+      "children_id": 6007,
+      "text2": "",
+      "text1": "群體治療",
+      "id": 1,
+      "color2": "",
+      "color1": "#86D293"
+    },
+    "2|=|6007": {
+      "children_id": 6007,
+      "text2": "",
+      "text1": "群體治療",
+      "id": 2,
+      "color2": "",
+      "color1": "#86D293"
+    },
+    "2|=|3009": {
+      "children_id": 3009,
+      "text2": "",
+      "text1": "能量壓制",
+      "id": 2,
+      "color2": "",
+      "color1": "#BF1B00"
+    },
+    "1|=|3009": {
+      "children_id": 3009,
+      "text2": "物理遠端",
+      "text1": "能量壓制",
+      "id": 1,
+      "color2": "",
+      "color1": "#BF1B00"
+    },
+    "2|=|80003": {
+      "children_id": 80003,
+      "text2": "",
+      "text1": "測試1",
+      "id": 2,
+      "color2": "",
+      "color1": "#ffffff"
+    },
+    "1|=|80003": {
+      "children_id": 80003,
+      "text2": "",
+      "text1": "測試1",
+      "id": 1,
+      "color2": "",
+      "color1": "#ffffff"
+    },
+    "1|=|2005": {
+      "children_id": 2005,
+      "text2": "物理近戰",
+      "text1": "技能回費",
+      "id": 1,
+      "color2": "",
+      "color1": "#FFDB6F"
+    },
+    "1|=|3012": {
+      "children_id": 3012,
+      "text2": "物理遠端",
+      "text1": "精英壓制",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|100005": {
+      "children_id": 100005,
+      "text2": "",
+      "text1": "物理爆發",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|2005": {
+      "children_id": 2005,
+      "text2": "",
+      "text1": "技能回費",
+      "id": 2,
+      "color2": "",
+      "color1": "#FFDB6F"
+    },
+    "1|=|7009": {
+      "children_id": 7009,
+      "text2": "",
+      "text1": "人海",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|7010": {
+      "children_id": 7010,
+      "text2": "",
+      "text1": "遠端人海",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|2012": {
+      "children_id": 2012,
+      "text2": "",
+      "text1": "群體輸出",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|2012": {
+      "children_id": 2012,
+      "text2": "物理近戰",
+      "text1": "群體輸出",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|7009": {
+      "children_id": 7009,
+      "text2": "",
+      "text1": "人海",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|4008": {
+      "children_id": 4008,
+      "text2": "異能遠端",
+      "text1": "群體控制",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|2003": {
+      "children_id": 2003,
+      "text2": "",
+      "text1": "擊殺回費",
+      "id": 2,
+      "color2": "",
+      "color1": "#FFDB6F"
+    },
+    "1|=|2003": {
+      "children_id": 2003,
+      "text2": "物理近戰",
+      "text1": "擊殺回費",
+      "id": 1,
+      "color2": "",
+      "color1": "#FFDB6F"
+    },
+    "1|=|8007": {
+      "children_id": 8007,
+      "text2": "物理遠端",
+      "text1": "群體炮臺",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|8007": {
+      "children_id": 8007,
+      "text2": "",
+      "text1": "群體炮臺",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|1011": {
+      "children_id": 1011,
+      "text2": "前排",
+      "text1": "傷害減免",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|1011": {
+      "children_id": 1011,
+      "text2": "",
+      "text1": "前排抗傷",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|100007": {
+      "children_id": 100007,
+      "text2": "",
+      "text1": "技能回費",
+      "id": 2,
+      "color2": "",
+      "color1": "#FFDB6F"
+    },
+    "2|=|100006": {
+      "children_id": 100006,
+      "text2": "",
+      "text1": "單體治療",
+      "id": 2,
+      "color2": "",
+      "color1": "#86D293"
+    },
+    "2|=|2002": {
+      "children_id": 2002,
+      "text2": "",
+      "text1": "擊殺回費",
+      "id": 2,
+      "color2": "",
+      "color1": "#FFDB6F"
+    },
+    "2|=|100005": {
+      "children_id": 100005,
+      "text2": "",
+      "text1": "爆發",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|7004": {
+      "children_id": 7004,
+      "text2": "物傷小隊",
+      "text1": "人海",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|2015": {
+      "children_id": 2015,
+      "text2": "",
+      "text1": "單體爆發",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|2015": {
+      "children_id": 2015,
+      "text2": "物理近戰",
+      "text1": "爆發",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|5005": {
+      "children_id": 5005,
+      "text2": "空投近戰",
+      "text1": "嘲諷護盾",
+      "id": 2,
+      "color2": "",
+      "color1": "#E9E9E9"
+    },
+    "2|=|80001": {
+      "children_id": 80001,
+      "text2": "",
+      "text1": "技能回費",
+      "id": 2,
+      "color2": "",
+      "color1": "#FFDB6F"
+    },
+    "1|=|80001": {
+      "children_id": 80001,
+      "text2": "物理近戰",
+      "text1": "技能回費",
+      "id": 1,
+      "color2": "",
+      "color1": "#FFDB6F"
+    },
+    "1|=|8001": {
+      "children_id": 8001,
+      "text2": "支援建築",
+      "text1": "召喚人海",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|8001": {
+      "children_id": 8001,
+      "text2": "支援建築",
+      "text1": "召喚人海",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|100000": {
+      "children_id": 100000,
+      "text2": "",
+      "text1": "物理近戰",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|7006": {
+      "children_id": 7006,
+      "text2": "",
+      "text1": "人海",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|2001": {
+      "children_id": 2001,
+      "text2": "物理近戰",
+      "text1": "群體輸出",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|100002": {
+      "children_id": 100002,
+      "text2": "",
+      "text1": "群傷爆發",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|2016": {
+      "children_id": 2016,
+      "text2": "",
+      "text1": "單體爆發",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|2016": {
+      "children_id": 2016,
+      "text2": "物理近戰",
+      "text1": "爆發",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|100001": {
+      "children_id": 100001,
+      "text2": "前排抗傷",
+      "text1": "位移控制",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|100000": {
+      "children_id": 100000,
+      "text2": "",
+      "text1": "近戰",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|4010": {
+      "children_id": 4010,
+      "text2": "",
+      "text1": "群體輸出",
+      "id": 2,
+      "color2": "",
+      "color1": "#CC79F8"
+    },
+    "1|=|8002": {
+      "children_id": 8002,
+      "text2": "支援建築",
+      "text1": "召喚人海",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|2009": {
+      "children_id": 2009,
+      "text2": "支援建築",
+      "text1": "召喚人海",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|80004": {
+      "children_id": 80004,
+      "text2": "",
+      "text1": "測試1",
+      "id": 2,
+      "color2": "",
+      "color1": "#ffffff"
+    },
+    "1|=|7001": {
+      "children_id": 7001,
+      "text2": "",
+      "text1": "攻城專精",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|1008": {
+      "children_id": 1008,
+      "text2": "前排抗傷",
+      "text1": "護盾",
+      "id": 1,
+      "color2": "",
+      "color1": "#e9e9e9"
+    },
+    "2|=|3012": {
+      "children_id": 3012,
+      "text2": "",
+      "text1": "精英壓制",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|7011": {
+      "children_id": 7011,
+      "text2": "",
+      "text1": "人海",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|3007": {
+      "children_id": 3007,
+      "text2": "物理遠端",
+      "text1": "綜合壓制",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|3007": {
+      "children_id": 3007,
+      "text2": "",
+      "text1": "綜合應對",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|4007": {
+      "children_id": 4007,
+      "text2": "",
+      "text1": "異能遠端",
+      "id": 1,
+      "color2": "",
+      "color1": "#CC79F8"
+    },
+    "2|=|7001": {
+      "children_id": 7001,
+      "text2": "",
+      "text1": "攻城專精",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|3004": {
+      "children_id": 3004,
+      "text2": "物理遠端",
+      "text1": "對空壓制",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|3001": {
+      "children_id": 3001,
+      "text2": "",
+      "text1": "精英壓制",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|3001": {
+      "children_id": 3001,
+      "text2": "物理遠端",
+      "text1": "精英壓制",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|5007": {
+      "children_id": 5007,
+      "text2": "物理近戰",
+      "text1": "持續回費",
+      "id": 1,
+      "color2": "",
+      "color1": "#FFDB6F"
+    },
+    "1|=|6010": {
+      "children_id": 6010,
+      "text2": "",
+      "text1": "單體治療",
+      "id": 1,
+      "color2": "",
+      "color1": "#86D293"
+    },
+    "2|=|100004": {
+      "children_id": 100004,
+      "text2": "",
+      "text1": "精英壓制",
+      "id": 2,
+      "color2": "",
+      "color1": "#CC79F8"
+    },
+    "2|=|5001": {
+      "children_id": 5001,
+      "text2": "",
+      "text1": "群體爆發",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|5001": {
+      "children_id": 5001,
+      "text2": "",
+      "text1": "物理群傷",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|2013": {
+      "children_id": 2013,
+      "text2": "物理近戰",
+      "text1": "技能回費",
+      "id": 1,
+      "color2": "",
+      "color1": "#FFDB6F"
+    },
+    "1|=|7005": {
+      "children_id": 7005,
+      "text2": "物理近戰",
+      "text1": "人海",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|3006": {
+      "children_id": 3006,
+      "text2": "物理遠端",
+      "text1": "綜合壓制",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|6001": {
+      "children_id": 6001,
+      "text2": "",
+      "text1": "群體治療",
+      "id": 1,
+      "color2": "",
+      "color1": "#86D293"
+    },
+    "2|=|8005": {
+      "children_id": 8005,
+      "text2": "支援建築",
+      "text1": "護盾",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|8004": {
+      "children_id": 8004,
+      "text2": "",
+      "text1": "單體炮臺",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|8003": {
+      "children_id": 8003,
+      "text2": "",
+      "text1": "群體加速",
+      "id": 2,
+      "color2": "",
+      "color1": "#86D293"
+    },
+    "2|=|8002": {
+      "children_id": 8002,
+      "text2": "支援建築",
+      "text1": "召喚人海",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|80002": {
+      "children_id": 80002,
+      "text2": "",
+      "text1": "測試1",
+      "id": 2,
+      "color2": "",
+      "color1": "#ffffff"
+    },
+    "1|=|3002": {
+      "children_id": 3002,
+      "text2": "物理遠端",
+      "text1": "精英壓制",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|7006": {
+      "children_id": 7006,
+      "text2": "",
+      "text1": "人海",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|7005": {
+      "children_id": 7005,
+      "text2": "",
+      "text1": "近戰人海",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|3008": {
+      "children_id": 3008,
+      "text2": "物理遠端",
+      "text1": "對空壓制",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|5008": {
+      "children_id": 5008,
+      "text2": "",
+      "text1": "物理群傷",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|3002": {
+      "children_id": 3002,
+      "text2": "",
+      "text1": "精英壓制",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|7004": {
+      "children_id": 7004,
+      "text2": "",
+      "text1": "複合人海",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|6003": {
+      "children_id": 6003,
+      "text2": "",
+      "text1": "單體治療",
+      "id": 2,
+      "color2": "",
+      "color1": "#86D293"
+    },
+    "2|=|4007": {
+      "children_id": 4007,
+      "text2": "",
+      "text1": "遠端",
+      "id": 2,
+      "color2": "",
+      "color1": "#CC79F8"
+    },
+    "2|=|7002": {
+      "children_id": 7002,
+      "text2": "",
+      "text1": "近戰人海",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|6010": {
+      "children_id": 6010,
+      "text2": "",
+      "text1": "單體治療",
+      "id": 2,
+      "color2": "",
+      "color1": "#86D293"
+    },
+    "2|=|6009": {
+      "children_id": 6009,
+      "text2": "單體治療",
+      "text1": "防禦專精",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|4004": {
+      "children_id": 4004,
+      "text2": "異能遠端",
+      "text1": "控制爆發",
+      "id": 1,
+      "color2": "",
+      "color1": "#CC79F8"
+    },
+    "2|=|9001": {
+      "children_id": 9001,
+      "text2": "",
+      "text1": "衝鋒",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|9001": {
+      "children_id": 9001,
+      "text2": "物理近戰",
+      "text1": "衝鋒",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|8008": {
+      "children_id": 8008,
+      "text2": "支援建築",
+      "text1": "群體增益",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|8008": {
+      "children_id": 8008,
+      "text2": "支援建築",
+      "text1": "群體增益",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|1005": {
+      "children_id": 1005,
+      "text2": "前排",
+      "text1": "防禦專精",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|1005": {
+      "children_id": 1005,
+      "text2": "",
+      "text1": "前排抗傷",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|1003": {
+      "children_id": 1003,
+      "text2": "前排",
+      "text1": "無敵",
+      "id": 2,
+      "color2": "",
+      "color1": "#e9e9e9"
+    },
+    "2|=|6004": {
+      "children_id": 6004,
+      "text2": "",
+      "text1": "單體治療",
+      "id": 2,
+      "color2": "",
+      "color1": "#86D293"
+    },
+    "2|=|2013": {
+      "children_id": 2013,
+      "text2": "",
+      "text1": "技能回費",
+      "id": 2,
+      "color2": "",
+      "color1": "#FFDB6F"
+    },
+    "1|=|6003": {
+      "children_id": 6003,
+      "text2": "",
+      "text1": "單體治療",
+      "id": 1,
+      "color2": "",
+      "color1": "#86D293"
+    },
+    "1|=|8006": {
+      "children_id": 8006,
+      "text2": "異能遠端",
+      "text1": "單體炮臺",
+      "id": 1,
+      "color2": "",
+      "color1": "#CC79F8"
+    },
+    "1|=|5004": {
+      "children_id": 5004,
+      "text2": "",
+      "text1": "物理爆發",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|4004": {
+      "children_id": 4004,
+      "text2": "",
+      "text1": "控制爆發",
+      "id": 2,
+      "color2": "",
+      "color1": "#CC79F8"
+    },
+    "2|=|6001": {
+      "children_id": 6001,
+      "text2": "",
+      "text1": "群體治療",
+      "id": 2,
+      "color2": "",
+      "color1": "#86D293"
+    },
+    "2|=|5008": {
+      "children_id": 5008,
+      "text2": "",
+      "text1": "物理群傷",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|5007": {
+      "children_id": 5007,
+      "text2": "",
+      "text1": "持續回費",
+      "id": 2,
+      "color2": "",
+      "color1": "#FFDB6F"
+    },
+    "2|=|5006": {
+      "children_id": 5006,
+      "text2": "",
+      "text1": "單體控制",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|8006": {
+      "children_id": 8006,
+      "text2": "",
+      "text1": "單體炮臺",
+      "id": 2,
+      "color2": "",
+      "color1": "#CC79F8"
+    },
+    "2|=|5004": {
+      "children_id": 5004,
+      "text2": "",
+      "text1": "單體爆發",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|100003": {
+      "children_id": 100003,
+      "text2": "支援建築",
+      "text1": "召喚",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|1002": {
+      "children_id": 1002,
+      "text2": "前排",
+      "text1": "控制",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|2001": {
+      "children_id": 2001,
+      "text2": "",
+      "text1": "群體輸出",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|2009": {
+      "children_id": 2009,
+      "text2": "支援建築",
+      "text1": "召喚人海",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|2010": {
+      "children_id": 2010,
+      "text2": "",
+      "text1": "單體爆發",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|2010": {
+      "children_id": 2010,
+      "text2": "物理近戰",
+      "text1": "爆發",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|4009": {
+      "children_id": 4009,
+      "text2": "",
+      "text1": "群體輸出",
+      "id": 2,
+      "color2": "",
+      "color1": "#CC79F8"
+    },
+    "1|=|3011": {
+      "children_id": 3011,
+      "text2": "",
+      "text1": "群體控制",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|3011": {
+      "children_id": 3011,
+      "text2": "",
+      "text1": "群體控制",
+      "id": 2,
+      "color2": "",
+      "color1": "#ffffff"
+    },
+    "2|=|4008": {
+      "children_id": 4008,
+      "text2": "",
+      "text1": "群體控制",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|7003": {
+      "children_id": 7003,
+      "text2": "",
+      "text1": "近戰人海",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|7010": {
+      "children_id": 7010,
+      "text2": "物理遠端",
+      "text1": "人海",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|3006": {
+      "children_id": 3006,
+      "text2": "",
+      "text1": "綜合應對",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|4002": {
+      "children_id": 4002,
+      "text2": "",
+      "text1": "單體控制",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|4002": {
+      "children_id": 4002,
+      "text2": "",
+      "text1": "異能遠端",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|5002": {
+      "children_id": 5002,
+      "text2": "",
+      "text1": "物理群傷",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|5002": {
+      "children_id": 5002,
+      "text2": "",
+      "text1": "群體爆發",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|4001": {
+      "children_id": 4001,
+      "text2": "",
+      "text1": "輔助治療",
+      "id": 2,
+      "color2": "",
+      "color1": "#86D293"
+    },
+    "2|=|3013": {
+      "children_id": 3013,
+      "text2": "",
+      "text1": "輸出輔助",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|6006": {
+      "children_id": 6006,
+      "text2": "",
+      "text1": "單體治療",
+      "id": 2,
+      "color2": "",
+      "color1": "#86D293"
+    },
+    "1|=|6006": {
+      "children_id": 6006,
+      "text2": "",
+      "text1": "單體治療",
+      "id": 1,
+      "color2": "",
+      "color1": "#86D293"
+    },
+    "2|=|3010": {
+      "children_id": 3010,
+      "text2": "",
+      "text1": "輸出輔助",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|3008": {
+      "children_id": 3008,
+      "text2": "",
+      "text1": "對空壓制",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|4005": {
+      "children_id": 4005,
+      "text2": "異能遠端",
+      "text1": "群體控制",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|4005": {
+      "children_id": 4005,
+      "text2": "",
+      "text1": "群體控制",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|3005": {
+      "children_id": 3005,
+      "text2": "",
+      "text1": "群體輸出",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|3004": {
+      "children_id": 3004,
+      "text2": "",
+      "text1": "對空壓制",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|3003": {
+      "children_id": 3003,
+      "text2": "物理遠端",
+      "text1": "群體輸出",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|3003": {
+      "children_id": 3003,
+      "text2": "",
+      "text1": "群體輸出",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|6004": {
+      "children_id": 6004,
+      "text2": "",
+      "text1": "單體治療",
+      "id": 1,
+      "color2": "",
+      "color1": "#86D293"
+    },
+    "1|=|3010": {
+      "children_id": 3010,
+      "text2": "物理遠端",
+      "text1": "輸出輔助",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|6005": {
+      "children_id": 6005,
+      "text2": "",
+      "text1": "群體治療",
+      "id": 2,
+      "color2": "",
+      "color1": "#86D293"
+    },
+    "1|=|4001": {
+      "children_id": 4001,
+      "text2": "異能遠端",
+      "text1": "輔助治療",
+      "id": 1,
+      "color2": "",
+      "color1": "#86D293"
+    },
+    "1|=|2011": {
+      "children_id": 2011,
+      "text2": "物理近戰",
+      "text1": "群傷位移",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|2011": {
+      "children_id": 2011,
+      "text2": "",
+      "text1": "群傷位移",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|6008": {
+      "children_id": 6008,
+      "text2": "群體治療",
+      "text1": "護盾",
+      "id": 2,
+      "color2": "",
+      "color1": "#E9E9E9"
+    },
+    "1|=|1002": {
+      "children_id": 1002,
+      "text2": "前排抗傷",
+      "text1": "控制",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|6002": {
+      "children_id": 6002,
+      "text2": "",
+      "text1": "單體治療",
+      "id": 1,
+      "color2": "",
+      "color1": "#86D293"
+    },
+    "1|=|80002": {
+      "children_id": 80002,
+      "text2": "",
+      "text1": "測試1",
+      "id": 1,
+      "color2": "",
+      "color1": "#ffffff"
+    },
+    "1|=|3005": {
+      "children_id": 3005,
+      "text2": "物理遠端",
+      "text1": "群體輸出",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|100002": {
+      "children_id": 100002,
+      "text2": "物理遠端",
+      "text1": "群傷爆發",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|100004": {
+      "children_id": 100004,
+      "text2": "異能遠端",
+      "text1": "精英壓制",
+      "id": 1,
+      "color2": "",
+      "color1": "#CC79F8"
+    },
+    "1|=|3013": {
+      "children_id": 3013,
+      "text2": "物理遠端",
+      "text1": "輸出輔助",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|5005": {
+      "children_id": 5005,
+      "text2": "物理近戰",
+      "text1": "嘲諷護盾",
+      "id": 1,
+      "color2": "",
+      "color1": "#E9E9E9"
+    },
+    "1|=|6009": {
+      "children_id": 6009,
+      "text2": "單體治療",
+      "text1": "防禦專精",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|4010": {
+      "children_id": 4010,
+      "text2": "異能遠端",
+      "text1": "群體輸出",
+      "id": 1,
+      "color2": "",
+      "color1": "#CC79F8"
+    },
+    "1|=|100001": {
+      "children_id": 100001,
+      "text2": "前排抗傷",
+      "text1": "位移控制",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|100003": {
+      "children_id": 100003,
+      "text2": "支援建築",
+      "text1": "召喚精英",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|2002": {
+      "children_id": 2002,
+      "text2": "物理近戰",
+      "text1": "擊殺回費",
+      "id": 1,
+      "color2": "",
+      "color1": "#FFDB6F"
+    },
+    "1|=|8004": {
+      "children_id": 8004,
+      "text2": "物理遠端",
+      "text1": "單體炮臺",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|7007": {
+      "children_id": 7007,
+      "text2": "",
+      "text1": "人海",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|1003": {
+      "children_id": 1003,
+      "text2": "前排抗傷",
+      "text1": "無敵",
+      "id": 1,
+      "color2": "",
+      "color1": "#e9e9e9"
+    },
+    "1|=|5006": {
+      "children_id": 5006,
+      "text2": "",
+      "text1": "單體控制",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|4006": {
+      "children_id": 4006,
+      "text2": "異能遠端",
+      "text1": "精英壓制",
+      "id": 1,
+      "color2": "",
+      "color1": "#CC79F8"
+    },
+    "1|=|6008": {
+      "children_id": 6008,
+      "text2": "群體治療",
+      "text1": "護盾",
+      "id": 1,
+      "color2": "",
+      "color1": "#E9E9E9"
+    },
+    "1|=|4003": {
+      "children_id": 4003,
+      "text2": "異能遠端",
+      "text1": "精英壓制",
+      "id": 1,
+      "color2": "",
+      "color1": "#CC79F8"
+    },
+    "2|=|4003": {
+      "children_id": 4003,
+      "text2": "",
+      "text1": "單體爆發",
+      "id": 2,
+      "color2": "",
+      "color1": "#CC79F8"
+    },
+    "2|=|1004": {
+      "children_id": 1004,
+      "text2": "前排",
+      "text1": "控制",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|1009": {
+      "children_id": 1009,
+      "text2": "前排",
+      "text1": "攻城專精",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|7007": {
+      "children_id": 7007,
+      "text2": "",
+      "text1": "人海",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|100007": {
+      "children_id": 100007,
+      "text2": "物理近戰",
+      "text1": "技能回費",
+      "id": 1,
+      "color2": "",
+      "color1": "#FFDB6F"
+    },
+    "1|=|7003": {
+      "children_id": 7003,
+      "text2": "物理近戰",
+      "text1": "飛行人海",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|4006": {
+      "children_id": 4006,
+      "text2": "",
+      "text1": "單體爆發",
+      "id": 2,
+      "color2": "",
+      "color1": "#CC79F8"
+    },
+    "1|=|2017": {
+      "children_id": 2017,
+      "text2": "物理近戰",
+      "text1": "爆發",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|2017": {
+      "children_id": 2017,
+      "text2": "",
+      "text1": "單體爆發",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|6005": {
+      "children_id": 6005,
+      "text2": "",
+      "text1": "群體治療",
+      "id": 1,
+      "color2": "",
+      "color1": "#86D293"
+    },
+    "1|=|2007": {
+      "children_id": 2007,
+      "text2": "物理近戰",
+      "text1": "人海",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|1009": {
+      "children_id": 1009,
+      "text2": "前排抗傷",
+      "text1": "攻城專精",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|1004": {
+      "children_id": 1004,
+      "text2": "前排抗傷",
+      "text1": "控制",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|2006": {
+      "children_id": 2006,
+      "text2": "",
+      "text1": "單體爆發",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|2006": {
+      "children_id": 2006,
+      "text2": "物理近戰",
+      "text1": "爆發",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "2|=|1001": {
+      "children_id": 1001,
+      "text2": "前排",
+      "text1": "護盾",
+      "id": 2,
+      "color2": "",
+      "color1": "#e9e9e9"
+    },
+    "1|=|1001": {
+      "children_id": 1001,
+      "text2": "前排抗傷",
+      "text1": "護盾",
+      "id": 1,
+      "color2": "",
+      "color1": "#e9e9e9"
+    },
+    "2|=|5003": {
+      "children_id": 5003,
+      "text2": "",
+      "text1": "群體爆發",
+      "id": 2,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|5003": {
+      "children_id": 5003,
+      "text2": "",
+      "text1": "物理群傷",
+      "id": 1,
+      "color2": "",
+      "color1": "#FE5A21"
+    },
+    "1|=|7011": {
+      "children_id": 7011,
+      "text2": "",
+      "text1": "人海",
+      "id": 1,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "1|=|8003": {
+      "children_id": 8003,
+      "text2": "",
+      "text1": "群體加速",
+      "id": 1,
+      "color2": "",
+      "color1": "#86D293"
+    },
+    "2|=|2007": {
+      "children_id": 2007,
+      "text2": "",
+      "text1": "人海",
+      "id": 2,
+      "color2": "",
+      "color1": "#8EC8FF"
+    },
+    "2|=|6002": {
+      "children_id": 6002,
+      "text2": "",
+      "text1": "單體治療",
+      "id": 2,
+      "color2": "",
+      "color1": "#86D293"
+    }
+  }
+}

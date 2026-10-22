@@ -1,0 +1,187 @@
+
+protected void OnConnectedCB() { }
+f4458c: sub      sp, sp, #0x40 
+f44590: stp      x22, x21, [sp, #0x10] 
+f44594: stp      x20, x19, [sp, #0x20] 
+f44598: stp      x29, x30, [sp, #0x30] 
+f4459c: add      x29, sp, #0x30 
+f445a0: adrp     x20, #0x2e7e000 
+f445a4: ldrb     w8, [x20, #0xd2e] 
+f445a8: mov      x19, x0 
+f445ac: tbnz     w8, #0, #0xf445c8 
+f445b0: adrp     x8, #0x2ceb000 
+f445b4: ldr      x8, [x8, #0x1f0] 
+f445b8: ldr      w0, [x8] 
+f445bc: bl       #0xd328f8 
+f445c0: mov      w8, #1 
+f445c4: strb     w8, [x20, #0xd2e] 
+f445c8: adrp     x8, #0x2cfc000 
+f445cc: ldr      x8, [x8, #0x678] object[]_TypeInfo
+f445d0: mov      w1, #3 
+f445d4: strb     wzr, [sp, #0xc] 
+f445d8: ldr      x0, [x8] object[]_TypeInfo
+f445dc: bl       #0xd32908 
+f445e0: ldr      x8, [x19, #0x10] 
+f445e4: cbz      x8, #0xf4482c 
+f445e8: adrp     x22, #0x2cb4000 
+f445ec: ldr      w8, [x8, #0x10] 
+f445f0: ldr      x22, [x22, #0x150] int_TypeInfo
+f445f4: mov      x20, x0 
+f445f8: add      x1, sp, #8 
+f445fc: str      w8, [sp, #8] 
+f44600: ldr      x0, [x22] int_TypeInfo
+f44604: bl       #0xd329b4 
+f44608: cbz      x20, #0xf4482c 
+f4460c: mov      x21, x0 
+f44610: cbz      x0, #0xf44628 
+f44614: ldr      x8, [x20] 
+f44618: mov      x0, x21 
+f4461c: ldr      x1, [x8, #0x40] 
+f44620: bl       #0xd329b0 
+f44624: cbz      x0, #0xf4483c 
+f44628: ldr      w8, [x20, #0x18] 
+f4462c: cbz      w8, #0xf44830 
+f44630: str      x21, [x20, #0x20] 
+f44634: ldr      x21, [x19, #0x18] 
+f44638: cbz      x21, #0xf44654 
+f4463c: ldr      x8, [x20] 
+f44640: mov      x0, x21 
+f44644: ldr      x1, [x8, #0x40] 
+f44648: bl       #0xd329b0 
+f4464c: cbz      x0, #0xf4483c 
+f44650: ldr      w8, [x20, #0x18] 
+f44654: cmp      w8, #1 
+f44658: b.ls     #0xf44830 
+f4465c: str      x21, [x20, #0x28] 
+f44660: ldr      w8, [x19, #0x20] 
+f44664: ldr      x0, [x22] int_TypeInfo
+f44668: add      x1, sp, #4 
+f4466c: str      w8, [sp, #4] 
+f44670: bl       #0xd329b4 
+f44674: mov      x21, x0 
+f44678: cbz      x0, #0xf44690 
+f4467c: ldr      x8, [x20] 
+f44680: mov      x0, x21 
+f44684: ldr      x1, [x8, #0x40] 
+f44688: bl       #0xd329b0 
+f4468c: cbz      x0, #0xf4483c 
+f44690: ldr      w8, [x20, #0x18] 
+f44694: cmp      w8, #2 
+f44698: b.ls     #0xf44830 
+f4469c: str      x21, [x20, #0x30] 
+f446a0: adrp     x8, #0x2cc1000 
+f446a4: ldr      x8, [x8, #0x4f0] Onecore.OnecoreEngine.Base.ZLogger_TypeInfo
+f446a8: ldr      x0, [x8] Onecore.OnecoreEngine.Base.ZLogger_TypeInfo
+f446ac: ldrb     w8, [x0, #0x12f] 
+f446b0: tbz      w8, #1, #0xf446c0 
+f446b4: ldr      w8, [x0, #0xe0] 
+f446b8: cbnz     w8, #0xf446c0 
+f446bc: bl       #0xd329a4 
+f446c0: adrp     x8, #0x2ceb000 
+f446c4: ldr      x8, [x8, #0xdf0] [SN]({0}) ---SNTcpProtocol OnConnected({1}:{2})---
+f446c8: mov      x1, x20 
+f446cc: mov      x2, xzr 
+f446d0: ldr      x0, [x8] [SN]({0}) ---SNTcpProtocol OnConnected({1}:{2})---
+f446d4: bl       #0x11d7ad8 public static void Info(object message, object[] argv) { }
+f446d8: adrp     x8, #0x2ce0000 
+f446dc: ldr      x8, [x8, #0x398] Onecore.OnecoreEngine.Base.SNBuffer_TypeInfo
+f446e0: ldr      x0, [x8] Onecore.OnecoreEngine.Base.SNBuffer_TypeInfo
+f446e4: ldrb     w8, [x0, #0x12f] 
+f446e8: tbz      w8, #1, #0xf446f8 
+f446ec: ldr      w8, [x0, #0xe0] 
+f446f0: cbnz     w8, #0xf446f8 
+f446f4: bl       #0xd329a4 
+f446f8: mov      x0, xzr 
+f446fc: bl       #0x15842a8 public static SNBuffer Create() { }
+f44700: cbz      x0, #0xf4482c 
+f44704: mov      w1, wzr 
+f44708: mov      x2, xzr 
+f4470c: mov      x20, x0 
+f44710: bl       #0x1584f20 public BinaryWriter BeginWriting(bool append = False) { }
+f44714: adrp     x8, #0x2ca8000 
+f44718: ldr      x8, [x8, #0x308] byte[]_TypeInfo
+f4471c: mov      x21, x0 
+f44720: mov      w1, #2 
+f44724: ldr      x8, [x8] byte[]_TypeInfo
+f44728: mov      x0, x8 
+f4472c: bl       #0xd32908 
+f44730: cbz      x0, #0xf4482c 
+f44734: ldr      w8, [x0, #0x18] 
+f44738: mov      x1, x0 
+f4473c: cbz      w8, #0xf44830 
+f44740: mov      w9, #1 
+f44744: cmp      w8, #1 
+f44748: strb     w9, [x1, #0x20] 
+f4474c: b.eq     #0xf44830 
+f44750: mov      w8, #2 
+f44754: strb     w8, [x1, #0x21] 
+f44758: cbz      x21, #0xf4482c 
+f4475c: ldr      x8, [x21] 
+f44760: mov      x0, x21 
+f44764: ldp      x9, x2, [x8, #0x1d0] 
+f44768: blr      x9 
+f4476c: mov      x0, x20 
+f44770: mov      x1, xzr 
+f44774: bl       #0x1584f98 public int EndWriting() { }
+f44778: ldr      x0, [x19, #0x10] 
+f4477c: cbz      x0, #0xf4482c 
+f44780: mov      x1, x20 
+f44784: mov      x2, xzr 
+f44788: bl       #0x1589210 public void SendPacket(SNBuffer buffer) { }
+f4478c: adrp     x21, #0x2c9b000 
+f44790: ldr      x21, [x21, #0xc80] Onecore.OnecoreEngine.Game.SNTCPClient_TypeInfo
+f44794: ldr      x0, [x21] Onecore.OnecoreEngine.Game.SNTCPClient_TypeInfo
+f44798: ldrb     w8, [x0, #0x12f] 
+f4479c: tbz      w8, #1, #0xf447b0 
+f447a0: ldr      w8, [x0, #0xe0] 
+f447a4: cbnz     w8, #0xf447b0 
+f447a8: bl       #0xd329a4 
+f447ac: ldr      x0, [x21] Onecore.OnecoreEngine.Game.SNTCPClient_TypeInfo
+f447b0: ldr      x8, [x0, #0xb8] 
+f447b4: ldr      x20, [x19, #0x10] 
+f447b8: ldr      w8, [x8, #0xc] 
+f447bc: str      w8, [x19, #0x28] 
+f447c0: strb     wzr, [sp, #0xc] 
+f447c4: add      x1, sp, #0xc 
+f447c8: mov      x0, x20 
+f447cc: mov      x2, xzr 
+f447d0: bl       #0x154e44c public static void Enter(object obj, ref bool lockTaken) { }
+f447d4: ldr      x0, [x21] Onecore.OnecoreEngine.Game.SNTCPClient_TypeInfo
+f447d8: ldrb     w8, [x0, #0x12f] 
+f447dc: tbz      w8, #1, #0xf447f0 
+f447e0: ldr      w8, [x0, #0xe0] 
+f447e4: cbnz     w8, #0xf447f0 
+f447e8: bl       #0xd329a4 
+f447ec: ldr      x0, [x21] Onecore.OnecoreEngine.Game.SNTCPClient_TypeInfo
+f447f0: ldr      x8, [x0, #0xb8] 
+f447f4: mov      x21, xzr 
+f447f8: ldr      w8, [x8, #4] 
+f447fc: str      w8, [x19, #0x24] 
+f44800: ldrb     w8, [sp, #0xc] 
+f44804: cbz      w8, #0xf44814 
+f44808: mov      x0, x20 
+f4480c: mov      x1, xzr 
+f44810: bl       #0x154e46c public static void Exit(object obj) { }
+f44814: cbnz     x21, #0xf44848 
+f44818: ldp      x29, x30, [sp, #0x30] 
+f4481c: ldp      x20, x19, [sp, #0x20] 
+f44820: ldp      x22, x21, [sp, #0x10] 
+f44824: add      sp, sp, #0x40 
+f44828: ret       
+f4482c: bl       #0xd329c8 
+f44830: bl       #0xd329f4 
+f44834: mov      x1, xzr 
+f44838: bl       #0xd32994 
+f4483c: bl       #0xd329e8 
+f44840: mov      x1, xzr 
+f44844: bl       #0xd32994 
+f44848: mov      x0, x21 
+f4484c: mov      x1, xzr 
+f44850: bl       #0xd32994 
+f44854: cmp      w1, #1 
+f44858: b.ne     #0xf4486c 
+f4485c: bl       #0x9d6bc0 
+f44860: ldr      x21, [x0] 
+f44864: bl       #0x9d6090 
+f44868: b        #0xf44800 
+f4486c: bl       #0x9d5f30 

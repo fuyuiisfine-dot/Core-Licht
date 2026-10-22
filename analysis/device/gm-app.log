@@ -1,0 +1,587 @@
+--------- beginning of main
+10-17 17:34:18.563 24818 25360 D CCodec  : hold CodecLooper(1) until release
+10-17 17:34:18.563 24818 25360 I CCodec  : [release][3747] component -> surface
+10-17 17:34:18.564 24818 25360 I CCodec  : [c2.android.aac.decoder] state->set(RELEASED)
+10-17 17:34:18.564 24818 25335 I Codec2Client: Component destructing
+10-17 17:34:18.565 24818 25335 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+10-17 17:34:18.566 24818 25335 I MediaCodec: Codec shutdown complete
+10-17 17:34:18.568 24818 25139 I CCodecBufferChannel: CCodecBufferChannel destructing c2.android.aac.decoder#545
+10-17 17:34:18.571 24818 25139 D MediaCodecList: codecHandlesFormat: no format, so no extra checks
+10-17 17:34:18.572 24818 25361 I CCodec  : state->set(ALLOCATING)
+10-17 17:34:18.572 24818 25361 I CCodec  : allocate(c2.android.aac.decoder)
+10-17 17:34:18.572 24818 25361 D CCodec  : allocate(c2.android.aac.decoder)
+10-17 17:34:18.574 24818 25361 I CCodec  : setting up 'default' as default (vendor) store
+10-17 17:34:18.577 24818 25210 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb4000077741cb828 cached: 0/0M, 0/0% in use; allocs: 6, 17% recycled; transfers: 8, 38% unfetched
+10-17 17:34:18.577 24818 25361 I CCodec  : Created component [c2.android.aac.decoder] for [c2.android.aac.decoder]
+10-17 17:34:18.577 24818 25361 I CCodec  : [c2.android.aac.decoder] state->set(ALLOCATED)
+10-17 17:34:18.578 24818 25361 D CCodecConfig: read media type: audio/mp4a-latm
+10-17 17:34:18.583 24818 25361 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+10-17 17:34:18.583 24818 25361 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+10-17 17:34:18.584 24818 25361 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+10-17 17:34:18.584 24818 25361 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+10-17 17:34:18.584 24818 25361 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+10-17 17:34:18.585 24818 25361 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+10-17 17:34:18.585 24818 25361 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+10-17 17:34:18.588 24818 25361 I CCodec  : [c2.android.aac.decoder] config->initialize() : 0
+10-17 17:34:18.588 24818 25361 I CCodecConfig: query failed after returning 21 values (BAD_INDEX)
+10-17 17:34:18.588 24818 25361 D CCodecConfig: c2 config diff is Dict {
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   c2::u32 coded.aac-packaging.value = 0
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   c2::u32 coded.pl.level = 0
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   c2::u32 coded.pl.profile = 8192
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   c2::i32 coding.drc.album-mode.value = 0
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   c2::float coding.drc.attenuation-factor.value = 1
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   c2::float coding.drc.boost-factor.value = 1
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   c2::i32 coding.drc.compression-mode.value = 3
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   c2::i32 coding.drc.effect-type.value = 3
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   c2::float coding.drc.encoded-level.value = 0.25
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   c2::float coding.drc.reference-level.value = -16
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 8192
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   c2::u32 input.delay.value = 0
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   string input.media-type.value = "audio/mp4a-latm"
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   c2::u32 output.delay.value = 2
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   c2::float output.drc.output-loudness.value = 0.25
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   c2::u32 output.large-frame.max-size = 0
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   c2::u32 output.large-frame.threshold-size = 0
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   string output.media-type.value = "audio/raw"
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   c2::u32 raw.channel-mask.value = 0
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   c2::u32 raw.max-channel-count.value = 8
+10-17 17:34:18.588 24818 25361 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+10-17 17:34:18.588 24818 25361 D CCodecConfig: }
+10-17 17:34:18.588 24818 25361 I CCodec  : [c2.android.aac.decoder] config->queryConfiguration()
+10-17 17:34:18.588 24818 25361 I CCodec  : [c2.android.aac.decoder] mCallback->onComponentAllocated() IN
+10-17 17:34:18.588 24818 25361 I CCodec  : [c2.android.aac.decoder] mCallback->onComponentAllocated() OUT
+10-17 17:34:18.589 24818 25139 I MediaCodec: media_quality service unavailable, skipping updatePictureProfile
+10-17 17:34:18.589 24818 25361 D CCodec  : [c2.android.aac.decoder] buffers are bound to CCodec for this session
+10-17 17:34:18.589 24818 25361 I CCodec  : appPid(24818) width(0) height(0)
+10-17 17:34:18.589 24818 25361 D CCodecConfig: no c2 equivalents for durationUs
+10-17 17:34:18.589 24818 25361 D CCodecConfig: no c2 equivalents for frame-count
+10-17 17:34:18.589 24818 25361 D CCodecConfig: no c2 equivalents for track-id
+10-17 17:34:18.589 24818 25361 D CCodecConfig: no c2 equivalents for track-fourcc
+10-17 17:34:18.592 24818 25361 D CCodecConfig: no c2 equivalents for bits-per-sample
+10-17 17:34:18.592 24818 25361 D CCodecConfig: no c2 equivalents for has-sdtp
+10-17 17:34:18.592 24818 25361 D CCodecConfig: no c2 equivalents for language
+10-17 17:34:18.592 24818 25361 D CCodecConfig: no c2 equivalents for encoder-delay
+10-17 17:34:18.592 24818 25361 D CCodecConfig: no c2 equivalents for encoder-padding
+10-17 17:34:18.592 24818 25361 D CCodecConfig: no c2 equivalents for flags
+10-17 17:34:18.593 24818 25361 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 317375
+10-17 17:34:18.593 24818 25361 D CCodecConfig:   c2::u32 raw.channel-count.value = 2
+10-17 17:34:18.593 24818 25361 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+10-17 17:34:18.593 24818 25361 W Codec2Client: query -- param skipped: index = 1107298332.
+10-17 17:34:18.594 24818 25361 D CCodec  : encoding statistics level = 0
+10-17 17:34:18.594 24818 25361 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t aac-drc-album-mode = 0
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t aac-drc-boost-level = 127
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t aac-drc-cut-level = 127
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t aac-drc-effect-type = 3
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t aac-encoded-target-level = -1
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t aac-max-output-channel_count = 8
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t aac-target-ref-level = 64
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t bitrate = 317375
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t channel-count = 2
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t channel-mask = 0
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t level = 0
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t max-input-size = 524308
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t max-output-channel-count = 8
+10-17 17:34:18.594 24818 25361 D CCodec  :   string mime = "audio/mp4a-latm"
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t profile = 2
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t sample-rate = 48000
+10-17 17:34:18.594 24818 25361 D CCodec  :   int64_t durationUs = 50200000
+10-17 17:34:18.594 24818 25361 D CCodec  : }
+10-17 17:34:18.594 24818 25361 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t aac-drc-album-mode = 0
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t aac-drc-boost-level = 127
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t aac-drc-cut-level = 127
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t aac-drc-effect-type = 3
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t aac-drc-output-loudness = -1
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t aac-encoded-target-level = -1
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t aac-max-output-channel_count = 8
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t aac-target-ref-level = 64
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t buffer-batch-max-output-size = 0
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t buffer-batch-threshold-output-size = 0
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t channel-count = 2
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t channel-mask = 0
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t max-output-channel-count = 8
+10-17 17:34:18.594 24818 25361 D CCodec  :   string mime = "audio/raw"
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t sample-rate = 48000
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t encoder-delay = 0
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t encoder-padding = 1920
+10-17 17:34:18.594 24818 25361 D CCodec  :   int32_t android._config-pcm-encoding = 2
+10-17 17:34:18.594 24818 25361 D CCodec  : }
+10-17 17:34:18.594 24818 25361 I CCodecConfig: query failed after returning 21 values (BAD_INDEX)
+10-17 17:34:18.594 24818 25361 E om.tw99.no23.an: Failed to query component interface for required system resources: 6
+10-17 17:34:18.597 24818 25361 I CCodec  : [c2.android.aac.decoder] state->set(STARTING)
+10-17 17:34:18.598 24818 25361 W Codec2Client: query -- param skipped: index = 1342179345.
+10-17 17:34:18.598 24818 25361 W Codec2Client: query -- param skipped: index = 2415921170.
+10-17 17:34:18.598 24818 25361 W Codec2Client: query -- param skipped: index = 1610614798.
+10-17 17:34:18.599 24818 25361 D CCodecBufferChannel: [c2.android.aac.decoder#245] Created input block pool with allocatorID 16 => poolID 25 - OK (0)
+10-17 17:34:18.601 24818 25361 I CCodecBufferChannel: [c2.android.aac.decoder#245] Created output block pool with allocatorID 16 => poolID 498 - OK
+10-17 17:34:18.601 24818 25361 D CCodecBufferChannel: [c2.android.aac.decoder#245] Configured output block pool ids 498 => OK
+10-17 17:34:18.601 24818 25361 I CCodec  : [c2.android.aac.decoder] state->set(RUNNING)
+10-17 17:34:18.602 24818 25361 I CCodecBufferChannel: [c2.android.aac.decoder#245] 4 initial input buffers available
+10-17 17:34:18.632 24818 25210 D CCodecBufferChannel: [c2.exynos.h264.decoder#741] Ignoring stale input buffer done callback: last flush index = 143, frameIndex = 143
+10-17 17:34:18.686 24818 25324 I CCodec  : [c2.exynos.h264.decoder] state->set(FLUSHING)
+10-17 17:34:18.687 24818 25325 I CCodec  : [c2.exynos.h264.decoder] state->set(FLUSHED)
+10-17 17:34:18.687 24818 25324 I CCodec  : [c2.exynos.h264.decoder] state->set(RESUMING)
+10-17 17:34:18.688 24818 25324 I CCodecConfig: query failed after returning 15 values (BAD_INDEX)
+10-17 17:34:18.688 24818 25324 I CCodecBufferChannel: [c2.exynos.h264.decoder#741] 4 initial input buffers available
+10-17 17:34:18.688 24818 25324 W Codec2Client: query -- param skipped: index = 1073743886.
+10-17 17:34:18.689 24818 25324 W Codec2Client: query -- param skipped: index = 1610614798.
+10-17 17:34:18.689 24818 25324 W Codec2Client: query -- param skipped: index = 1610614821.
+10-17 17:34:18.689 24818 25324 I CCodec  : [c2.exynos.h264.decoder] state->set(RUNNING)
+10-17 17:34:18.690 24818 25361 I CCodec  : [c2.android.aac.decoder] state->set(FLUSHING)
+10-17 17:34:18.691 24818 25361 I CCodec  : [c2.android.aac.decoder] state->set(FLUSHED)
+10-17 17:34:18.691 24818 25361 I CCodec  : [c2.android.aac.decoder] state->set(RESUMING)
+10-17 17:34:18.691 24818 25361 I CCodecConfig: query failed after returning 21 values (BAD_INDEX)
+10-17 17:34:18.692 24818 25361 I CCodecBufferChannel: [c2.android.aac.decoder#245] 4 initial input buffers available
+10-17 17:34:18.692 24818 25361 W Codec2Client: query -- param skipped: index = 1342179345.
+10-17 17:34:18.692 24818 25361 W Codec2Client: query -- param skipped: index = 2415921170.
+10-17 17:34:18.692 24818 25361 W Codec2Client: query -- param skipped: index = 1610614798.
+10-17 17:34:18.692 24818 25361 I CCodec  : [c2.android.aac.decoder] state->set(RUNNING)
+10-17 17:34:18.693 24818 25361 I CCodec  : [c2.android.aac.decoder] state->set(STOPPING)
+10-17 17:34:18.693 24818 25361 D CCodecBufferChannel: [c2.android.aac.decoder#245] MediaCodec discarded an unknown buffer
+10-17 17:34:18.693 24818 25361 D CCodecBufferChannel: [c2.android.aac.decoder#245] MediaCodec discarded an unknown buffer
+10-17 17:34:18.694 24818 25361 D CCodecBufferChannel: [c2.android.aac.decoder#245] MediaCodec discarded an unknown buffer
+10-17 17:34:18.694 24818 25361 D CCodecBufferChannel: [c2.android.aac.decoder#245] MediaCodec discarded an unknown buffer
+10-17 17:34:18.694 24818 25361 I CCodec  : [stop][3601] component -> surface
+10-17 17:34:18.694 24818 25361 I CCodec  : [c2.android.aac.decoder] state->set(ALLOCATED)
+10-17 17:34:18.696 24818 25361 I CCodec  : [c2.android.aac.decoder] state->set(RELEASING)
+10-17 17:34:18.697 24818 25364 D CCodec  : hold CodecLooper(1) until release
+10-17 17:34:18.697 24818 25364 I CCodec  : [release][3747] component -> surface
+10-17 17:34:18.697 24818 25364 I CCodec  : [c2.android.aac.decoder] state->set(RELEASED)
+10-17 17:34:18.697 24818 25361 I Codec2Client: Component destructing
+10-17 17:34:18.697 24818 25361 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+10-17 17:34:18.698 24818 25361 I MediaCodec: Codec shutdown complete
+10-17 17:34:18.699 24818 25138 I CCodecBufferChannel: CCodecBufferChannel destructing c2.android.aac.decoder#245
+10-17 17:34:18.700 24818 25138 D MediaCodecList: codecHandlesFormat: no format, so no extra checks
+10-17 17:34:18.701 24818 25365 I CCodec  : state->set(ALLOCATING)
+10-17 17:34:18.701 24818 25365 I CCodec  : allocate(c2.android.aac.decoder)
+10-17 17:34:18.701 24818 25365 D CCodec  : allocate(c2.android.aac.decoder)
+10-17 17:34:18.703 24818 25365 I CCodec  : setting up 'default' as default (vendor) store
+10-17 17:34:18.708 24818 25365 I CCodec  : Created component [c2.android.aac.decoder] for [c2.android.aac.decoder]
+10-17 17:34:18.708 24818 25365 I CCodec  : [c2.android.aac.decoder] state->set(ALLOCATED)
+10-17 17:34:18.708 24818 25365 D CCodecConfig: read media type: audio/mp4a-latm
+10-17 17:34:18.710 24818 25365 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+10-17 17:34:18.710 24818 25365 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+10-17 17:34:18.710 24818 25365 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+10-17 17:34:18.710 24818 25365 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+10-17 17:34:18.710 24818 25365 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+10-17 17:34:18.710 24818 25365 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+10-17 17:34:18.711 24818 25365 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+10-17 17:34:18.713 24818 25365 I CCodec  : [c2.android.aac.decoder] config->initialize() : 0
+10-17 17:34:18.713 24818 25365 I CCodecConfig: query failed after returning 21 values (BAD_INDEX)
+10-17 17:34:18.713 24818 25365 D CCodecConfig: c2 config diff is Dict {
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   c2::u32 coded.aac-packaging.value = 0
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   c2::u32 coded.pl.level = 0
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   c2::u32 coded.pl.profile = 8192
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   c2::i32 coding.drc.album-mode.value = 0
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   c2::float coding.drc.attenuation-factor.value = 1
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   c2::float coding.drc.boost-factor.value = 1
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   c2::i32 coding.drc.compression-mode.value = 3
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   c2::i32 coding.drc.effect-type.value = 3
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   c2::float coding.drc.encoded-level.value = 0.25
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   c2::float coding.drc.reference-level.value = -16
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 8192
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   c2::u32 input.delay.value = 0
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   string input.media-type.value = "audio/mp4a-latm"
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   c2::u32 output.delay.value = 2
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   c2::float output.drc.output-loudness.value = 0.25
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   c2::u32 output.large-frame.max-size = 0
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   c2::u32 output.large-frame.threshold-size = 0
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   string output.media-type.value = "audio/raw"
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   c2::u32 raw.channel-mask.value = 0
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   c2::u32 raw.max-channel-count.value = 8
+10-17 17:34:18.713 24818 25365 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+10-17 17:34:18.713 24818 25365 D CCodecConfig: }
+10-17 17:34:18.713 24818 25365 I CCodec  : [c2.android.aac.decoder] config->queryConfiguration()
+10-17 17:34:18.713 24818 25365 I CCodec  : [c2.android.aac.decoder] mCallback->onComponentAllocated() IN
+10-17 17:34:18.713 24818 25365 I CCodec  : [c2.android.aac.decoder] mCallback->onComponentAllocated() OUT
+10-17 17:34:18.714 24818 25138 I MediaCodec: media_quality service unavailable, skipping updatePictureProfile
+10-17 17:34:18.714 24818 25365 D CCodec  : [c2.android.aac.decoder] buffers are bound to CCodec for this session
+10-17 17:34:18.714 24818 25365 I CCodec  : appPid(24818) width(0) height(0)
+10-17 17:34:18.714 24818 25365 D CCodecConfig: no c2 equivalents for durationUs
+10-17 17:34:18.714 24818 25365 D CCodecConfig: no c2 equivalents for frame-count
+10-17 17:34:18.714 24818 25365 D CCodecConfig: no c2 equivalents for track-id
+10-17 17:34:18.714 24818 25365 D CCodecConfig: no c2 equivalents for track-fourcc
+10-17 17:34:18.714 24818 25365 D CCodecConfig: no c2 equivalents for bits-per-sample
+10-17 17:34:18.714 24818 25365 D CCodecConfig: no c2 equivalents for has-sdtp
+10-17 17:34:18.714 24818 25365 D CCodecConfig: no c2 equivalents for language
+10-17 17:34:18.714 24818 25365 D CCodecConfig: no c2 equivalents for encoder-delay
+10-17 17:34:18.714 24818 25365 D CCodecConfig: no c2 equivalents for encoder-padding
+10-17 17:34:18.714 24818 25365 D CCodecConfig: no c2 equivalents for flags
+10-17 17:34:18.715 24818 25365 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 317375
+10-17 17:34:18.715 24818 25365 D CCodecConfig:   c2::u32 raw.channel-count.value = 2
+10-17 17:34:18.715 24818 25365 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+10-17 17:34:18.715 24818 25365 W Codec2Client: query -- param skipped: index = 1107298332.
+10-17 17:34:18.715 24818 25365 D CCodec  : encoding statistics level = 0
+10-17 17:34:18.715 24818 25365 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t aac-drc-album-mode = 0
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t aac-drc-boost-level = 127
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t aac-drc-cut-level = 127
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t aac-drc-effect-type = 3
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t aac-encoded-target-level = -1
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t aac-max-output-channel_count = 8
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t aac-target-ref-level = 64
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t bitrate = 317375
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t channel-count = 2
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t channel-mask = 0
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t level = 0
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t max-input-size = 524308
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t max-output-channel-count = 8
+10-17 17:34:18.715 24818 25365 D CCodec  :   string mime = "audio/mp4a-latm"
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t profile = 2
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t sample-rate = 48000
+10-17 17:34:18.715 24818 25365 D CCodec  :   int64_t durationUs = 50200000
+10-17 17:34:18.715 24818 25365 D CCodec  : }
+10-17 17:34:18.715 24818 25365 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t aac-drc-album-mode = 0
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t aac-drc-boost-level = 127
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t aac-drc-cut-level = 127
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t aac-drc-effect-type = 3
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t aac-drc-output-loudness = -1
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t aac-encoded-target-level = -1
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t aac-max-output-channel_count = 8
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t aac-target-ref-level = 64
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t buffer-batch-max-output-size = 0
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t buffer-batch-threshold-output-size = 0
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t channel-count = 2
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t channel-mask = 0
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t max-output-channel-count = 8
+10-17 17:34:18.715 24818 25365 D CCodec  :   string mime = "audio/raw"
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t sample-rate = 48000
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t encoder-delay = 0
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t encoder-padding = 1920
+10-17 17:34:18.715 24818 25365 D CCodec  :   int32_t android._config-pcm-encoding = 2
+10-17 17:34:18.715 24818 25365 D CCodec  : }
+10-17 17:34:18.716 24818 25365 I CCodecConfig: query failed after returning 21 values (BAD_INDEX)
+10-17 17:34:18.716 24818 25365 E om.tw99.no23.an: Failed to query component interface for required system resources: 6
+10-17 17:34:18.717 24818 25365 I CCodec  : [c2.android.aac.decoder] state->set(STARTING)
+10-17 17:34:18.719 24818 25365 W Codec2Client: query -- param skipped: index = 1342179345.
+10-17 17:34:18.719 24818 25365 W Codec2Client: query -- param skipped: index = 2415921170.
+10-17 17:34:18.719 24818 25365 W Codec2Client: query -- param skipped: index = 1610614798.
+10-17 17:34:18.721 24818 25365 D CCodecBufferChannel: [c2.android.aac.decoder#893] Created input block pool with allocatorID 16 => poolID 26 - OK (0)
+10-17 17:34:18.722 24818 25365 I CCodecBufferChannel: [c2.android.aac.decoder#893] Created output block pool with allocatorID 16 => poolID 500 - OK
+10-17 17:34:18.722 24818 25365 D CCodecBufferChannel: [c2.android.aac.decoder#893] Configured output block pool ids 500 => OK
+10-17 17:34:18.723 24818 25365 I CCodec  : [c2.android.aac.decoder] state->set(RUNNING)
+10-17 17:34:18.724 24818 25365 I CCodecBufferChannel: [c2.android.aac.decoder#893] 4 initial input buffers available
+10-17 17:34:18.736 24818 25365 D CCodecConfig: c2 config diff is   c2::u32 raw.channel-mask.value = 12
+10-17 17:34:18.736 24818 25365 D CCodecBuffers: [c2.android.aac.decoder#893:Output[N]] popFromStashAndRegister: at 5994666us, output format changed to AMessage(what = 0x00000000) = {
+10-17 17:34:18.736 24818 25365 D CCodecBuffers:   int32_t aac-drc-album-mode = 0
+10-17 17:34:18.736 24818 25365 D CCodecBuffers:   int32_t aac-drc-boost-level = 127
+10-17 17:34:18.736 24818 25365 D CCodecBuffers:   int32_t aac-drc-cut-level = 127
+10-17 17:34:18.736 24818 25365 D CCodecBuffers:   int32_t aac-drc-effect-type = 3
+10-17 17:34:18.736 24818 25365 D CCodecBuffers:   int32_t aac-drc-output-loudness = -1
+10-17 17:34:18.736 24818 25365 D CCodecBuffers:   int32_t aac-encoded-target-level = -1
+10-17 17:34:18.736 24818 25365 D CCodecBuffers:   int32_t aac-max-output-channel_count = 8
+10-17 17:34:18.736 24818 25365 D CCodecBuffers:   int32_t aac-target-ref-level = 64
+10-17 17:34:18.736 24818 25365 D CCodecBuffers:   int32_t buffer-batch-max-output-size = 0
+10-17 17:34:18.736 24818 25365 D CCodecBuffers:   int32_t buffer-batch-threshold-output-size = 0
+10-17 17:34:18.736 24818 25365 D CCodecBuffers:   int32_t channel-count = 2
+10-17 17:34:18.736 24818 25365 D CCodecBuffers:   int32_t channel-mask = 12
+10-17 17:34:18.736 24818 25365 D CCodecBuffers:   int32_t max-output-channel-count = 8
+10-17 17:34:18.736 24818 25365 D CCodecBuffers:   string mime = "audio/raw"
+10-17 17:34:18.736 24818 25365 D CCodecBuffers:   int32_t sample-rate = 48000
+10-17 17:34:18.736 24818 25365 D CCodecBuffers:   int32_t encoder-delay = 0
+10-17 17:34:18.736 24818 25365 D CCodecBuffers:   int32_t encoder-padding = 1920
+10-17 17:34:18.736 24818 25365 D CCodecBuffers:   int32_t android._config-pcm-encoding = 2
+10-17 17:34:18.736 24818 25365 D CCodecBuffers: }
+10-17 17:34:18.747 24818 25210 D CCodecBufferChannel: [c2.exynos.h264.decoder#741] Ignoring stale input buffer done callback: last flush index = 150, frameIndex = 150
+10-17 17:34:19.417 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:19.538 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:19.761 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:19.827 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:20.393 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:20.481 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:20.499 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:20.503 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:20.547 24818 24925 W Unity   : [`Logger`]2026-10-17 17:34:20,546 [WARNING]: [LoginLoginServerControl] http請求返回後沒有指定回撥，可能是之前的請求被取消
+10-17 17:34:20.547 24818 24925 W Unity   : Onecore.Plugins.Base.LogWriter:Write(String, LogLevel, Boolean)
+10-17 17:34:20.547 24818 24925 W Unity   : System.Action`3:Invoke(T1, T2, T3)
+10-17 17:34:20.547 24818 24925 W Unity   : Onecore.Plugins.Base.BaseLogger:Log(String, LogLevel, Boolean)
+10-17 17:34:20.547 24818 24925 W Unity   : Onecore.OnecoreEngine.Base.ZLogger:WarningNoStack(Object, Object[])
+10-17 17:34:20.547 24818 24925 W Unity   : XLua.CSObjectWrap.OnecoreOnecoreEngineBaseZLoggerWrap:_m_WarningNoStack_xlua_st_(IntPtr)
+10-17 17:34:20.547 24818 24925 W Unity   :  
+10-17 17:34:20.547 24818 24925 W Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+10-17 17:34:20.547 24818 24925 W Unity   : 
+10-17 17:34:20.567 24818 25146 E Unity   : Curl error 6: Could not resolve host: apiapm.rhinosgamestw.com
+10-17 17:34:20.567 24818 25146 E Unity   :  
+10-17 17:34:20.567 24818 25146 E Unity   : (Filename:  Line: 867)
+10-17 17:34:20.567 24818 25146 E Unity   : 
+10-17 17:34:20.577 24818 24925 W Unity   : [`Logger`]2026-10-17 17:34:20,576 [WARNING]: game_server Begin Connect 127.0.0.1:19090
+10-17 17:34:20.577 24818 24925 W Unity   : Onecore.Plugins.Base.LogWriter:Write(String, LogLevel, Boolean)
+10-17 17:34:20.577 24818 24925 W Unity   : System.Action`3:Invoke(T1, T2, T3)
+10-17 17:34:20.577 24818 24925 W Unity   : Onecore.Plugins.Base.BaseLogger:Log(String, LogLevel, Boolean)
+10-17 17:34:20.577 24818 24925 W Unity   : Onecore.OnecoreEngine.Base.ZLogger:WarningNoStack(Object, Object[])
+10-17 17:34:20.577 24818 24925 W Unity   : XLua.CSObjectWrap.OnecoreOnecoreEngineBaseZLoggerWrap:_m_WarningNoStack_xlua_st_(IntPtr)
+10-17 17:34:20.577 24818 24925 W Unity   :  
+10-17 17:34:20.577 24818 24925 W Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+10-17 17:34:20.577 24818 24925 W Unity   : 
+10-17 17:34:20.591 24818 24818 I fnsdk   : fnsdk: logLoginFinish
+10-17 17:34:20.598 24818 24925 W Unity   : [`Logger`]2026-10-17 17:34:20,595 [WARNING]: --------game_server Connected(lua)------- checkState:0 (curProxyState:0(0/2:D,1/3:P))
+10-17 17:34:20.598 24818 24925 W Unity   : Onecore.Plugins.Base.LogWriter:Write(String, LogLevel, Boolean)
+10-17 17:34:20.598 24818 24925 W Unity   : System.Action`3:Invoke(T1, T2, T3)
+10-17 17:34:20.598 24818 24925 W Unity   : Onecore.Plugins.Base.BaseLogger:Log(String, LogLevel, Boolean)
+10-17 17:34:20.598 24818 24925 W Unity   : Onecore.OnecoreEngine.Base.ZLogger:WarningNoStack(Object, Object[])
+10-17 17:34:20.598 24818 24925 W Unity   : XLua.CSObjectWrap.OnecoreOnecoreEngineBaseZLoggerWrap:_m_WarningNoStack_xlua_st_(IntPtr)
+10-17 17:34:20.598 24818 24925 W Unity   :  
+10-17 17:34:20.598 24818 24925 W Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+10-17 17:34:20.598 24818 24925 W Unity   : 
+10-17 17:34:20.668 24818 24818 E fnsdk   : fnsdk: 调用错误：logEnterGame() 接口调用顺序错误！请在 logSelectServer(roleLevel, userName, serverId) 之后再调用！0
+10-17 17:34:20.668 24818 24818 E fnsdk   : fnsdk: 调用错误：logEnterGame() 接口调用顺序错误！请在 logSelectServer(roleLevel, userName, serverId) 之后再调用！1
+10-17 17:34:20.668 24818 24818 E fnsdk   : fnsdk: 调用错误：logEnterGame() 接口调用顺序错误！请在 logSelectServer(roleLevel, userName, serverId) 之后再调用！2
+10-17 17:34:20.668 24818 24818 E fnsdk   : fnsdk: 调用错误：logEnterGame() 接口调用顺序错误！请在 logSelectServer(roleLevel, userName, serverId) 之后再调用！3
+10-17 17:34:20.668 24818 24818 E fnsdk   : fnsdk: 调用错误：logEnterGame() 接口调用顺序错误！请在 logSelectServer(roleLevel, userName, serverId) 之后再调用！4
+10-17 17:34:20.668 24818 24818 E fnsdk   : fnsdk: 调用错误：logEnterGame() 接口调用顺序错误！请在 logSelectServer(roleLevel, userName, serverId) 之后再调用！5
+10-17 17:34:20.668 24818 24818 E fnsdk   : fnsdk: 调用错误：logEnterGame() 接口调用顺序错误！请在 logSelectServer(roleLevel, userName, serverId) 之后再调用！6
+10-17 17:34:20.668 24818 24818 E fnsdk   : fnsdk: 调用错误：logEnterGame() 接口调用顺序错误！请在 logSelectServer(roleLevel, userName, serverId) 之后再调用！7
+10-17 17:34:20.668 24818 24818 E fnsdk   : fnsdk: 调用错误：logEnterGame() 接口调用顺序错误！请在 logSelectServer(roleLevel, userName, serverId) 之后再调用！8
+10-17 17:34:20.668 24818 24818 E fnsdk   : fnsdk: 调用错误：logEnterGame() 接口调用顺序错误！请在 logSelectServer(roleLevel, userName, serverId) 之后再调用！9
+10-17 17:34:20.668 24818 24818 I fnsdk   : fnsdk: logEnterGame
+10-17 17:34:20.680 24818 24818 I 43_Sdk  : enterSuccessLog -> enterSuccessLog
+10-17 17:34:20.689 24818 24818 I sdk     : #ERROR 25842: not call init for db!
+10-17 17:34:20.728 24818 25365 I CCodec  : [c2.android.aac.decoder] state->set(STOPPING)
+10-17 17:34:20.728 24818 25365 D CCodecBufferChannel: [c2.android.aac.decoder#893] MediaCodec discarded an unknown buffer
+10-17 17:34:20.728 24818 25365 D CCodecBufferChannel: [c2.android.aac.decoder#893] MediaCodec discarded an unknown buffer
+10-17 17:34:20.728 24818 25365 D CCodecBufferChannel: [c2.android.aac.decoder#893] MediaCodec discarded an unknown buffer
+10-17 17:34:20.729 24818 25365 D CCodecBufferChannel: [c2.android.aac.decoder#893] MediaCodec discarded an unknown buffer
+10-17 17:34:20.729 24818 25365 I CCodec  : [stop][3601] component -> surface
+10-17 17:34:20.731 24818 25365 I CCodec  : [c2.android.aac.decoder] state->set(ALLOCATED)
+10-17 17:34:20.737 24818 25365 I CCodec  : [c2.android.aac.decoder] state->set(RELEASING)
+10-17 17:34:20.738 24818 25389 D CCodec  : hold CodecLooper(1) until release
+10-17 17:34:20.738 24818 25389 I CCodec  : [release][3747] component -> surface
+10-17 17:34:20.739 24818 25389 I CCodec  : [c2.android.aac.decoder] state->set(RELEASED)
+10-17 17:34:20.741 24818 25365 I Codec2Client: Component destructing
+10-17 17:34:20.741 24818 25365 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+10-17 17:34:20.742 24818 25365 I MediaCodec: Codec shutdown complete
+10-17 17:34:20.745 24818 25140 I CCodecBufferChannel: CCodecBufferChannel destructing c2.android.aac.decoder#893
+10-17 17:34:20.745 24818 25140 V NuMediaExtractor: NuMediaExtractor destructor
+10-17 17:34:20.750 24818 25324 I CCodec  : [c2.exynos.h264.decoder] state->set(STOPPING)
+10-17 17:34:20.751 24818 25324 D CCodecBufferChannel: [c2.exynos.h264.decoder#741] MediaCodec discarded an unknown buffer
+10-17 17:34:20.751 24818 25325 I CCodec  : [stop][3607] surface -> component
+10-17 17:34:20.751 24818 25324 D CCodecBufferChannel: [c2.exynos.h264.decoder#741] MediaCodec discarded an unknown buffer
+10-17 17:34:20.751 24818 25324 D CCodecBufferChannel: [c2.exynos.h264.decoder#741] MediaCodec discarded an unknown buffer
+10-17 17:34:20.752 24818 25324 D CCodecBufferChannel: [c2.exynos.h264.decoder#741] MediaCodec discarded an unknown buffer
+10-17 17:34:20.752 24818 25324 D CCodecBufferChannel: [c2.exynos.h264.decoder#741] MediaCodec discarded an unknown buffer
+10-17 17:34:20.752 24818 25324 D CCodecBufferChannel: [c2.exynos.h264.decoder#741] MediaCodec discarded an unknown buffer
+10-17 17:34:20.752 24818 25324 D CCodecBufferChannel: [c2.exynos.h264.decoder#741] MediaCodec discarded an unknown buffer
+10-17 17:34:20.752 24818 25324 D CCodecBufferChannel: [c2.exynos.h264.decoder#741] MediaCodec discarded an unknown buffer
+10-17 17:34:20.752 24818 25324 D CCodecBufferChannel: [c2.exynos.h264.decoder#741] MediaCodec discarded an unknown buffer
+10-17 17:34:20.752 24818 25324 D CCodecBufferChannel: [c2.exynos.h264.decoder#741] MediaCodec discarded an unknown buffer
+10-17 17:34:20.752 24818 25324 D CCodecBufferChannel: [c2.exynos.h264.decoder#741] MediaCodec discarded an unknown buffer
+10-17 17:34:20.752 24818 25324 D CCodecBufferChannel: [c2.exynos.h264.decoder#741] MediaCodec discarded an unknown buffer
+10-17 17:34:20.752 24818 25324 D CCodecBufferChannel: [c2.exynos.h264.decoder#741] MediaCodec discarded an unknown buffer
+10-17 17:34:20.752 24818 25324 D CCodecBufferChannel: [c2.exynos.h264.decoder#741] MediaCodec discarded an unknown buffer
+10-17 17:34:20.752 24818 25324 D CCodecBufferChannel: [c2.exynos.h264.decoder#741] MediaCodec discarded an unknown buffer
+10-17 17:34:20.752 24818 25324 D CCodecBufferChannel: [c2.exynos.h264.decoder#741] MediaCodec discarded an unknown buffer
+10-17 17:34:20.752 24818 25324 D CCodecBufferChannel: [c2.exynos.h264.decoder#741] MediaCodec discarded an unknown buffer
+10-17 17:34:20.782 24818 25325 I CCodec  : [c2.exynos.h264.decoder] state->set(ALLOCATED)
+10-17 17:34:20.783 24818 25324 D SurfaceUtils: disconnecting from surface 0xb40000757817d910, reason disconnectFromSurface
+10-17 17:34:20.796 24818 25324 I CCodec  : [c2.exynos.h264.decoder] state->set(RELEASING)
+10-17 17:34:20.797 24818 25391 D CCodec  : hold CodecLooper(1) until release
+10-17 17:34:20.797 24818 25391 I CCodec  : [release][3751] surface -> component
+10-17 17:34:20.829 24818 25391 I CCodec  : [c2.exynos.h264.decoder] state->set(RELEASED)
+10-17 17:34:20.829 24818 25391 I Codec2Client: Component destructing
+10-17 17:34:20.829 24818 25324 I MediaCodec: Codec shutdown complete
+10-17 17:34:20.853 24818 25391 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+10-17 17:34:20.868 24818 25140 I CCodecBufferChannel: CCodecBufferChannel destructing c2.exynos.h264.decoder#741
+10-17 17:34:22.517 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:22.570 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:24.231 24818 25209 D BufferPoolAccessor2.0: bufferpool2 0xb400007774378e28 : 0(0 size) total buffers - 0(0 size) used buffers - 1/6 (recycle/alloc) - 5/267 (fetch/transfer)
+10-17 17:34:24.231 24818 25209 D BufferPoolAccessor2.0: bufferpool2 0xb40000766b995828 : 0(0 size) total buffers - 0(0 size) used buffers - 6/11 (recycle/alloc) - 1/2 (fetch/transfer)
+10-17 17:34:24.231 24818 25209 D BufferPoolAccessor2.0: evictor expired: 3, evicted: 2
+10-17 17:34:24.525 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:24.604 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:25.441 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:25.549 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:25.972 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:26.043 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:26.232 24818 25209 D BufferPoolAccessor2.0: bufferpool2 0xb40000757807b228 : 0(0 size) total buffers - 0(0 size) used buffers - 1/6 (recycle/alloc) - 5/102 (fetch/transfer)
+10-17 17:34:26.232 24818 25209 D BufferPoolAccessor2.0: bufferpool2 0xb4000077a1860a28 : 0(0 size) total buffers - 0(0 size) used buffers - 2/6 (recycle/alloc) - 4/203 (fetch/transfer)
+10-17 17:34:26.232 24818 25209 D BufferPoolAccessor2.0: evictor expired: 2, evicted: 2
+10-17 17:34:26.370 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:26.454 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:26.571 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:26.609 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:26.727 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:26.759 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:26.872 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:26.976 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:27.116 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:27.128 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:27.790 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:27.877 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:28.321 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:28.394 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:29.888 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:29.967 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:32.145 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:32.267 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:34.191 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:34.277 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:35.374 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:35.478 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:36.543 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:36.690 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:39.692 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@40b70ed
+10-17 17:34:42.072 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:42.072 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@40b70ed
+10-17 17:34:42.162 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:45.166 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@40b70ed
+10-17 17:34:45.875 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:45.875 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@40b70ed
+10-17 17:34:45.968 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:47.463 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:47.545 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:48.085 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:48.162 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:49.155 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:49.240 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:51.314 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:51.348 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:51.363 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:34:51.367 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:34:54.370 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@40b70ed
+10-17 17:36:54.252 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:36:54.252 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@40b70ed
+10-17 17:36:54.692 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:36:56.911 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:36:57.004 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:36:58.330 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:36:58.420 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:36:59.251 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:36:59.337 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:37:00.441 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:37:00.526 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:37:01.221 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:37:01.293 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:37:01.795 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:37:01.848 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:37:04.851 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@40b70ed
+10-17 17:37:31.004 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:37:31.004 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@40b70ed
+10-17 17:37:31.095 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:37:34.098 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@40b70ed
+10-17 17:37:39.667 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:37:39.667 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@40b70ed
+10-17 17:37:39.718 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:37:40.122 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:37:40.246 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:37:41.422 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:37:41.514 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:37:42.001 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:37:42.108 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:37:42.637 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:37:42.763 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:37:43.250 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:37:43.379 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:37:46.302 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:37:46.380 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@40b70ed
+10-17 17:37:46.382 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:37:46.382 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@40b70ed
+10-17 17:37:47.406 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:37:47.503 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:37:50.503 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@40b70ed
+10-17 17:38:19.388 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:38:19.389 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@40b70ed
+10-17 17:38:19.478 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:38:20.431 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:38:20.528 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:38:23.530 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@40b70ed
+10-17 17:39:30.533 24818 24925 W Unity   : [`Logger`]2026-10-17 17:39:30,520 [WARNING]: game_server 连接超时, 断开触发重连
+10-17 17:39:30.533 24818 24925 W Unity   : Onecore.Plugins.Base.LogWriter:Write(String, LogLevel, Boolean)
+10-17 17:39:30.533 24818 24925 W Unity   : System.Action`3:Invoke(T1, T2, T3)
+10-17 17:39:30.533 24818 24925 W Unity   : Onecore.Plugins.Base.BaseLogger:Log(String, LogLevel, Boolean)
+10-17 17:39:30.533 24818 24925 W Unity   : Onecore.OnecoreEngine.Base.ZLogger:WarningNoStack(Object, Object[])
+10-17 17:39:30.533 24818 24925 W Unity   : XLua.CSObjectWrap.OnecoreOnecoreEngineBaseZLoggerWrap:_m_WarningNoStack_xlua_st_(IntPtr)
+10-17 17:39:30.533 24818 24925 W Unity   :  
+10-17 17:39:30.533 24818 24925 W Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+10-17 17:39:30.533 24818 24925 W Unity   : 
+10-17 17:39:30.571 24818 24925 W Unity   : [`Logger`]2026-10-17 17:39:30,570 [WARNING]: SNTcpProtocol.Close(): [SN](1) Close ex:The socket is not connected
+10-17 17:39:30.571 24818 24925 W Unity   : Onecore.Plugins.Base.LogWriter:Write(String, LogLevel, Boolean)
+10-17 17:39:30.571 24818 24925 W Unity   : System.Action`3:Invoke(T1, T2, T3)
+10-17 17:39:30.571 24818 24925 W Unity   : Onecore.Plugins.Base.BaseLogger:Log(String, LogLevel, Boolean)
+10-17 17:39:30.571 24818 24925 W Unity   : Onecore.OnecoreEngine.Base.SNTcpProtocol:Close(Boolean)
+10-17 17:39:30.571 24818 24925 W Unity   : Onecore.OnecoreEngine.Base.SNTcpProtocol:Disconnect(Boolean)
+10-17 17:39:30.571 24818 24925 W Unity   : XLua.CSObjectWrap.OnecoreOnecoreEngineGameSNTCPClientWrap:_m_Close(IntPtr)
+10-17 17:39:30.571 24818 24925 W Unity   :  
+10-17 17:39:30.571 24818 24925 W Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+10-17 17:39:30.571 24818 24925 W Unity   : 
+10-17 17:39:30.573 24818 24925 W Unity   : [`Logger`]2026-10-17 17:39:30,572 [WARNING]: --game_server 开始第1次重连--
+10-17 17:39:30.573 24818 24925 W Unity   : Onecore.Plugins.Base.LogWriter:Write(String, LogLevel, Boolean)
+10-17 17:39:30.573 24818 24925 W Unity   : System.Action`3:Invoke(T1, T2, T3)
+10-17 17:39:30.573 24818 24925 W Unity   : Onecore.Plugins.Base.BaseLogger:Log(String, LogLevel, Boolean)
+10-17 17:39:30.573 24818 24925 W Unity   : Onecore.OnecoreEngine.Base.ZLogger:WarningNoStack(Object, Object[])
+10-17 17:39:30.573 24818 24925 W Unity   : XLua.CSObjectWrap.OnecoreOnecoreEngineBaseZLoggerWrap:_m_WarningNoStack_xlua_st_(IntPtr)
+10-17 17:39:30.573 24818 24925 W Unity   :  
+10-17 17:39:30.573 24818 24925 W Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+10-17 17:39:30.573 24818 24925 W Unity   : 
+10-17 17:39:30.574 24818 24925 W Unity   : [`Logger`]2026-10-17 17:39:30,574 [WARNING]:  game_server  TryReconnect  ip:127.0.0.1   port:19090
+10-17 17:39:30.574 24818 24925 W Unity   : Onecore.Plugins.Base.LogWriter:Write(String, LogLevel, Boolean)
+10-17 17:39:30.574 24818 24925 W Unity   : System.Action`3:Invoke(T1, T2, T3)
+10-17 17:39:30.574 24818 24925 W Unity   : Onecore.Plugins.Base.BaseLogger:Log(String, LogLevel, Boolean)
+10-17 17:39:30.574 24818 24925 W Unity   : Onecore.OnecoreEngine.Base.ZLogger:WarningNoStack(Object, Object[])
+10-17 17:39:30.574 24818 24925 W Unity   : XLua.CSObjectWrap.OnecoreOnecoreEngineBaseZLoggerWrap:_m_WarningNoStack_xlua_st_(IntPtr)
+10-17 17:39:30.574 24818 24925 W Unity   :  
+10-17 17:39:30.574 24818 24925 W Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+10-17 17:39:30.574 24818 24925 W Unity   : 
+10-17 17:39:30.587 24818 24925 W Unity   : [`Logger`]2026-10-17 17:39:30,586 [WARNING]: --------game_server Connected(lua)------- checkState:0 (curProxyState:100(0/2:D,1/3:P))
+10-17 17:39:30.587 24818 24925 W Unity   : Onecore.Plugins.Base.LogWriter:Write(String, LogLevel, Boolean)
+10-17 17:39:30.587 24818 24925 W Unity   : System.Action`3:Invoke(T1, T2, T3)
+10-17 17:39:30.587 24818 24925 W Unity   : Onecore.Plugins.Base.BaseLogger:Log(String, LogLevel, Boolean)
+10-17 17:39:30.587 24818 24925 W Unity   : Onecore.OnecoreEngine.Base.ZLogger:WarningNoStack(Object, Object[])
+10-17 17:39:30.587 24818 24925 W Unity   : XLua.CSObjectWrap.OnecoreOnecoreEngineBaseZLoggerWrap:_m_WarningNoStack_xlua_st_(IntPtr)
+10-17 17:39:30.587 24818 24925 W Unity   :  
+10-17 17:39:30.587 24818 24925 W Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+10-17 17:39:30.587 24818 24925 W Unity   : 
+10-17 17:39:30.588 24818 24925 W Unity   : [`Logger`]2026-10-17 17:39:30,588 [WARNING]: [LoginGameServerControl] Send 1_4 roleId=1 loginKey=5TJ2UXSw_0FuefG224scSxGmK0i5ddBz7524ocCBb4Q loginTime=1792229658 loginToken=3GxEEjMy-BOZoJ7zmVLDSy-DPlVKaizy-LJE9gZdGBE
+10-17 17:39:30.588 24818 24925 W Unity   : Onecore.Plugins.Base.LogWriter:Write(String, LogLevel, Boolean)
+10-17 17:39:30.588 24818 24925 W Unity   : System.Action`3:Invoke(T1, T2, T3)
+10-17 17:39:30.588 24818 24925 W Unity   : Onecore.Plugins.Base.BaseLogger:Log(String, LogLevel, Boolean)
+10-17 17:39:30.588 24818 24925 W Unity   : Onecore.OnecoreEngine.Base.ZLogger:WarningNoStack(Object, Object[])
+10-17 17:39:30.588 24818 24925 W Unity   : XLua.CSObjectWrap.OnecoreOnecoreEngineBaseZLoggerWrap:_m_WarningNoStack_xlua_st_(IntPtr)
+10-17 17:39:30.588 24818 24925 W Unity   :  
+10-17 17:39:30.588 24818 24925 W Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+10-17 17:39:30.588 24818 24925 W Unity   : 
+10-17 17:39:30.611 24818 24925 W Unity   : [`Logger`]2026-10-17 17:39:30,610 [WARNING]: [LoginGameServerControl] Receive 1_4 code=0
+10-17 17:39:30.611 24818 24925 W Unity   : Onecore.Plugins.Base.LogWriter:Write(String, LogLevel, Boolean)
+10-17 17:39:30.611 24818 24925 W Unity   : System.Action`3:Invoke(T1, T2, T3)
+10-17 17:39:30.611 24818 24925 W Unity   : Onecore.Plugins.Base.BaseLogger:Log(String, LogLevel, Boolean)
+10-17 17:39:30.611 24818 24925 W Unity   : Onecore.OnecoreEngine.Base.ZLogger:WarningNoStack(Object, Object[])
+10-17 17:39:30.611 24818 24925 W Unity   : XLua.CSObjectWrap.OnecoreOnecoreEngineBaseZLoggerWrap:_m_WarningNoStack_xlua_st_(IntPtr)
+10-17 17:39:30.611 24818 24925 W Unity   :  
+10-17 17:39:30.611 24818 24925 W Unity   : (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+10-17 17:39:30.611 24818 24925 W Unity   : 
+10-17 17:39:32.549 24818 24822 I om.tw99.no23.an: Background concurrent mark compact GC freed 6492KB AllocSpace bytes, 16(448KB) LOS objects, 51% free, 5853KB/11MB, paused 443us,6.946ms total 128.532ms
+10-17 17:39:35.452 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:39:35.456 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@40b70ed
+10-17 17:39:35.507 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:39:37.070 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:39:37.302 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:39:40.306 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@40b70ed
+10-17 17:39:41.216 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:39:41.216 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@40b70ed
+10-17 17:39:41.354 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:39:44.358 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@40b70ed
+10-17 17:39:50.497 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:39:50.497 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@40b70ed
+10-17 17:39:50.648 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:39:53.573 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:39:53.576 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:39:56.580 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@40b70ed
+10-17 17:40:23.419 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 0
+10-17 17:40:23.420 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@40b70ed
+10-17 17:40:23.426 24818 24818 I VRI[MainActivity]@40b70ed: ViewPostIme pointer 1
+10-17 17:40:24.007 24818 25157 E Unity   : Closing file archive:/CAB-d0b72d7f32948cb8cb8b87c9e7dfb06c/CAB-d0b72d7f32948cb8cb8b87c9e7dfb06c.resS 
+10-17 17:40:24.007 24818 25157 E Unity   : (Filename:  Line: 485)
+10-17 17:40:24.007 24818 25157 E Unity   : 
+10-17 17:40:24.007 24818 25157 E Unity   : Could not open file archive:/CAB-d0b72d7f32948cb8cb8b87c9e7dfb06c/CAB-d0b72d7f32948cb8cb8b87c9e7dfb06c.resS for read 
+10-17 17:40:24.007 24818 25157 E Unity   : (Filename:  Line: 61)
+10-17 17:40:24.007 24818 25157 E Unity   : 
+10-17 17:40:24.007 24818 25157 E Unity   : async texture load: failed to load fx_520235_g_png2 from archive:/CAB-d0b72d7f32948cb8cb8b87c9e7dfb06c/CAB-d0b72d7f32948cb8cb8b87c9e7dfb06c.resS
+10-17 17:40:24.007 24818 25157 E Unity   :  
+10-17 17:40:24.007 24818 25157 E Unity   : (Filename:  Line: 523)
+10-17 17:40:24.007 24818 25157 E Unity   : 
+10-17 17:40:26.430 24818 24818 I VRI[MainActivity]@40b70ed: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@40b70ed

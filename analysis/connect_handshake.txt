@@ -1,0 +1,142 @@
+
+protected void OnBeginConnectCB() { }
+f4435c: sub      sp, sp, #0x40 
+f44360: stp      x22, x21, [sp, #0x10] 
+f44364: stp      x20, x19, [sp, #0x20] 
+f44368: stp      x29, x30, [sp, #0x30] 
+f4436c: add      x29, sp, #0x30 
+f44370: adrp     x20, #0x2e7e000 
+f44374: ldrb     w8, [x20, #0xd2d] 
+f44378: mov      x19, x0 
+f4437c: tbnz     w8, #0, #0xf44398 
+f44380: adrp     x8, #0x2cb9000 
+f44384: ldr      x8, [x8, #0xf40] 
+f44388: ldr      w0, [x8] 
+f4438c: bl       #0xd328f8 
+f44390: mov      w8, #1 
+f44394: strb     w8, [x20, #0xd2d] 
+f44398: adrp     x8, #0x2cfc000 
+f4439c: ldr      x8, [x8, #0x678] 
+f443a0: mov      w1, #3 
+f443a4: strb     wzr, [sp, #0xc] 
+f443a8: ldr      x0, [x8] 
+f443ac: bl       #0xd32908 
+f443b0: ldr      x8, [x19, #0x10] 
+f443b4: cbz      x8, #0xf44554 
+f443b8: adrp     x22, #0x2cb4000 
+f443bc: ldr      w8, [x8, #0x10] 
+f443c0: ldr      x22, [x22, #0x150] 
+f443c4: mov      x20, x0 
+f443c8: add      x1, sp, #8 
+f443cc: str      w8, [sp, #8] 
+f443d0: ldr      x0, [x22] 
+f443d4: bl       #0xd329b4 
+f443d8: cbz      x20, #0xf44554 
+f443dc: mov      x21, x0 
+f443e0: cbz      x0, #0xf443f8 
+f443e4: ldr      x8, [x20] 
+f443e8: mov      x0, x21 
+f443ec: ldr      x1, [x8, #0x40] 
+f443f0: bl       #0xd329b0 
+f443f4: cbz      x0, #0xf44558 
+f443f8: ldr      w8, [x20, #0x18] 
+f443fc: cbz      w8, #0xf44548 
+f44400: str      x21, [x20, #0x20] 
+f44404: ldr      x21, [x19, #0x18] 
+f44408: cbz      x21, #0xf44424 
+f4440c: ldr      x8, [x20] 
+f44410: mov      x0, x21 
+f44414: ldr      x1, [x8, #0x40] 
+f44418: bl       #0xd329b0 
+f4441c: cbz      x0, #0xf44558 
+f44420: ldr      w8, [x20, #0x18] 
+f44424: cmp      w8, #1 
+f44428: b.ls     #0xf44548 
+f4442c: str      x21, [x20, #0x28] 
+f44430: ldr      w8, [x19, #0x20] 
+f44434: ldr      x0, [x22] 
+f44438: add      x1, sp, #4 
+f4443c: str      w8, [sp, #4] 
+f44440: bl       #0xd329b4 
+f44444: mov      x21, x0 
+f44448: cbz      x0, #0xf44460 
+f4444c: ldr      x8, [x20] 
+f44450: mov      x0, x21 
+f44454: ldr      x1, [x8, #0x40] 
+f44458: bl       #0xd329b0 
+f4445c: cbz      x0, #0xf44558 
+f44460: ldr      w8, [x20, #0x18] 
+f44464: cmp      w8, #2 
+f44468: b.ls     #0xf44548 
+f4446c: str      x21, [x20, #0x30] 
+f44470: adrp     x8, #0x2cc1000 
+f44474: ldr      x8, [x8, #0x4f0] 
+f44478: ldr      x0, [x8] 
+f4447c: ldrb     w8, [x0, #0x12f] 
+f44480: tbz      w8, #1, #0xf44490 
+f44484: ldr      w8, [x0, #0xe0] 
+f44488: cbnz     w8, #0xf44490 
+f4448c: bl       #0xd329a4 
+f44490: adrp     x8, #0x2cfb000 
+f44494: ldr      x8, [x8, #0xe78] 
+f44498: mov      x1, x20 
+f4449c: mov      x2, xzr 
+f444a0: ldr      x0, [x8] 
+f444a4: bl       #0x11d7ad8 public static void Info(object message, object[] argv) { }
+f444a8: adrp     x21, #0x2c9b000 
+f444ac: ldr      x21, [x21, #0xc80] 
+f444b0: ldr      x0, [x21] 
+f444b4: ldrb     w8, [x0, #0x12f] 
+f444b8: tbz      w8, #1, #0xf444cc 
+f444bc: ldr      w8, [x0, #0xe0] 
+f444c0: cbnz     w8, #0xf444cc 
+f444c4: bl       #0xd329a4 
+f444c8: ldr      x0, [x21] 
+f444cc: ldr      x8, [x0, #0xb8] 
+f444d0: ldr      x20, [x19, #0x10] 
+f444d4: ldr      w8, [x8, #0x10] 
+f444d8: str      w8, [x19, #0x28] 
+f444dc: strb     wzr, [sp, #0xc] 
+f444e0: add      x1, sp, #0xc 
+f444e4: mov      x0, x20 
+f444e8: mov      x2, xzr 
+f444ec: bl       #0x154e44c public static void Enter(object obj, ref bool lockTaken) { }
+f444f0: ldr      x0, [x21] 
+f444f4: ldrb     w8, [x0, #0x12f] 
+f444f8: tbz      w8, #1, #0xf4450c 
+f444fc: ldr      w8, [x0, #0xe0] 
+f44500: cbnz     w8, #0xf4450c 
+f44504: bl       #0xd329a4 
+f44508: ldr      x0, [x21] 
+f4450c: ldr      x8, [x0, #0xb8] 
+f44510: mov      x21, xzr 
+f44514: ldr      w8, [x8] 
+f44518: str      w8, [x19, #0x24] 
+f4451c: ldrb     w8, [sp, #0xc] 
+f44520: cbz      w8, #0xf44530 
+f44524: mov      x0, x20 
+f44528: mov      x1, xzr 
+f4452c: bl       #0x154e46c public static void Exit(object obj) { }
+f44530: cbnz     x21, #0xf44564 
+f44534: ldp      x29, x30, [sp, #0x30] 
+f44538: ldp      x20, x19, [sp, #0x20] 
+f4453c: ldp      x22, x21, [sp, #0x10] 
+f44540: add      sp, sp, #0x40 
+f44544: ret       
+f44548: bl       #0xd329f4 
+f4454c: mov      x1, xzr 
+f44550: bl       #0xd32994 
+f44554: bl       #0xd329c8 
+f44558: bl       #0xd329e8 
+f4455c: mov      x1, xzr 
+f44560: bl       #0xd32994 
+f44564: mov      x0, x21 
+f44568: mov      x1, xzr 
+f4456c: bl       #0xd32994 
+f44570: cmp      w1, #1 
+f44574: b.ne     #0xf44588 
+f44578: bl       #0x9d6bc0 
+f4457c: ldr      x21, [x0] 
+f44580: bl       #0x9d6090 
+f44584: b        #0xf4451c 
+f44588: bl       #0x9d5f30 

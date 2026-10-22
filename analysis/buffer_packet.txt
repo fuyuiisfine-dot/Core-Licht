@@ -1,0 +1,137 @@
+
+public BinaryWriter BeginPacket() { }
+15852a4: stp      x20, x19, [sp, #-0x20]! 
+15852a8: stp      x29, x30, [sp, #0x10] 
+15852ac: add      x29, sp, #0x10 
+15852b0: adrp     x20, #0x2e82000 
+15852b4: ldrb     w8, [x20, #0xcf3] 
+15852b8: mov      x19, x0 
+15852bc: tbnz     w8, #0, #0x15852d8 
+15852c0: adrp     x8, #0x2c88000 
+15852c4: ldr      x8, [x8, #0x970] 
+15852c8: ldr      w0, [x8] 
+15852cc: bl       #0xd328f8 
+15852d0: mov      w8, #1 
+15852d4: strb     w8, [x20, #0xcf3] 
+15852d8: mov      x0, x19 
+15852dc: mov      w1, wzr 
+15852e0: bl       #0x1584f20 public BinaryWriter BeginWriting(bool append = False) { }
+15852e4: adrp     x20, #0x2ce0000 
+15852e8: ldr      x20, [x20, #0x398] 
+15852ec: mov      x19, x0 
+15852f0: ldr      x8, [x20] 
+15852f4: ldrb     w9, [x8, #0x12f] 
+15852f8: tbz      w9, #1, #0x158530c 
+15852fc: ldr      w9, [x8, #0xe0] 
+1585300: cbnz     w9, #0x158530c 
+1585304: mov      x0, x8 
+1585308: bl       #0xd329a4 
+158530c: cbz      x19, #0x1585340 
+1585310: ldr      x8, [x20] 
+1585314: ldr      x9, [x19] 
+1585318: mov      x0, x19 
+158531c: ldr      x8, [x8, #0xb8] 
+1585320: ldr      x10, [x9, #0x230] 
+1585324: ldr      x2, [x9, #0x238] 
+1585328: ldrh     w1, [x8, #8] 
+158532c: blr      x10 
+1585330: ldp      x29, x30, [sp, #0x10] 
+1585334: mov      x0, x19 
+1585338: ldp      x20, x19, [sp], #0x20 
+158533c: ret       
+1585340: bl       #0xd329c8 
+
+public int EndPacket() { }
+1585344: str      x21, [sp, #-0x30]! 
+1585348: stp      x20, x19, [sp, #0x10] 
+158534c: stp      x29, x30, [sp, #0x20] 
+1585350: add      x29, sp, #0x20 
+1585354: ldrb     w20, [x0, #0x30] 
+1585358: mov      x19, x0 
+158535c: bl       #0xd32904 
+1585360: cbz      w20, #0x15853ec 
+1585364: mov      x0, x19 
+1585368: bl       #0x1584154 public int get_position() { }
+158536c: mov      w21, w0 
+1585370: bl       #0xd32904 
+1585374: ldr      x20, [x19, #0x10] 
+1585378: str      w21, [x19, #0x2c] 
+158537c: bl       #0xd32904 
+1585380: cbz      x20, #0x158540c 
+1585384: ldr      x8, [x20] 
+1585388: mov      x0, x20 
+158538c: mov      x1, xzr 
+1585390: mov      w2, wzr 
+1585394: ldr      x9, [x8, #0x2c0] 
+1585398: ldr      x3, [x8, #0x2c8] 
+158539c: blr      x9 
+15853a0: ldrh     w20, [x19, #0x2c] 
+15853a4: bl       #0xd32904 
+15853a8: sub      w1, w20, #2 
+15853ac: mov      x0, x19 
+15853b0: bl       #0x1585410 public void WritePacketUInt16(ushort v) { }
+15853b4: ldr      x20, [x19, #0x10] 
+15853b8: bl       #0xd32904 
+15853bc: cbz      x20, #0x158540c 
+15853c0: ldr      x8, [x20] 
+15853c4: mov      x0, x20 
+15853c8: mov      x1, xzr 
+15853cc: mov      w2, wzr 
+15853d0: ldr      x9, [x8, #0x2c0] 
+15853d4: ldr      x3, [x8, #0x2c8] 
+15853d8: add      x21, x19, #0x2c 
+15853dc: blr      x9 
+15853e0: bl       #0xd32904 
+15853e4: strb     wzr, [x19, #0x30] 
+15853e8: b        #0x15853f0 
+15853ec: add      x21, x19, #0x2c 
+15853f0: ldr      w19, [x21] 
+15853f4: bl       #0xd32904 
+15853f8: mov      w0, w19 
+15853fc: ldp      x29, x30, [sp, #0x20] 
+1585400: ldp      x20, x19, [sp, #0x10] 
+1585404: ldr      x21, [sp], #0x30 
+1585408: ret       
+158540c: bl       #0xd329c8 
+
+public void WritePacketUInt16(ushort v) { }
+1585410: str      x23, [sp, #-0x40]! 
+1585414: stp      x22, x21, [sp, #0x10] 
+1585418: stp      x20, x19, [sp, #0x20] 
+158541c: stp      x29, x30, [sp, #0x30] 
+1585420: add      x29, sp, #0x30 
+1585424: adrp     x21, #0x2e82000 
+1585428: ldrb     w8, [x21, #0xcf4] 
+158542c: mov      w20, w1 
+1585430: mov      x19, x0 
+1585434: tbnz     w8, #0, #0x1585450 
+1585438: adrp     x8, #0x2cc1000 
+158543c: ldr      x8, [x8, #0x750] 
+1585440: ldr      w0, [x8] 
+1585444: bl       #0xd328f8 
+1585448: mov      w8, #1 
+158544c: strb     w8, [x21, #0xcf4] 
+1585450: ldrb     w22, [x19, #0x30] 
+1585454: bl       #0xd32904 
+1585458: adrp     x8, #0x2c75000 
+158545c: ldr      x8, [x8, #0x968] 
+1585460: ldr      x23, [x8] 
+1585464: ldr      x8, [x23, #0x30] 
+1585468: ldr      x21, [x8] 
+158546c: ldrh     w8, [x21, #0x12e] 
+1585470: tbnz     w8, #0, #0x1585480 
+1585474: mov      x0, x21 
+1585478: bl       #0xcd0740 
+158547c: ldrh     w8, [x21, #0x12e] 
+1585480: tbz      w8, #9, #0x15854c4 
+1585484: ldr      x8, [x23, #0x30] 
+1585488: ldr      x21, [x8] 
+158548c: ldrb     w8, [x21, #0x12e] 
+1585490: tbnz     w8, #0, #0x158549c 
+1585494: mov      x0, x21 
+1585498: bl       #0xcd0740 
+158549c: ldr      w8, [x21, #0xe0] 
+15854a0: cbnz     w8, #0x15854c4 
+15854a4: ldr      x8, [x23, #0x30] 
+15854a8: ldr      x21, [x8] 
+15854ac: ldrb     w8, [x21, #0x12e] 

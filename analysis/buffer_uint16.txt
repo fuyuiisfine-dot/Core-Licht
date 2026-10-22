@@ -1,0 +1,63 @@
+15854b0: tbnz     w8, #0, #0x15854bc 
+15854b4: mov      x0, x21 
+15854b8: bl       #0xcd0740 
+15854bc: mov      x0, x21 
+15854c0: bl       #0xd329a4 
+15854c4: ldr      x8, [x23, #0x30] 
+15854c8: ldr      x21, [x8] 
+15854cc: ldrb     w8, [x21, #0x12e] 
+15854d0: tbnz     w8, #0, #0x15854dc 
+15854d4: mov      x0, x21 
+15854d8: bl       #0xcd0740 
+15854dc: adrp     x8, #0x2cc1000 
+15854e0: ldr      x8, [x8, #0x4f0] 
+15854e4: ldr      x0, [x8] 
+15854e8: ldr      x8, [x21, #0xb8] 
+15854ec: ldrb     w9, [x0, #0x12f] 
+15854f0: ldr      x21, [x8] 
+15854f4: tbz      w9, #1, #0x1585504 
+15854f8: ldr      w8, [x0, #0xe0] 
+15854fc: cbnz     w8, #0x1585504 
+1585500: bl       #0xd329a4 
+1585504: cmp      w22, #0 
+1585508: cset     w0, ne 
+158550c: mov      x1, xzr 
+1585510: mov      x2, x21 
+1585514: mov      x3, xzr 
+1585518: bl       #0x11da8c0 public static void Assert(bool comparison, object message, object[] argv) { }
+158551c: ldr      x8, [x19, #0x38] 
+1585520: cbz      x8, #0x1585584 
+1585524: ldr      w9, [x8, #0x18] 
+1585528: cbz      w9, #0x1585588 
+158552c: lsr      w9, w20, #8 
+1585530: strb     w9, [x8, #0x20] 
+1585534: ldr      x8, [x19, #0x38] 
+1585538: cbz      x8, #0x1585584 
+158553c: ldr      w9, [x8, #0x18] 
+1585540: cmp      w9, #1 
+1585544: b.ls     #0x1585588 
+1585548: strb     w20, [x8, #0x21] 
+158554c: ldr      x20, [x19, #0x18] 
+1585550: bl       #0xd32904 
+1585554: cbz      x20, #0x1585584 
+1585558: ldr      x8, [x20] 
+158555c: ldr      x1, [x19, #0x38] 
+1585560: mov      x0, x20 
+1585564: ldp      x29, x30, [sp, #0x30] 
+1585568: ldp      x5, x4, [x8, #0x1e0] 
+158556c: ldp      x20, x19, [sp, #0x20] 
+1585570: ldp      x22, x21, [sp, #0x10] 
+1585574: mov      w3, #2 
+1585578: mov      w2, wzr 
+158557c: ldr      x23, [sp], #0x40 
+1585580: br       x5 
+1585584: bl       #0xd329c8 
+1585588: bl       #0xd329f4 
+158558c: mov      x1, xzr 
+1585590: bl       #0xd32994 
+
+public int PeekPacketSize(int offset) { }
+1585594: stp      x22, x21, [sp, #-0x30]! 
+1585598: stp      x20, x19, [sp, #0x10] 
+158559c: stp      x29, x30, [sp, #0x20] 
+15855a0: add      x29, sp, #0x20 

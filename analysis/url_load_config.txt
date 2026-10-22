@@ -1,0 +1,700 @@
+
+public void LoadConfig(string configContent) { }
+11b1fa8: sub      sp, sp, #0xd0 
+11b1fac: stp      x28, x27, [sp, #0x70] 
+11b1fb0: stp      x26, x25, [sp, #0x80] 
+11b1fb4: stp      x24, x23, [sp, #0x90] 
+11b1fb8: stp      x22, x21, [sp, #0xa0] 
+11b1fbc: stp      x20, x19, [sp, #0xb0] 
+11b1fc0: stp      x29, x30, [sp, #0xc0] 
+11b1fc4: add      x29, sp, #0xc0 
+11b1fc8: adrp     x20, #0x2e80000 
+11b1fcc: ldrb     w8, [x20, #0x5c3] 
+11b1fd0: mov      x22, x1 
+11b1fd4: mov      x19, x0 
+11b1fd8: tbnz     w8, #0, #0x11b1ff4 
+11b1fdc: adrp     x8, #0x2c6e000 
+11b1fe0: ldr      x8, [x8, #0x580] 
+11b1fe4: ldr      w0, [x8] 
+11b1fe8: bl       #0xd328f8 
+11b1fec: mov      w8, #1 
+11b1ff0: strb     w8, [x20, #0x5c3] 
+11b1ff4: stp      xzr, xzr, [sp, #0x40] 
+11b1ff8: stp      xzr, xzr, [sp, #0x30] 
+11b1ffc: stp      xzr, xzr, [sp, #0x20] 
+11b2000: stp      xzr, xzr, [sp, #0x10] 
+11b2004: str      wzr, [sp, #0xc] 
+11b2008: ldrb     w8, [x19, #0x68] 
+11b200c: cbz      w8, #0x11b201c 
+11b2010: ldr      q0, [x19, #0x20] 
+11b2014: strb     wzr, [x19, #0x68] 
+11b2018: stur     q0, [x19, #0x58] 
+11b201c: adrp     x8, #0x2c74000 
+11b2020: ldr      x8, [x8, #0xa38] System.Collections.Generic.List<UrlList.ConfigVersionDataPair>_TypeInfo
+11b2024: ldr      x0, [x8] System.Collections.Generic.List<UrlList.ConfigVersionDataPair>_TypeInfo
+11b2028: bl       #0xd329c0 
+11b202c: adrp     x8, #0x2cef000 
+11b2030: ldr      x8, [x8, #0xf38] Method$System.Collections.Generic.List<UrlList.ConfigVersionDataPair>..ctor()
+11b2034: mov      x21, x0 
+11b2038: ldr      x1, [x8] Method$System.Collections.Generic.List<UrlList.ConfigVersionDataPair>..ctor()
+11b203c: bl       #0x1ff10ac |-List<UrlList.ConfigVersionDataPair>..ctor
+11b2040: adrp     x8, #0x2cd2000 
+11b2044: ldr      x8, [x8, #0x768] System.Collections.Generic.Dictionary<string, string>_TypeInfo
+11b2048: ldr      x0, [x8] System.Collections.Generic.Dictionary<string, string>_TypeInfo
+11b204c: bl       #0xd329c0 
+11b2050: adrp     x8, #0x2c86000 
+11b2054: ldr      x8, [x8, #0x9e0] Method$System.Collections.Generic.Dictionary<string, string>..ctor()
+11b2058: mov      x20, x0 
+11b205c: ldr      x1, [x8] Method$System.Collections.Generic.Dictionary<string, string>..ctor()
+11b2060: bl       #0x1db21d0 |-Dictionary<CinemachineVirtualCameraBase, CinemachineCore.UpdateStatus>..ctor
+11b2064: mov      x0, x22 
+11b2068: mov      x1, xzr 
+11b206c: bl       #0x1a0ffe8 public static bool IsNullOrEmpty(string value) { }
+11b2070: tbnz     w0, #0, #0x11b23ec 
+11b2074: adrp     x26, #0x2ce3000 
+11b2078: ldr      x26, [x26, #0x578] char[]_TypeInfo
+11b207c: mov      w1, #1 
+11b2080: ldr      x0, [x26] char[]_TypeInfo
+11b2084: bl       #0xd32908 
+11b2088: cbz      x0, #0x11b2a40 
+11b208c: ldr      w8, [x0, #0x18] 
+11b2090: mov      x1, x0 
+11b2094: cbz      w8, #0x11b2a44 
+11b2098: mov      w8, #0xa 
+11b209c: strh     w8, [x1, #0x20] 
+11b20a0: cbz      x22, #0x11b2a40 
+11b20a4: mov      x0, x22 
+11b20a8: mov      x2, xzr 
+11b20ac: bl       #0x1a101b0 public string[] Split(char[] separator) { }
+11b20b0: cbz      x0, #0x11b2a40 
+11b20b4: ldr      x8, [x0, #0x18] 
+11b20b8: mov      x22, x0 
+11b20bc: cmp      w8, #1 
+11b20c0: b.lt     #0x11b23ec 
+11b20c4: mov      x27, xzr 
+11b20c8: and      x8, x8, #0xffffffff 
+11b20cc: add      x28, x22, #0x20 
+11b20d0: mov      w25, #0x20 
+11b20d4: b        #0x11b21f0 
+11b20d8: bl       #0xd329f4 
+11b20dc: mov      x1, xzr 
+11b20e0: bl       #0xd32994 
+11b20e4: b        #0x11b2940 
+11b20e8: bl       #0xd329f4 
+11b20ec: mov      x1, xzr 
+11b20f0: bl       #0xd32994 
+11b20f4: b        #0x11b2940 
+11b20f8: bl       #0xd329c8 
+11b20fc: b        #0x11b2940 
+11b2100: b        #0x11b2104 
+11b2104: mov      x24, x0 
+11b2108: cmp      w1, #1 
+11b210c: b.ne     #0x11b296c 
+11b2110: mov      x0, x24 
+11b2114: bl       #0x9d6bc0 
+11b2118: adrp     x8, #0x2cc8000 
+11b211c: ldr      x25, [x0] 
+11b2120: ldr      x8, [x8, #0xab8] System.Exception_TypeInfo
+11b2124: mov      x24, x0 
+11b2128: ldr      x1, [x25] 
+11b212c: ldr      x0, [x8] System.Exception_TypeInfo
+11b2130: bl       #0xd32b7c 
+11b2134: tbz      w0, #0, #0x11b2940 
+11b2138: bl       #0x9d6090 
+11b213c: adrp     x8, #0x2cfc000 
+11b2140: ldr      x8, [x8, #0x678] object[]_TypeInfo
+11b2144: mov      w1, #2 
+11b2148: ldr      x0, [x8] object[]_TypeInfo
+11b214c: bl       #0xd32908 
+11b2150: cbz      x0, #0x11b2a40 
+11b2154: ldr      x8, [x0] 
+11b2158: mov      x24, x0 
+11b215c: mov      x0, x23 
+11b2160: ldr      x1, [x8, #0x40] 
+11b2164: bl       #0xd329b0 
+11b2168: cbz      x0, #0x11b2a50 
+11b216c: ldr      w8, [x24, #0x18] 
+11b2170: cbz      w8, #0x11b2a44 
+11b2174: str      x23, [x24, #0x20] 
+11b2178: cbz      x25, #0x11b2a40 
+11b217c: ldr      x8, [x25] 
+11b2180: mov      x0, x25 
+11b2184: ldp      x9, x1, [x8, #0x180] 
+11b2188: blr      x9 
+11b218c: mov      x23, x0 
+11b2190: cbz      x0, #0x11b21a8 
+11b2194: ldr      x8, [x24] 
+11b2198: mov      x0, x23 
+11b219c: ldr      x1, [x8, #0x40] 
+11b21a0: bl       #0xd329b0 
+11b21a4: cbz      x0, #0x11b2a50 
+11b21a8: ldr      w8, [x24, #0x18] 
+11b21ac: cmp      w8, #1 
+11b21b0: b.ls     #0x11b2a44 
+11b21b4: str      x23, [x24, #0x28] 
+11b21b8: adrp     x8, #0x2cdb000 
+11b21bc: ldr      x8, [x8, #0x8c8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+11b21c0: ldr      x0, [x8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+11b21c4: ldrb     w8, [x0, #0x12f] 
+11b21c8: tbz      w8, #1, #0x11b21d8 
+11b21cc: ldr      w8, [x0, #0xe0] 
+11b21d0: cbnz     w8, #0x11b21d8 
+11b21d4: bl       #0xd329a4 
+11b21d8: adrp     x8, #0x2c7c000 
+11b21dc: ldr      x8, [x8, #0xa10] 非法的UrlList配置条目：{0} ({1})
+11b21e0: mov      x1, x24 
+11b21e4: ldr      x0, [x8] 非法的UrlList配置条目：{0} ({1})
+11b21e8: bl       #0x11ada90 public static void Error(object message, object[] argv) { }
+11b21ec: b        #0x11b2338 
+11b21f0: cmp      x27, w8, uxtw 
+11b21f4: b.hs     #0x11b2a44 
+11b21f8: ldr      x23, [x28, x27, lsl #3] 
+11b21fc: mov      x1, xzr 
+11b2200: mov      x0, x23 
+11b2204: bl       #0x1a0ffe8 public static bool IsNullOrEmpty(string value) { }
+11b2208: tbnz     w0, #0, #0x11b23dc 
+11b220c: ldr      x0, [x26] char[]_TypeInfo
+11b2210: mov      w1, #1 
+11b2214: bl       #0xd32908 
+11b2218: cbz      x0, #0x11b2a40 
+11b221c: ldr      w8, [x0, #0x18] 
+11b2220: mov      x1, x0 
+11b2224: cbz      w8, #0x11b2a44 
+11b2228: strh     w25, [x1, #0x20] 
+11b222c: cbz      x23, #0x11b2a40 
+11b2230: mov      x0, x23 
+11b2234: mov      x2, xzr 
+11b2238: bl       #0x1a101b0 public string[] Split(char[] separator) { }
+11b223c: cbz      x0, #0x11b2a40 
+11b2240: ldr      w8, [x0, #0x18] 
+11b2244: mov      x24, x0 
+11b2248: cmp      w8, #2 
+11b224c: b.ne     #0x11b2340 
+11b2250: ldr      x0, [x24, #0x20] 
+11b2254: cbz      x0, #0x11b2a40 
+11b2258: adrp     x8, #0x2cb6000 
+11b225c: ldr      x8, [x8, #0x568] #
+11b2260: mov      x2, xzr 
+11b2264: ldr      x1, [x8] #
+11b2268: bl       #0x1a13da8 public bool StartsWith(string value) { }
+11b226c: ldr      w8, [x24, #0x18] 
+11b2270: tbz      w0, #0, #0x11b23b4 
+11b2274: cbz      w8, #0x11b2a44 
+11b2278: ldr      x0, [x24, #0x20] 
+11b227c: cbz      x0, #0x11b2a40 
+11b2280: mov      w1, #1 
+11b2284: mov      x2, xzr 
+11b2288: bl       #0x1a110a4 public string Substring(int startIndex) { }
+11b228c: ldr      x8, [x26] char[]_TypeInfo
+11b2290: mov      x25, x0 
+11b2294: mov      w1, #1 
+11b2298: mov      x0, x8 
+11b229c: bl       #0xd32908 
+11b22a0: cbz      x0, #0x11b2a40 
+11b22a4: ldr      w8, [x0, #0x18] 
+11b22a8: mov      x1, x0 
+11b22ac: cbz      w8, #0x11b2a44 
+11b22b0: mov      w8, #0x2d 
+11b22b4: strh     w8, [x1, #0x20] 
+11b22b8: cbz      x25, #0x11b2a40 
+11b22bc: mov      x0, x25 
+11b22c0: mov      x2, xzr 
+11b22c4: bl       #0x1a101b0 public string[] Split(char[] separator) { }
+11b22c8: cbz      x0, #0x11b2a40 
+11b22cc: ldr      w8, [x0, #0x18] 
+11b22d0: mov      w25, #0x20 
+11b22d4: cmp      w8, #2 
+11b22d8: b.ne     #0x11b2340 
+11b22dc: ldr      w8, [x24, #0x18] 
+11b22e0: cmp      w8, #1 
+11b22e4: b.ls     #0x11b2a44 
+11b22e8: ldp      x1, x23, [x0, #0x20] 
+11b22ec: ldr      x24, [x24, #0x28] 
+11b22f0: add      x0, sp, #0x58 
+11b22f4: str      xzr, [sp, #0x58] 
+11b22f8: bl       #0x11b2aec public void .ctor(string verStr) { }
+11b22fc: ldr      x25, [sp, #0x58] 
+11b2300: add      x0, sp, #0x50 
+11b2304: mov      x1, x23 
+11b2308: str      xzr, [sp, #0x50] 
+11b230c: bl       #0x11b2aec public void .ctor(string verStr) { }
+11b2310: cbz      x21, #0x11b2a40 
+11b2314: adrp     x9, #0x2cea000 
+11b2318: ldr      x8, [sp, #0x50] 
+11b231c: ldr      x9, [x9, #0xcc0] Method$System.Collections.Generic.List<UrlList.ConfigVersionDataPair>.Add()
+11b2320: add      x1, sp, #0x58 
+11b2324: mov      x0, x21 
+11b2328: stp      x25, x8, [sp, #0x58] 
+11b232c: ldr      x2, [x9] Method$System.Collections.Generic.List<UrlList.ConfigVersionDataPair>.Add()
+11b2330: str      x24, [sp, #0x68] 
+11b2334: bl       #0x1ff1e28 |-List<UrlList.ConfigVersionDataPair>.Add
+11b2338: mov      w25, #0x20 
+11b233c: b        #0x11b23dc 
+11b2340: adrp     x8, #0x2cfc000 
+11b2344: ldr      x8, [x8, #0x678] object[]_TypeInfo
+11b2348: mov      w1, #1 
+11b234c: ldr      x0, [x8] object[]_TypeInfo
+11b2350: bl       #0xd32908 
+11b2354: cbz      x0, #0x11b2a40 
+11b2358: ldr      x8, [x0] 
+11b235c: mov      x24, x0 
+11b2360: mov      x0, x23 
+11b2364: ldr      x1, [x8, #0x40] 
+11b2368: bl       #0xd329b0 
+11b236c: cbz      x0, #0x11b2a50 
+11b2370: ldr      w8, [x24, #0x18] 
+11b2374: cbz      w8, #0x11b2a44 
+11b2378: str      x23, [x24, #0x20] 
+11b237c: adrp     x8, #0x2cdb000 
+11b2380: ldr      x8, [x8, #0x8c8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+11b2384: ldr      x0, [x8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+11b2388: ldrb     w8, [x0, #0x12f] 
+11b238c: tbz      w8, #1, #0x11b239c 
+11b2390: ldr      w8, [x0, #0xe0] 
+11b2394: cbnz     w8, #0x11b239c 
+11b2398: bl       #0xd329a4 
+11b239c: adrp     x8, #0x2d03000 
+11b23a0: ldr      x8, [x8, #0xa68] 非法的UrlList配置条目：{0}
+11b23a4: mov      x1, x24 
+11b23a8: ldr      x0, [x8] 非法的UrlList配置条目：{0}
+11b23ac: bl       #0x11ada90 public static void Error(object message, object[] argv) { }
+11b23b0: b        #0x11b23dc 
+11b23b4: cbz      w8, #0x11b20d8 
+11b23b8: cmp      w8, #1 
+11b23bc: b.eq     #0x11b20e8 
+11b23c0: cbz      x20, #0x11b20f8 
+11b23c4: adrp     x8, #0x2c7d000 
+11b23c8: ldp      x1, x2, [x24, #0x20] 
+11b23cc: ldr      x8, [x8] Method$System.Collections.Generic.Dictionary<string, string>.set_Item()
+11b23d0: ldr      x3, [x8] Method$System.Collections.Generic.Dictionary<string, string>.set_Item()
+11b23d4: mov      x0, x20 
+11b23d8: bl       #0x1db2bd0 |-Dictionary<ICinemachineCamera, object>.set_Item
+11b23dc: ldr      w8, [x22, #0x18] 
+11b23e0: add      x27, x27, #1 
+11b23e4: cmp      x27, w8, sxtw 
+11b23e8: b.lt     #0x11b21f0 
+11b23ec: adrp     x22, #0x2cc6000 
+11b23f0: ldr      x22, [x22, #0x108] Onecore.Plugins.Utils.BaseNativeProxy_TypeInfo
+11b23f4: ldr      x0, [x22] Onecore.Plugins.Utils.BaseNativeProxy_TypeInfo
+11b23f8: ldrb     w8, [x0, #0x12f] 
+11b23fc: tbz      w8, #1, #0x11b240c 
+11b2400: ldr      w8, [x0, #0xe0] 
+11b2404: cbnz     w8, #0x11b240c 
+11b2408: bl       #0xd329a4 
+11b240c: adrp     x23, #0x2e7f000 
+11b2410: ldrb     w8, [x23, #0x7de] 
+11b2414: cbnz     w8, #0x11b2430 
+11b2418: adrp     x8, #0x2d14000 
+11b241c: ldr      x8, [x8, #0x938] 
+11b2420: ldr      w0, [x8] 
+11b2424: bl       #0xd328f8 
+11b2428: mov      w8, #1 
+11b242c: strb     w8, [x23, #0x7de] 
+11b2430: ldr      x0, [x22] Onecore.Plugins.Utils.BaseNativeProxy_TypeInfo
+11b2434: ldrb     w8, [x0, #0x12f] 
+11b2438: tbz      w8, #1, #0x11b244c 
+11b243c: ldr      w8, [x0, #0xe0] 
+11b2440: cbnz     w8, #0x11b244c 
+11b2444: bl       #0xd329a4 
+11b2448: ldr      x0, [x22] Onecore.Plugins.Utils.BaseNativeProxy_TypeInfo
+11b244c: adrp     x8, #0x2c75000 
+11b2450: ldr      x8, [x8, #0x968] Method$System.Array.Empty<object>()
+11b2454: ldr      x9, [x0, #0xb8] 
+11b2458: ldr      x24, [x8] Method$System.Array.Empty<object>()
+11b245c: ldr      x22, [x9] 
+11b2460: ldr      x8, [x24, #0x30] 
+11b2464: ldr      x23, [x8] 
+11b2468: ldrh     w8, [x23, #0x12e] 
+11b246c: tbnz     w8, #0, #0x11b247c 
+11b2470: mov      x0, x23 
+11b2474: bl       #0xcd0740 
+11b2478: ldrh     w8, [x23, #0x12e] 
+11b247c: tbz      w8, #9, #0x11b24c0 
+11b2480: ldr      x8, [x24, #0x30] 
+11b2484: ldr      x23, [x8] 
+11b2488: ldrb     w8, [x23, #0x12e] 
+11b248c: tbnz     w8, #0, #0x11b2498 
+11b2490: mov      x0, x23 
+11b2494: bl       #0xcd0740 
+11b2498: ldr      w8, [x23, #0xe0] 
+11b249c: cbnz     w8, #0x11b24c0 
+11b24a0: ldr      x8, [x24, #0x30] 
+11b24a4: ldr      x23, [x8] 
+11b24a8: ldrb     w8, [x23, #0x12e] 
+11b24ac: tbnz     w8, #0, #0x11b24b8 
+11b24b0: mov      x0, x23 
+11b24b4: bl       #0xcd0740 
+11b24b8: mov      x0, x23 
+11b24bc: bl       #0xd329a4 
+11b24c0: ldr      x8, [x24, #0x30] 
+11b24c4: ldr      x23, [x8] 
+11b24c8: ldrb     w8, [x23, #0x12e] 
+11b24cc: tbnz     w8, #0, #0x11b24d8 
+11b24d0: mov      x0, x23 
+11b24d4: bl       #0xcd0740 
+11b24d8: cbz      x22, #0x11b2a40 
+11b24dc: adrp     x9, #0x2cf4000 
+11b24e0: adrp     x10, #0x2c98000 
+11b24e4: ldr      x8, [x23, #0xb8] 
+11b24e8: ldr      x9, [x9, #0xef0] getVersionName
+11b24ec: ldr      x10, [x10, #0xae0] Method$Onecore.Plugins.Utils.BaseNativeProxy.CsCallNative<string>()
+11b24f0: mov      x0, x22 
+11b24f4: ldr      x2, [x8] 
+11b24f8: ldr      x1, [x9] getVersionName
+11b24fc: ldr      x3, [x10] Method$Onecore.Plugins.Utils.BaseNativeProxy.CsCallNative<string>()
+11b2500: bl       #0x1cf69e4 |-BaseNativeProxy.CsCallNative<object>
+11b2504: cbz      x0, #0x11b2524 
+11b2508: adrp     x8, #0x2c9e000 
+11b250c: ldr      x8, [x8, #0xb38] 
+11b2510: mov      x2, xzr 
+11b2514: mov      x22, x0 
+11b2518: ldr      x1, [x8] 
+11b251c: bl       #0x1a129ac public int CompareTo(string strB) { }
+11b2520: cbnz     w0, #0x11b2530 
+11b2524: adrp     x8, #0x2cfa000 
+11b2528: ldr      x8, [x8, #0x2e8] 9.0.0
+11b252c: ldr      x22, [x8] 9.0.0
+11b2530: str      xzr, [sp, #0x48] 
+11b2534: cbz      x20, #0x11b2a40 
+11b2538: adrp     x23, #0x2c6e000 
+11b253c: ldr      x23, [x23, #0x680] Method$System.Collections.Generic.Dictionary<string, string>.TryGetValue()
+11b2540: add      x2, sp, #0x48 
+11b2544: mov      x0, x20 
+11b2548: mov      x1, x22 
+11b254c: ldr      x3, [x23] Method$System.Collections.Generic.Dictionary<string, string>.TryGetValue()
+11b2550: bl       #0x1db48b8 |-Dictionary<CinemachineVirtualCameraBase, CinemachineCore.UpdateStatus>.TryGetValue
+11b2554: tbnz     w0, #0, #0x11b2744 
+11b2558: cbz      x21, #0x11b2a40 
+11b255c: ldrsw    x27, [x21, #0x18] 
+11b2560: add      x0, sp, #0x18 
+11b2564: mov      x1, x22 
+11b2568: bl       #0x11b2aec public void .ctor(string verStr) { }
+11b256c: cmp      w27, #1 
+11b2570: b.lt     #0x11b2628 
+11b2574: adrp     x25, #0x2cf4000 
+11b2578: ldr      x23, [sp, #0x18] 
+11b257c: ldr      x25, [x25, #0xfd0] Onecore.Plugins.Common.UrlList.ConfigVersionData_TypeInfo
+11b2580: mov      x26, xzr 
+11b2584: mov      x28, xzr 
+11b2588: ldr      w8, [x21, #0x18] 
+11b258c: cmp      x28, x8 
+11b2590: b.lo     #0x11b259c 
+11b2594: mov      x0, xzr 
+11b2598: bl       #0x18eb88c internal static void ThrowArgumentOutOfRangeException() { }
+11b259c: ldr      x8, [x21, #0x10] 
+11b25a0: ldr      x0, [x25] Onecore.Plugins.Common.UrlList.ConfigVersionData_TypeInfo
+11b25a4: add      x8, x8, x26 
+11b25a8: ldrb     w9, [x0, #0x12f] 
+11b25ac: ldr      x24, [x8, #0x20] 
+11b25b0: tbz      w9, #1, #0x11b25c0 
+11b25b4: ldr      w8, [x0, #0xe0] 
+11b25b8: cbnz     w8, #0x11b25c0 
+11b25bc: bl       #0xd329a4 
+11b25c0: mov      x0, x23 
+11b25c4: mov      x1, x24 
+11b25c8: bl       #0x11b2de4 public static bool op_GreaterThanOrEqual(UrlList.ConfigVersionData a, UrlList.ConfigVersionData b) { }
+11b25cc: tbz      w0, #0, #0x11b2618 
+11b25d0: ldr      w8, [x21, #0x18] 
+11b25d4: cmp      x28, x8 
+11b25d8: b.lo     #0x11b25e4 
+11b25dc: mov      x0, xzr 
+11b25e0: bl       #0x18eb88c internal static void ThrowArgumentOutOfRangeException() { }
+11b25e4: ldr      x8, [x21, #0x10] 
+11b25e8: ldr      x0, [x25] Onecore.Plugins.Common.UrlList.ConfigVersionData_TypeInfo
+11b25ec: add      x8, x8, x26 
+11b25f0: ldrb     w9, [x0, #0x12f] 
+11b25f4: ldr      x24, [x8, #0x28] 
+11b25f8: tbz      w9, #1, #0x11b2608 
+11b25fc: ldr      w8, [x0, #0xe0] 
+11b2600: cbnz     w8, #0x11b2608 
+11b2604: bl       #0xd329a4 
+11b2608: mov      x0, x23 
+11b260c: mov      x1, x24 
+11b2610: bl       #0x11b2ec4 public static bool op_LessThanOrEqual(UrlList.ConfigVersionData a, UrlList.ConfigVersionData b) { }
+11b2614: tbnz     w0, #0, #0x11b2718 
+11b2618: add      x28, x28, #1 
+11b261c: cmp      x28, x27 
+11b2620: add      x26, x26, #0x18 
+11b2624: b.lt     #0x11b2588 
+11b2628: adrp     x8, #0x2cab000 
+11b262c: adrp     x23, #0x2d13000 
+11b2630: adrp     x9, #0x2ca8000 
+11b2634: ldr      x8, [x8, #0xf80] public
+11b2638: ldr      x23, [x23, #0xa50] default
+11b263c: ldr      x9, [x9, #0xc10] Method$System.Collections.Generic.Dictionary<string, string>.ContainsKey()
+11b2640: mov      x0, x20 
+11b2644: ldr      x21, [x8] public
+11b2648: ldr      x1, [x23] default
+11b264c: ldr      x2, [x9] Method$System.Collections.Generic.Dictionary<string, string>.ContainsKey()
+11b2650: bl       #0x1db2e6c |-Dictionary<CinemachineVirtualCameraBase, CinemachineCore.UpdateStatus>.ContainsKey
+11b2654: tbz      w0, #0, #0x11b2674 
+11b2658: adrp     x8, #0x2d0d000 
+11b265c: ldr      x1, [x23] default
+11b2660: ldr      x8, [x8, #0x9e8] Method$System.Collections.Generic.Dictionary<string, string>.get_Item()
+11b2664: mov      x0, x20 
+11b2668: ldr      x2, [x8] Method$System.Collections.Generic.Dictionary<string, string>.get_Item()
+11b266c: bl       #0x1db2afc |-Dictionary<VolumetricLightData, VolumetricLightCom>.get_Item
+11b2670: mov      x21, x0 
+11b2674: adrp     x8, #0x2cfc000 
+11b2678: ldr      x8, [x8, #0x678] object[]_TypeInfo
+11b267c: mov      w1, #2 
+11b2680: str      x21, [sp, #0x48] 
+11b2684: ldr      x0, [x8] object[]_TypeInfo
+11b2688: bl       #0xd32908 
+11b268c: cbz      x0, #0x11b2a40 
+11b2690: mov      x23, x0 
+11b2694: cbz      x22, #0x11b26ac 
+11b2698: ldr      x8, [x23] default
+11b269c: mov      x0, x22 
+11b26a0: ldr      x1, [x8, #0x40] 
+11b26a4: bl       #0xd329b0 
+11b26a8: cbz      x0, #0x11b2a50 
+11b26ac: ldr      w8, [x23, #0x18] 
+11b26b0: cbz      w8, #0x11b2a44 
+11b26b4: str      x22, [x23, #0x20] 
+11b26b8: cbz      x21, #0x11b26d4 
+11b26bc: ldr      x8, [x23] default
+11b26c0: mov      x0, x21 
+11b26c4: ldr      x1, [x8, #0x40] 
+11b26c8: bl       #0xd329b0 
+11b26cc: cbz      x0, #0x11b2a50 
+11b26d0: ldr      w8, [x23, #0x18] 
+11b26d4: cmp      w8, #1 
+11b26d8: b.ls     #0x11b2a44 
+11b26dc: str      x21, [x23, #0x28] 
+11b26e0: adrp     x8, #0x2cdb000 
+11b26e4: ldr      x8, [x8, #0x8c8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+11b26e8: ldr      x0, [x8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+11b26ec: ldrb     w8, [x0, #0x12f] 
+11b26f0: tbz      w8, #1, #0x11b2700 
+11b26f4: ldr      w8, [x0, #0xe0] 
+11b26f8: cbnz     w8, #0x11b2700 
+11b26fc: bl       #0xd329a4 
+11b2700: adrp     x8, #0x2c89000 
+11b2704: ldr      x8, [x8, #0xaa0] config中没有【{0}】版本的记录，使用默认指向：{1}
+11b2708: mov      x1, x23 
+11b270c: ldr      x0, [x8] config中没有【{0}】版本的记录，使用默认指向：{1}
+11b2710: bl       #0x11af70c public static void Info(object message, object[] argv) { }
+11b2714: b        #0x11b273c 
+11b2718: ldr      w8, [x21, #0x18] 
+11b271c: cmp      w8, w28 
+11b2720: b.hi     #0x11b272c 
+11b2724: mov      x0, xzr 
+11b2728: bl       #0x18eb88c internal static void ThrowArgumentOutOfRangeException() { }
+11b272c: ldr      x8, [x21, #0x10] 
+11b2730: add      x8, x8, x26 
+11b2734: ldr      x8, [x8, #0x30] 
+11b2738: str      x8, [sp, #0x48] 
+11b273c: adrp     x23, #0x2c6e000 
+11b2740: ldr      x23, [x23, #0x680] Method$System.Collections.Generic.Dictionary<string, string>.TryGetValue()
+11b2744: adrp     x21, #0x2ced000 
+11b2748: ldr      x0, [x19, #0x58] 
+11b274c: ldr      x2, [sp, #0x48] 
+11b2750: ldr      x21, [x21, #0x998] {0}
+11b2754: ldr      x1, [x21] {0}
+11b2758: mov      x3, xzr 
+11b275c: bl       #0x1a14b5c public static string Format(string format, object arg0, object arg1) { }
+11b2760: str      x0, [x19, #0x20] 
+11b2764: ldr      x0, [x19, #0x60] 
+11b2768: ldr      x1, [x21] {0}
+11b276c: ldr      x2, [sp, #0x48] 
+11b2770: mov      x3, xzr 
+11b2774: bl       #0x1a14b5c public static string Format(string format, object arg0, object arg1) { }
+11b2778: str      x0, [x19, #0x28] 
+11b277c: adrp     x21, #0x2c87000 
+11b2780: ldr      x21, [x21, #0xa88] string_TypeInfo
+11b2784: adrp     x9, #0x2cf4000 
+11b2788: add      x2, sp, #0x40 
+11b278c: mov      x0, x20 
+11b2790: ldr      x8, [x21] string_TypeInfo
+11b2794: ldr      x8, [x8, #0xb8] 
+11b2798: ldr      x9, [x9, #0xfc0] baseUrl
+11b279c: ldr      x3, [x23] Method$System.Collections.Generic.Dictionary<string, string>.TryGetValue()
+11b27a0: ldr      x8, [x8] 
+11b27a4: ldr      x1, [x9] baseUrl
+11b27a8: str      x8, [sp, #0x40] 
+11b27ac: bl       #0x1db48b8 |-Dictionary<CinemachineVirtualCameraBase, CinemachineCore.UpdateStatus>.TryGetValue
+11b27b0: tbz      w0, #0, #0x11b27e4 
+11b27b4: ldr      x0, [sp, #0x40] 
+11b27b8: mov      x1, xzr 
+11b27bc: bl       #0x1a0ffe8 public static bool IsNullOrEmpty(string value) { }
+11b27c0: tbnz     w0, #0, #0x11b27e4 
+11b27c4: ldr      x0, [x19, #0x10] 
+11b27c8: ldr      x1, [sp, #0x40] 
+11b27cc: mov      x2, xzr 
+11b27d0: bl       #0x1a0fcb4 public static bool op_Inequality(string a, string b) { }
+11b27d4: tbz      w0, #0, #0x11b27e4 
+11b27d8: ldr      x1, [sp, #0x40] 
+11b27dc: mov      x0, x19 
+11b27e0: bl       #0x11b2fa4 public void ChangeCdn(string newBaseUrl) { }
+11b27e4: ldr      x8, [x21] string_TypeInfo
+11b27e8: adrp     x9, #0x2c7b000 
+11b27ec: add      x2, sp, #0x38 
+11b27f0: mov      x0, x20 
+11b27f4: ldr      x8, [x8, #0xb8] 
+11b27f8: ldr      x9, [x9, #0x570] useBackup
+11b27fc: ldr      x3, [x23] Method$System.Collections.Generic.Dictionary<string, string>.TryGetValue()
+11b2800: ldr      x8, [x8] 
+11b2804: ldr      x1, [x9] useBackup
+11b2808: str      x8, [sp, #0x38] 
+11b280c: bl       #0x1db48b8 |-Dictionary<CinemachineVirtualCameraBase, CinemachineCore.UpdateStatus>.TryGetValue
+11b2810: tbz      w0, #0, #0x11b2824 
+11b2814: ldr      x8, [sp, #0x38] 
+11b2818: mov      x0, x19 
+11b281c: str      x8, [x19, #0x40] 
+11b2820: bl       #0x11b3028 private void ProcUseBackup() { }
+11b2824: ldr      x8, [x21] string_TypeInfo
+11b2828: adrp     x9, #0x2d17000 
+11b282c: add      x2, sp, #0x30 
+11b2830: mov      x0, x20 
+11b2834: ldr      x8, [x8, #0xb8] 
+11b2838: ldr      x9, [x9, #0x6d0] switchCdnType
+11b283c: ldr      x3, [x23] Method$System.Collections.Generic.Dictionary<string, string>.TryGetValue()
+11b2840: ldr      x8, [x8] 
+11b2844: ldr      x1, [x9] switchCdnType
+11b2848: str      x8, [sp, #0x30] 
+11b284c: bl       #0x1db48b8 |-Dictionary<CinemachineVirtualCameraBase, CinemachineCore.UpdateStatus>.TryGetValue
+11b2850: tbz      w0, #0, #0x11b2878 
+11b2854: ldr      w8, [x19, #0x48] 
+11b2858: ldr      x0, [sp, #0x30] 
+11b285c: add      x1, sp, #0x14 
+11b2860: mov      x2, xzr 
+11b2864: str      w8, [sp, #0x14] 
+11b2868: bl       #0x14e50ec public static bool TryParse(string s, out int result) { }
+11b286c: tbz      w0, #0, #0x11b2878 
+11b2870: ldr      w8, [sp, #0x14] 
+11b2874: str      w8, [x19, #0x48] 
+11b2878: ldr      x8, [x21] string_TypeInfo
+11b287c: adrp     x9, #0x2ccb000 
+11b2880: add      x2, sp, #0x28 
+11b2884: mov      x0, x20 
+11b2888: ldr      x8, [x8, #0xb8] 
+11b288c: ldr      x9, [x9, #0x368] scWaitTime
+11b2890: ldr      x3, [x23] Method$System.Collections.Generic.Dictionary<string, string>.TryGetValue()
+11b2894: ldr      x8, [x8] 
+11b2898: ldr      x1, [x9] scWaitTime
+11b289c: str      x8, [sp, #0x28] 
+11b28a0: bl       #0x1db48b8 |-Dictionary<CinemachineVirtualCameraBase, CinemachineCore.UpdateStatus>.TryGetValue
+11b28a4: tbz      w0, #0, #0x11b28cc 
+11b28a8: ldr      w8, [x19, #0x4c] 
+11b28ac: ldr      x0, [sp, #0x28] 
+11b28b0: add      x1, sp, #0x10 
+11b28b4: mov      x2, xzr 
+11b28b8: str      w8, [sp, #0x10] 
+11b28bc: bl       #0x190fe14 public static bool TryParse(string s, out float result) { }
+11b28c0: tbz      w0, #0, #0x11b28cc 
+11b28c4: ldr      w8, [sp, #0x10] 
+11b28c8: str      w8, [x19, #0x4c] 
+11b28cc: ldr      x8, [x21] string_TypeInfo
+11b28d0: adrp     x9, #0x2cf5000 
+11b28d4: add      x2, sp, #0x20 
+11b28d8: mov      x0, x20 
+11b28dc: ldr      x8, [x8, #0xb8] 
+11b28e0: ldr      x9, [x9, #0x340] scWatchTime
+11b28e4: ldr      x3, [x23] Method$System.Collections.Generic.Dictionary<string, string>.TryGetValue()
+11b28e8: ldr      x8, [x8] 
+11b28ec: ldr      x1, [x9] scWatchTime
+11b28f0: str      x8, [sp, #0x20] 
+11b28f4: bl       #0x1db48b8 |-Dictionary<CinemachineVirtualCameraBase, CinemachineCore.UpdateStatus>.TryGetValue
+11b28f8: tbz      w0, #0, #0x11b2920 
+11b28fc: ldr      w8, [x19, #0x50] 
+11b2900: ldr      x0, [sp, #0x20] 
+11b2904: add      x1, sp, #0xc 
+11b2908: mov      x2, xzr 
+11b290c: str      w8, [sp, #0xc] 
+11b2910: bl       #0x190fe14 public static bool TryParse(string s, out float result) { }
+11b2914: tbz      w0, #0, #0x11b2920 
+11b2918: ldr      w8, [sp, #0xc] 
+11b291c: str      w8, [x19, #0x50] 
+11b2920: ldp      x29, x30, [sp, #0xc0] 
+11b2924: ldp      x20, x19, [sp, #0xb0] 
+11b2928: ldp      x22, x21, [sp, #0xa0] 
+11b292c: ldp      x24, x23, [sp, #0x90] 
+11b2930: ldp      x26, x25, [sp, #0x80] 
+11b2934: ldp      x28, x27, [sp, #0x70] 
+11b2938: add      sp, sp, #0xd0 
+11b293c: ret       
+11b2940: mov      w0, #8 
+11b2944: bl       #0x9d57e0 
+11b2948: ldr      x8, [x24] 
+11b294c: str      x8, [x0] 
+11b2950: adrp     x1, #0x2c33000 
+11b2954: add      x1, x1, #0x78 
+11b2958: mov      x2, xzr 
+11b295c: bl       #0x9d6940 
+11b2960: b        #0x11b2964 
+11b2964: mov      x24, x0 
+11b2968: bl       #0x9d6090 
+11b296c: mov      x0, x24 
+11b2970: bl       #0x9d5f30 
+11b2974: b        #0x11b2978 
+11b2978: mov      x24, x0 
+11b297c: cmp      w1, #1 
+11b2980: b.ne     #0x11b296c 
+11b2984: mov      x0, x24 
+11b2988: bl       #0x9d6bc0 
+11b298c: adrp     x8, #0x2cc8000 
+11b2990: ldr      x22, [x0] 
+11b2994: ldr      x8, [x8, #0xab8] System.Exception_TypeInfo
+11b2998: mov      x21, x0 
+11b299c: ldr      x1, [x22] 
+11b29a0: ldr      x0, [x8] System.Exception_TypeInfo
+11b29a4: bl       #0xd32b7c 
+11b29a8: tbz      w0, #0, #0x11b2a5c 
+11b29ac: bl       #0x9d6090 
+11b29b0: adrp     x8, #0x2cfc000 
+11b29b4: ldr      x8, [x8, #0x678] object[]_TypeInfo
+11b29b8: mov      w1, #1 
+11b29bc: ldr      x0, [x8] object[]_TypeInfo
+11b29c0: bl       #0xd32908 
+11b29c4: cbz      x22, #0x11b2a40 
+11b29c8: ldr      x8, [x22] 
+11b29cc: mov      x21, x0 
+11b29d0: mov      x0, x22 
+11b29d4: ldp      x9, x1, [x8, #0x180] 
+11b29d8: blr      x9 
+11b29dc: cbz      x21, #0x11b2a40 
+11b29e0: mov      x22, x0 
+11b29e4: cbz      x0, #0x11b29fc 
+11b29e8: ldr      x8, [x21] string_TypeInfo
+11b29ec: mov      x0, x22 
+11b29f0: ldr      x1, [x8, #0x40] 
+11b29f4: bl       #0xd329b0 
+11b29f8: cbz      x0, #0x11b2a50 
+11b29fc: ldr      w8, [x21, #0x18] 
+11b2a00: cbz      w8, #0x11b2a44 
+11b2a04: str      x22, [x21, #0x20] 
+11b2a08: adrp     x8, #0x2cdb000 
+11b2a0c: ldr      x8, [x8, #0x8c8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+11b2a10: ldr      x0, [x8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+11b2a14: ldrb     w8, [x0, #0x12f] 
+11b2a18: tbz      w8, #1, #0x11b2a28 
+11b2a1c: ldr      w8, [x0, #0xe0] 
+11b2a20: cbnz     w8, #0x11b2a28 
+11b2a24: bl       #0xd329a4 
+11b2a28: adrp     x8, #0x2cd1000 
+11b2a2c: ldr      x8, [x8, #0xb00] 由配置更新 Url 失败: {0}
+11b2a30: mov      x1, x21 
+11b2a34: ldr      x0, [x8] 由配置更新 Url 失败: {0}
+11b2a38: bl       #0x11ada90 public static void Error(object message, object[] argv) { }
+11b2a3c: b        #0x11b277c 
+11b2a40: bl       #0xd329c8 
+11b2a44: bl       #0xd329f4 
+11b2a48: mov      x1, xzr 
+11b2a4c: bl       #0xd32994 
+11b2a50: bl       #0xd329e8 
+11b2a54: mov      x1, xzr 
+11b2a58: bl       #0xd32994 
+11b2a5c: mov      w0, #8 
+11b2a60: bl       #0x9d57e0 
+11b2a64: ldr      x8, [x21] string_TypeInfo
+11b2a68: str      x8, [x0] 
+11b2a6c: adrp     x1, #0x2c33000 
+11b2a70: add      x1, x1, #0x78 
+11b2a74: mov      x2, xzr 
+11b2a78: bl       #0x9d6940 
+11b2a7c: b        #0x11b2960 
+11b2a80: mov      x24, x0 
+11b2a84: bl       #0x9d6090 
+11b2a88: b        #0x11b296c 
+11b2a8c: bl       #0xbec7ac 

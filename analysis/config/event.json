@@ -1,0 +1,284 @@
+{
+  "source": "x.Config.Excel.tw.DataTable_event_TextAsset_2464923425280716068.bin",
+  "sha256": "dd1b1c0d7eed4c5c2cd601bd4601f85b50791979b7e6fd7bc638ba99668400f1",
+  "numbered_parts": {},
+  "getter": "GetSysevent",
+  "data": {
+    "10005": {
+      "condition": [],
+      "is_blood": 0,
+      "can_friend_help": 0,
+      "assist_limit": 1,
+      "id": 10005,
+      "client_key": "PVPRobot",
+      "type_allow": [
+        1,
+        9,
+        13
+      ],
+      "team_num": 1,
+      "can_change_help": 0
+    },
+    "10006": {
+      "condition": [
+        [
+          4,
+          1
+        ]
+      ],
+      "is_blood": 1,
+      "can_friend_help": 1,
+      "assist_limit": 0,
+      "id": 10006,
+      "client_key": "Secret",
+      "type_allow": [
+        1,
+        2
+      ],
+      "team_num": 1,
+      "can_change_help": 1
+    },
+    "10007": {
+      "condition": [
+        [
+          4,
+          0
+        ]
+      ],
+      "is_blood": 0,
+      "can_friend_help": 1,
+      "assist_limit": 1,
+      "id": 10007,
+      "client_key": "Tower",
+      "type_allow": [
+        1
+      ],
+      "team_num": 4,
+      "can_change_help": 1
+    },
+    "10008": {
+      "condition": [],
+      "is_blood": 1,
+      "can_friend_help": 0,
+      "assist_limit": 1,
+      "id": 10008,
+      "client_key": "Adventure",
+      "type_allow": [
+        1,
+        5
+      ],
+      "team_num": 1,
+      "can_change_help": 0
+    },
+    "10009": {
+      "condition": [
+        [
+          1,
+          8
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "is_blood": 0,
+      "can_friend_help": 0,
+      "assist_limit": 1,
+      "id": 10009,
+      "client_key": "WarFight",
+      "type_allow": [
+        1,
+        11,
+        12
+      ],
+      "team_num": 1,
+      "can_change_help": 0
+    },
+    "150103": {
+      "condition": [
+        [
+          1,
+          8
+        ]
+      ],
+      "is_blood": 0,
+      "can_friend_help": 0,
+      "assist_limit": 1,
+      "id": 150103,
+      "client_key": "MultiBoss3",
+      "type_allow": [
+        1
+      ],
+      "team_num": 4,
+      "can_change_help": 0
+    },
+    "10011": {
+      "condition": [],
+      "is_blood": 0,
+      "can_friend_help": 0,
+      "assist_limit": 1,
+      "id": 10011,
+      "client_key": "SquadPvp",
+      "type_allow": [
+        1,
+        17
+      ],
+      "team_num": 1,
+      "can_change_help": 0
+    },
+    "150102": {
+      "condition": [
+        [
+          1,
+          8
+        ]
+      ],
+      "is_blood": 0,
+      "can_friend_help": 0,
+      "assist_limit": 1,
+      "id": 150102,
+      "client_key": "MultiBoss2",
+      "type_allow": [
+        1
+      ],
+      "team_num": 4,
+      "can_change_help": 0
+    },
+    "150101": {
+      "condition": [
+        [
+          1,
+          8
+        ]
+      ],
+      "is_blood": 0,
+      "can_friend_help": 0,
+      "assist_limit": 1,
+      "id": 150101,
+      "client_key": "MultiBoss1",
+      "type_allow": [
+        1
+      ],
+      "team_num": 4,
+      "can_change_help": 0
+    },
+    "140103": {
+      "condition": [
+        [
+          1,
+          8
+        ]
+      ],
+      "is_blood": 0,
+      "can_friend_help": 0,
+      "assist_limit": 1,
+      "id": 140103,
+      "client_key": "Surprise3",
+      "type_allow": [
+        1
+      ],
+      "team_num": 4,
+      "can_change_help": 0
+    },
+    "140102": {
+      "condition": [
+        [
+          1,
+          8
+        ]
+      ],
+      "is_blood": 0,
+      "can_friend_help": 0,
+      "assist_limit": 1,
+      "id": 140102,
+      "client_key": "Surprise2",
+      "type_allow": [
+        1
+      ],
+      "team_num": 4,
+      "can_change_help": 0
+    },
+    "10001": {
+      "condition": [
+        [
+          4,
+          0
+        ]
+      ],
+      "is_blood": 0,
+      "can_friend_help": 1,
+      "assist_limit": 1,
+      "id": 10001,
+      "client_key": "Common",
+      "type_allow": [
+        1
+      ],
+      "team_num": 4,
+      "can_change_help": 1
+    },
+    "10002": {
+      "condition": [],
+      "is_blood": 0,
+      "can_friend_help": 0,
+      "assist_limit": 1,
+      "id": 10002,
+      "client_key": "Teach",
+      "type_allow": [
+        4
+      ],
+      "team_num": 1,
+      "can_change_help": 0
+    },
+    "10003": {
+      "condition": [
+        [
+          1,
+          8
+        ]
+      ],
+      "is_blood": 0,
+      "can_friend_help": 0,
+      "assist_limit": 1,
+      "id": 10003,
+      "client_key": "PVP",
+      "type_allow": [
+        1,
+        9
+      ],
+      "team_num": 4,
+      "can_change_help": 0
+    },
+    "10004": {
+      "condition": [],
+      "is_blood": 0,
+      "can_friend_help": 0,
+      "assist_limit": 1,
+      "id": 10004,
+      "client_key": "PVPTeach",
+      "type_allow": [
+        1,
+        9
+      ],
+      "team_num": 1,
+      "can_change_help": 0
+    },
+    "140101": {
+      "condition": [
+        [
+          1,
+          8
+        ]
+      ],
+      "is_blood": 0,
+      "can_friend_help": 0,
+      "assist_limit": 1,
+      "id": 140101,
+      "client_key": "Surprise1",
+      "type_allow": [
+        1
+      ],
+      "team_num": 4,
+      "can_change_help": 0
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "dungeon": 10001,
+  "number": "0-1",
+  "triggers": [
+    {
+      "id": 13,
+      "template_present": true,
+      "event_field_present": true,
+      "condition_field_present": true,
+      "start_time_present": true
+    },
+    {
+      "id": 15,
+      "template_present": true,
+      "event_field_present": true,
+      "condition_field_present": true,
+      "start_time_present": true
+    },
+    {
+      "id": 16,
+      "template_present": true,
+      "event_field_present": true,
+      "condition_field_present": true,
+      "start_time_present": true
+    },
+    {
+      "id": 2,
+      "template_present": true,
+      "event_field_present": false,
+      "condition_field_present": false,
+      "start_time_present": false
+    },
+    {
+      "id": 10014,
+      "template_present": true,
+      "event_field_present": false,
+      "condition_field_present": false,
+      "start_time_present": false
+    },
+    {
+      "id": 51,
+      "template_present": true,
+      "event_field_present": false,
+      "condition_field_present": false,
+      "start_time_present": false
+    },
+    {
+      "id": 364,
+      "template_present": true,
+      "event_field_present": false,
+      "condition_field_present": false,
+      "start_time_present": false
+    },
+    {
+      "id": 1000102,
+      "template_present": true,
+      "event_field_present": false,
+      "condition_field_present": false,
+      "start_time_present": false
+    },
+    {
+      "id": 1000101,
+      "template_present": true,
+      "event_field_present": false,
+      "condition_field_present": false,
+      "start_time_present": false
+    },
+    {
+      "id": 1000103,
+      "template_present": false,
+      "event_field_present": false,
+      "condition_field_present": false,
+      "start_time_present": false
+    }
+  ],
+  "battle_verified": false
+}

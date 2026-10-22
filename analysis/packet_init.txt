@@ -1,0 +1,43 @@
+
+private static void .cctor() { }
+1586334: str      x19, [sp, #-0x20]! 
+1586338: stp      x29, x30, [sp, #0x10] 
+158633c: add      x29, sp, #0x10 
+1586340: adrp     x19, #0x2e82000 
+1586344: ldrb     w8, [x19, #0xcfb] 
+1586348: tbnz     w8, #0, #0x1586364 
+158634c: adrp     x8, #0x2cb7000 
+1586350: ldr      x8, [x8, #0xfc8] 
+1586354: ldr      w0, [x8] 
+1586358: bl       #0xd328f8 
+158635c: mov      w8, #1 
+1586360: strb     w8, [x19, #0xcfb] 
+1586364: adrp     x8, #0x2ca8000 
+1586368: ldr      x8, [x8, #0x308] 
+158636c: mov      w1, #0x100 
+1586370: ldr      x0, [x8] 
+1586374: bl       #0xd32908 
+1586378: adrp     x8, #0x2cab000 
+158637c: ldr      x8, [x8, #0xfd0] 
+1586380: mov      x2, xzr 
+1586384: mov      x19, x0 
+1586388: ldr      x1, [x8] 
+158638c: bl       #0x14b394c public static void InitializeArray(Array array, RuntimeFieldHandle fldHandle) { }
+1586390: adrp     x8, #0x2ccb000 
+1586394: ldr      x8, [x8, #0x28] 
+1586398: ldr      x8, [x8] 
+158639c: ldr      x8, [x8, #0xb8] 
+15863a0: str      x19, [x8] 
+15863a4: ldp      x29, x30, [sp, #0x10] 
+15863a8: ldr      x19, [sp], #0x20 
+15863ac: ret       
+
+public void .ctor() { }
+15863b0: stp      x22, x21, [sp, #-0x30]! 
+15863b4: stp      x20, x19, [sp, #0x10] 
+15863b8: stp      x29, x30, [sp, #0x20] 
+15863bc: add      x29, sp, #0x20 
+15863c0: adrp     x20, #0x2e82000 
+15863c4: ldrb     w8, [x20, #0xcfc] 
+15863c8: mov      x19, x0 
+15863cc: tbnz     w8, #0, #0x15863e8 

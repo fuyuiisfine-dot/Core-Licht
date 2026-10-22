@@ -1,0 +1,109 @@
+
+internal void <CheckAndHandleClearPDRes>b__0(object obj) { }
+1802264: stp      x22, x21, [sp, #-0x30]! 
+1802268: stp      x20, x19, [sp, #0x10] 
+180226c: stp      x29, x30, [sp, #0x20] 
+1802270: add      x29, sp, #0x20 
+1802274: adrp     x21, #0x2e84000 
+1802278: ldrb     w8, [x21, #0xcea] 
+180227c: mov      x19, x1 
+1802280: mov      x20, x0 
+1802284: tbnz     w8, #0, #0x18022a0 
+1802288: adrp     x8, #0x2c82000 
+180228c: ldr      x8, [x8, #0x520] 
+1802290: ldr      w0, [x8] 
+1802294: bl       #0xd328f8 
+1802298: mov      w8, #1 
+180229c: strb     w8, [x21, #0xcea] 
+18022a0: cbz      x19, #0x1802394 
+18022a4: mov      x0, x19 
+18022a8: mov      x1, xzr 
+18022ac: bl       #0x1afad90 public static byte[] GetBytes(object obj) { }
+18022b0: cbz      x0, #0x18023a4 
+18022b4: adrp     x22, #0x2d0e000 
+18022b8: ldr      x22, [x22, #0x7b8] Onecore.Plugins.Utils.FileUtils_TypeInfo
+18022bc: mov      x21, x0 
+18022c0: ldr      x0, [x22] Onecore.Plugins.Utils.FileUtils_TypeInfo
+18022c4: ldrb     w8, [x0, #0x12f] 
+18022c8: tbz      w8, #1, #0x18022dc 
+18022cc: ldr      w8, [x0, #0xe0] 
+18022d0: cbnz     w8, #0x18022dc 
+18022d4: bl       #0xd329a4 
+18022d8: ldr      x0, [x22] Onecore.Plugins.Utils.FileUtils_TypeInfo
+18022dc: ldr      x8, [x0, #0xb8] 
+18022e0: ldr      x0, [x8] 
+18022e4: cbz      x0, #0x1802444 
+18022e8: ldr      x8, [x0] 
+18022ec: mov      x1, x21 
+18022f0: ldr      x9, [x8, #0x350] 
+18022f4: ldr      x2, [x8, #0x358] 
+18022f8: blr      x9 
+18022fc: adrp     x8, #0x2c8b000 
+1802300: ldr      x8, [x8, #0x1a8] Pathfinding.Serialization.JsonFx.JsonReader_TypeInfo
+1802304: mov      x21, x0 
+1802308: ldr      x8, [x8] Pathfinding.Serialization.JsonFx.JsonReader_TypeInfo
+180230c: ldrb     w9, [x8, #0x12f] 
+1802310: tbz      w9, #1, #0x1802324 
+1802314: ldr      w9, [x8, #0xe0] 
+1802318: cbnz     w9, #0x1802324 
+180231c: mov      x0, x8 
+1802320: bl       #0xd329a4 
+1802324: adrp     x8, #0x2cc9000 
+1802328: ldr      x8, [x8, #0x308] Method$Pathfinding.Serialization.JsonFx.JsonReader.Deserialize<UrlList>()
+180232c: mov      x0, x21 
+1802330: ldr      x1, [x8] Method$Pathfinding.Serialization.JsonFx.JsonReader.Deserialize<UrlList>()
+1802334: bl       #0xf993f8 |-JsonReader.Deserialize<UrlList>
+1802338: cbz      x0, #0x1802444 
+180233c: ldr      x21, [x0, #0x38] 
+1802340: adrp     x22, #0x2cbf000 
+1802344: str      x21, [x20, #0x10] 
+1802348: ldr      x22, [x22, #0xfa0] Onecore.Plugins.Common.DriverConfig_TypeInfo
+180234c: ldr      x0, [x22] Onecore.Plugins.Common.DriverConfig_TypeInfo
+1802350: ldrb     w8, [x0, #0x12f] 
+1802354: tbz      w8, #1, #0x1802368 
+1802358: ldr      w8, [x0, #0xe0] 
+180235c: cbnz     w8, #0x1802368 
+1802360: bl       #0xd329a4 
+1802364: ldr      x0, [x22] Onecore.Plugins.Common.DriverConfig_TypeInfo
+1802368: ldr      x8, [x0, #0xb8] 
+180236c: ldr      x8, [x8, #0x10] 
+1802370: cbz      x8, #0x1802444 
+1802374: ldr      x1, [x8, #0x38] 
+1802378: mov      x0, x21 
+180237c: mov      x2, xzr 
+1802380: bl       #0x1a0fcb4 public static bool op_Inequality(string a, string b) { }
+1802384: and      w8, w0, #1 
+1802388: strb     w8, [x20, #0x19] 
+180238c: strb     w8, [x20, #0x18] 
+1802390: b        #0x180242c 
+1802394: ldp      x29, x30, [sp, #0x20] 
+1802398: ldp      x20, x19, [sp, #0x10] 
+180239c: ldp      x22, x21, [sp], #0x30 
+18023a0: ret       
+18023a4: adrp     x8, #0x2cfc000 
+18023a8: ldr      x8, [x8, #0x678] object[]_TypeInfo
+18023ac: mov      w1, #1 
+18023b0: ldr      x0, [x8] object[]_TypeInfo
+18023b4: bl       #0xd32908 
+18023b8: mov      x20, x0 
+18023bc: mov      x0, x19 
+18023c0: mov      x1, xzr 
+18023c4: bl       #0x1a79b68 public Type GetType() { }
+18023c8: cbz      x20, #0x1802444 
+18023cc: mov      x21, x0 
+18023d0: cbz      x0, #0x18023e8 
+18023d4: ldr      x8, [x20] 
+18023d8: mov      x0, x21 
+18023dc: ldr      x1, [x8, #0x40] 
+18023e0: bl       #0xd329b0 
+18023e4: cbz      x0, #0x1802454 
+18023e8: ldr      w8, [x20, #0x18] 
+18023ec: cbz      w8, #0x1802448 
+18023f0: str      x21, [x20, #0x20] 
+18023f4: adrp     x8, #0x2cdb000 
+18023f8: ldr      x8, [x8, #0x8c8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+18023fc: ldr      x0, [x8] Onecore.Plugins.Base.BaseLogger_TypeInfo
+1802400: ldrb     w8, [x0, #0x12f] 
+1802404: tbz      w8, #1, #0x1802414 
+1802408: ldr      w8, [x0, #0xe0] 
+180240c: cbnz     w8, #0x1802414 

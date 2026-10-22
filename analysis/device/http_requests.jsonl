@@ -1,0 +1,242 @@
+{"time": 1792227375, "method": "GET", "path": "/health"}
+{"time": 1792227382, "method": "GET", "path": "/health"}
+{"time": 1792227401, "method": "GET", "path": "/cdnconfig_1792256201342676340/android_tw/stable/release/config.txt"}
+{"time": 1792227401, "method": "GET", "path": "/cdnconfig_1792256201576387768/android_tw/stable/release/public%0D/res/ZeroThemePark/tw_mmo/DriverVersion.txt"}
+{"time": 1792227402, "method": "GET", "path": "/cdnconfig_1792256201749797748/android_tw/stable/release/public%0D/res/ZeroThemePark/tw_mmo/GameVersion_0.ab"}
+{"time": 1792227402, "method": "GET", "path": "/cdnconfig_1792256201749797748/android_tw/stable/release/public%0D/res/ZeroThemePark/tw_mmo/GameVersion_0.ab"}
+{"time": 1792227403, "method": "GET", "path": "/cdnconfig_1792256201749797748/android_tw/stable/release/public%0D/res/ZeroThemePark/tw_mmo/GameVersion_0.ab"}
+{"time": 1792227522, "method": "GET", "path": "/cdnconfig_1792256321765472410/android_tw/stable/release/config.txt"}
+{"time": 1792227522, "method": "GET", "path": "/cdnconfig_1792256321999164028/android_tw/stable/release/public/res/ZeroThemePark/tw_mmo/DriverVersion.txt"}
+{"time": 1792227540, "method": "GET", "path": "/cdnconfig_17922275403242841/mix_tw_slogin3001_server_lists/serv_list.txt"}
+{"time": 1792227626, "method": "GET", "path": "/cdnconfig_1792256426475754850/android_tw/stable/release/config.txt"}
+{"time": 1792227627, "method": "GET", "path": "/cdnconfig_1792256426677716127/android_tw/stable/release/public/res/ZeroThemePark/tw_mmo/DriverVersion.txt"}
+{"time": 1792227630, "method": "GET", "path": "/cdnconfig_179222763060967113/mix_twtest_slogin888_server_lists/serv_list.txt"}
+{"time": 1792227649, "method": "POST", "path": "/exe/login_auth", "fields": ["big_version", "did", "name", "pack_key", "pack_type", "platform", "ticket", "uid", "version"]}
+{"time": 1792227649, "method": "GET", "path": "/cdnconfig_179222764811656447/serverlists/announcement/pfdh_mix_twtest_announcement.txt"}
+{"time": 1792227649, "method": "POST", "path": "/client/role_region_list", "fields": ["p_key", "pack_type", "platform", "time", "token", "uid"]}
+{"time": 1792227650, "method": "GET", "path": "/cdnconfig_179222764811656447/serverlists/announcement/pfdh_mix_twtest_announcement.txt"}
+{"time": 1792227650, "method": "GET", "path": "/cdnconfig_179222764811656447/serverlists/announcement/pfdh_mix_twtest_announcement.txt"}
+{"time": 1792227659, "method": "POST", "path": "/client/select_region", "fields": ["p_key", "pack_type", "platform", "region", "time", "token", "uid"]}
+{"time": 1792227739, "method": "GET", "path": "/cdnconfig_1792256539253611637/android_tw/stable/release/config.txt"}
+{"time": 1792227739, "method": "GET", "path": "/cdnconfig_1792256539554613599/android_tw/stable/release/public/res/ZeroThemePark/tw_mmo/DriverVersion.txt"}
+{"time": 1792227743, "method": "GET", "path": "/cdnconfig_17922277437809657/mix_twtest_slogin888_server_lists/serv_list.txt"}
+{"time": 1792227758, "method": "POST", "path": "/exe/login_auth", "fields": ["big_version", "did", "name", "pack_key", "pack_type", "platform", "ticket", "uid", "version"]}
+{"time": 1792227759, "method": "GET", "path": "/cdnconfig_179222775869756710/serverlists/announcement/pfdh_mix_twtest_announcement.txt"}
+{"time": 1792227759, "method": "POST", "path": "/client/role_region_list", "fields": ["p_key", "pack_type", "platform", "time", "token", "uid"]}
+{"time": 1792227759, "method": "GET", "path": "/cdnconfig_179222775869756710/serverlists/announcement/pfdh_mix_twtest_announcement.txt"}
+{"time": 1792227760, "method": "GET", "path": "/cdnconfig_179222775869756710/serverlists/announcement/pfdh_mix_twtest_announcement.txt"}
+{"time": 1792227800, "method": "POST", "path": "/client/select_region", "fields": ["p_key", "pack_type", "platform", "region", "time", "token", "uid"]}
+{"time": 1792227914, "method": "GET", "path": "/cdnconfig_1792256714282899620/android_tw/stable/release/config.txt"}
+{"time": 1792227914, "method": "GET", "path": "/cdnconfig_1792256714483305192/android_tw/stable/release/public/res/ZeroThemePark/tw_mmo/DriverVersion.txt"}
+{"time": 1792227918, "method": "GET", "path": "/cdnconfig_17922279183162508/mix_twtest_slogin888_server_lists/serv_list.txt"}
+{"time": 1792227960, "method": "POST", "path": "/exe/login_auth", "fields": ["big_version", "did", "name", "pack_key", "pack_type", "platform", "ticket", "uid", "version"]}
+{"time": 1792227960, "method": "GET", "path": "/cdnconfig_179222796021368140/serverlists/announcement/pfdh_mix_twtest_announcement.txt"}
+{"time": 1792227961, "method": "POST", "path": "/client/role_region_list", "fields": ["p_key", "pack_type", "platform", "time", "token", "uid"]}
+{"time": 1792227985, "method": "POST", "path": "/client/select_region", "fields": ["p_key", "pack_type", "platform", "region", "time", "token", "uid"]}
+{"time": 1792228193, "method": "GET", "path": "/cdnconfig_1792256992697377932/android_tw/stable/release/config.txt"}
+{"time": 1792228193, "method": "GET", "path": "/cdnconfig_1792256992897545186/android_tw/stable/release/public/res/ZeroThemePark/tw_mmo/DriverVersion.txt"}
+{"time": 1792228197, "method": "GET", "path": "/cdnconfig_17922281975670775/mix_twtest_slogin888_server_lists/serv_list.txt"}
+{"time": 1792228207, "method": "POST", "path": "/exe/login_auth", "fields": ["big_version", "did", "name", "pack_key", "pack_type", "platform", "ticket", "uid", "version"]}
+{"time": 1792228207, "method": "GET", "path": "/cdnconfig_179222820789202525/serverlists/announcement/pfdh_mix_twtest_announcement.txt"}
+{"time": 1792228207, "method": "POST", "path": "/client/role_region_list", "fields": ["p_key", "pack_type", "platform", "time", "token", "uid"]}
+{"time": 1792228209, "method": "POST", "path": "/client/select_region", "fields": ["p_key", "pack_type", "platform", "region", "time", "token", "uid"]}
+{"time": 1792228310, "method": "GET", "path": "/cdnconfig_1792257110008408165/android_tw/stable/release/config.txt"}
+{"time": 1792228310, "method": "GET", "path": "/cdnconfig_1792257110208516652/android_tw/stable/release/public/res/ZeroThemePark/tw_mmo/DriverVersion.txt"}
+{"time": 1792228314, "method": "GET", "path": "/cdnconfig_179222831336664909/mix_twtest_slogin888_server_lists/serv_list.txt"}
+{"time": 1792228323, "method": "POST", "path": "/exe/login_auth", "fields": ["big_version", "did", "name", "pack_key", "pack_type", "platform", "ticket", "uid", "version"]}
+{"time": 1792228323, "method": "GET", "path": "/cdnconfig_179222832350956075/serverlists/announcement/pfdh_mix_twtest_announcement.txt"}
+{"time": 1792228323, "method": "POST", "path": "/client/role_region_list", "fields": ["p_key", "pack_type", "platform", "time", "token", "uid"]}
+{"time": 1792228330, "method": "POST", "path": "/client/select_region", "fields": ["p_key", "pack_type", "platform", "region", "time", "token", "uid"]}
+{"time": 1792228364, "method": "GET", "path": "/cdnconfig_1792257163991553199/android_tw/stable/release/config.txt"}
+{"time": 1792228364, "method": "GET", "path": "/cdnconfig_1792257164192400739/android_tw/stable/release/public/res/ZeroThemePark/tw_mmo/DriverVersion.txt"}
+{"time": 1792228368, "method": "GET", "path": "/cdnconfig_179222836746690040/mix_twtest_slogin888_server_lists/serv_list.txt"}
+{"time": 1792228405, "method": "POST", "path": "/exe/login_auth", "fields": ["big_version", "did", "name", "pack_key", "pack_type", "platform", "ticket", "uid", "version"]}
+{"time": 1792228405, "method": "GET", "path": "/cdnconfig_179222840532622009/serverlists/announcement/pfdh_mix_twtest_announcement.txt"}
+{"time": 1792228406, "method": "POST", "path": "/client/role_region_list", "fields": ["p_key", "pack_type", "platform", "time", "token", "uid"]}
+{"time": 1792228411, "method": "POST", "path": "/client/select_region", "fields": ["p_key", "pack_type", "platform", "region", "time", "token", "uid"]}
+{"time": 1792228468, "method": "GET", "path": "/cdnconfig_1792257267979609124/android_tw/stable/release/config.txt"}
+{"time": 1792228468, "method": "GET", "path": "/cdnconfig_1792257268180216012/android_tw/stable/release/public/res/ZeroThemePark/tw_mmo/DriverVersion.txt"}
+{"time": 1792228472, "method": "GET", "path": "/cdnconfig_179222847297091049/mix_twtest_slogin888_server_lists/serv_list.txt"}
+{"time": 1792228480, "method": "POST", "path": "/exe/login_auth", "fields": ["big_version", "did", "name", "pack_key", "pack_type", "platform", "ticket", "uid", "version"]}
+{"time": 1792228480, "method": "GET", "path": "/cdnconfig_179222848036204792/serverlists/announcement/pfdh_mix_twtest_announcement.txt"}
+{"time": 1792228480, "method": "POST", "path": "/client/role_region_list", "fields": ["p_key", "pack_type", "platform", "time", "token", "uid"]}
+{"time": 1792228483, "method": "POST", "path": "/client/select_region", "fields": ["p_key", "pack_type", "platform", "region", "time", "token", "uid"]}
+{"time": 1792228536, "method": "GET", "path": "/cdnconfig_1792257336419851910/android_tw/stable/release/config.txt"}
+{"time": 1792228537, "method": "GET", "path": "/cdnconfig_1792257336620795798/android_tw/stable/release/public/res/ZeroThemePark/tw_mmo/DriverVersion.txt"}
+{"time": 1792228540, "method": "GET", "path": "/cdnconfig_179222854068145806/mix_twtest_slogin888_server_lists/serv_list.txt"}
+{"time": 1792228552, "method": "POST", "path": "/exe/login_auth", "fields": ["big_version", "did", "name", "pack_key", "pack_type", "platform", "ticket", "uid", "version"]}
+{"time": 1792228553, "method": "GET", "path": "/cdnconfig_179222855296769104/serverlists/announcement/pfdh_mix_twtest_announcement.txt"}
+{"time": 1792228553, "method": "POST", "path": "/client/role_region_list", "fields": ["p_key", "pack_type", "platform", "time", "token", "uid"]}
+{"time": 1792228556, "method": "POST", "path": "/client/select_region", "fields": ["p_key", "pack_type", "platform", "region", "time", "token", "uid"]}
+{"time": 1792229648, "method": "GET", "path": "/cdnconfig_1792258447929991634/android_tw/stable/release/config.txt"}
+{"time": 1792229648, "method": "GET", "path": "/cdnconfig_1792258448129465831/android_tw/stable/release/public/res/ZeroThemePark/tw_mmo/DriverVersion.txt"}
+{"time": 1792229652, "method": "GET", "path": "/cdnconfig_179222965194282204/mix_twtest_slogin888_server_lists/serv_list.txt"}
+{"time": 1792229658, "method": "POST", "path": "/exe/login_auth", "fields": ["big_version", "did", "name", "pack_key", "pack_type", "platform", "ticket", "uid", "version"]}
+{"time": 1792229658, "method": "GET", "path": "/cdnconfig_179222965849225640/serverlists/announcement/pfdh_mix_twtest_announcement.txt"}
+{"time": 1792229658, "method": "POST", "path": "/client/role_region_list", "fields": ["p_key", "pack_type", "platform", "time", "token", "uid"]}
+{"time": 1792229660, "method": "POST", "path": "/client/select_region", "fields": ["p_key", "pack_type", "platform", "region", "time", "token", "uid"]}
+{"time": 1792229660, "method": "POST", "path": "/client/select_region", "fields": ["p_key", "pack_type", "platform", "region", "time", "token", "uid"]}
+{"time": 1792230728, "method": "GET", "path": "/cdnconfig_1792259527579825652/android_tw/stable/release/config.txt"}
+{"time": 1792230728, "method": "GET", "path": "/cdnconfig_1792259527812315750/android_tw/stable/release/public/res/ZeroThemePark/tw_mmo/DriverVersion.txt"}
+{"time": 1792230732, "method": "GET", "path": "/cdnconfig_179223073135625688/mix_twtest_slogin888_server_lists/serv_list.txt"}
+{"time": 1792230740, "method": "POST", "path": "/exe/login_auth", "fields": ["big_version", "did", "name", "pack_key", "pack_type", "platform", "ticket", "uid", "version"]}
+{"time": 1792230741, "method": "GET", "path": "/cdnconfig_179223074030002877/serverlists/announcement/pfdh_mix_twtest_announcement.txt"}
+{"time": 1792230741, "method": "POST", "path": "/client/role_region_list", "fields": ["p_key", "pack_type", "platform", "time", "token", "uid"]}
+{"time": 1792230743, "method": "POST", "path": "/client/select_region", "fields": ["p_key", "pack_type", "platform", "region", "time", "token", "uid"]}
+{"time": 1792232134, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792232200, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792232200, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792232336, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792232336, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792232448, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792232448, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792232532, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792232532, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792232622, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792232739, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792232986, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792232986, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792233146, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792233146, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792233275, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792233275, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792233362, "method": "GET", "path": "/health"}
+{"time": 1792233363, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792234587, "method": "GET", "path": "/health"}
+{"time": 1792234588, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792234588, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234588, "method": "POST", "path": "/local/game/start", "fields": ["p_key", "request_id", "role_id", "stage", "token", "uid"]}
+{"time": 1792234588, "method": "POST", "path": "/local/game/deploy", "fields": ["battle_id", "card_id", "p_key", "role_id", "token", "uid", "x", "y"]}
+{"time": 1792234588, "method": "POST", "path": "/local/game/deploy", "fields": ["battle_id", "card_id", "p_key", "role_id", "token", "uid", "x", "y"]}
+{"time": 1792234588, "method": "POST", "path": "/local/game/deploy", "fields": ["battle_id", "card_id", "p_key", "role_id", "token", "uid", "x", "y"]}
+{"time": 1792234589, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234589, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234590, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234590, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234591, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234591, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234592, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234592, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234593, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234593, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234594, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234594, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234594, "method": "POST", "path": "/local/game/claim", "fields": ["battle_id", "p_key", "role_id", "token", "uid"]}
+{"time": 1792234594, "method": "POST", "path": "/local/game/claim", "fields": ["battle_id", "p_key", "role_id", "token", "uid"]}
+{"time": 1792234594, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792234594, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234711, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792234711, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234711, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792234711, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234714, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792234714, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234714, "method": "POST", "path": "/local/game/start", "fields": ["p_key", "request_id", "role_id", "stage", "token", "uid"]}
+{"time": 1792234714, "method": "POST", "path": "/local/game/deploy", "fields": ["battle_id", "card_id", "p_key", "role_id", "token", "uid", "x", "y"]}
+{"time": 1792234714, "method": "POST", "path": "/local/game/deploy", "fields": ["battle_id", "card_id", "p_key", "role_id", "token", "uid", "x", "y"]}
+{"time": 1792234714, "method": "POST", "path": "/local/game/deploy", "fields": ["battle_id", "card_id", "p_key", "role_id", "token", "uid", "x", "y"]}
+{"time": 1792234716, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234717, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234717, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234718, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234718, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234719, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234719, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234719, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234720, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234720, "method": "POST", "path": "/local/game/claim", "fields": ["battle_id", "p_key", "role_id", "token", "uid"]}
+{"time": 1792234720, "method": "POST", "path": "/local/game/claim", "fields": ["battle_id", "p_key", "role_id", "token", "uid"]}
+{"time": 1792234720, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792234720, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234810, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792234848, "method": "GET", "path": "/health"}
+{"time": 1792234849, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792234849, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792235312, "method": "GET", "path": "/health"}
+{"time": 1792235409, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792235409, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792235410, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792235410, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792416524, "method": "GET", "path": "/health"}
+{"time": 1792416710, "method": "GET", "path": "/health"}
+{"time": 1792416795, "method": "GET", "path": "/cdnconfig_179241657755883848/mix_twtest_slogin888_server_lists/serv_list.txt"}
+{"time": 1792416836, "method": "GET", "path": "/health"}
+{"time": 1792416842, "method": "GET", "path": "/cdnconfig_179241657755883848/mix_twtest_slogin888_server_lists/serv_list.txt"}
+{"time": 1792417194, "method": "GET", "path": "/cdnconfig_1792445994245631320/android_tw/stable/release/config.txt"}
+{"time": 1792417194, "method": "GET", "path": "/cdnconfig_1792445994445802262/android_tw/stable/release/public/res/ZeroThemePark/tw_mmo/DriverVersion.txt"}
+{"time": 1792417198, "method": "GET", "path": "/cdnconfig_179241719839602497/mix_twtest_slogin888_server_lists/serv_list.txt"}
+{"time": 1792417201, "method": "POST", "path": "/exe/login_auth", "fields": ["big_version", "did", "name", "pack_key", "pack_type", "platform", "ticket", "uid", "version"]}
+{"time": 1792417201, "method": "GET", "path": "/cdnconfig_179241720092299175/serverlists/announcement/pfdh_mix_twtest_announcement.txt"}
+{"time": 1792417201, "method": "POST", "path": "/client/role_region_list", "fields": ["p_key", "pack_type", "platform", "time", "token", "uid"]}
+{"time": 1792417203, "method": "POST", "path": "/client/select_region", "fields": ["p_key", "pack_type", "platform", "region", "time", "token", "uid"]}
+{"time": 1792418288, "method": "GET", "path": "/cdnconfig_1792447088475992193/android_tw/stable/release/config.txt"}
+{"time": 1792418289, "method": "GET", "path": "/cdnconfig_1792447088708640288/android_tw/stable/release/public/res/ZeroThemePark/tw_mmo/DriverVersion.txt"}
+{"time": 1792418293, "method": "GET", "path": "/cdnconfig_17924182929368918/mix_twtest_slogin888_server_lists/serv_list.txt"}
+{"time": 1792418295, "method": "POST", "path": "/exe/login_auth", "fields": ["big_version", "did", "name", "pack_key", "pack_type", "platform", "ticket", "uid", "version"]}
+{"time": 1792418295, "method": "GET", "path": "/cdnconfig_179241829420155698/serverlists/announcement/pfdh_mix_twtest_announcement.txt"}
+{"time": 1792418295, "method": "POST", "path": "/client/role_region_list", "fields": ["p_key", "pack_type", "platform", "time", "token", "uid"]}
+{"time": 1792418297, "method": "POST", "path": "/client/select_region", "fields": ["p_key", "pack_type", "platform", "region", "time", "token", "uid"]}
+{"time": 1792418839, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792418839, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418876, "method": "GET", "path": "/health"}
+{"time": 1792418910, "method": "POST", "path": "/local/game/start", "fields": ["p_key", "request_id", "role_id", "stage", "token", "uid"]}
+{"time": 1792418910, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418910, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418911, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418911, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418912, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418912, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418913, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418913, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418913, "method": "POST", "path": "/local/game/deploy", "fields": ["battle_id", "card_id", "p_key", "role_id", "token", "uid", "x", "y"]}
+{"time": 1792418914, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418914, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418915, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418915, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418915, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418916, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418916, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418917, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418917, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418917, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418918, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418918, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418919, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418919, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418919, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418920, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418920, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418921, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418921, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418921, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418922, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418922, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418923, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418923, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418923, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418924, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418924, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418925, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418925, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418926, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418926, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418926, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418927, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418927, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}
+{"time": 1792418928, "method": "POST", "path": "/local/game/claim", "fields": ["battle_id", "p_key", "role_id", "token", "uid"]}
+{"time": 1792419196, "method": "GET", "path": "/health"}
+{"time": 1792428283, "method": "GET", "path": "/health"}
+{"time": 1792428406, "method": "GET", "path": "/cdnconfig_179242840562467514/mix_twtest_slogin888_server_lists/serv_list.txt"}
+{"time": 1792428409, "method": "POST", "path": "/exe/login_auth", "fields": ["big_version", "did", "name", "pack_key", "pack_type", "platform", "ticket", "uid", "version"]}
+{"time": 1792428409, "method": "GET", "path": "/cdnconfig_17924284082694975/serverlists/announcement/pfdh_mix_twtest_announcement.txt"}
+{"time": 1792428409, "method": "POST", "path": "/client/role_region_list", "fields": ["p_key", "pack_type", "platform", "time", "token", "uid"]}
+{"time": 1792428411, "method": "POST", "path": "/client/select_region", "fields": ["p_key", "pack_type", "platform", "region", "time", "token", "uid"]}
+{"time": 1792455681, "method": "GET", "path": "/cdnconfig_1792484480623738790/android_tw/stable/release/config.txt"}
+{"time": 1792455681, "method": "GET", "path": "/cdnconfig_1792484480888492477/android_tw/stable/release/public/res/ZeroThemePark/tw_mmo/DriverVersion.txt"}
+{"time": 1792455685, "method": "GET", "path": "/cdnconfig_179245568475284798/mix_twtest_slogin888_server_lists/serv_list.txt"}
+{"time": 1792455688, "method": "POST", "path": "/exe/login_auth", "fields": ["big_version", "did", "name", "pack_key", "pack_type", "platform", "ticket", "uid", "version"]}
+{"time": 1792455688, "method": "GET", "path": "/cdnconfig_179245568887310693/serverlists/announcement/pfdh_mix_twtest_announcement.txt"}
+{"time": 1792455688, "method": "POST", "path": "/client/role_region_list", "fields": ["p_key", "pack_type", "platform", "time", "token", "uid"]}
+{"time": 1792455690, "method": "POST", "path": "/client/select_region", "fields": ["p_key", "pack_type", "platform", "region", "time", "token", "uid"]}
+{"time": 1792643158, "method": "POST", "path": "/local/login", "fields": ["uid"]}
+{"time": 1792643158, "method": "POST", "path": "/local/game/state", "fields": ["p_key", "role_id", "token", "uid"]}

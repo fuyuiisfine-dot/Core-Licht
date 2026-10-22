@@ -1,0 +1,325 @@
+{
+  "source": "x.Game.PlayerDefine_TextAsset_2078451035867168639.bin",
+  "interpretation": "literal setup only; calls unresolved; stop before control flow",
+  "stopped": {
+    "pc": 541,
+    "opcode": 74
+  },
+  "attributes": {
+    "501": {
+      "1": "money",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "502": {
+      "1": "bindMoney",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "503": {
+      "1": "allMoney",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "504": {
+      "1": "skillExp",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "505": {
+      "1": "dollar",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "507": {
+      "1": "friendPoint",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "511": {
+      "1": "activityCoin",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "512": {
+      "1": "institutePoint",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "513": {
+      "1": "warOrderCoin",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "514": {
+      "1": "creditPoint",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "515": {
+      "1": "secretCoin",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "518": {
+      "1": "timeCapsule",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "519": {
+      "1": "akira",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "521": {
+      "1": "awareness",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "522": {
+      "1": "pvp_coin",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "523": {
+      "1": "pvp_crystal",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "524": {
+      "1": "multiBossCoin",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "525": {
+      "1": "recharge_coin",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": "<unresolved:closure>",
+      "5": 0
+    },
+    "528": {
+      "1": "hertzMoney",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "529": {
+      "1": "island_alloy",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "530": {
+      "1": "hertzTicket",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "531": {
+      "1": "puzzleMoney",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "532": {
+      "1": "woaoMoney",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "533": {
+      "1": "woaoTicket",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "601": {
+      "1": "roleId",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "602": {
+      "1": "name",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": ""
+    },
+    "603": {
+      "1": "sex",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "604": {
+      "1": "lvl",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "605": {
+      "1": "exp",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "606": {
+      "1": "vip",
+      "2": "vip",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "607": {
+      "1": "identity",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "608": {
+      "1": "vipExp",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "609": {
+      "1": "vipFullExp",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "610": {
+      "1": "fullExp",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "611": {
+      "1": "exp_add",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "612": {
+      "1": "exp_radio",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": "<unresolved:closure>",
+      "4": null,
+      "5": 0
+    },
+    "615": {
+      "1": "assistId",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "616": {
+      "1": "nameNum",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "617": {
+      "1": "curExploringID",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "618": {
+      "1": "curExploreID",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "619": {
+      "1": "slots_num",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "620": {
+      "1": "assistSkinId",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "622": {
+      "1": "logDay",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "623": {
+      "1": "canCheat",
+      "2": "canCheat",
+      "3": null,
+      "4": null,
+      "5": 0
+    },
+    "624": {
+      "1": "dynamicBg",
+      "2": "<unresolved:<unresolved:GetYyb> result>",
+      "3": null,
+      "4": null,
+      "5": 0
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "connection_start": 1792229661,
+  "pending": [
+    {
+      "id": "11_1",
+      "request": "ZeroProto.children_all_c2s",
+      "response": "ZeroProto.children_all_s2c"
+    },
+    {
+      "id": "11_23",
+      "request": "ZeroProto.children_assist_info_c2s",
+      "response": "ZeroProto.children_assist_info_s2c"
+    },
+    {
+      "id": "12_1",
+      "request": "ZeroProto.recruit_pool_c2s",
+      "response": "ZeroProto.recruit_pool_s2c"
+    },
+    {
+      "id": "15_4",
+      "request": "ZeroProto.cost_event_teams_c2s",
+      "response": "ZeroProto.cost_event_teams_s2c"
+    },
+    {
+      "id": "19_7",
+      "request": "ZeroProto.mail_red_c2s",
+      "response": "ZeroProto.mail_red_s2c"
+    },
+    {
+      "id": "21_1",
+      "request": "ZeroProto.shop_shop_page_info_c2s",
+      "response": "ZeroProto.shop_shop_page_info_s2c"
+    },
+    {
+      "id": "25_1",
+      "request": "ZeroProto.secret_info_c2s",
+      "response": "ZeroProto.secret_info_s2c"
+    },
+    {
+      "id": "25_26",
+      "request": "ZeroProto.secret_collect_info_c2s",
+      "response": "ZeroProto.secret_collect_info_s2c"
+    },
+    {
+      "id": "29_1",
+      "request": "ZeroProto.war_fight_info_c2s",
+      "response": "ZeroProto.war_fight_info_s2c"
+    },
+    {
+      "id": "2_5",
+      "request": "ZeroProto.role_personal_info_c2s",
+      "response": "ZeroProto.role_personal_info_s2c"
+    },
+    {
+      "id": "33_1",
+      "request": "ZeroProto.noob_target_main_ui_info_c2s",
+      "response": "ZeroProto.noob_target_main_ui_info_s2c"
+    },
+    {
+      "id": "34_1",
+      "request": "ZeroProto.credit_info_c2s",
+      "response": "ZeroProto.credit_info_s2c"
+    },
+    {
+      "id": "37_1",
+      "request": "ZeroProto.trade_info_c2s",
+      "response": "ZeroProto.trade_info_s2c"
+    },
+    {
+      "id": "38_3",
+      "request": "ZeroProto.post_info_c2s",
+      "response": "ZeroProto.post_info_s2c"
+    },
+    {
+      "id": "41_1",
+      "request": "ZeroProto.headshots_info_c2s",
+      "response": "ZeroProto.headshots_info_s2c"
+    },
+    {
+      "id": "41_5",
+      "request": "ZeroProto.headshots_detail_c2s",
+      "response": "ZeroProto.headshots_detail_s2c"
+    },
+    {
+      "id": "45_1",
+      "request": "ZeroProto.recharge_first_info_c2s",
+      "response": "ZeroProto.recharge_first_info_s2c"
+    },
+    {
+      "id": "45_6",
+      "request": "ZeroProto.recharge_new_sync_c2s",
+      "response": "ZeroProto.recharge_new_sync_s2c"
+    },
+    {
+      "id": "51_1",
+      "request": "ZeroProto.surprise_info_c2s",
+      "response": "ZeroProto.surprise_info_s2c"
+    },
+    {
+      "id": "51_7",
+      "request": "ZeroProto.surprise_tasks_c2s",
+      "response": "ZeroProto.surprise_tasks_s2c"
+    },
+    {
+      "id": "52_12",
+      "request": "ZeroProto.common_activity_task_list_c2s",
+      "response": "ZeroProto.common_activity_task_list_s2c"
+    },
+    {
+      "id": "52_3",
+      "request": "ZeroProto.common_activity_get_activity_list_c2s",
+      "response": "ZeroProto.common_activity_get_activity_list_s2c"
+    }
+  ],
+  "note": "Observed missing handlers; not a complete gameplay requirement list."
+}

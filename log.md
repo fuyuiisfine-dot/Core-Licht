@@ -74,3 +74,10 @@
 - 建立 client-work/mobile-dev/start-tailscale.ps1 與新版 UrlList_Android.txt；備份 BlueStacks 原入口為 UrlList.before-tailscale.txt，再推送新版入口。
 - 新增防火牆規則被 Windows 拒絕存取，未完成規則新增；提供需系統管理員執行的 allow-tailscale-firewall.ps1，規則只允許 Tailscale 位址與上述兩埠。
 - 建立根目錄 TAILSCALE.md 操作與驗證說明。尚未驗證手機跨裝置連線或修改 APK 安裝包內的預設入口。
+
+## 2026-10-22：GitHub 推送準備
+
+- 使用者指定目標 https://github.com/fuyuiisfine-dot/Core-Licht；已確認根目錄 origin 正確。
+- 本地 master 與遠端 main 沒有共同祖先，且內容存在差異；採用 codex/tailscale-snapshot 分支保留本地版本，不覆蓋 main。
+- 推送範圍為本地已追蹤版本與本紀錄。client-work 被忽略，因此不含其啟動腳本、測試資料庫、APK 或 OBB；TAILSCALE.md 引用的 client-work 檔案仍是本機操作檔案。
+- 已檢查常見憑證格式及追蹤檔案大小，沒有發現對應格式的憑證；跨裝置 APK 登入仍未驗證。推送結果另於本次回覆確認。
